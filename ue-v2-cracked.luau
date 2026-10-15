@@ -39,7 +39,7 @@
 
 -----------------------------------------------------------------
 
-                    discord.gg/KpESAHPHgp
+                    discord.gg/vKXWdGT8pc                        
 
 -----------------------------------------------------------------
 
@@ -219,7 +219,7 @@ end
 
 print[[이 스크립트는 무료로 제공됩니다
 
-discord.gg/discord.gg/KpESAHPHgp]]
+discord.gg/discord.gg/vKXWdGT8pc]]
 
 function Backend.initialize(data)
     local root = data[1]
@@ -97899,7 +97899,7 @@ function Backend.loadProgramData()
         [7451] = 'dynamic',
         [7452] = ' URU\22\156\133D\244\18\140\156u\238\15*',
         [7453] = -31817,
-        [7454] = 'Unnamed Enhancements - /enhancements',
+        [7454] = 'Unnamed Enhancements - .gg/KpESAHPHgp',
         [7455] = 'grabs ammo/health drops automatically',
         [7456] = 28515,
         [7457] = 'rbxassetid://446111271',
