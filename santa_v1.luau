@@ -9,4 +9,5377 @@
 
 ]]--
 
-local v0=game:GetService("Players");local v1=game:GetService("TweenService");local function v2(v31) local v32=0;local v33;while true do if (v32==1) then return v33;end if (v32==(1026 -(834 + 192))) then v33="";for v2396,v2397 in ipairs(v31) do v33=v33   .. string.char(v2397) ;end v32=1 + 0 ;end end end local v3=v2({3 + 101 ,420 -(300 + 4) ,31 + 85 ,474 -(112 + 250) ,46 + 69 ,144 -86 ,27 + 20 ,36 + 11 ,85 + 29 ,97,119,928 -(244 + 638) ,103,105,116,104,2023 -(1665 + 241) ,98,117,31 + 84 ,101,192 -78 ,73 + 26 ,237 -126 ,110,116,1360 -(233 + 1026) ,57 + 53 ,35 + 81 ,4 + 42 ,20 + 79 ,111,406 -(36 + 261) ,1415 -(34 + 1334) ,66 + 18 ,122 -(20 + 1) ,100,1233 -(549 + 584) ,121,350 -248 ,54 + 47 ,339 -234 ,1456 -(1093 + 247) ,5 + 42 ,115,323 -209 ,121,17 + 28 ,377 -279 ,86 + 28 ,283 -172 ,45,251 -146 ,100,170 -63 ,1313 -(1249 + 19) ,463 -344 ,104,77 + 20 ,345 -(73 + 156) ,856 -(721 + 90) ,376 -260 ,572 -(224 + 246) ,72 -27 ,20 + 85 ,81 + 28 ,149 -104 ,613 -(203 + 310) ,111,8 + 102 ,103,68 -21 ,114,398 -297 ,102,948 -(171 + 662) ,140 -(4 + 89) ,38 + 66 ,40 + 61 ,97,100,115,2040 -(941 + 1052) ,1623 -(822 + 692) ,46 + 51 ,402 -(45 + 252) ,109 + 1 ,17 + 30 ,107,534 -(114 + 319) ,121,74 + 41 ,95 -49 ,1322 -(741 + 465) ,64 + 56 ,285 -169 });local v4="teddyhub_v1_key.txt";function print() end function warn() end local v5=nil;local function v6() if v5 then return v5;end local v34,v35;local v36=pcall(function() local v365=game:GetService("TweenService");local v366=Enum.Font.Code;local v367=Color3.fromRGB(212 + 43 ,255,164 + 91 );local v368=Color3.fromRGB(28,28,16 + 12 );local v369=Color3.fromRGB(20,20,1250 -(957 + 273) );local v370=Color3.fromRGB(0 + 0 ,35 + 50 ,971 -716 );local v371=Color3.fromRGB(131 -81 ,152 -102 ,50);local v372=Color3.fromRGB(1262 -1007 ,1830 -(389 + 1391) ,32 + 18 );local v373=Color3.new(0 + 0 ,0 -0 ,951 -(783 + 168) );local v374;for v1329,v1330 in ipairs({function() return gethui and gethui() ;end,function() return game:GetService("CoreGui");end,function() return game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui");end}) do local v1331,v1332=pcall(v1330);if (v1331 and v1332) then v374=v1332;break;end end if  not v374 then return;end local function v375(v1333,v1334) local v1335=Instance.new(v1333);for v2183,v2184 in pairs(v1334) do v1335[v2183]=v2184;end return v1335;end local function v376(v1336) local v1337=v375("TextLabel",{BackgroundTransparency=312 -(309 + 2) ,Font=v366,TextColor3=v367,TextSize=48 -32 ,TextStrokeTransparency=1});for v2186,v2187 in pairs(v1336) do v1337[v2186]=v2187;end local v1338=Instance.new("UIStroke");v1338.Color=v373;v1338.Thickness=1213 -(1090 + 122) ;v1338.LineJoinMode=Enum.LineJoinMode.Miter;v1338.Parent=v1337;return v1337;end local v377=v375("ScreenGui",{Name="teddyhubBoot",DisplayOrder=9999,IgnoreGuiInset=true,ResetOnSpawn=false,ZIndexBehavior=Enum.ZIndexBehavior.Global,Parent=v374});v34=v377;pcall(function() local v1344=protectgui or (syn and syn.protect_gui) ;if v1344 then v1344(v377);end end);local v378=v375("Frame",{Name="Window",BackgroundColor3=v373,BorderSizePixel=0,AnchorPoint=Vector2.new(0.5 + 0 ,0.5 -0 ),Position=UDim2.fromScale(0.5 + 0 ,1118.5 -(628 + 490) ),Size=UDim2.fromOffset(69 + 311 ,375 -223 ),BackgroundTransparency=1,Parent=v377});local v379=v375("Frame",{BackgroundColor3=v368,BorderColor3=v370,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(4 -3 ,1),Size=UDim2.new(775 -(431 + 343) , -(3 -1),2 -1 , -2),BackgroundTransparency=1 + 0 ,Parent=v378});local v380=v376({Position=UDim2.fromOffset(7,0),Size=UDim2.new(0,0 + 0 ,1695 -(556 + 1139) ,25),Text="teddyhub v.3",TextXAlignment=Enum.TextXAlignment.Left,TextTransparency=16 -(6 + 9) ,Parent=v379});local v381=v375("Frame",{BackgroundColor3=v369,BorderColor3=v371,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(8,25),Size=UDim2.new(1 + 0 , -(9 + 7),1, -(202 -(28 + 141))),BackgroundTransparency=1,Parent=v379});local v382=v375("Frame",{BackgroundColor3=v369,BorderColor3=v373,BorderMode=Enum.BorderMode.Inset,Size=UDim2.fromScale(1 + 0 ,1 -0 ),BackgroundTransparency=1,Parent=v381});local v383=v375("Frame",{BackgroundColor3=v368,BorderColor3=v371,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(6 + 2 ,8),Size=UDim2.new(1318 -(486 + 831) , -16,1, -(41 -25)),BackgroundTransparency=3 -2 ,Parent=v382});local v384=v375("Frame",{BackgroundColor3=v369,BorderColor3=v371,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(0 + 0 ,0 -0 ),Size=UDim2.new(1264 -(668 + 595) ,0 + 0 ,1 + 0 ,0 -0 ),BackgroundTransparency=1,Parent=v383});local v385=v375("Frame",{BackgroundColor3=v369,BorderColor3=v373,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(291 -(23 + 267) ,1),Size=UDim2.new(1945 -(1129 + 815) , -(389 -(371 + 16)),1, -(1752 -(1326 + 424))),BackgroundTransparency=1 -0 ,Parent=v384});local v386=v375("Frame",{BackgroundColor3=v370,BorderSizePixel=0,Size=UDim2.new(1,0 -0 ,118 -(88 + 30) ,773 -(720 + 51) ),BackgroundTransparency=2 -1 ,Parent=v385});local v387=v376({Position=UDim2.fromOffset(4,1778 -(421 + 1355) ),Size=UDim2.new(1, -(13 -5),0,9 + 9 ),TextSize=14,Text="loading",TextXAlignment=Enum.TextXAlignment.Left,TextTransparency=1084 -(286 + 797) ,Parent=v385});local v388=v375("Frame",{BackgroundTransparency=3 -2 ,Position=UDim2.fromOffset(6 -2 ,22),Size=UDim2.new(440 -(397 + 42) , -(3 + 5),801 -(24 + 776) , -(39 -13)),Parent=v385});v375("UIListLayout",{Padding=UDim.new(785 -(222 + 563) ,5),FillDirection=Enum.FillDirection.Vertical,SortOrder=Enum.SortOrder.LayoutOrder,Parent=v388});local v389=v376({Size=UDim2.new(1 -0 ,0 + 0 ,190 -(23 + 167) ,14),TextSize=1812 -(690 + 1108) ,Text="starting up",TextXAlignment=Enum.TextXAlignment.Left,TextTransparency=1 + 0 ,LayoutOrder=1,Parent=v388});local v390=v375("Frame",{BackgroundColor3=v373,BorderSizePixel=0 + 0 ,Size=UDim2.new(1,848 -(40 + 808) ,0 + 0 ,76 -56 ),BackgroundTransparency=1 + 0 ,LayoutOrder=2 + 0 ,Parent=v388});local v391=v375("Frame",{BackgroundColor3=v368,BorderColor3=v371,BorderMode=Enum.BorderMode.Inset,Size=UDim2.new(1 + 0 ,571 -(47 + 524) ,1 + 0 ,0 -0 ),BackgroundTransparency=1 -0 ,Parent=v390});local v392=v375("UIGradient",{Color=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.new(2 -1 ,1,1727 -(1165 + 561) )),ColorSequenceKeypoint.new(1,Color3.fromRGB(7 + 205 ,656 -444 ,81 + 131 ))}),Rotation=90,Parent=v391});local v393=v375("Frame",{BackgroundColor3=v370,BorderSizePixel=479 -(341 + 138) ,Size=UDim2.new(0 + 0 ,0 -0 ,1,0),BackgroundTransparency=327 -(89 + 237) ,Parent=v391});local v394=v376({Size=UDim2.new(3 -2 ,0,1,0 -0 ),TextSize=895 -(581 + 300) ,Text="0%",TextTransparency=1221 -(855 + 365) ,Parent=v391});local v395=v376({Size=UDim2.new(2 -1 ,0 + 0 ,1235 -(1030 + 205) ,14 + 0 ),TextSize=14 + 0 ,Text="building menu",TextXAlignment=Enum.TextXAlignment.Left,TextColor3=v371,TextTransparency=287 -(156 + 130) ,LayoutOrder=3,Parent=v388});v365:Create(v378,TweenInfo.new(0.25 -0 ),{BackgroundTransparency=0 -0 }):Play();for v1345,v1346 in ipairs({v379,v381,v382,v383,v384,v385,v386,v390,v391,v393}) do pcall(function() v365:Create(v1346,TweenInfo.new(1215.3 -(369 + 846) ),{BackgroundTransparency=0 + 0 }):Play();end);end for v1347,v1348 in ipairs({v380,v387,v389,v394,v395}) do pcall(function() v365:Create(v1348,TweenInfo.new(0.3),{TextTransparency=203 -(11 + 192) }):Play();end);end local v396,v397,v398=0.05 + 0 ,175 -(135 + 40) ,true;local v399=tick();local v400=tick();task.spawn(function() while v398 do if (v397<v396) then v397=v397 + ((v396-v397) * (0.1 -0)) + 0.0012 + 0 ;end v393.Size=UDim2.new(math.clamp(v397,0 -0 ,1 -0 ),0,177 -(50 + 126) ,0);v394.Text=string.format("%d%%",math.floor(math.clamp(v397,0 -0 ,1) * 100 ));v394.TextTransparency=(1 + 0) -math.clamp(v397 * (1414.6 -(1233 + 180)) ,969 -(522 + 447) ,1422 -(107 + 1314) ) ;task.wait((1 + 0)/(182 -122) );end end);v35={};v35.set=function(v1349,v1350) if  not v398 then return;end if v1349 then local v2398=0 + 0 ;while true do if (v2398==(1 -0)) then v395.Text=((v1350==false) and "stage failed") or "building menu" ;break;end if (v2398==(0 -0)) then v389.Text=tostring(v1349);v389.TextColor3=((v1350==false) and v372) or v367 ;v2398=1911 -(716 + 1194) ;end end end v396=math.min(0.93 + 0 ,v396 + ((0.93 -v396) * (0.14 + 0)) );end;v35.finish=function() local v1351=503 -(74 + 429) ;local v1352;while true do if (v1351==1) then v1352=tick() -v399 ;if (v1352<0.9) then task.wait(0.9 -v1352 );end v1351=3 -1 ;end if (v1351==2) then pcall(function() local v2803=0 + 0 ;while true do if (v2803==(4 -2)) then v395.Text="building menu";break;end if (v2803==(1 + 0)) then v389.Text="ready";v389.TextColor3=v367;v2803=5 -3 ;end if (v2803==(0 -0)) then v393.Size=UDim2.new(434 -(279 + 154) ,778 -(454 + 324) ,1 + 0 ,18 -(12 + 5) );v394.Text="100%";v2803=1;end end end);task.spawn(function() local v2804=0 + 0 ;while true do if ((4 -2)==v2804) then pcall(function() v377:Destroy();end);v5=nil;break;end if (v2804==(0 + 0)) then task.wait(0.25);for v3342,v3343 in ipairs({v378,v379,v381,v382,v383,v384,v385,v386,v390,v391,v393}) do pcall(function() v365:Create(v3343,TweenInfo.new(0.4 -0 ),{BackgroundTransparency=1}):Play();end);end v2804=1 + 0 ;end if (v2804==1) then for v3344,v3345 in ipairs({v380,v387,v389,v394,v395}) do pcall(function() v365:Create(v3345,TweenInfo.new(0.4),{TextTransparency=1}):Play();end);end task.wait(0.45 -0 );v2804=2;end end end);break;end if (v1351==(1182 -(229 + 953))) then if  not v398 then return;end v398=false;v1351=1775 -(1111 + 663) ;end end end;end);if ( not v36 or  not v35) then local v1353=1579 -(874 + 705) ;while true do if (v1353==0) then pcall(function() if v34 then v34:Destroy();end end);return nil;end end end v5=v35;return v5;end MouseAcc={x=0 + 0 ,y=0};MouseSeen=false;local function v7() local v37=Vector2.new(MouseAcc.x,MouseAcc.y);MouseAcc.x=0 + 0 ;MouseAcc.y=0 -0 ;if (v37.Magnitude==(0 + 0)) then v37=game:GetService("UserInputService"):GetMouseDelta();end if ((v37.Magnitude>(679 -(642 + 37))) and  not MouseSeen) then MouseSeen=true;print("[cam] mouse input ok");end return v37;end game:GetService("UserInputService").InputChanged:Connect(function(v40) if (v40.UserInputType==Enum.UserInputType.MouseMovement) then local v1354=0 + 0 ;while true do if ((0 + 0)==v1354) then MouseAcc.x=MouseAcc.x + v40.Delta.X ;MouseAcc.y=MouseAcc.y + v40.Delta.Y ;break;end end end end);local function v8(v41,v42) local v43,v44=pcall(v42);if  not v43 then pcall(function() game:GetService("StarterGui"):SetCore("SendNotification",{Title="teddyhub: "   .. v41 ,Text=tostring(v44):sub(2 -1 ,180),Duration=464 -(233 + 221) });end);end if v5 then pcall(v5.set,v41,v43);end return v43;end local v9=function() v6();print("[teddyhub] START script");local v45={};v45.SelfGlow={};v45.SelfFX={};v45.SearchUI={};v45.Extra={};v45.KeyList={};v45.CustomHUD={};v45.MiscExtras={};local v53="https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/";local v54=loadstring(game:HttpGet(v53   .. "Library.lua" ))();local v55=loadstring(game:HttpGet(v53   .. "addons/ThemeManager.lua" ))();local v56=loadstring(game:HttpGet(v53   .. "addons/SaveManager.lua" ))();local v57=game:GetService("RunService");local v58=game:GetService("UserInputService");local v59=game:GetService("VirtualInputManager");local v60=game:GetService("Lighting");local v61=game:GetService("CoreGui");local v62=game:GetService("Stats");local v63=v0.LocalPlayer;local v64=v63:GetMouse();local v65=v63:WaitForChild("PlayerGui");local v66={};local function v67(v403,v404) local v405=0;local v406;while true do if (v405==1) then return v406.Value;end if ((0 -0)==v405) then v406=Toggles and Toggles[v403] ;if (v406==nil) then if  not v66[v403] then local v3144=0;while true do if (v3144==(0 + 0)) then v66[v403]=true;warn("[teddyhub] toggle not registered yet: "   .. v403 );break;end end end return v404==true ;end v405=1542 -(718 + 823) ;end end end local function v68(v407) local v408=0;local v409;while true do if (v408==(0 + 0)) then v409=Options and Options[v407] ;return (v409 and v409.Value) or nil ;end end end local v69=workspace.CurrentCamera;workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function() v69=workspace.CurrentCamera;end);local v70={Enabled=true,Text="teddyhub v.3",ShowFPS=true,ShowPing=true,ShowTime=true};local v71={};v71.gui=Instance.new("ScreenGui");v71.gui.Name="TargetHUD_Gui";v71.gui.Parent=v61 or v65 ;v71.frame=Instance.new("Frame");v71.frame.Name="TargetHUD";v71.frame.Size=UDim2.new(805 -(266 + 539) ,622 -402 ,1225 -(636 + 589) ,166 -96 );v71.frame.Position=UDim2.new(0.5, -110,0.75 -0 ,0);v71.frame.BackgroundColor3=Color3.fromRGB(16 + 4 ,8 + 12 ,1040 -(657 + 358) );v71.frame.BorderSizePixel=0;v71.frame.Visible=false;v71.frame.Parent=v71.gui;Instance.new("UICorner",v71.frame).CornerRadius=UDim.new(0 -0 ,8);v71.avatar=Instance.new("ImageLabel");v71.avatar.Size=UDim2.new(0,50,0 -0 ,50);v71.avatar.Position=UDim2.new(0,10,1187 -(1151 + 36) ,10 + 0 );v71.avatar.BackgroundColor3=Color3.fromRGB(8 + 22 ,89 -59 ,1867 -(1552 + 280) );v71.avatar.BorderSizePixel=0;v71.avatar.Parent=v71.frame;Instance.new("UICorner",v71.avatar).CornerRadius=UDim.new(0,840 -(64 + 770) );v71.name=Instance.new("TextLabel");v71.name.Size=UDim2.new(0 + 0 ,140,0 -0 ,4 + 16 );v71.name.Position=UDim2.new(0,1311 -(157 + 1086) ,0 -0 ,10);v71.name.Text="target name";v71.name.TextColor3=Color3.fromRGB(1116 -861 ,255,390 -135 );v71.name.TextXAlignment=Enum.TextXAlignment.Left;v71.name.Font=Enum.Font.SourceSansBold;v71.name.TextSize=21 -5 ;v71.name.BackgroundTransparency=820 -(599 + 220) ;v71.name.Parent=v71.frame;v71.health=Instance.new("TextLabel");v71.health.Size=UDim2.new(0,278 -138 ,0,15);v71.health.Position=UDim2.new(1931 -(1813 + 118) ,50 + 18 ,1217 -(841 + 376) ,38 -10 );v71.health.Text="100 / 100 hp";v71.health.TextColor3=Color3.fromRGB(47 + 153 ,200,200);v71.health.TextXAlignment=Enum.TextXAlignment.Left;v71.health.Font=Enum.Font.SourceSans;v71.health.TextSize=13;v71.health.BackgroundTransparency=1;v71.health.Parent=v71.frame;v71.barBG=Instance.new("Frame");v71.barBG.Size=UDim2.new(0,140,0 -0 ,8);v71.barBG.Position=UDim2.new(0,68,859 -(464 + 395) ,48);v71.barBG.BackgroundColor3=Color3.fromRGB(40,40,45);v71.barBG.BorderSizePixel=0 -0 ;v71.barBG.Parent=v71.frame;Instance.new("UICorner",v71.barBG).CornerRadius=UDim.new(0 + 0 ,841 -(467 + 370) );v71.barFill=Instance.new("Frame");v71.barFill.Size=UDim2.new(1 -0 ,0 + 0 ,3 -2 ,0);v71.barFill.BackgroundColor3=Color3.fromRGB(0,255,19 + 101 );v71.barFill.BorderSizePixel=0 -0 ;v71.barFill.Parent=v71.barBG;Instance.new("UICorner",v71.barFill).CornerRadius=UDim.new(0,524 -(150 + 370) );local v127=false;local function v128(v411) local v412=0;local v413;local v414;local v415;local v416;while true do if (v412==(1283 -(74 + 1208))) then v71.name.Text=v411.DisplayName or v411.Name ;v71.avatar.Image="https://www.roblox.com/headshot-thumbnail/image?userId="   .. v411.UserId   .. "&width=150&height=150&format=png" ;v414=math.floor(v413.Health);v415=math.floor(v413.MaxHealth);v412=4 -2 ;end if (v412==2) then v416=math.clamp(v414/v415 ,0 -0 ,1);v71.health.Text=v414   .. " / "   .. v415   .. " HP" ;v71.barFill.Size=UDim2.new(v416,0,1 + 0 ,390 -(14 + 376) );if (v416>(0.5 -0)) then v71.barFill.BackgroundColor3=Color3.fromRGB(0,166 + 89 ,106 + 14 );elseif (v416>(0.25 + 0)) then v71.barFill.BackgroundColor3=Color3.fromRGB(747 -492 ,200,0);else v71.barFill.BackgroundColor3=Color3.fromRGB(192 + 63 ,50,128 -(23 + 55) );end break;end if (v412==0) then if ( not v127 or  not v411 or  not v411.Character) then local v2806=0 -0 ;while true do if (v2806==0) then v71.frame.Visible=false;return;end end end v413=v411.Character:FindFirstChildOfClass("Humanoid");if ( not v413 or (v413.Health<=0)) then v71.frame.Visible=false;return;end v71.frame.Visible=true;v412=1 + 0 ;end end end local v129=Vector2.new(v69.ViewportSize.X/(2 + 0) ,v69.ViewportSize.Y/(2 -0) );local v130=v65;pcall(function() local v417=0;local v418;while true do if (v417==(0 + 0)) then v418=game:GetService("CoreGui");if v418 then v130=v418;end break;end end end);do local v419=Instance.new("ScreenGui");v419.Name="teddyhubHighlights";v419.ResetOnSpawn=false;v419.IgnoreGuiInset=true;v419.DisplayOrder=1900 -(652 + 249) ;local v424=pcall(function() v419.Parent=v130;end);if  not v424 then v419.Parent=v65;end v130=v419;end local function v131() local v425=v65;pcall(function() local v1356=0 -0 ;local v1357;while true do if (0==v1356) then v1357=game:GetService("CoreGui");if v1357 then v425=v1357;end break;end end end);local v426=Instance.new("ScreenGui");v426.Name="teddyhubDrawFallback";v426.ResetOnSpawn=false;v426.IgnoreGuiInset=true;v426.DisplayOrder=10;v426.Parent=v425;local v432={};local function v433(v1358) local v1359=1868 -(708 + 1160) ;local v1360;local v1361;local v1362;local v1363;while true do if (v1359==2) then v1363.Position=UDim2.fromOffset(v1360.X,v1360.Y);v1363.Size=UDim2.fromOffset(v1362.Magnitude,math.max(1,v1358._props.Thickness or 1 ));v1359=8 -5 ;end if (v1359==1) then v1362=v1361-v1360 ;v1363=v1358._obj;v1359=2;end if (0==v1359) then v1360,v1361=v1358._from,v1358._to;if ( not v1360 or  not v1361) then return;end v1359=1 -0 ;end if (v1359==3) then v1363.Rotation=math.deg(math.atan2(v1362.Y,v1362.X));break;end end end v432.new=function(v1364) local v1365=27 -(10 + 17) ;local v1366;while true do if ((1 + 1)==v1365) then return setmetatable({_obj=v1366,_kind=v1364,_props={}},v432);end if (v1365==0) then v1366=nil;if (v1364=="Square") then local v2978=1732 -(1400 + 332) ;while true do if ((0 -0)==v2978) then v1366=Instance.new("Frame");v1366.BorderSizePixel=1908 -(242 + 1666) ;v2978=1 + 0 ;end if (v2978==(1 + 0)) then v1366.BackgroundTransparency=1 + 0 ;break;end end elseif (v1364=="Text") then v1366=Instance.new("TextLabel");v1366.BackgroundTransparency=1;v1366.Font=Enum.Font.Code;v1366.TextSize=953 -(850 + 90) ;elseif (v1364=="Line") then v1366=Instance.new("Frame");v1366.BorderSizePixel=0 -0 ;elseif (v1364=="Circle") then local v3509=1390 -(360 + 1030) ;local v3510;while true do if (v3509==(0 + 0)) then v1366=Instance.new("Frame");v1366.BackgroundTransparency=2 -1 ;v3509=1;end if (v3509==(1 -0)) then v3510=Instance.new("UICorner");v3510.Parent=v1366;break;end end else v1366=Instance.new("Frame");v1366.BorderSizePixel=0;v1366.BackgroundTransparency=1662 -(909 + 752) ;end v1365=1224 -(109 + 1114) ;end if (1==v1365) then v1366.Visible=false;v1366.Parent=v426;v1365=3 -1 ;end end end;v432.__index=function(v1367,v1368) local v1369=0 + 0 ;while true do if (v1369==(242 -(6 + 236))) then if (v1368=="Remove") then return function() pcall(function() v1367._obj:Destroy();end);end;end return rawget(v1367,"_props")[v1368];end end end;v432.__newindex=function(v1370,v1371,v1372) local v1373=v1370._obj;if (v1371=="Visible") then v1373.Visible=v1372;elseif (v1371=="Position") then v1373.Position=UDim2.fromOffset(v1372.X,v1372.Y);elseif (v1371=="Size") then if (v1370._kind=="Text") then v1373.TextSize=v1372.X;else v1373.Size=UDim2.fromOffset(v1372.X,v1372.Y);end elseif (v1371=="Color") then if (v1370._kind=="Text") then v1373.TextColor3=v1372;else v1373.BackgroundColor3=v1372;end elseif (v1371=="Thickness") then v1373.BorderSizePixel=(((v1372 or (1 + 0))>(1 + 0)) and 1) or (0 -0) ;elseif (v1371=="Filled") then v1373.BackgroundTransparency=(v1372 and (0 -0)) or 1 ;elseif (v1371=="Transparency") then if (v1370._kind=="Text") then v1373.TextTransparency=v1372;else v1373.BackgroundTransparency=v1372;end elseif (v1371=="Text") then v1373.Text=v1372;elseif (v1371=="Center") then v1373.TextXAlignment=(v1372 and Enum.TextXAlignment.Center) or Enum.TextXAlignment.Left ;elseif (v1371=="From") then local v3632=1133 -(1076 + 57) ;while true do if (v3632==(0 + 0)) then v1370._from=v1372;v433(v1370);break;end end elseif (v1371=="To") then v1370._to=v1372;v433(v1370);elseif (v1371=="Radius") then local v3637=v1373:FindFirstChildOfClass("UICorner");if v3637 then v3637.CornerRadius=UDim.new(1,689 -(579 + 110) );end elseif ((v1371~="NumSides") and (v1371~="Outline")) then rawget(v1370,"_props")[v1371]=v1372;return;end rawget(v1370,"_props")[v1371]=v1372;end;return {new=function(v1375) return v432.new(v1375);end,_gui=v426};end local v132=Drawing;if  not (v132 and pcall(function() local v437=v132.new("Line");v437:Remove();end)) then v132=v131();end local v133=0 + 0 ;local v134=false;local v135=0.005;local v136=89 + 11 ;local v137=false;local v138=0.065 + 0 ;local v139=407.05 -(174 + 233) ;local v140=false;local v141=true;local v142=false;local v143=false;local v144=false;local v145=0;local v146=Color3.fromRGB(712 -457 ,336 -144 ,253);local v147=Color3.fromRGB(112 + 138 ,1313 -(663 + 511) ,228 + 27 );local v148=nil;local v149=false;local v150="Camera";local v151=0.5;local v152=v132.new("Circle");v152.Thickness=1 + 1 ;v152.Radius=v136;v152.Filled=false;v152.Color=v146;v152.Visible=false;local function v158(v438) return v143 and (v438.Team==v63.Team) ;end local function v159(v439) local v440=0;local v441;local v442;local v443;local v444;while true do if (v440==0) then v441=v439:FindFirstChild("Head");if  not v441 then return true;end v440=1;end if ((5 -3)==v440) then v444=RaycastParams.new();v444.FilterDescendantsInstances={v63.Character,v439};v440=3;end if (v440==1) then v442=v69.CFrame.Position;v443=v441.Position-v442 ;v440=2;end if ((6 -3)==v440) then v444.FilterType=Enum.RaycastFilterType.Exclude;return workspace:Raycast(v442,v443,v444)~=nil ;end end end local function v160() local v445,v446,v447=nil,v136,math.huge;local v448=v69.CFrame.Position;for v1376,v1377 in ipairs(v0:GetPlayers()) do local v1378=0 -0 ;local v1379;local v1380;local v1381;local v1382;local v1383;local v1384;local v1385;while true do if (v1378==(1 + 0)) then if ( not v1379 or  not v1380) then continue;end if v158(v1377) then continue;end if (v144 and (v1380.Health<v145)) then continue;end v1378=2;end if (v1378==(3 -1)) then v1381,v1382=v69:WorldToViewportPoint(v1379.Position);if ( not v1382 or (v1381.Z<=(0 + 0))) then continue;end v1383=Vector2.new(v1381.X,v1381.Y);v1378=1 + 2 ;end if (v1378==3) then v1384=(v1383-Vector2.new(v64.X,v64.Y)).Magnitude;v1385=(v1379.Position-v448).Magnitude;if ((v1384<v446) and ( not v141 or  not v159(v1377.Character))) then if (v1385<v447) then v447=v1385;v446=v1384;v445=v1377;end end break;end if (v1378==(722 -(478 + 244))) then if ((v1377==v63) or  not v1377.Character) then continue;end v1379=v1377.Character:FindFirstChild("Head");v1380=v1377.Character:FindFirstChildOfClass("Humanoid");v1378=1;end end end return v445;end local function v161(v449) local v450=v449.Character and v449.Character:FindFirstChild("Head") ;local v451=v449.Character and v449.Character:FindFirstChild("HumanoidRootPart") ;if ( not v450 or  not v451) then return;end local v452=v450.Position + (v451.AssemblyLinearVelocity * v138) ;if ((v150=="Mouse") and mousemoverel) then local v2193=517 -(440 + 77) ;local v2194;local v2195;local v2196;local v2197;local v2198;local v2199;while true do if (v2193==(2 + 1)) then if (v2199<(0.5 -0)) then return;end if (v2199>90) then local v3147=(1646 -(655 + 901))/v2199 ;v2197,v2198=v2197 * v3147 ,v2198 * v3147 ;end v2193=1 + 3 ;end if (v2193==(4 + 0)) then mousemoverel(v2197,v2198);break;end if (v2193==(0 + 0)) then v2194,v2195=v69:WorldToViewportPoint(v452);if ( not v2195 or (v2194.Z<=0)) then return;end v2193=3 -2 ;end if (v2193==2) then v2198=(v2194.Y-v2196.Y) * v151 ;v2199=math.sqrt((v2197 * v2197) + (v2198 * v2198) );v2193=1448 -(695 + 750) ;end if (v2193==1) then v2196=v58:GetMouseLocation();v2197=(v2194.X-v2196.X) * v151 ;v2193=6 -4 ;end end else v69.CFrame=v69.CFrame:Lerp(CFrame.new(v69.CFrame.Position,v452),v139);end end v57.RenderStepped:Connect(function() if v54.Unloaded then return;end if v140 then local v2201=0;while true do if (v2201==(0 -0)) then v152.Position=(v149 and v129) or Vector2.new(v64.X,v64.Y + (201 -151) ) ;if v134 then v133=(v133 + v135)%1 ;v152.Color=Color3.fromHSV(v133,352 -(285 + 66) ,2 -1 );else v152.Color=(v137 and v148 and v147) or v146 ;end v2201=1311 -(682 + 628) ;end if (v2201==(1 + 0)) then if v137 then local v3150=299 -(176 + 123) ;while true do if (0==v3150) then if (v142 and v148) then local v3513=0;local v3514;local v3515;while true do if (v3513==0) then v3514=v148.Character;v3515=v3514 and v3514:FindFirstChild("Head") ;v3513=1 + 0 ;end if (v3513==1) then if  not v3515 then v148=nil;else local v3607=0;local v3608;local v3609;local v3610;while true do if (v3607==1) then if ( not v3609 or (v3610>v136) or (v141 and v159(v3514)) or v158(v148)) then v148=nil;end break;end if (v3607==(0 + 0)) then v3608,v3609=v69:WorldToViewportPoint(v3515.Position);v3610=(Vector2.new(v3608.X,v3608.Y) -Vector2.new(v64.X,v64.Y)).Magnitude;v3607=270 -(239 + 30) ;end end end break;end end end if ( not v142 or  not v148) then v148=v160();end v3150=1 + 0 ;end if (v3150==(1 + 0)) then if v148 then v161(v148);end break;end end else v148=nil;end break;end end end v128(v148);end);v64.Button2Down:Connect(function() if v140 then v137=true;end end);v64.Button2Up:Connect(function() if v140 then v137=false;end end);local v162={enabled=false,teamCheck=false,delay=0 -0 ,holdMode=false,clickInterval=0.05};local v163=0;local function v164() local v453=v64.Target;if ( not v453 or  not v453.Parent) then return nil;end local v454=v453.Parent;if  not v454:FindFirstChild("Humanoid") then return nil;end local v455=v0:GetPlayerFromCharacter(v454);if ( not v455 or (v455==v63)) then return nil;end if (v162.teamCheck and (v455.Team==v63.Team)) then return nil;end return v455;end v57.RenderStepped:Connect(function() if  not v162.enabled then return;end local v456= not v162.holdMode or v58:IsMouseButtonPressed(Enum.UserInputType.MouseButton2) ;if (v456 and v164() and ((tick() -v163)>=(v162.delay + v162.clickInterval))) then v163=tick();if mouse1click then mouse1click();else v59:SendMouseButtonEvent(v64.X,v64.Y,0 -0 ,true,game,315 -(306 + 9) );v59:SendMouseButtonEvent(v64.X,v64.Y,0 -0 ,false,game,0);end end end);local v165=false;local v166=10;local v167="Linear";local v168={enabled=false,yawMode="At Targets",yawOffset=0,yawJitter=false,yawJitterRange=6 + 24 ,pitchMode="Zero",pitchOffset=0 + 0 ,lbyEnabled=false,lbyOffset=60,lbyMode="Jitter",spinSpeed=45,teamCheck=false,manualSide=0 + 0 ,fov=1286 -836 ,velocityDesync=false,veloX=0,veloY=1000,veloZ=1375 -(1140 + 235) ,st_spin=0 + 0 ,st_side=0,st_flip=1,st_flipNext=0,st_jit=0,st_jitNext=0 + 0 ,st_pit=0 + 0 ,st_pitNext=0,st_lbyVal=52 -(33 + 19) ,st_lbyNext=0 + 0 ,st_rnd=0,st_rndNext=0 -0 ,st_pitLive=0 + 0 ,st_lastYaw=0 -0 ,st_sbot=0,st_sbotNext=0 + 0 ,st_targetNext=0,st_enemy=nil,owned=false};v57.Heartbeat:Connect(function(v457) if v54.Unloaded then return;end local v458=v168;local v459=v63.Character;local v460=v459 and v459:FindFirstChild("HumanoidRootPart") ;local v461=v459 and v459:FindFirstChildOfClass("Humanoid") ;local v462=(v165 or v458.enabled) and (v460~=nil) ;if (v461 and v461.SeatPart) then local v2202=689 -(586 + 103) ;while true do if (v2202==0) then v462=false;if v458.owned then local v3151=0;while true do if (v3151==(0 + 0)) then v461.AutoRotate=true;v458.owned=false;break;end end end break;end end elseif v461 then if (v462 and v461.AutoRotate) then local v2979=0;while true do if ((0 -0)==v2979) then v461.AutoRotate=false;v458.owned=true;break;end end elseif ( not v462 and v458.owned) then local v3247=1488 -(1309 + 179) ;while true do if (v3247==(0 -0)) then v461.AutoRotate=true;v458.owned=false;break;end end end end if  not v462 then return;end local v463=tick();local v464=v69.CFrame.LookVector;local v465=v69:GetAttribute("teddyhubSmoothYaw");if v465 then v464=Vector3.new( -math.sin(v465),0 + 0 , -math.cos(v465));else local v2203=0;local v2204;while true do if (v2203==(0 -0)) then v2204=v69:GetAttribute("teddyhubThirdYaw");if v2204 then v464=Vector3.new( -math.sin(v2204),0 + 0 , -math.cos(v2204));end break;end end end local v466=math.deg(math.atan2( -v464.X, -v464.Z));local v467=v458.yawMode;local v468;if (v467=="At Targets") then if (v463>v458.st_targetNext) then local v2562=0;local v2563;while true do if (v2562==0) then v458.st_targetNext=v463 + (0.1 -0) ;v2563=v458.fov;v2562=1 -0 ;end if (v2562==(610 -(295 + 314))) then for v3248,v3249 in ipairs(v0:GetPlayers()) do local v3250=0 -0 ;local v3251;local v3252;local v3253;while true do if (v3250==2) then if (v458.teamCheck and (v3249.Team==v63.Team)) then continue;end v3253=(v3251.Position-v460.Position).Magnitude;v3250=3;end if (v3250==(1963 -(1300 + 662))) then v3252=v3249.Character:FindFirstChildOfClass("Humanoid");if ( not v3251 or  not v3252 or (v3252.Health<=0)) then continue;end v3250=6 -4 ;end if (v3250==0) then if ((v3249==v63) or  not v3249.Character) then continue;end v3251=v3249.Character:FindFirstChild("HumanoidRootPart");v3250=1756 -(1178 + 577) ;end if (v3250==(2 + 1)) then if (v3253<v2563) then local v3553=0 -0 ;while true do if (v3553==0) then v2563=v3253;v468=v3251;break;end end end break;end end end v458.st_enemy=v468;break;end end else v468=v458.st_enemy;end end local v469;if (v165 and  not v458.enabled) then if (v167=="Jitter") then local v2565=0;while true do if (v2565==(1405 -(851 + 554))) then if (v463>v458.st_sbotNext) then local v3353=0;while true do if (v3353==0) then v458.st_sbotNext=v463 + 0.03 + 0 ;v458.st_sbot=math.random( -(499 -319),390 -210 );break;end end end v469=v458.st_sbot;break;end end else v458.st_spin=(v458.st_spin + (v166 * v457 * (362 -(115 + 187))))%(276 + 84) ;v469=v458.st_spin;end elseif ((v467=="At Targets") and v468) then local v2567=0 + 0 ;local v2568;while true do if (v2567==(0 -0)) then v2568=v468.Position-v460.Position ;v469=math.deg(math.atan2( -v2568.X, -v2568.Z)) + (1341 -(160 + 1001)) ;break;end end elseif (v467=="Backwards") then v469=v466 + 158 + 22 ;elseif (v467=="Spin") then local v3254=0;while true do if (v3254==(0 + 0)) then v458.st_spin=(v458.st_spin + math.rad(v458.spinSpeed))%(math.pi * (3 -1)) ;v469=math.deg(v458.st_spin);break;end end elseif (v467=="Random") then local v3397=0;while true do if ((358 -(237 + 121))==v3397) then if (v463>v458.st_rndNext) then local v3577=897 -(525 + 372) ;while true do if (v3577==0) then v458.st_rndNext=v463 + (math.random(8,75 -35 )/(328 -228)) ;v458.st_rnd=math.random( -(322 -(96 + 46)),957 -(643 + 134) );break;end end end v469=v458.st_rnd;break;end end elseif (v467=="Freestanding") then local v3518=0 + 0 ;local v3519;local v3520;local v3521;local v3522;local v3523;local v3524;local v3525;local v3526;local v3527;while true do if (v3518==(2 -1)) then v3521.FilterType=Enum.RaycastFilterType.Exclude;v3522=v460.Position + Vector3.new(0 -0 ,1 + 0 ,0 -0 ) ;v3523=workspace:Raycast(v3522, -v3520 * (245 -125) ,v3521);v3524=workspace:Raycast(v3522,v3520 * (839 -(316 + 403)) ,v3521);v3518=2;end if (v3518==0) then v3519=math.rad(v466);v3520=Vector3.new(math.cos(v3519),0 + 0 , -math.sin(v3519));v3521=RaycastParams.new();v3521.FilterDescendantsInstances={v459};v3518=2 -1 ;end if (v3518==(2 + 1)) then v469=v466 + (v458.st_side * (226 -136)) ;break;end if (v3518==(2 + 0)) then v3525=(v3523 and (v3522-v3523.Position).Magnitude) or (322 + 677) ;v3526=(v3524 and (v3522-v3524.Position).Magnitude) or (3461 -2462) ;v3527=((v3525<v3526) and  -(4 -3)) or (1 -0) ;v458.st_side=v458.st_side + ((v3527-v458.st_side) * (0.2 + 0)) ;v3518=3;end end elseif (v467=="Manual") then v469=v466 + (v458.manualSide * (177 -87)) ;else v469=v466;end local v470=v469 + v458.yawOffset ;if v458.yawJitter then if (v463>v458.st_jitNext) then local v2569=0 + 0 ;while true do if ((0 -0)==v2569) then v458.st_jitNext=v463 + (17.1 -(12 + 5)) ;v458.st_jit=((math.random() * 2) -1) * v458.yawJitterRange ;break;end end end v470=v470 + v458.st_jit ;end local v471=v458.pitchMode;local v472=0 -0 ;if (v471=="Down") then v472= -89;elseif (v471=="Up") then v472=89;elseif (v471=="Random") then v472=((math.random() * 2) -(1 -0)) * (188 -99) ;elseif (v471=="Jitter") then local v3255=0;while true do if (v3255==(0 -0)) then if (v463>v458.st_pitNext) then local v3555=0 + 0 ;while true do if (v3555==(1973 -(1656 + 317))) then v458.st_pitNext=v463 + 0.1 + 0 ;v458.st_pit=((math.random() * (2 + 0)) -1) * (236 -147) ;break;end end end v472=v458.st_pit;break;end end elseif (v471=="Forward") then v472= -(73 -58);end local v473=math.clamp(v472 + v458.pitchOffset , -(443 -(5 + 349)),422 -333 );local v474=(v461 and (v461.MoveDirection.Magnitude>(1271.05 -(266 + 1005))) and (0 + 0)) or v473 ;v458.st_pitLive=v458.st_pitLive + ((v474-v458.st_pitLive) * (0.25 -0)) ;local v476=0 -0 ;if v458.lbyEnabled then local v2205=v458.lbyMode;if (v2205=="Flip") then if (v463>v458.st_flipNext) then v458.st_flipNext=v463 + (1696.5 -(561 + 1135)) ;v458.st_flip= -v458.st_flip;end v476=v458.lbyOffset * v458.st_flip ;elseif (v2205=="Jitter") then if (v463>v458.st_lbyNext) then v458.st_lbyNext=v463 + (0.08 -0) ;v458.st_lbyVal=((math.random() * (6 -4)) -(1067 -(507 + 559))) * v458.lbyOffset ;end v476=v458.st_lbyVal;elseif (v2205=="Random") then local v3258=0 -0 ;while true do if (v3258==(0 -0)) then if (v463>v458.st_lbyNext) then local v3556=388 -(212 + 176) ;while true do if (v3556==(905 -(250 + 655))) then v458.st_lbyNext=v463 + (math.random(10,163 -103 )/100) ;v458.st_lbyVal=((math.random() * 2) -(1 -0)) * v458.lbyOffset ;break;end end end v476=v458.st_lbyVal;break;end end else v476=v458.lbyOffset;end end v460.CFrame=CFrame.new(v460.Position) * CFrame.Angles(0,math.rad(v470 + v476 ),0 -0 ) * CFrame.Angles(math.rad(v458.st_pitLive),1956 -(1869 + 87) ,0 -0 ) ;v458.st_lastYaw=v470 + v476 ;end);v168.apply=function() local v479=v63.Character;local v480=v479 and v479:FindFirstChild("HumanoidRootPart") ;local v481=v479 and v479:FindFirstChildOfClass("Humanoid") ;if ( not v480 or (v481 and v481.SeatPart)) then return;end local v482=workspace.CurrentCamera;local v483=v168.st_lastYaw or 0 ;local v484=v168.st_pitLive or (1901 -(484 + 1417)) ;v482:SetAttribute("teddyhubAAYaw",math.rad(v483));v482:SetAttribute("teddyhubAAPitch",math.rad(v484));v480.CFrame=CFrame.new(v480.Position) * CFrame.Angles(0 -0 ,math.rad(v483),0 -0 ) * CFrame.Angles(math.rad(v484),0,0) ;end;v58.InputBegan:Connect(function(v486,v487) local v488=773 -(48 + 725) ;while true do if (v488==(0 -0)) then if (v487 or  not v168.enabled) then return;end if (v486.KeyCode==Enum.KeyCode.Z) then v168.manualSide= -1;elseif (v486.KeyCode==Enum.KeyCode.X) then v168.manualSide=2 -1 ;end break;end end end);v58.InputEnded:Connect(function(v489) if ((v489.KeyCode==Enum.KeyCode.Z) and (v168.manualSide== -(1 + 0))) then v168.manualSide=0 -0 ;elseif ((v489.KeyCode==Enum.KeyCode.X) and (v168.manualSide==1)) then v168.manualSide=0;end end);local v170=0 + 0 ;v57.Heartbeat:Connect(function(v490) if  not (v168.enabled and v168.velocityDesync) then local v2207=0 + 0 ;while true do if (v2207==(853 -(152 + 701))) then v170=0;return;end end end v170=v170 + v490 ;if (v170<(1311.05 -(430 + 881))) then return;end v170=0;local v491=v63.Character;local v492=v491 and v491:FindFirstChild("HumanoidRootPart") ;if v492 then local v2208=v492.AssemblyLinearVelocity;v492.AssemblyLinearVelocity=Vector3.new(v168.veloX,v168.veloY,v168.veloZ);task.wait();v492.AssemblyLinearVelocity=v2208;end end);local v171={enabled=false,fov=250,hitpart="Head",teamCheck=true,wallCheck=false,healthCheck=false,minHealth=0 + 0 ,prediction=895.065 -(557 + 338) ,smooth=0.5,autoFire=true,fireDelay=0.02 + 0 ,visibleOnly=true,holdRMB=false,silent=false,silentPart=nil,silentCFrame=nil,target=nil,lastFire=0 -0 ,fireHold=false,silentUntil=0 -0 ,rotOwned=false,thirdAim=true};v171.find=function() local v493=Vector2.new(v69.ViewportSize.X/(4 -2) ,v69.ViewportSize.Y/(4 -2) );local v494,v495=nil,math.huge;local v496=v69.CFrame.Position;for v1386,v1387 in ipairs(v0:GetPlayers()) do if ((v1387==v63) or  not v1387.Character) then continue;end local v1388=v1387.Character:FindFirstChildOfClass("Humanoid");local v1389=v1387.Character:FindFirstChild(v171.hitpart) or v1387.Character:FindFirstChild("Head") or v1387.Character:FindFirstChild("HumanoidRootPart") ;if ( not v1388 or (v1388.Health<=(801 -(499 + 302))) or  not v1389) then continue;end if (v171.teamCheck and (v1387.Team==v63.Team)) then continue;end if (v171.healthCheck and (v1388.Health<v171.minHealth)) then continue;end local v1390,v1391=v69:WorldToViewportPoint(v1389.Position);if ( not v1391 or (v1390.Z<=(866 -(39 + 827)))) then continue;end local v1392=(Vector2.new(v1390.X,v1390.Y) -v493).Magnitude;if (v1392>v171.fov) then continue;end if v171.wallCheck then local v2409=RaycastParams.new();v2409.FilterDescendantsInstances={v63.Character,v1387.Character};v2409.FilterType=Enum.RaycastFilterType.Exclude;if workspace:Raycast(v496,v1389.Position-v496 ,v2409) then continue;end end if (v1392<v495) then local v2413=0;while true do if ((0 -0)==v2413) then v495=v1392;v494=v1387;break;end end end end return v494;end;v171.fire=function() local v497=0 -0 ;while true do if (v497==1) then if v171.silent then v171.silentUntil=tick() + 0.12 + 0 ;end if mouse1click then mouse1click();elseif (mouse1press and mouse1release) then local v3159=0 -0 ;while true do if (0==v3159) then mouse1press();task.wait(0.02);v3159=1 + 0 ;end if (v3159==(1 -0)) then mouse1release();break;end end else pcall(function() v59:SendMouseButtonEvent(v64.X,v64.Y,0,true,game,0);v59:SendMouseButtonEvent(v64.X,v64.Y,104 -(103 + 1) ,false,game,554 -(475 + 79) );end);end break;end if (v497==(0 -0)) then if ((tick() -v171.lastFire)<v171.fireDelay) then return;end v171.lastFire=tick();v497=3 -2 ;end end end;v171.face=function(v498) local v499=v63.Character;local v500=v499 and v499:FindFirstChild("HumanoidRootPart") ;local v501=v499 and v499:FindFirstChildOfClass("Humanoid") ;if  not v500 then return;end if (v501 and v501.SeatPart) then return;end if (v501 and v501.AutoRotate) then local v2210=0 + 0 ;while true do if (v2210==0) then v501.AutoRotate=false;v171.rotOwned=true;break;end end end local v502=v498-v500.Position ;v500.CFrame=CFrame.new(v500.Position) * CFrame.Angles(0,math.atan2( -v502.X, -v502.Z),0) ;end;v171.release=function() local v504=workspace.CurrentCamera;if v504 then pcall(function() v504:SetAttribute("teddyhubAimAt",nil);end);end if  not v171.rotOwned then return;end local v505=v63.Character;local v506=v505 and v505:FindFirstChildOfClass("Humanoid") ;if v506 then v506.AutoRotate=true;end v171.rotOwned=false;end;v57.RenderStepped:Connect(function() if (v54.Unloaded or  not v171.enabled) then local v2212=0;while true do if ((0 + 0)==v2212) then v171.release();return;end end end local v508= not v171.holdRMB or v58:IsMouseButtonPressed(Enum.UserInputType.MouseButton2) ;if v508 then local v2213=0;local v2214;while true do if (v2213==(1503 -(1395 + 108))) then v2214=v171.find();if v2214 then v171.target=v2214;elseif v171.visibleOnly then v171.target=nil;end break;end end else v171.target=nil;end local v509=v171.target;if ( not v509 or  not v509.Character) then v171.silentPart=nil;v171.silentCFrame=nil;v171.release();return;end local v510=v509.Character:FindFirstChild(v171.hitpart) or v509.Character:FindFirstChild("Head") ;local v511=v509.Character:FindFirstChild("HumanoidRootPart");if ( not v510 or  not v511) then v171.target=nil;v171.silentPart=nil;v171.silentCFrame=nil;v171.release();return;end local v512=v510.Position + (v511.AssemblyLinearVelocity * v171.prediction) ;if v171.silent then v171.silentPart=v510;v171.silentCFrame=CFrame.new(v512);local v2223=workspace.CurrentCamera;if v2223 then pcall(function() v2223:SetAttribute("teddyhubAimAt",v512);end);end if  not v168.enabled then v171.face(v512);end if v508 then v171.silentUntil=tick() + 0.12 ;end local v2224=Toggles.TP_On and Toggles.TP_On.Value ;local v2225=Toggles.SC_On and Toggles.SC_On.Value ;if (v171.thirdAim and  not v2224 and  not v2225) then local v2572=0;local v2573;local v2574;while true do if ((0 -0)==v2572) then v2573=v63.Character;v2574=v2573 and v2573:FindFirstChild("Head") ;v2572=1205 -(7 + 1197) ;end if (v2572==(1 + 0)) then if (v2574 and v2223) then local v3355=(v2223.CFrame.Position-v2574.Position).Magnitude;if (v3355>(1.5 + 1)) then v69.CFrame=CFrame.lookAt(v69.CFrame.Position,v512);end end break;end end end if (v508 and v171.autoFire) then v171.fire();end else v171.silentPart=nil;v171.silentCFrame=nil;v171.release();v69.CFrame=v69.CFrame:Lerp(CFrame.new(v69.CFrame.Position,v512),v171.smooth);if (v508 and v171.autoFire) then local v2575=319 -(27 + 292) ;local v2576;local v2577;local v2578;while true do if (v2575==(0 -0)) then v2576,v2577=v69:WorldToViewportPoint(v512);v2578=Vector2.new(v69.ViewportSize.X/2 ,v69.ViewportSize.Y/(2 -0) );v2575=4 -3 ;end if (v2575==1) then if (v2577 and (v2576.Z>0) and ((Vector2.new(v2576.X,v2576.Y) -v2578).Magnitude<(29 -14))) then v171.fire();end break;end end end end end);local v176={master=false,box=true,fill=false,name=true,distance=true,weapon=false,healthbar=true,skeleton=false,skeletonOutline=false};local v177={boundsType="static",boundsScale=190 -90 ,color=Color3.fromRGB(139 -(43 + 96) ,1040 -785 ,140)};local v178={"RightHand","LeftLowerArm","RightLowerArm","LeftUpperArm","RightUpperArm","LowerTorso","LeftLowerLeg","LeftUpperLeg","LeftFoot","RightFoot","RightLowerLeg","RightUpperLeg","UpperTorso","LeftHand","Head"};local v179={{"LeftUpperArm","UpperTorso"},{"LeftLowerArm","LeftUpperArm"},{"LeftLowerArm","LeftHand"},{"RightUpperArm","UpperTorso"},{"RightLowerArm","RightUpperArm"},{"RightHand","RightLowerArm"},{"LeftUpperLeg","LowerTorso"},{"LeftLowerLeg","LeftUpperLeg"},{"LeftFoot","LeftLowerLeg"},{"RightUpperLeg","LowerTorso"},{"RightLowerLeg","RightUpperLeg"},{"RightFoot","RightLowerLeg"},{"LowerTorso","UpperTorso"}};local v180={};v180.__index=v180;v180.new=function() return setmetatable({players={}},v180);end;v180.createState=function(v513,v514) local v515={player=v514,character=nil,humanoid=nil,humanoidRootPart=nil,parts={},connections={},drawings={},squares={},lines={},text={}};for v1393=1 -0 ,26 do local v1394=v132.new("Line");v1394.Visible=false;v1394.Thickness=1;v1394.Color=Color3.new(286 -(147 + 138) ,900 -(813 + 86) ,1);table.insert(v515.drawings,v1394);table.insert(v515.lines,v1394);end for v1398=1 + 0 ,4 do local v1399=v132.new("Text");v1399.Outline=true;v1399.Visible=false;v1399.Color=Color3.new(1 -0 ,1,493 -(18 + 474) );v1399.Center=true;v1399.Size=5 + 8 ;table.insert(v515.drawings,v1399);table.insert(v515.text,v1399);end for v1405=3 -2 ,1090 -(860 + 226)  do local v1406=303 -(121 + 182) ;local v1407;while true do if (v1406==(1 + 0)) then table.insert(v515.drawings,v1407);table.insert(v515.squares,v1407);break;end if (v1406==(1240 -(988 + 252))) then v1407=v132.new("Square");v1407.Visible=false;v1406=1;end end end v515.squares[1].Thickness=1;v515.squares[1 + 0 ].Color=Color3.new(0 + 0 ,1970 -(49 + 1921) ,890 -(223 + 667) );v515.squares[54 -(51 + 1) ].Thickness=1;v515.squares[5 -2 ].Filled=true;v515.squares[8 -4 ].Filled=true;v515.squares[1129 -(146 + 979) ].Color=Color3.new(0 + 0 ,605 -(311 + 294) ,0 -0 );return v515;end;v180.updateState=function(v522,v523,v524) local v525=v522.players[v523];if  not v525 then return;end v525.character=v524;v525.humanoidRootPart=v524:FindFirstChild("HumanoidRootPart") or v524:FindFirstChild("UpperTorso") or v524:FindFirstChild("Torso") or v524:FindFirstChild("Head") or v524.PrimaryPart ;v525.humanoid=v524:FindFirstChildOfClass("Humanoid") or v524:FindFirstChild("Humanoid") ;v525.parts={};if ( not v525.humanoid or  not v525.humanoidRootPart) then return;end for v1408,v1409 in ipairs(v178) do local v1410=0 + 0 ;local v1411;while true do if (v1410==(1443 -(496 + 947))) then v1411=v524:FindFirstChild(v1409);if v1411 then v525.parts[v1409]=v1411;end break;end end end end;v180.bounds=function(v530,v531) local v532=v531.humanoidRootPart;if  not v532 then return nil;end local v533=v531.parts and v531.parts.Head ;local v534,v535;if v533 then v534=v533.Position + Vector3.new(0,(v533.Size.Y/(1360 -(1233 + 125))) + 0.4 + 0 ,0 + 0 ) ;v535=v533.Position-Vector3.new(0 + 0 ,math.max(1645.5 -(963 + 682) ,v533.Position.Y-v532.Position.Y ) + 3.2 + 0 ,1504 -(504 + 1000) ) ;else v534=(v532.CFrame * CFrame.new(0 + 0 ,3 + 0 ,0 + 0 )).Position;v535=(v532.CFrame * CFrame.new(0, -(4.5 -1),0 + 0 )).Position;end local v536=v69:WorldToViewportPoint(v534);local v537=v69:WorldToViewportPoint(v535);if ((v536.Z<=(0 + 0)) or (v537.Z<=(182 -(156 + 26)))) then return nil;end local v538=math.abs(v536.Y-v537.Y );if (v538<(1 + 0)) then return nil;end local v539=v538 * (0.6 -0) * (v177.boundsScale/100) ;return v539,v538,Vector2.new(v536.X,v536.Y);end;v180.drawSkeleton=function(v540,v541) for v1412,v1413 in ipairs(v541.lines) do v1413.Visible=false;end if ( not v176.skeleton or  not v541.character) then return;end for v1415,v1416 in ipairs(v179) do local v1417=v541.parts[v1416[165 -(149 + 15) ]];local v1418=v541.parts[v1416[2]];if ( not v1417 or  not v1418) then continue;end local v1419=v69:WorldToViewportPoint(v1417.Position);local v1420=v69:WorldToViewportPoint(v1418.Position);if ((v1419.Z<=(960 -(890 + 70))) or (v1420.Z<=(117 -(39 + 78)))) then continue;end local v1421=v541.lines[v1415];v1421.From=Vector2.new(v1419.X,v1419.Y);v1421.To=Vector2.new(v1420.X,v1420.Y);v1421.Color=v177.color;v1421.Thickness=(v176.skeletonOutline and 2) or (483 -(14 + 468)) ;v1421.Visible=true;end end;v180.drawBox=function(v542,v543,v544,v545,v546) local v547=0;while true do if (v547==(0 -0)) then v543.squares[1].Visible=false;v543.squares[5 -3 ].Visible=false;v547=1 + 0 ;end if (v547==3) then v543.squares[2 + 0 ].Filled=v176.fill;v543.squares[1 + 1 ].Visible=true;break;end if (v547==2) then v543.squares[1 + 1 ].Position=v546-Vector2.new(v544/2 ,0) ;v543.squares[1 + 1 ].Color=v177.color;v547=5 -2 ;end if ((1 + 0)==v547) then if  not v176.box then return;end v543.squares[6 -4 ].Size=Vector2.new(v544,v545);v547=1 + 1 ;end end end;v180.drawText=function(v548,v549,v550,v551,v552) for v1428,v1429 in ipairs(v549.text) do v1429.Visible=false;end local v553=v552-Vector2.new(51 -(12 + 39) ,14 + 1 ) ;local v554=v552 + Vector2.new(0 -0 ,v551 + 2 ) ;if v176.name then local v2231=0 -0 ;while true do if (v2231==(1 + 0)) then v549.text[1 + 0 ].Color=v177.color;v549.text[2 -1 ].Visible=true;break;end if (v2231==(0 + 0)) then v549.text[4 -3 ].Text=v549.player.Name;v549.text[1].Position=v553;v2231=1711 -(1596 + 114) ;end end end if v176.weapon then local v2232=v549.character and (v549.character:FindFirstChildOfClass("Tool") or v549.character:FindFirstChild("EquippedItem")) ;v549.text[4 -2 ].Text=(v2232 and v2232.Name) or "None" ;v549.text[2].Position=v554;v549.text[715 -(164 + 549) ].Color=v177.color;v549.text[1440 -(1059 + 379) ].Visible=true;v554=v554 + Vector2.new(0,16 -2 ) ;end if (v176.distance and v549.humanoidRootPart) then local v2238=0 + 0 ;local v2239;while true do if ((1 + 1)==v2238) then v549.text[395 -(145 + 247) ].Visible=true;break;end if (v2238==1) then v549.text[3].Position=v554;v549.text[3 + 0 ].Color=v177.color;v2238=1 + 1 ;end if (v2238==0) then v2239=math.round((v549.humanoidRootPart.Position-v69.CFrame.Position).Magnitude);v549.text[3].Text="["   .. v2239   .. "m]" ;v2238=2 -1 ;end end end end;v180.drawHealthbar=function(v555,v556,v557,v558,v559) v556.squares[1 + 2 ].Visible=false;v556.squares[4 + 0 ].Visible=false;if ( not v176.healthbar or  not v556.humanoid) then return;end local v562=math.clamp(v556.humanoid.Health/v556.humanoid.MaxHealth ,0 -0 ,1);local v563=v558 * v562 ;local v564=v559-Vector2.new((v557/(722 -(254 + 466))) + 6 , -v558 + v563 ) ;local v565=v559-Vector2.new((v557/2) + (566 -(544 + 16)) ,0 -0 ) ;v556.squares[4].Size=Vector2.new(631 -(294 + 334) ,v558);v556.squares[257 -(236 + 17) ].Position=v565;v556.squares[4].Visible=true;v556.squares[2 + 1 ].Size=Vector2.new(3 + 0 ,v563);v556.squares[10 -7 ].Position=v564;v556.squares[3].Color=Color3.fromRGB(255,0 -0 ,0 + 0 ):Lerp(Color3.fromRGB(0 + 0 ,255,794 -(413 + 381) ),v562);v556.squares[3].Visible=true;end;v180.hideAll=function(v573,v574) for v1431,v1432 in ipairs(v574.drawings) do v1432.Visible=false;end end;v180.update=function(v575,v576) local v577=v575.players[v576];if  not v577 then return;end if  not v176.master then v575:hideAll(v577);return;end local v578=v577.character;if ( not v578 or  not v577.humanoidRootPart or  not v577.humanoid or (v577.humanoid.Health<=(0 + 0))) then local v2240=0 -0 ;while true do if (v2240==(0 -0)) then v575:hideAll(v577);return;end end end if (v576==v63) then local v2241=1970 -(582 + 1388) ;while true do if ((0 -0)==v2241) then v575:hideAll(v577);return;end end end local v579,v580,v581=v575:bounds(v577);if  not v579 then v575:hideAll(v577);return;end v575:drawSkeleton(v577);v575:drawBox(v577,v579,v580,v581);v575:drawText(v577,v579,v580,v581);v575:drawHealthbar(v577,v579,v580,v581);end;v180.start=function(v582) local function v583(v1434) if v54.Unloaded then return;end local v1435=v582:createState(v1434);v582.players[v1434]=v1435;local function v1437(v2242) task.spawn(function() v582:updateState(v1434,v2242);end);end table.insert(v1435.connections,v1434.CharacterAdded:Connect(v1437));table.insert(v1435.connections,v1434.CharacterRemoving:Connect(function() v582:hideAll(v1435);v1435.character=nil;end));if v1434.Character then v1437(v1434.Character);end end for v1438,v1439 in ipairs(v0:GetPlayers()) do v583(v1439);end v0.PlayerAdded:Connect(v583);v0.PlayerRemoving:Connect(function(v1440) local v1441=v582.players[v1440];if  not v1441 then return;end for v2244,v2245 in ipairs(v1441.connections) do pcall(v2245.Disconnect,v2245);end for v2246,v2247 in ipairs(v1441.drawings) do pcall(v2247.Remove,v2247);end v582.players[v1440]=nil;end);v57.RenderStepped:Connect(function() if v54.Unloaded then return;end if  not v176.master then return;end for v2248 in pairs(v582.players) do if (v2248.Parent and v2248.Character) then v582:update(v2248);end end end);end;local v193=v180.new();v193:start();local v194={Visible=false,SpinSpeed=0.005 + 0 ,CentralGap=8,TotalLength=476 -(326 + 38) ,LineThickness=5 -3 ,OutlineThickness=5 -1 ,ColorStart=Color3.fromRGB(180,800 -(47 + 573) ,64 + 116 ),ColorEnd=Color3.fromRGB(20,20,84 -64 ),CircleVisible=true,CircleRadius=119,CircleTransparency=0.3 -0 ,CircleColor=Color3.fromRGB(15,15,1689 -(1269 + 395) ),TrackingEnabled=false,TrackingRadius=642 -(76 + 416) ,TrackingSmoothness=0.2,TrackPart="Head",TeamCheck=true};local v195=2;local v196,v197,v198={},{},nil;local function v199() if v198 then local v2249=443 -(319 + 124) ;while true do if (v2249==0) then v198:Remove();v198=nil;break;end end end for v1443=2 -1 , #v196 do if v196[v1443] then for v2580=1008 -(564 + 443) , #v196[v1443] do local v2581=0 -0 ;while true do if (v2581==(458 -(337 + 121))) then if v196[v1443][v2580] then v196[v1443][v2580]:Remove();end if v197[v1443][v2580] then v197[v1443][v2580]:Remove();end break;end end end end end v196,v197={},{};end local function v200() v199();v198=v132.new("Circle");v198.Filled=true;v198.NumSides=187 -123 ;v198.Radius=v194.CircleRadius;v198.Color=v194.CircleColor;v198.Transparency=v194.CircleTransparency;v198.Visible=v194.Visible and v194.CircleVisible ;local v593=math.max(3 -2 ,math.floor(v194.TotalLength/v195 ));for v1444=1912 -(1261 + 650) ,2 + 2  do local v1445=0 -0 ;while true do if (v1445==(1817 -(772 + 1045))) then v196[v1444],v197[v1444]={},{};for v2825=1 + 0 ,v593 do local v2826=(v2825-(144.5 -(102 + 42)))/v593 ;local v2827=v132.new("Line");v2827.Thickness=v194.OutlineThickness;v2827.Color=Color3.new(1844 -(1524 + 320) ,1270 -(1049 + 221) ,0);v2827.Visible=v194.Visible;local v2833=v132.new("Line");v2833.Thickness=v194.LineThickness;v2833.Color=v194.ColorStart:Lerp(v194.ColorEnd,v2826);v2833.Visible=v194.Visible;v197[v1444][v2825]=v2827;v196[v1444][v2825]=v2833;end break;end end end end local function v201(v594) local v595,v596=nil,v194.TrackingRadius;for v1446,v1447 in ipairs(v0:GetPlayers()) do if ((v1447==v63) or  not v1447.Character) then continue;end local v1448=v1447.Character:FindFirstChild(v194.TrackPart);local v1449=v1447.Character:FindFirstChildOfClass("Humanoid");if ( not v1448 or  not v1449 or (v1449.Health<=(156 -(18 + 138)))) then continue;end if (v194.TeamCheck and (v1447.Team==v63.Team)) then continue;end local v1450,v1451=v69:WorldToViewportPoint(v1448.Position);if v1451 then local v2424=(Vector2.new(v1450.X,v1450.Y) -v594).Magnitude;if (v2424<v596) then local v2840=0 -0 ;while true do if (v2840==0) then v596=v2424;v595=Vector2.new(v1450.X,v1450.Y);break;end end end end end return v595;end local v202={0,math.pi/2 ,math.pi,math.pi * (1.5 + 0) };local v203=0 + 0 ;local v204,v205=0,1604 -(240 + 1364) ;v57.RenderStepped:Connect(function() if v54.Unloaded then return;end if v194.Visible then local v2250=1082 -(1050 + 32) ;local v2251;local v2252;local v2253;local v2254;local v2255;while true do if (v2250==(0 -0)) then v2251=v194.SpinSpeed;v2252=tick();v2250=1 + 0 ;end if ((1057 -(331 + 724))==v2250) then v2254=v2253;if v194.TrackingEnabled then local v3162=v201(v2253);if v3162 then v2254=v3162;end end v2250=1 + 2 ;end if (v2250==(648 -(269 + 375))) then v2255=math.max(726 -(267 + 458) ,math.floor(v194.TotalLength/v195 ));for v2984=1 + 0 ,7 -3  do local v2985=0;local v2986;local v2987;local v2988;local v2989;local v2990;while true do if (v2985==1) then v2989,v2990=v196[v2984],v197[v2984];if  not v2989 then continue;end v2985=820 -(667 + 151) ;end if ((1499 -(1410 + 87))==v2985) then for v3398=1, #v2989 do local v3399,v3400=v2989[v3398],v2990[v3398];if ( not v3399 or  not v3400) then continue;end local v3401=v194.CentralGap + ((v3398-(1898 -(1504 + 393))) * v195) ;local v3402=v194.CentralGap + (v3398 * v195) ;local v3403=v129 + Vector2.new(v2987 * v3401 ,v2988 * v3401 ) ;local v3404=v129 + Vector2.new(v2987 * v3402 ,v2988 * v3402 ) ;v3400.From=v3403;v3400.To=v3404;v3400.Thickness=v194.OutlineThickness;v3400.Visible=true;v3399.From=v3403;v3399.To=v3404;v3399.Thickness=v194.LineThickness;v3399.Color=v194.ColorStart:Lerp(v194.ColorEnd,(v3398-0.5)/v2255 );v3399.Visible=true;end break;end if ((0 -0)==v2985) then v2986=v202[v2984] + v203 ;v2987,v2988=math.cos(v2986),math.sin(v2986);v2985=2 -1 ;end end end break;end if (v2250==3) then v129=v129:Lerp(v2254,v194.TrackingSmoothness);if v198 then v198.Position=v129;v198.Radius=v194.CircleRadius;v198.Color=v194.CircleColor;v198.Transparency=v194.CircleTransparency;v198.Visible=v194.CircleVisible;end v2250=800 -(461 + 335) ;end if ((1 + 0)==v2250) then if (v2251~=(1761 -(1730 + 31))) then local v3172=0;while true do if (v3172==(1667 -(728 + 939))) then if (v205==(0 -0)) then v205=v2252;end v203=v204 + ((v2252-v205) * v2251) ;break;end end elseif (v205~=(0 -0)) then v204=v203;v205=0;end v2253=Vector2.new(v69.ViewportSize.X/2 ,v69.ViewportSize.Y/(4 -2) );v2250=1070 -(138 + 930) ;end end elseif (v198 and v198.Visible) then local v2584=0;while true do if (v2584==(0 + 0)) then v198.Visible=false;for v3260=1 + 0 ,4 + 0  do local v3261=0;local v3262;local v3263;while true do if (v3261==1) then for v3528=1, #v3262 do if v3262[v3528] then v3262[v3528].Visible=false;end if v3263[v3528] then v3263[v3528].Visible=false;end end break;end if (v3261==(0 -0)) then v3262,v3263=v196[v3260],v197[v3260];if  not v3262 then continue;end v3261=1767 -(459 + 1307) ;end end end break;end end end end);v200();local v206=false;local v207=1886 -(474 + 1396) ;local v208=false;local v209=87 -37 ;local v210=false;local v211=47 + 3 ;local v212;local function v213() local v597=0 + 0 ;local v598;local v599;while true do if (v597==(5 -3)) then v599.WalkSpeed=(v206 and v207) or (3 + 13) ;break;end if (v597==(0 -0)) then v598=v63.Character;if  not v598 then return;end v597=4 -3 ;end if (v597==(592 -(562 + 29))) then v599=v598:FindFirstChildOfClass("Humanoid");if  not v599 then return;end v597=2 + 0 ;end end end local function v214() local v600=1419 -(374 + 1045) ;local v601;local v602;while true do if (v600==(0 + 0)) then v601=v63.Character;if  not v601 then return;end v600=2 -1 ;end if (v600==(640 -(448 + 190))) then v602.UseJumpPower=true;v602.JumpPower=(v208 and v209) or (17 + 33) ;break;end if (v600==(1 + 0)) then v602=v601:FindFirstChildOfClass("Humanoid");if  not v602 then return;end v600=2;end end end local function v215(v603) local v604=0 + 0 ;local v605;local v606;while true do if (v604==1) then if  not v605 then return;end v606=v605:FindFirstChild("HumanoidRootPart");v604=2;end if (v604==(0 -0)) then v210=v603;v605=v63.Character;v604=2 -1 ;end if (v604==(1496 -(1307 + 187))) then if  not v606 then return;end if v210 then v212=v57.RenderStepped:Connect(function() local v2991=Vector3.new(0,0 -0 ,0 -0 );local v2992=workspace.CurrentCamera;if v58:IsKeyDown(Enum.KeyCode.W) then v2991=v2991 + v2992.CFrame.LookVector ;end if v58:IsKeyDown(Enum.KeyCode.S) then v2991=v2991-v2992.CFrame.LookVector ;end if v58:IsKeyDown(Enum.KeyCode.A) then v2991=v2991-v2992.CFrame.RightVector ;end if v58:IsKeyDown(Enum.KeyCode.D) then v2991=v2991 + v2992.CFrame.RightVector ;end if v58:IsKeyDown(Enum.KeyCode.Space) then v2991=v2991 + Vector3.new(0,2 -1 ,683 -(232 + 451) ) ;end if v58:IsKeyDown(Enum.KeyCode.LeftControl) then v2991=v2991-Vector3.new(0,1 + 0 ,0) ;end v606.AssemblyLinearVelocity=v2991 * v211 ;v606.AssemblyAngularVelocity=Vector3.new(0 + 0 ,564 -(510 + 54) ,0 -0 );end);else local v2842=36 -(13 + 23) ;while true do if (v2842==(0 -0)) then if v212 then v212:Disconnect();end v606.AssemblyLinearVelocity=Vector3.new(0,0 -0 ,0);break;end end end break;end end end v63.CharacterAdded:Connect(function() local v607=0 -0 ;while true do if (v607==(1088 -(830 + 258))) then task.wait(0.5 -0 );if v206 then v213();end v607=1;end if (v607==1) then if v208 then v214();end break;end end end);local v216=false;local v217="Rain";local v218=20 + 11 ;local v219=Color3.fromRGB(171 + 29 ,1661 -(860 + 581) ,255);local v220=v60.Brightness;local v221=0;local v222=false;local v223=workspace:FindFirstChild("CustomWeatherFolder") or Instance.new("Folder") ;v223.Name="CustomWeatherFolder";v223.Parent=workspace;local v226={};local v227=442 -322 ;for v608=1,v227 do local v609=0 + 0 ;local v610;while true do if (v609==(242 -(237 + 4))) then v610.Material=Enum.Material.SmoothPlastic;v610.Transparency=0.4;v609=2;end if (v609==2) then v610.CanCollide=false;v610.Anchored=true;v609=6 -3 ;end if (0==v609) then v610=Instance.new("Part");v610.Name="WeatherParticle";v609=1;end if ((9 -5)==v609) then table.insert(v226,{Part=v610,Active=false,Speed=0,Drift=0 -0 });break;end if (v609==3) then v610.CastShadow=false;v610.Parent=v223;v609=4;end end end v57.RenderStepped:Connect(function() if v54.Unloaded then return;end if  not v216 then local v2256=0;while true do if (v2256==1) then return;end if (v2256==0) then for v2995,v2996 in ipairs(v226) do if v2996.Active then local v3265=0 + 0 ;while true do if (v3265==0) then v2996.Active=false;v2996.Part.CFrame=CFrame.new(0 + 0 , -(3775 -2775),0 + 0 );break;end end end end if v222 then v60.Brightness=v220;v222=false;end v2256=1 + 0 ;end end end local v611=v63.Character;local v612=v611 and v611:FindFirstChild("HumanoidRootPart") ;if  not v612 then return;end local v613=math.clamp(math.floor((v218/100) * v227 ),5,v227);local v614=v612.Position;for v1452=1427 -(85 + 1341) ,v227 do local v1453=v226[v1452];if (v1452<=v613) then if ( not v1453.Active or (v1453.Part.Position.Y<(v614.Y-(17 -7)))) then local v2843=0;while true do if (v2843==1) then if (v217=="Snow") then v1453.Part.Size=Vector3.new(0.4 -0 ,372.4 -(45 + 327) ,0.4 -0 );v1453.Part.Shape=Enum.PartType.Ball;v1453.Speed=math.random(512 -(444 + 58) ,11 + 14 );v1453.Drift=math.random( -(1 + 4),3 + 2 )/(28 -18) ;elseif (v217=="Storm") then local v3529=1732 -(64 + 1668) ;while true do if (v3529==(1973 -(1227 + 746))) then v1453.Part.Size=Vector3.new(0.09 -0 ,5.2 -2 ,494.09 -(415 + 79) );v1453.Part.Shape=Enum.PartType.Block;v3529=1 + 0 ;end if (v3529==(492 -(142 + 349))) then v1453.Speed=math.random(65 + 85 ,302 -82 );v1453.Drift=0 + 0 ;break;end end else v1453.Part.Size=Vector3.new(0.08 + 0 ,5.5 -3 ,0.08);v1453.Part.Shape=Enum.PartType.Block;v1453.Speed=math.random(1944 -(1710 + 154) ,438 -(200 + 118) );v1453.Drift=0;end break;end if (v2843==0) then v1453.Part.CFrame=CFrame.new(v614 + Vector3.new(math.random( -60,60),math.random(20,20 + 30 ),math.random( -(104 -44),88 -28 )) );v1453.Active=true;v2843=1 + 0 ;end end else v1453.Part.CFrame=v1453.Part.CFrame-Vector3.new(v1453.Drift,v1453.Speed * ((1 + 0)/(33 + 27)) ,0 + 0 ) ;v1453.Part.Color=v219;end elseif v1453.Active then v1453.Active=false;v1453.Part.CFrame=CFrame.new(0 -0 , -(2250 -(363 + 887)),0 -0 );end end if ((v217=="Storm") and (tick()>=v221)) then local v2257=0;while true do if (v2257==(0 -0)) then v221=tick() + (math.random(7 + 33 ,421 -241 )/(7 + 3)) ;v222=true;v2257=1;end if (v2257==1) then task.spawn(function() local v2997=0;while true do if (v2997==(1664 -(674 + 990))) then for v3421=1 + 0 ,math.random(1 + 0 ,3 -0 ) do v60.Brightness=v220 + (1061 -(507 + 548)) ;task.wait(837.06 -(289 + 548) );if ( not v216 or (v217~="Storm")) then break;end v60.Brightness=v220;task.wait(math.random(1822 -(821 + 997) ,267 -(195 + 60) )/(27 + 73) );end v60.Brightness=v220;break;end end end);break;end end end end);local v228=false;local v229="Highlight";local v230=false;local v231=5;local v232=Color3.fromRGB(1756 -(251 + 1250) ,747 -492 ,176 + 79 );local v233=Color3.fromRGB(1287 -(809 + 223) ,372 -117 ,255);local v234=0.5;local v235=0;local v236=false;local v237=270 -180 ;local v238=(workspace.CurrentCamera and workspace.CurrentCamera.FieldOfView) or (231 -161) ;local v239=0;local v240={};local v241=false;local v242,v243=0,true;local function v244() v243=true;end local function v245(v615) v240={Parts={},Clothing={},Textures={},Mesh={}};for v1454,v1455 in ipairs(v615:GetDescendants()) do if v1455:IsA("BasePart") then v240.Parts[v1455]={Material=v1455.Material,Color=v1455.Color,Transparency=v1455.Transparency};elseif (v1455:IsA("Clothing") or v1455:IsA("ShirtGraphic")) then v240.Clothing[v1455]=v1455.Parent;elseif (v1455:IsA("Decal") or v1455:IsA("Texture")) then v240.Textures[v1455]=v1455.Transparency;end end end local function v246(v616) local v617=0;local v618;while true do if (v617==(2 + 0)) then for v2585,v2586 in pairs(v240.Parts or {} ) do if (v2585 and v2585.Parent) then v2585.Material=v2586.Material;v2585.Color=v2586.Color;v2585.Transparency=v2586.Transparency;end end for v2587,v2588 in pairs(v240.Clothing or {} ) do if v2587 then v2587.Parent=v2588;end end v617=2 + 1 ;end if (v617==(617 -(14 + 603))) then if  not v241 then return;end v241=false;v617=130 -(118 + 11) ;end if (v617==(1 + 2)) then for v2589,v2590 in pairs(v240.Textures or {} ) do if (v2589 and v2589.Parent) then v2589.Transparency=v2590;end end for v2591,v2592 in pairs(v240.Mesh or {} ) do if (v2591 and v2591.Parent) then pcall(function() v2591.TextureID=v2592;end);end end v617=4 + 0 ;end if (v617==(2 -1)) then v618=v130:FindFirstChild("SelfHighlight");if v618 then v618:Destroy();end v617=951 -(551 + 398) ;end if (v617==(3 + 1)) then v240={};break;end end end local v247={ForceField=Enum.Material.ForceField,["Solid Color"]=Enum.Material.SmoothPlastic,Neon=Enum.Material.Neon,Glass=Enum.Material.Glass,Ice=Enum.Material.Ice,Metal=Enum.Material.Metal,Foil=Enum.Material.Foil,Marble=Enum.Material.Marble,Granite=Enum.Material.Granite,Wood=Enum.Material.Wood,Brick=Enum.Material.Brick,Cobblestone=Enum.Material.Cobblestone,Sand=Enum.Material.Sand,Fabric=Enum.Material.Fabric,Concrete=Enum.Material.Concrete,Slate=Enum.Material.Slate};local function v248() local v619=v63.Character;if ( not v619 or  not v619:FindFirstChild("HumanoidRootPart")) then return;end if  not v228 then v246(v619);return;end if  not v241 then v245(v619);v241=true;end local v620=(v230 and Color3.fromHSV(v239,1,1)) or v232 ;if (v229=="Highlight") then for v2440,v2441 in pairs(v240.Clothing) do if v2440 then v2440.Parent=v2441;end end for v2442,v2443 in pairs(v240.Textures) do if v2442 then v2442.Transparency=v2443;end end for v2444,v2445 in pairs(v240.Parts) do if v2444 then local v2852=0;while true do if (v2852==(0 + 0)) then v2444.Material=v2445.Material;v2444.Color=v2445.Color;v2852=1;end if (v2852==(1 + 0)) then v2444.Transparency=v2445.Transparency;break;end end end end local v2258=v130:FindFirstChild("SelfHighlight") or Instance.new("Highlight") ;v2258.Name="SelfHighlight";v2258.Adornee=v619;v2258.Enabled=true;v2258.FillColor=v620;v2258.OutlineColor=(v230 and v620) or v233 ;v2258.FillTransparency=v234;v2258.OutlineTransparency=v235;v2258.DepthMode=Enum.HighlightDepthMode.AlwaysOnTop;v2258.Parent=v130;elseif v247[v229] then local v2593=0 -0 ;local v2594;local v2595;while true do if (v2593==1) then for v3274 in pairs(v240.Clothing) do if v3274 then v3274.Parent=nil;end end for v3275 in pairs(v240.Textures) do if v3275 then v3275.Transparency=2 -1 ;end end v2593=2;end if (v2593==(0 + 0)) then v2594=v130:FindFirstChild("SelfHighlight");if v2594 then v2594:Destroy();end v2593=3 -2 ;end if (v2593==2) then v2595=v247[v229];for v3276,v3277 in ipairs(v619:GetDescendants()) do if (v3277:IsA("BasePart") and (v3277.Name~="HumanoidRootPart")) then if v3277:IsA("MeshPart") then local v3535=0 + 0 ;while true do if (v3535==(89 -(40 + 49))) then if (v240.Mesh and (v240.Mesh[v3277]==nil)) then v240.Mesh[v3277]=v3277.TextureID;end pcall(function() v3277.TextureID="";end);break;end end end v3277.Material=v2595;v3277.Color=v620;v3277.Transparency=v234;end end break;end end end end v57.RenderStepped:Connect(function(v621) local v622=0 -0 ;while true do if (v622==(491 -(99 + 391))) then v242=v242 + v621 ;if (v243 or (v242>=(0.2 + 0))) then v242=0;v243=false;v248();if v236 then workspace.CurrentCamera.FieldOfView=v237;end elseif (v230 and v241) then v248();elseif v236 then workspace.CurrentCamera.FieldOfView=v237;end break;end if (v622==(0 -0)) then if v54.Unloaded then return;end if v230 then v239=(v239 + (v621 * v231 * 0.2))%(2 -1) ;end v622=1 + 0 ;end end end);v63.CharacterAdded:Connect(function() v241=false;v240={};end);local v249=v60:FindFirstChild("CustomColorCorrection") or Instance.new("ColorCorrectionEffect") ;v249.Name="CustomColorCorrection";v249.Parent=v60;local v252=v60:FindFirstChild("CustomBloom") or Instance.new("BloomEffect") ;v252.Name="CustomBloom";v252.Parent=v60;local v255=false;local v256=false;local function v257(v623,v624,v625,v626) v249.Enabled=v255;if v255 then local v2269=0 -0 ;while true do if (0==v2269) then v249.Brightness=v623;v249.Contrast=v624;v2269=1605 -(1032 + 572) ;end if (v2269==(418 -(203 + 214))) then v249.Saturation=v625;v249.TintColor=v626;break;end end end end local function v258(v628,v629,v630) v252.Enabled=v256;if v256 then local v2270=1817 -(568 + 1249) ;while true do if (v2270==0) then v252.Intensity=v628;v252.Size=v629;v2270=1 + 0 ;end if (v2270==(2 -1)) then v252.Threshold=v630;break;end end end end local v259={Enabled=false,CurrentID="6031075931",IconSize=123 -91 };local v260={["Clean White Dot"]="6031075931",["Red Dot"]="6830874135",["Crosshair Small"]="138380362",["Crosshair Large"]="254508119",["Circle Scope"]="3523723128",["Purple Crosshair"]="6031075931",["Target Scope"]="5820712980"};local v261={};for v632,v633 in pairs(v260) do table.insert(v261,v632);end local v262=Instance.new("ScreenGui");v262.Name="CustomShiftlockOverlay";v262.ResetOnSpawn=false;pcall(function() v262.Parent=v61;end);if  not v262.Parent then v262.Parent=v65;end local v265=Instance.new("ImageLabel");v265.Name="CursorImage";v265.AnchorPoint=Vector2.new(1306.5 -(913 + 393) ,0.5);v265.BackgroundTransparency=2 -1 ;v265.Size=UDim2.new(0,44 -12 ,410 -(269 + 141) ,70 -38 );v265.Visible=false;v265.Parent=v262;local function v272(v635) pcall(function() local v1457=1981 -(362 + 1619) ;local v1458;while true do if (v1457==0) then v1458=v61:FindFirstChild("RobloxGui") or v63.PlayerGui ;for v2860,v2861 in pairs(v1458:GetDescendants()) do if (v2861:IsA("ImageLabel") and ((v2861.Name=="ShiftLockCursor") or (v2861.Name=="MouseIcon"))) then v2861.ImageTransparency=(v635 and 1) or (1625 -(950 + 675)) ;end end break;end end end);end v57.RenderStepped:Connect(function() local v636=0;while true do if ((0 + 0)==v636) then if v54.Unloaded then return;end if  not v259.Enabled then local v2862=1179 -(216 + 963) ;while true do if (v2862==0) then v265.Visible=false;v272(false);v2862=1288 -(485 + 802) ;end if (v2862==1) then return;end end end v636=1;end if (v636==1) then if (v58.MouseBehavior==Enum.MouseBehavior.LockCenter) then v272(true);local v2863=workspace.CurrentCamera.ViewportSize;v265.Position=UDim2.new(559 -(432 + 127) ,v2863.X/(1075 -(1065 + 8)) ,0 + 0 ,v2863.Y/(1603 -(635 + 966)) );v265.Image="rbxassetid://"   .. tostring(v259.CurrentID):gsub("%D","") ;v265.Size=UDim2.new(0 + 0 ,v259.IconSize,42 -(5 + 37) ,v259.IconSize);v265.Visible=true;else local v2868=0 -0 ;while true do if (v2868==(0 + 0)) then v265.Visible=false;v272(false);break;end end end break;end end end);local v273={CurrentTime=14,FreezeTime=false};local function v274(v637) v273.CurrentTime=v637;v60.ClockTime=v637;end v57.RenderStepped:Connect(function() if v273.FreezeTime then v60.ClockTime=v273.CurrentTime;end end);local function v275(v640,v641,v642) local v643=Instance.new(v640);local v644=nil;for v1459,v1460 in pairs(v641) do if (v1459=="Parent") then v644=v1460;else v643[v1459]=v1460;end end v643.Parent=v644 or v642 ;return v643;end local v276={Exposure=v60.ExposureCompensation,FogStart=v60.FogStart,FogEnd=v60.FogEnd,FogColor=v60.FogColor,Fov=(workspace.CurrentCamera and workspace.CurrentCamera.FieldOfView) or (110 -40) };local v277={Enabled=true,AtmoEnabled=true,Density=0.32 + 0 ,Offset=0.5 -0 ,Haze=3.8 -2 ,Glare=0.35 -0 ,AtmoColor=Color3.fromRGB(475 -276 ,144 + 55 ,728 -(318 + 211) ),AtmoDecay=Color3.fromRGB(106,112,125),CcEnabled=true,Brightness=0 -0 ,Contrast=1587.12 -(963 + 624) ,Saturation=0.12 + 0 ,Exposure=846.12 -(518 + 328) ,TintColor=Color3.fromRGB(594 -339 ,389 -145 ,230),FogEnabled=false,FogStart=150,FogEnd=1717 -(301 + 16) ,FogColor=Color3.fromRGB(556 -366 ,561 -361 ,561 -346 ),VignetteEnabled=true,VignetteStrength=0.5 + 0 };local v278={Default={AtmoEnabled=false,CcEnabled=false,FogEnabled=false,VignetteEnabled=false,Exposure=0},Cinematic={AtmoEnabled=true,Density=0.32 + 0 ,Haze=1.8,Glare=0.35,AtmoColor=Color3.fromRGB(424 -225 ,120 + 79 ,19 + 180 ),AtmoDecay=Color3.fromRGB(336 -230 ,37 + 75 ,125),CcEnabled=true,Contrast=1019.12 -(829 + 190) ,Saturation=0.12 -0 ,TintColor=Color3.fromRGB(255,307 -63 ,317 -87 ),Exposure=0.12,VignetteEnabled=true,VignetteStrength=0.5,FogEnabled=false},Hazy={AtmoEnabled=true,Density=0.55 -0 ,Haze=1.5 + 2 ,Glare=0.15 + 0 ,AtmoColor=Color3.fromRGB(667 -447 ,220,225),AtmoDecay=Color3.fromRGB(133 + 7 ,145,773 -(520 + 93) ),CcEnabled=true,Contrast=276.05 -(259 + 17) ,Saturation= -0.08,TintColor=Color3.fromRGB(15 + 230 ,245,250),Exposure=0.08,FogEnabled=true,FogStart=29 + 51 ,FogEnd=3046 -2146 ,FogColor=Color3.fromRGB(796 -(396 + 195) ,210,220),VignetteEnabled=true,VignetteStrength=0.35},Vibrant={AtmoEnabled=true,Density=0.25 -0 ,Haze=1762.2 -(440 + 1321) ,Glare=1829.45 -(1059 + 770) ,AtmoColor=Color3.fromRGB(920 -721 ,744 -(424 + 121) ,37 + 162 ),AtmoDecay=Color3.fromRGB(106,1459 -(641 + 706) ,125),CcEnabled=true,Contrast=0.22,Saturation=0.4,TintColor=Color3.fromRGB(255,101 + 154 ,695 -(249 + 191) ),Exposure=0.1 -0 ,VignetteEnabled=false,FogEnabled=false},Noir={AtmoEnabled=true,Density=0.4 + 0 ,Haze=2.2,Glare=0.1 -0 ,AtmoColor=Color3.fromRGB(587 -(183 + 244) ,8 + 152 ,170),AtmoDecay=Color3.fromRGB(60,790 -(434 + 296) ,223 -153 ),CcEnabled=true,Contrast=0.3,Saturation= -(512.85 -(169 + 343)),Brightness= -(0.03 + 0),TintColor=Color3.fromRGB(235,235,422 -182 ),Exposure= -(0.05 -0),VignetteEnabled=true,VignetteStrength=0.75 + 0 ,FogEnabled=true,FogStart=100,FogEnd=1985 -1285 ,FogColor=Color3.fromRGB(40,40,1171 -(651 + 472) )},Night={AtmoEnabled=true,Density=0.45 + 0 ,Haze=1.5 + 1 ,Glare=0.05 -0 ,AtmoColor=Color3.fromRGB(603 -(397 + 86) ,135,1046 -(423 + 453) ),AtmoDecay=Color3.fromRGB(40,45,8 + 62 ),CcEnabled=true,Contrast=0.15,Saturation= -0.15,TintColor=Color3.fromRGB(27 + 173 ,188 + 27 ,255),Exposure= -(0.1 + 0),VignetteEnabled=true,VignetteStrength=0.6 + 0 ,FogEnabled=true,FogStart=1250 -(50 + 1140) ,FogEnd=519 + 81 ,FogColor=Color3.fromRGB(15 + 10 ,2 + 28 ,50)}};local v279=v275("Atmosphere",{Name="teddyhubAtmosphere",Color=v277.AtmoColor,Decay=v277.AtmoDecay},nil);local v280=v275("ColorCorrectionEffect",{Name="teddyhubColorCorrection",Parent=v60});local v281=v275("ScreenGui",{Name="teddyhubVignette",IgnoreGuiInset=true,ResetOnSpawn=false,DisplayOrder=100,Enabled=false,Parent=v65});local v282={};local function v283(v646,v647,v648,v649) local v650=v275("Frame",{Name=v646,Size=v647,Position=v648,BackgroundColor3=Color3.new(0,0,0 -0 ),BackgroundTransparency=0 + 0 ,BorderSizePixel=596 -(157 + 439) ,ZIndex=8 -3 },v281);local v651=v275("UIGradient",{Rotation=v649,Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0 -0 ,1),NumberSequenceKeypoint.new(2 -1 ,919 -(782 + 136) )})},v650);table.insert(v282,v651);end v283("Top",UDim2.new(856 -(112 + 743) ,0,1171.32 -(1026 + 145) ,0 + 0 ),UDim2.new(718 -(493 + 225) ,0 -0 ,0 + 0 ,0 -0 ),90);v283("Bottom",UDim2.new(1,0,0.32 + 0 ,0 -0 ),UDim2.new(0 + 0 ,0 -0 ,0.68,1595 -(210 + 1385) ),1959 -(1201 + 488) );v283("Left",UDim2.new(0.32,0,1 + 0 ,0),UDim2.new(0 -0 ,0,0 -0 ,0),585 -(352 + 233) );v283("Right",UDim2.new(0.32 -0 ,0,1 + 0 ,0 -0 ),UDim2.new(0.68,0,0,574 -(489 + 85) ),1681 -(277 + 1224) );local v284=false;local v285=false;local function v286() v281.Enabled=v277.Enabled and v277.VignetteEnabled ;if  not v281.Enabled then return;end local v653=1 -math.clamp(v277.VignetteStrength,1493 -(663 + 830) ,1) ;for v1461,v1462 in ipairs(v282) do v1462.Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0 -0 ,v653),NumberSequenceKeypoint.new(1,1 + 0 )});end end local function v287() local v654=0;local v655;local v656;local v657;while true do if (v654==(1 + 0)) then if v280.Enabled then v280.Brightness=v277.Brightness;v280.Contrast=v277.Contrast;v280.Saturation=v277.Saturation;v280.TintColor=v277.TintColor;end v656=v655 and v277.CcEnabled ;if v656 then v60.ExposureCompensation=v277.Exposure;elseif v284 then v60.ExposureCompensation=v276.Exposure;end v654=2;end if (v654==(1 + 1)) then v284=v656;v657=v655 and v277.FogEnabled ;if v657 then local v2879=0 + 0 ;while true do if (0==v2879) then v60.FogStart=v277.FogStart;v60.FogEnd=v277.FogEnd;v2879=251 -(172 + 78) ;end if (v2879==(1 -0)) then v60.FogColor=v277.FogColor;break;end end elseif v285 then local v3183=0 + 0 ;while true do if (v3183==(0 -0)) then v60.FogStart=v276.FogStart;v60.FogEnd=v276.FogEnd;v3183=1 + 0 ;end if (v3183==(1 + 0)) then v60.FogColor=v276.FogColor;break;end end end v654=4 -1 ;end if ((3 -0)==v654) then v285=v657;v286();break;end if ((0 + 0)==v654) then v655=v277.Enabled;if (v655 and v277.AtmoEnabled) then v279.Parent=v60;v279.Density=v277.Density;v279.Offset=v277.Offset;v279.Haze=v277.Haze;v279.Glare=v277.Glare;v279.Color=v277.AtmoColor;v279.Decay=v277.AtmoDecay;else v279.Parent=nil;end v280.Enabled=v655 and v277.CcEnabled ;v654=1 + 0 ;end end end local v288={};local function v289(v658,v659,v660) table.insert(v288,{kind=v659,idx=v658,key=v660});end local function v290(v661,v662,v663,v664) v664.Callback=function(v1464) local v1465=0;while true do if (v1465==(0 + 0)) then v277[v663]=v1464;v287();break;end end end;v661:AddToggle(v662,v664);v289(v662,"toggle",v663);end local function v291(v666,v667,v668,v669) v669.Callback=function(v1466) v277[v668]=v1466;v287();end;v666:AddSlider(v667,v669);v289(v667,"slider",v668);end local function v292(v671,v672,v673,v674,v675) v671:AddLabel(v672):AddColorPicker(v673,{Default=v675,Callback=function(v1468) local v1469=0;while true do if (v1469==(0 -0)) then v277[v674]=v1468;v287();break;end end end});v289(v673,"color",v674);end local function v293() for v1470,v1471 in ipairs(v288) do local v1472=0;local v1473;while true do if ((0 -0)==v1472) then v1473=v277[v1471.key];if (v1471.kind=="toggle") then if (Toggles[v1471.idx] and (Toggles[v1471.idx].Value~=v1473)) then Toggles[v1471.idx]:SetValue(v1473);end elseif (v1471.kind=="slider") then if (Options[v1471.idx] and (Options[v1471.idx].Value~=v1473)) then Options[v1471.idx]:SetValue(v1473);end elseif (v1471.kind=="color") then if (Options[v1471.idx] and (Options[v1471.idx].Value~=v1473)) then Options[v1471.idx]:SetValueRGB(v1473);end end break;end end end end local function v294(v676) local v677=0 + 0 ;local v678;while true do if (v677==2) then v287();break;end if (v677==(1 + 0)) then for v2599,v2600 in pairs(v678) do v277[v2599]=v2600;end v293();v677=2;end if (v677==0) then v678=v278[v676];if  not v678 then return;end v677=1;end end end local v295={enabled=false,teamCheck=false,fov=200,hitpart="Head"};local function v296() local v679=Vector2.new(v69.ViewportSize.X/(449 -(133 + 314)) ,v69.ViewportSize.Y/(1 + 1) );local v680,v681=nil,v295.fov;for v1474,v1475 in ipairs(v0:GetPlayers()) do local v1476=213 -(199 + 14) ;local v1477;local v1478;local v1479;local v1480;local v1481;while true do if (v1476==2) then if (v295.teamCheck and (v1475.Team==v63.Team)) then continue;end v1479,v1480=v69:WorldToViewportPoint(v1478.Position);v1476=3;end if (v1476==(14 -10)) then if (v1481<v681) then v681=v1481;v680=v1478;end break;end if (v1476==(1552 -(647 + 902))) then if  not v1480 then continue;end v1481=(Vector2.new(v1479.X,v1479.Y) -v679).Magnitude;v1476=11 -7 ;end if (v1476==(234 -(85 + 148))) then v1478=v1475.Character:FindFirstChild(v295.hitpart) or v1475.Character:FindFirstChild("HumanoidRootPart") ;if ( not v1477 or (v1477.Health<=0) or  not v1478) then continue;end v1476=1291 -(426 + 863) ;end if (v1476==(0 -0)) then if ((v1475==v63) or  not v1475.Character) then continue;end v1477=v1475.Character:FindFirstChildOfClass("Humanoid");v1476=1;end end end return v680;end local v297=false;pcall(function() local v682=getrawmetatable(game);local v683=rawget(v682,"__index");setreadonly(v682,false);rawset(v682,"__index",newcclosure(function(v1482,v1483) if (v1482==v64) then if (v171.silent and v171.silentPart) then if (v1483=="Hit") then return v171.silentCFrame;end if (v1483=="Target") then return v171.silentPart;end if (v1483=="UnitRay") then local v3184=1654 -(873 + 781) ;local v3185;while true do if (v3184==(0 -0)) then v3185=v69.CFrame.Position;return Ray.new(v3185,v171.silentCFrame.Position-v3185 );end end end end if v295.enabled then if (v1483=="Hit") then local v3186=v296();if v3186 then return v3186.CFrame;end elseif (v1483=="Target") then local v3360=0 -0 ;local v3361;while true do if (0==v3360) then v3361=v296();if v3361 then return v3361;end break;end end elseif (v1483=="UnitRay") then local v3495=0 + 0 ;local v3496;while true do if (v3495==(0 -0)) then v3496=v296();if v3496 then local v3599=0 -0 ;local v3600;while true do if (v3599==(0 -0)) then v3600=v69.CFrame.Position;return Ray.new(v3600,v3496.Position-v3600 );end end end break;end end end end end return v683(v1482,v1483);end));setreadonly(v682,true);v297=true;end);if  not v297 then pcall(function() local v2273=1947 -(414 + 1533) ;local v2274;local v2275;while true do if (v2273==(2 + 0)) then setreadonly(v2274,true);break;end if (v2273==(556 -(443 + 112))) then setreadonly(v2274,false);rawset(v2274,"__namecall",newcclosure(function(v3006,...) local v3007=getnamecallmethod();if (v3006==v64) then local v3286=0;while true do if (v3286==(1479 -(888 + 591))) then if (v171.silent and v171.silentPart) then local v3557=0 -0 ;while true do if (v3557==(0 + 0)) then if (v3007=="Hit") then return v171.silentCFrame;end if (v3007=="Target") then return v171.silentPart;end v3557=3 -2 ;end if (v3557==(1 + 0)) then if (v3007=="UnitRay") then local v3624=v69.CFrame.Position;return Ray.new(v3624,v171.silentCFrame.Position-v3624 );end break;end end end if v295.enabled then if (v3007=="Hit") then local v3587=v296();if v3587 then return v3587.CFrame;end elseif (v3007=="Target") then local v3613=0;local v3614;while true do if (v3613==(0 + 0)) then v3614=v296();if v3614 then return v3614;end break;end end elseif (v3007=="UnitRay") then local v3628=0 + 0 ;local v3629;while true do if (v3628==0) then v3629=v296();if v3629 then local v3635=0 -0 ;local v3636;while true do if (v3635==(0 -0)) then v3636=v69.CFrame.Position;return Ray.new(v3636,v3629.Position-v3636 );end end end break;end end end end break;end end end return v2275(v3006,...);end));v2273=1680 -(136 + 1542) ;end if (v2273==(0 -0)) then v2274=getrawmetatable(game);v2275=rawget(v2274,"__namecall");v2273=1;end end end);end local function v298() local v684=0 + 0 ;local v685;local v686;local v687;while true do if (v684==(2 -0)) then v687=nil;function v687(v2603) local v2604=v63.Character and v63.Character:FindFirstChild("Head") ;return (v2604~=nil) and ((v2603-v2604.Position).Magnitude<(11 + 4)) ;end v684=489 -(68 + 418) ;end if (v684==(8 -5)) then if hookfunction then pcall(function() local v3008=0 -0 ;local v3009;while true do if (v3008==0) then v3009=v69.ViewportPointToRay;hookfunction(v3009,function(v3435,v3436,v3437) local v3438=0 + 0 ;while true do if (v3438==(1092 -(770 + 322))) then if ((v3435==v69) and v686()) then local v3588=Vector2.new(v3435.ViewportSize.X,v3435.ViewportSize.Y) * (0.5 + 0) ;if ((v3436-v3588).Magnitude<(24 + 56)) then local v3615=0;local v3616;while true do if (v3615==0) then v3616=v3435.CFrame.Position;return Ray.new(v3616,v685(v3616));end end end end return v3009(v3435,v3436,v3437);end end end);break;end end end);pcall(function() local v3010=v69.ScreenPointToRay;hookfunction(v3010,function(v3187,v3188,v3189,v3190) local v3191=0;while true do if (v3191==(0 + 0)) then if ((v3187==v69) and v686()) then local v3536=Vector2.new(v3187.ViewportSize.X,v3187.ViewportSize.Y) * (0.5 -0) ;if ((Vector2.new(v3188,v3189) -v3536).Magnitude<80) then local v3571=0 -0 ;local v3572;while true do if (v3571==(0 -0)) then v3572=v3187.CFrame.Position;return Ray.new(v3572,v685(v3572));end end end end return v3010(v3187,v3188,v3189,v3190);end end end);end);pcall(function() local v3011=workspace.Raycast;hookfunction(v3011,function(v3192,v3193,v3194,v3195) if (v686() and v687(v3193)) then return v3011(v3192,v3193,v685(v3193),v3195);end return v3011(v3192,v3193,v3194,v3195);end);end);pcall(function() local v3012=workspace.FindPartOnRayWithIgnoreList;if v3012 then hookfunction(v3012,function(v3363,v3364,v3365,...) local v3366=0 -0 ;while true do if (v3366==0) then if (v686() and v687(v3364.Origin)) then return v3012(v3363,Ray.new(v3364.Origin,v685(v3364.Origin)),v3365,...);end return v3012(v3363,v3364,v3365,...);end end end);end end);end break;end if (v684==(1 + 0)) then v686=nil;function v686() return v171.silent and (v171.silentPart~=nil) and (tick()<v171.silentUntil) ;end v684=2;end if (v684==(0 -0)) then v685=nil;function v685(v2605) return v171.silentCFrame.Position-v2605 ;end v684=1 + 0 ;end end end v8("silent rays",v298);local v299={};local function v300() print("[teddyhub] OK    LinoriaLib loaded, creating window");local v688=v54:CreateWindow({Title="teddyhub v.3",Center=true,AutoShow=true,TabPadding=8,MenuFadeTime=0.2 + 0 });local v689={Combat=v688:AddTab("combat"),Visuals=v688:AddTab("visuals"),Movement=v688:AddTab("movement"),Misc=v688:AddTab("misc"),Crosshair=v688:AddTab("crosshair"),Settings=v688:AddTab("settings")};print("[teddyhub] OK    tab combat built");v299.combatL=v689.Combat:AddLeftTabbox();v299.combatR=v689.Combat:AddRightTabbox();local v692=v299.combatL:AddTab("aimbot");local v693=v299.combatR:AddTab("colors");local v694=v299.combatR:AddTab("anti-aim");local v695=v299.combatR:AddTab("trigger");v692:AddToggle("AimbotOn",{Text="aimbot",Default=false,Callback=function(v1484) local v1485=0 + 0 ;while true do if ((0 -0)==v1485) then v140=v1484;v152.Visible=v1484;break;end end end});v692:AddToggle("LinkFovCH",{Text="link fov",Default=false,Callback=function(v1486) v149=v1486;end});v692:AddSlider("Smooth",{Text="smoothing",Default=5,Min=0 -0 ,Max=34 + 66 ,Rounding=0 -0 ,Callback=function(v1487) v139=1 -(v1487/(330 -230)) ;end});v692:AddSlider("PredStr",{Text="prediction",Default=65,Min=0 + 0 ,Max=989 -789 ,Rounding=0,Callback=function(v1488) v138=v1488/(1831 -(762 + 69)) ;end});v692:AddSlider("FovSize",{Text="radius",Default=100,Min=0 -0 ,Max=862 + 138 ,Rounding=0,Callback=function(v1489) local v1490=0;while true do if (v1490==0) then v136=v1489;v152.Radius=v1489;break;end end end});v692:AddToggle("WallChk",{Text="wall",Default=true,Callback=function(v1491) v141=v1491;end});v692:AddToggle("StickyOn",{Text="sticky",Default=false,Callback=function(v1492) v142=v1492;end});v692:AddDropdown("AB_Mode",{Text="aim mode",Default="Camera",Values={"Camera","Mouse"},Callback=function(v1493) v150=v1493;end});v692:AddSlider("AB_MouseSens",{Text="mouse sens",Default=16 + 34 ,Min=1 + 0 ,Max=1168 -868 ,Rounding=157 -(8 + 149) ,Callback=function(v1494) v151=v1494/(1420 -(1199 + 121)) ;end});v692:AddToggle("TeamChk",{Text="team",Default=false,Callback=function(v1495) v143=v1495;end});v692:AddToggle("HealthChk",{Text="health",Default=false,Callback=function(v1496) v144=v1496;end});v692:AddSlider("MinHp",{Text="min hp",Default=0 -0 ,Min=0 -0 ,Max=42 + 58 ,Rounding=0 -0 ,Callback=function(v1497) v145=v1497;end});v692:AddToggle("RainbowFov",{Text="rainbow",Default=false,Callback=function(v1498) v134=v1498;end});v693:AddLabel("fov"):AddColorPicker("FovCol",{Default=v146,Callback=function(v1499) local v1500=0;while true do if (v1500==(0 -0)) then v146=v1499;if  not v134 then v152.Color=v1499;end break;end end end});v693:AddLabel("target"):AddColorPicker("TgtCol",{Default=v147,Callback=function(v1501) v147=v1501;end});v693:AddToggle("TargetHUD_Enable",{Text="target hud",Default=false,Callback=function(v1502) v127=v1502;if  not v1502 then v71.frame.Visible=false;end end});v694:AddToggle("AA_Enable",{Text="anti-aim",Default=false,Callback=function(v1503) v168.enabled=v1503;end});v694:AddDropdown("AA_YawMode",{Text="yaw",Default="At Targets",Values={"At Targets","Backwards","Forward","Spin","Random","Freestanding","Manual","Zero"},Callback=function(v1505) v168.yawMode=v1505;end});v694:AddSlider("AA_YawOffset",{Text="yaw offset",Default=469 -(304 + 165) ,Min= -(170 + 10),Max=340 -(54 + 106) ,Rounding=0,Callback=function(v1507) v168.yawOffset=v1507;end});v694:AddToggle("AA_YawJitter",{Text="yaw jitter",Default=false,Callback=function(v1509) v168.yawJitter=v1509;end});v694:AddSlider("AA_YawJitterRange",{Text="jitter range",Default=30,Min=1,Max=2059 -(1618 + 351) ,Rounding=0 + 0 ,Callback=function(v1511) v168.yawJitterRange=v1511;end});v694:AddDropdown("AA_PitchMode",{Text="pitch",Default="Zero",Values={"Down","Up","Zero","Random","Jitter","Forward"},Callback=function(v1513) v168.pitchMode=v1513;end});v694:AddSlider("AA_PitchOffset",{Text="pitch offset",Default=0,Min= -(43 + 46),Max=1378 -(1140 + 149) ,Rounding=0,Callback=function(v1515) v168.pitchOffset=v1515;end});v694:AddToggle("AA_LBY",{Text="fake yaw (lby)",Default=false,Callback=function(v1517) v168.lbyEnabled=v1517;end});v694:AddSlider("AA_LBYOffset",{Text="lby offset",Default=60,Min= -180,Max=180,Rounding=0 + 0 ,Callback=function(v1519) v168.lbyOffset=v1519;end});v694:AddDropdown("AA_LBYMode",{Text="lby mode",Default="Jitter",Values={"Static","Jitter","Flip","Random"},Callback=function(v1521) v168.lbyMode=v1521;end});v694:AddSlider("AA_SpinSpeed",{Text="spin speed",Default=84 -39 ,Min=2 + 8 ,Max=360,Rounding=0,Callback=function(v1523) v168.spinSpeed=v1523;end});v694:AddToggle("AA_TeamChk",{Text="team",Default=false,Callback=function(v1525) v168.teamCheck=v1525;end});v694:AddLabel("manual yaw: hold Z = left, X = right");v694:AddDivider();v694:AddToggle("AA_VeloDesync",{Text="desync",Default=false,Callback=function(v1527) v168.velocityDesync=v1527;end});v694:AddSlider("AA_VeloY",{Text="desync y",Default=1000,Min= -(17350 -12350),Max=5186 -(165 + 21) ,Rounding=0,Callback=function(v1529) v168.veloY=v1529;end});v695:AddToggle("TrigOn",{Text="enable",Default=false,Callback=function(v1531) v162.enabled=v1531;end});v695:AddToggle("TrigTeam",{Text="team",Default=false,Callback=function(v1533) v162.teamCheck=v1533;end});v695:AddToggle("TrigHold",{Text="hold",Default=false,Callback=function(v1535) v162.holdMode=v1535;end});v695:AddSlider("TrigDelay",{Text="delay",Default=0,Min=111 -(61 + 50) ,Max=42 + 58 ,Rounding=0,Callback=function(v1537) v162.delay=v1537/(476 -376) ;end});v695:AddSlider("TrigCPS",{Text="interval",Default=9 -4 ,Min=1 + 0 ,Max=1510 -(1295 + 165) ,Rounding=0,Callback=function(v1539) v162.clickInterval=v1539/100 ;end});local v696=v299.combatL:AddTab("ragebot");v696:AddToggle("RG_On",{Text="ragebot",Default=false,Callback=function(v1541) v171.enabled=v1541;end});v696:AddToggle("RG_Team",{Text="team check",Default=true,Callback=function(v1543) v171.teamCheck=v1543;end});v696:AddToggle("RG_Wall",{Text="wall check",Default=false,Callback=function(v1545) v171.wallCheck=v1545;end});v696:AddToggle("RG_Visible",{Text="visible only",Default=true,Callback=function(v1547) v171.visibleOnly=v1547;end});v696:AddToggle("RG_Health",{Text="health check",Default=false,Callback=function(v1549) v171.healthCheck=v1549;end});v696:AddDivider();v696:AddToggle("RG_Silent",{Text="silent (camera stays still)",Default=false,Callback=function(v1551) v171.silent=v1551;end});v696:AddToggle("RG_ThirdAim",{Text="aim in third person",Default=true,Callback=function(v1553) v171.thirdAim=v1553;end});v696:AddToggle("RG_AutoFire",{Text="auto shoot",Default=true,Callback=function(v1555) v171.autoFire=v1555;end});v696:AddToggle("RG_Hold",{Text="hold rmb",Default=false,Callback=function(v1557) v171.holdRMB=v1557;end});v696:AddDivider();v696:AddSlider("RG_Fov",{Text="fov",Default=58 + 192 ,Min=0 + 0 ,Max=2397 -(819 + 578) ,Rounding=0,Callback=function(v1559) v171.fov=v1559;end});v696:AddDropdown("RG_Part",{Text="hitpart",Default="Head",Values={"Head","UpperTorso","HumanoidRootPart"},Callback=function(v1561) v171.hitpart=v1561;end});v696:AddSlider("RG_Smooth",{Text="smooth",Default=793 -(588 + 155) ,Min=1282 -(546 + 736) ,Max=100,Rounding=0,Callback=function(v1563) v171.smooth=(1938 -(1834 + 103)) -(v1563/(62 + 38)) ;end});v696:AddSlider("RG_Pred",{Text="prediction",Default=193 -128 ,Min=1766 -(1536 + 230) ,Max=691 -(128 + 363) ,Rounding=0 + 0 ,Callback=function(v1565) v171.prediction=v1565/(2487 -1487) ;end});v696:AddSlider("RG_FireDelay",{Text="fire delay",Default=1 + 1 ,Min=0 -0 ,Max=100,Rounding=0 -0 ,Callback=function(v1567) v171.fireDelay=v1567/(242 -142) ;end});v696:AddSlider("RG_MinHp",{Text="min hp",Default=0 + 0 ,Min=1009 -(615 + 394) ,Max=91 + 9 ,Rounding=0 + 0 ,Callback=function(v1569) v171.minHealth=v1569;end});v696:AddLabel("aims + shoots the moment an enemy enters view");local v697=v299.combatL:AddTab("silent");v697:AddToggle("SAOn",{Text="enable",Default=false,Callback=function(v1571) v295.enabled=v1571;end});v697:AddToggle("SATeam",{Text="team",Default=false,Callback=function(v1573) v295.teamCheck=v1573;end});v697:AddSlider("SAFov",{Text="fov",Default=200,Min=0 -0 ,Max=800,Rounding=0,Callback=function(v1575) v295.fov=v1575;end});v697:AddDropdown("SAPart",{Text="part",Default=1,Values={"Head","UpperTorso","HumanoidRootPart"},Callback=function(v1577) v295.hitpart=v1577;end});local function v698() return {Afternoon={StarCount=6641 -3641 ,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://162001926",SkyboxDn="rbxassetid://161998893",SkyboxFt="rbxassetid://162001897",SkyboxBk="rbxassetid://162001887",SkyboxLf="rbxassetid://162001904",SkyboxRt="rbxassetid://162001919"},["Blue Space"]={StarCount=0,SunAngularSize=38 -17 ,MoonAngularSize=11,SkyboxUp="rbxassetid://367149078",SkyboxDn="rbxassetid://367147970",SkyboxFt="rbxassetid://366731193",SkyboxBk="rbxassetid://366731024",SkyboxLf="rbxassetid://366731613",SkyboxRt="rbxassetid://366731514"},["Classic Roblox"]={StarCount=2115 + 885 ,SunAngularSize=192 -(70 + 101) ,MoonAngularSize=11,SkyboxUp="rbxassetid://11138465883",SkyboxDn="rbxassetid://11138453351",SkyboxFt="rbxassetid://11138458027",SkyboxBk="rbxassetid://11138450201",SkyboxLf="rbxassetid://11138460736",SkyboxRt="rbxassetid://11138463127",SunTextureId="rbxassetid://11138537872"},Cloudy={StarCount=3000,SunAngularSize=51 -30 ,MoonAngularSize=8 + 3 ,SkyboxUp="rbxassetid://246480504",SkyboxDn="rbxassetid://246480523",SkyboxFt="rbxassetid://246480105",SkyboxBk="rbxassetid://246480323",SkyboxLf="rbxassetid://246480549",SkyboxRt="rbxassetid://246480565"},Dusk={StarCount=3000,SunAngularSize=0,MoonAngularSize=11,SkyboxUp="rbxassetid://9778106496",SkyboxDn="rbxassetid://9778110864",SkyboxFt="rbxassetid://9778101192",SkyboxBk="rbxassetid://9778108979",SkyboxLf="rbxassetid://9778103329",SkyboxRt="rbxassetid://9778104889"},Dawn={StarCount=7534 -4534 ,SunAngularSize=21,MoonAngularSize=252 -(123 + 118) ,SkyboxUp="rbxassetid://323478865",SkyboxDn="rbxassetid://323481190",SkyboxFt="rbxassetid://323480314",SkyboxBk="rbxassetid://323479840",SkyboxLf="rbxassetid://323480786",SkyboxRt="rbxassetid://323480131"},["Dark Skies"]={StarCount=727 + 2273 ,SunAngularSize=1 + 20 ,MoonAngularSize=1410 -(653 + 746) ,SkyboxUp="rbxassetid://149397702",SkyboxDn="rbxassetid://149397686",SkyboxFt="rbxassetid://149397697",SkyboxBk="rbxassetid://149397692",SkyboxLf="rbxassetid://149397684",SkyboxRt="rbxassetid://149397688"},Earth={StarCount=5611 -2611 ,SunAngularSize=0,MoonAngularSize=0 -0 ,SkyboxUp="rbxassetid://15753304473",SkyboxDn="rbxassetid://15753362674",SkyboxFt="rbxassetid://15753305823",SkyboxBk="rbxassetid://15753305495",SkyboxLf="rbxassetid://15753310707",SkyboxRt="rbxassetid://15753304774"},Ethereal={StarCount=8032 -5032 ,SunAngularSize=10 + 11 ,MoonAngularSize=8 + 3 ,SkyboxUp="rbxassetid://16823395515",SkyboxDn="rbxassetid://16823388586",SkyboxFt="rbxassetid://16823390254",SkyboxBk="rbxassetid://16823386986",SkyboxLf="rbxassetid://16823392344",SkyboxRt="rbxassetid://16823394120"},Galaxy={StarCount=3000,SunAngularSize=21,MoonAngularSize=10 + 1 ,SkyboxUp="rbxassetid://2049518578",SkyboxDn="rbxassetid://2049519279",SkyboxFt="rbxassetid://2049519882",SkyboxBk="rbxassetid://2049520382",SkyboxLf="rbxassetid://2049522478",SkyboxRt="rbxassetid://2049521207"},Heaven={StarCount=368 + 2632 ,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://7951703855",SkyboxDn="rbxassetid://7951706908",SkyboxFt="rbxassetid://7951694757",SkyboxBk="rbxassetid://7951826533",SkyboxLf="rbxassetid://7951697216",SkyboxRt="rbxassetid://7951700251"},["Horizontal Milky Way"]={StarCount=0 + 0 ,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://714276621",SkyboxDn="rbxassetid://714276541",SkyboxFt="rbxassetid://714276657",SkyboxBk="rbxassetid://714276643",SkyboxLf="rbxassetid://714276648",SkyboxRt="rbxassetid://714276638"},Jungle={StarCount=7354 -4354 ,SunAngularSize=20 + 1 ,MoonAngularSize=20 -9 ,SkyboxUp="rbxassetid://525546479",SkyboxDn="rbxassetid://525544628",SkyboxFt="rbxassetid://525548536",SkyboxBk="rbxassetid://525546178",SkyboxLf="rbxassetid://525550171",SkyboxRt="rbxassetid://525545319"},Mountains={StarCount=4234 -(885 + 349) ,SunAngularSize=21,MoonAngularSize=9 + 2 ,SkyboxUp="rbxassetid://48015387",SkyboxDn="rbxassetid://48015300",SkyboxFt="rbxassetid://368388290",SkyboxBk="rbxassetid://368385273",SkyboxLf="rbxassetid://368390615",SkyboxRt="rbxassetid://368385190"},Nebula={StarCount=3000,SunAngularSize=57 -36 ,MoonAngularSize=31 -20 ,SkyboxUp="rbxassetid://171448889",SkyboxDn="rbxassetid://171448902",SkyboxFt="rbxassetid://171448848",SkyboxBk="rbxassetid://171448875",SkyboxLf="rbxassetid://171448933",SkyboxRt="rbxassetid://171448925"},Night={StarCount=968 -(915 + 53) ,SunAngularSize=822 -(768 + 33) ,MoonAngularSize=42 -31 ,SkyboxUp="rbxassetid://12064131",SkyboxDn="rbxassetid://12064152",SkyboxFt="rbxassetid://12064121",SkyboxBk="rbxassetid://12064107",SkyboxLf="rbxassetid://12063984",SkyboxRt="rbxassetid://12064115"},["Night Light"]={StarCount=3000,SunAngularSize=21,MoonAngularSize=19 -8 ,SkyboxUp="rbxassetid://171447068",SkyboxDn="rbxassetid://171447094",SkyboxFt="rbxassetid://171447041",SkyboxBk="rbxassetid://171447054",SkyboxLf="rbxassetid://171447128",SkyboxRt="rbxassetid://171447111"},["Ocean Sky"]={StarCount=3328 -(287 + 41) ,SunAngularSize=1,MoonAngularSize=0,SkyboxUp="rbxassetid://11854708161",SkyboxDn="rbxassetid://11854687121",SkyboxFt="rbxassetid://11854693863",SkyboxBk="rbxassetid://11854686548",SkyboxLf="rbxassetid://11854696162",SkyboxRt="rbxassetid://11854698541",SunTextureId="rbxassetid://4774583925",MoonTextureId="rbxassetid://4774580371"},["Pink Clouds"]={StarCount=2181 -(638 + 209) ,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://271077958",SkyboxDn="rbxassetid://271077243",SkyboxFt="rbxassetid://271042556",SkyboxBk="rbxassetid://271042516",SkyboxLf="rbxassetid://271042310",SkyboxRt="rbxassetid://271042467"},["Red Dusk"]={StarCount=1559 + 1441 ,SunAngularSize=1707 -(96 + 1590) ,MoonAngularSize=11,SkyboxUp="rbxassetid://136208328681929",SkyboxDn="rbxassetid://123407860042117",SkyboxFt="rbxassetid://132624761762466",SkyboxBk="rbxassetid://85146619291315",SkyboxLf="rbxassetid://102069641249982",SkyboxRt="rbxassetid://136526747107728"},Redshift={StarCount=0,SunAngularSize=21,MoonAngularSize=1683 -(741 + 931) ,SkyboxUp="rbxassetid://401664936",SkyboxDn="rbxassetid://401664862",SkyboxFt="rbxassetid://401664960",SkyboxBk="rbxassetid://401664839",SkyboxLf="rbxassetid://401664881",SkyboxRt="rbxassetid://401664901"},Saturn={StarCount=1474 + 1526 ,SunAngularSize=28 -18 ,MoonAngularSize=0,SkyboxUp="rbxassetid://1898736761",SkyboxDn="rbxassetid://1898727189",SkyboxFt="rbxassetid://1898722814",SkyboxBk="rbxassetid://1898724755",SkyboxLf="rbxassetid://1898729298",SkyboxRt="rbxassetid://1898741025",MoonTextureId="rbxassetid://0"},SFOTH={StarCount=3000,SunAngularSize=98 -77 ,MoonAngularSize=11,SkyboxUp="rbxassetid://1014449",SkyboxDn="rbxassetid://1012891",SkyboxFt="rbxassetid://1012887",SkyboxBk="rbxassetid://1012890",SkyboxLf="rbxassetid://1012889",SkyboxRt="rbxassetid://1012888"},Smoke={StarCount=3000,SunAngularSize=10 + 11 ,MoonAngularSize=5 + 6 ,SkyboxUp="rbxassetid://171410742",SkyboxDn="rbxassetid://171410748",SkyboxFt="rbxassetid://171410730",SkyboxBk="rbxassetid://171410736",SkyboxLf="rbxassetid://171410766",SkyboxRt="rbxassetid://171410755"},["Solid Black"]={StarCount=0 + 0 ,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://2013298",SkyboxDn="rbxassetid://2013298",SkyboxFt="rbxassetid://2013298",SkyboxBk="rbxassetid://2013298",SkyboxLf="rbxassetid://2013298",SkyboxRt="rbxassetid://2013298"},Space={StarCount=0 -0 ,SunAngularSize=7 + 14 ,MoonAngularSize=6 + 5 ,SkyboxUp="rbxassetid://155441905",SkyboxDn="rbxassetid://155441905",SkyboxFt="rbxassetid://155441905",SkyboxBk="rbxassetid://155441905",SkyboxLf="rbxassetid://155441905",SkyboxRt="rbxassetid://155441905"},Storm={StarCount=3000,SunAngularSize=85 -64 ,MoonAngularSize=11,SkyboxUp="rbxassetid://171410789",SkyboxDn="rbxassetid://171410792",SkyboxFt="rbxassetid://171410775",SkyboxBk="rbxassetid://171410784",SkyboxLf="rbxassetid://171410807",SkyboxRt="rbxassetid://171410798"},Sunset={StarCount=4487 + 513 ,SunAngularSize=512 -(64 + 430) ,MoonAngularSize=11 + 0 ,SkyboxUp="rbxassetid://264907379",SkyboxDn="rbxassetid://264907909",SkyboxFt="rbxassetid://264909420",SkyboxBk="rbxassetid://264908339",SkyboxLf="rbxassetid://264909758",SkyboxRt="rbxassetid://264908886"},Underworld={StarCount=3363 -(106 + 257) ,SunAngularSize=15 + 6 ,MoonAngularSize=11,SkyboxUp="rbxassetid://171561009",SkyboxDn="rbxassetid://171561019",SkyboxFt="rbxassetid://171560968",SkyboxBk="rbxassetid://171560994",SkyboxLf="rbxassetid://171561065",SkyboxRt="rbxassetid://171561026"},["Vertical Milky Way"]={StarCount=3721 -(496 + 225) ,SunAngularSize=1.440000057220459,MoonAngularSize=0.5699999928474426 -0 ,SkyboxUp="rbxassetid://5559302033",SkyboxDn="rbxassetid://5559290893",SkyboxFt="rbxassetid://5559300879",SkyboxBk="rbxassetid://5559289158",SkyboxLf="rbxassetid://5559292825",SkyboxRt="rbxassetid://5559302989"},White={StarCount=0 -0 ,SunAngularSize=1679 -(256 + 1402) ,MoonAngularSize=11,SkyboxUp="rbxassetid://321136141",SkyboxDn="rbxassetid://321136141",SkyboxFt="rbxassetid://321136141",SkyboxBk="rbxassetid://321136141",SkyboxLf="rbxassetid://321136141",SkyboxRt="rbxassetid://321136141"}};end local v699=v698();local v700={};for v1579 in pairs(v699) do table.insert(v700,v1579);end table.sort(v700);table.insert(v700,1900 -(30 + 1869) ,"Default");print("[teddyhub] OK    tab visuals built");v299.visL=v689.Visuals:AddLeftTabbox();v299.visR=v689.Visuals:AddRightTabbox();local v703=v299.visL:AddTab("esp");local v704=v299.visR:AddTab("world");v703:AddToggle("ESPOn",{Text="esp",Default=false,Callback=function(v1580) v176.master=v1580;end});v703:AddToggle("ESPBox",{Text="box",Default=true,Callback=function(v1582) v176.box=v1582;end});v703:AddToggle("ESPFill",{Text="fill",Default=false,Callback=function(v1584) v176.fill=v1584;end});v703:AddToggle("ESPName",{Text="name",Default=true,Callback=function(v1586) v176.name=v1586;end});v703:AddToggle("ESPDist",{Text="distance",Default=true,Callback=function(v1588) v176.distance=v1588;end});v703:AddToggle("ESPWep",{Text="weapon",Default=false,Callback=function(v1590) v176.weapon=v1590;end});v703:AddToggle("ESPHp",{Text="health",Default=true,Callback=function(v1592) v176.healthbar=v1592;end});v703:AddToggle("ESPSkel",{Text="skeleton",Default=false,Callback=function(v1594) v176.skeleton=v1594;end});v703:AddToggle("ESPSkelO",{Text="skel outline",Default=false,Callback=function(v1596) v176.skeletonOutline=v1596;end});v704:AddDropdown("ESPType",{Text="type",Default=1370 -(213 + 1156) ,Values={"static","dynamic"},Callback=function(v1598) v177.boundsType=v1598;end});v704:AddSlider("ESPScale",{Text="scale",Default=100,Min=9 + 41 ,Max=1099 -(142 + 757) ,Rounding=0 + 0 ,Callback=function(v1600) v177.boundsScale=v1600;end});v704:AddLabel("color"):AddColorPicker("ESPCol",{Default=v177.color,Callback=function(v1602) v177.color=v1602;end});v704:AddDivider();v704:AddToggle("Visuals_Enabled",{Text="highlight",Default=false});v704:AddToggle("Visuals_Gradient",{Text="rainbow",Default=false});v704:AddSlider("Visuals_GradientSpeed",{Text="speed",Default=3 + 2 ,Min=1,Max=99 -(32 + 47) ,Rounding=0});v704:AddToggle("Visuals_Fill",{Text="fill",Default=true});v704:AddSlider("Visuals_FillTransparency",{Text="transparency",Default=1977.5 -(1053 + 924) ,Min=0 + 0 ,Max=1 -0 ,Rounding=1650 -(685 + 963) });v704:AddLabel("fill"):AddColorPicker("Visuals_FillColor",{Default=Color3.fromRGB(518 -263 ,0,0)});v704:AddToggle("Visuals_Outline",{Text="outline",Default=true});v704:AddSlider("Visuals_OutlineTransparency",{Text="transparency",Default=0 -0 ,Min=0,Max=1710 -(541 + 1168) ,Rounding=1599 -(645 + 952) });v704:AddLabel("outline"):AddColorPicker("Visuals_OutlineColor",{Default=Color3.fromRGB(1093 -(669 + 169) ,883 -628 ,553 -298 )});v704:AddDivider();v704:AddToggle("Ambient_Enabled",{Text="ambient",Default=false});v704:AddLabel("ambient"):AddColorPicker("Ambient_Color",{Default=Color3.fromRGB(44 + 84 ,29 + 99 ,128)});v704:AddLabel("outdoor"):AddColorPicker("OutdoorAmbient_Color",{Default=Color3.fromRGB(893 -(181 + 584) ,128,128)});v703:AddDivider();v703:AddToggle("Skybox_Enabled",{Text="skybox",Default=false});v703:AddDropdown("Skybox_Preset",{Values=v700,Default=1,Text="preset"});v703:AddInput("Skybox_CustomID",{Default="",Numeric=true,Finished=true,Text="skybox id",Placeholder="Dont Use"});v704:AddToggle("Weather_Enabled",{Text="weather",Default=false,Callback=function(v1604) v216=v1604;end});v704:AddDropdown("Weather_Type",{Values={"Rain","Snow","Storm"},Default=1 -0 ,Multi=false,Text="type",Callback=function(v1605) v217=v1605;end});v704:AddSlider("Weather_Intensity",{Text="intensity",Default=1381 -(540 + 810) ,Min=5,Max=399 -299 ,Rounding=0 -0 ,Callback=function(v1606) v218=v1606;end});v704:AddLabel("color"):AddColorPicker("Weather_Color",{Default=Color3.fromRGB(160 + 40 ,423 -(166 + 37) ,2136 -(22 + 1859) ),Callback=function(v1607) v219=v1607;end});v704:AddDivider();v704:AddToggle("SelfChams_Enabled",{Text="self chams",Default=false,Callback=function(v1608) v228=v1608;v244();end});v704:AddDropdown("SelfChams_Style",{Values={"Highlight","ForceField","Solid Color","Neon","Glass","Ice","Metal","Foil","Marble","Granite","Wood","Brick","Cobblestone","Sand","Fabric","Concrete","Slate"},Default=1 + 0 ,Multi=false,Text="style",Callback=function(v1609) local v1610=0 -0 ;while true do if (v1610==0) then v229=v1609;v244();break;end end end});v704:AddToggle("SelfChams_Gradient",{Text="rainbow",Default=false,Callback=function(v1611) local v1612=0 -0 ;while true do if (v1612==(762 -(592 + 170))) then v230=v1611;v244();break;end end end});v704:AddSlider("SelfChams_GradSpeed",{Text="rate",Default=17 -12 ,Min=2 -1 ,Max=10 + 10 ,Rounding=0,Callback=function(v1613) v231=v1613;end});v704:AddSlider("SelfChams_FillTrans",{Text="alpha",Default=0,Min=0 + 0 ,Max=100,Rounding=0,Callback=function(v1614) v234=v1614/100 ;v244();end});v704:AddLabel("fill"):AddColorPicker("SelfChams_Color",{Default=Color3.fromRGB(615 -360 ,255,42 + 213 ),Callback=function(v1615) local v1616=0 -0 ;while true do if (v1616==0) then v232=v1615;v244();break;end end end});v704:AddLabel("outline"):AddColorPicker("SelfChams_OutlineColor",{Default=Color3.fromRGB(255,762 -(353 + 154) ,255),Callback=function(v1617) v233=v1617;v244();end});v704:AddDivider();v704:AddToggle("FOV_Enabled",{Text="fov",Default=false,Callback=function(v1618) local v1619=0 -0 ;while true do if (v1619==(0 -0)) then v236=v1618;if  not v1618 then workspace.CurrentCamera.FieldOfView=v238;end break;end end end});v704:AddSlider("FOV_Value",{Text="field",Default=63 + 27 ,Min=24 + 6 ,Max=120,Rounding=0 + 0 ,Callback=function(v1620) v237=v1620;end});local v705=v299.visL:AddTab("bloom");v705:AddToggle("CC_Enabled",{Text="color",Default=false,Callback=function(v1621) local v1622=0;while true do if (v1622==(0 -0)) then v255=v1621;v257(Options.CC_Brightness.Value/100 ,Options.CC_Contrast.Value/(189 -89) ,Options.CC_Saturation.Value/(233 -133) ,Options.CC_TintColor.Value);break;end end end});v705:AddSlider("CC_Brightness",{Text="brightness",Default=86 -(7 + 79) ,Min= -100,Max=100,Rounding=0 + 0 ,Callback=function(v1623) v257(v1623/(281 -(24 + 157)) ,Options.CC_Contrast.Value/(199 -99) ,Options.CC_Saturation.Value/(213 -113) ,Options.CC_TintColor.Value);end});v705:AddSlider("CC_Contrast",{Text="contrast",Default=0,Min= -(29 + 71),Max=100,Rounding=0,Callback=function(v1624) v257(Options.CC_Brightness.Value/(269 -169) ,v1624/(480 -(262 + 118)) ,Options.CC_Saturation.Value/(1183 -(1038 + 45)) ,Options.CC_TintColor.Value);end});v705:AddSlider("CC_Saturation",{Text="saturation",Default=0 -0 ,Min= -(330 -(19 + 211)),Max=100,Rounding=0,Callback=function(v1625) v257(Options.CC_Brightness.Value/100 ,Options.CC_Contrast.Value/(213 -(88 + 25)) ,v1625/(254 -154) ,Options.CC_TintColor.Value);end});v705:AddLabel("tint"):AddColorPicker("CC_TintColor",{Default=Color3.fromRGB(255,127 + 128 ,238 + 17 ),Callback=function(v1626) v257(Options.CC_Brightness.Value/100 ,Options.CC_Contrast.Value/100 ,Options.CC_Saturation.Value/100 ,v1626);end});v705:AddDivider();v705:AddToggle("Bloom_Enabled",{Text="bloom",Default=false,Callback=function(v1627) local v1628=0;while true do if (v1628==(1036 -(1007 + 29))) then v256=v1627;v258(Options.Bloom_Intensity.Value/(2 + 3) ,Options.Bloom_Size.Value,Options.Bloom_Threshold.Value/(244 -144) );break;end end end});v705:AddSlider("Bloom_Intensity",{Text="intensity",Default=70 -55 ,Min=0,Max=12 + 38 ,Rounding=811 -(340 + 471) ,Callback=function(v1629) v258(v1629/(12 -7) ,Options.Bloom_Size.Value,Options.Bloom_Threshold.Value/100 );end});v705:AddSlider("Bloom_Size",{Text="size",Default=24,Min=1,Max=56,Rounding=589 -(276 + 313) ,Callback=function(v1630) v258(Options.Bloom_Intensity.Value/5 ,v1630,Options.Bloom_Threshold.Value/(244 -144) );end});v705:AddSlider("Bloom_Threshold",{Text="threshold",Default=0 + 0 ,Min=0,Max=100,Rounding=0 + 0 ,Callback=function(v1631) v258(Options.Bloom_Intensity.Value/(1 + 4) ,Options.Bloom_Size.Value,v1631/(2072 -(495 + 1477)) );end});local v706=v299.visR:AddTab("time");v706:AddSlider("TimeSlider",{Text="time",Default=41 -27 ,Min=0,Max=16 + 8 ,Rounding=1,Callback=function(v1632) v274(v1632);end});v706:AddToggle("FreezeTimeToggle",{Text="lock time",Default=false,Callback=function(v1633) v273.FreezeTime=v1633;end});v706:AddButton({Text="day",Func=function() Options.TimeSlider:SetValue(415 -(342 + 61) );end});v706:AddButton({Text="night",Func=function() Options.TimeSlider:SetValue(0 + 0 );end});v706:AddButton({Text="sunset",Func=function() Options.TimeSlider:SetValue(183 -(4 + 161) );end});v299.visL2=v689.Visuals:AddLeftTabbox();local v708=v299.visL2:AddTab("presets");v708:AddDropdown("SV_PresetSelect",{Values={"Default","Cinematic","Hazy","Vibrant","Noir","Night"},Default=564 -(173 + 390) ,Text="preset"});v708:AddButton({Text="apply preset",Func=function() v294(Options.SV_PresetSelect.Value);end});local v709=v299.visL2:AddTab("atmos");v290(v709,"SV_AtmoOn","AtmoEnabled",{Text="atmosphere",Default=false});local v710=v709:AddDependencyBox();v291(v710,"SV_Density","Density",{Text="density",Default=0.32,Min=0,Max=1 + 0 ,Rounding=316 -(203 + 111) });v291(v710,"SV_Offset","Offset",{Text="offset",Default=0.5 + 0 ,Min=0 + 0 ,Max=2 -1 ,Rounding=2 + 0 });v291(v710,"SV_Haze","Haze",{Text="haze",Default=707.8 -(57 + 649) ,Min=384 -(328 + 56) ,Max=4 + 6 ,Rounding=513 -(433 + 79) });v291(v710,"SV_Glare","Glare",{Text="glare",Default=0.35,Min=0,Max=1 + 1 ,Rounding=2});v292(v710,"Atmo","SV_AtmoColor","AtmoColor",Color3.fromRGB(199,161 + 38 ,668 -469 ));v292(v710,"Decay","SV_AtmoDecay","AtmoDecay",Color3.fromRGB(501 -395 ,82 + 30 ,112 + 13 ));v710:SetupDependencies({{Toggles.SV_AtmoOn,true}});local v711=v299.visR:AddTab("fog");v290(v711,"SV_FogOn","FogEnabled",{Text="fog",Default=false});local v712=v711:AddDependencyBox();v291(v712,"SV_FogStart","FogStart",{Text="start",Default=305 -155 ,Min=0,Max=2905 -(76 + 829) ,Rounding=0});v291(v712,"SV_FogEnd","FogEnd",{Text="end",Default=1400,Min=1773 -(1506 + 167) ,Max=10000,Rounding=0 -0 });v292(v712,"Color","SV_FogColor","FogColor",Color3.fromRGB(456 -(58 + 208) ,119 + 81 ,154 + 61 ));v712:SetupDependencies({{Toggles.SV_FogOn,true}});v299.visR2=v689.Visuals:AddRightTabbox();local v714=v299.visR2:AddTab("vignette");v290(v714,"SV_VigOn","VignetteEnabled",{Text="vignette",Default=true});local v715=v714:AddDependencyBox();v291(v715,"SV_VigStr","VignetteStrength",{Text="strength",Default=337.5 -(258 + 79) ,Min=0,Max=1 + 0 ,Rounding=2});v715:SetupDependencies({{Toggles.SV_VigOn,true}});v57.RenderStepped:Connect(function() if v54.Unloaded then return;end v287();end);Options.SV_PresetSelect:OnChanged(function(v1635) v294(v1635);end);v287();print("[teddyhub] OK    tab movement built");v299.movL=v689.Movement:AddLeftTabbox();v299.movR=v689.Movement:AddRightTabbox();local v718=v299.movL:AddTab("player");v718:AddToggle("SpeedOn",{Text="speed",Default=false,Callback=function(v1636) v206=v1636;v213();end});v718:AddSlider("WalkSpd",{Text="walk",Default=1486 -(1219 + 251) ,Min=1687 -(1231 + 440) ,Max=558 -(34 + 24) ,Rounding=0,Callback=function(v1637) v207=v1637;if v206 then v213();end end});v718:AddToggle("FlyOn",{Text="fly",Default=false,Callback=function(v1638) v215(v1638);end});v718:AddSlider("FlySpd",{Text="speed",Default=50,Min=6 + 4 ,Max=300,Rounding=0 -0 ,Callback=function(v1639) v211=v1639;end});v718:AddToggle("JumpOn",{Text="jump",Default=false,Callback=function(v1640) local v1641=0;while true do if (v1641==0) then v208=v1640;v214();break;end end end});v718:AddSlider("JumpPwr",{Text="power",Default=22 + 28 ,Min=50,Max=500,Rounding=0 -0 ,Callback=function(v1642) v209=v1642;if v208 then v214();end end});v718:AddToggle("SpinBotOn",{Text="spin",Default=false,Callback=function(v1643) v165=v1643;end});v718:AddSlider("SpinSpeed",{Text="speed",Default=32 -22 ,Min=2 -1 ,Max=335 -235 ,Rounding=0 -0 ,Callback=function(v1644) v166=v1644;end});v718:AddDropdown("SpinMode",{Text="mode",Default=1590 -(877 + 712) ,Values={"Linear","Jitter"},Callback=function(v1645) v167=v1645;end});print("[teddyhub] OK    tab crosshair built");v299.chL=v689.Crosshair:AddLeftTabbox();v299.chR=v689.Crosshair:AddRightTabbox();local v721=v299.chL:AddTab("main");local v722=v299.chR:AddTab("circle");v721:AddToggle("CHVis",{Text="crosshair",Default=false,Callback=function(v1646) v194.Visible=v1646;end});v721:AddSlider("CHSpin",{Text="speed",Default=5,Min=0 + 0 ,Max=1754 -(242 + 512) ,Rounding=0 -0 ,Callback=function(v1648) v194.SpinSpeed=v1648/250 ;end});v721:AddSlider("CHGap",{Text="gap",Default=635 -(92 + 535) ,Min=0 + 0 ,Max=102 -52 ,Rounding=0 + 0 ,Callback=function(v1650) v194.CentralGap=v1650;end});v721:AddSlider("CHLen",{Text="length",Default=406 -294 ,Min=10 + 0 ,Max=208 + 92 ,Rounding=0 + 0 ,Callback=function(v1652) local v1653=0 -0 ;while true do if ((0 -0)==v1653) then v194.TotalLength=v1652;v200();break;end end end});v721:AddSlider("CHThick",{Text="thickness",Default=1787 -(1476 + 309) ,Min=1285 -(299 + 985) ,Max=3 + 7 ,Rounding=0,Callback=function(v1654) v194.LineThickness=v1654;end});v721:AddSlider("CHOut",{Text="outline size",Default=12 -8 ,Min=93 -(86 + 7) ,Max=61 -46 ,Rounding=0,Callback=function(v1656) v194.OutlineThickness=v1656;end});v721:AddToggle("CHTrack",{Text="tracking",Default=false,Callback=function(v1658) v194.TrackingEnabled=v1658;end});v721:AddSlider("CHTRad",{Text="radius",Default=15 + 135 ,Min=890 -(672 + 208) ,Max=800,Rounding=0 + 0 ,Callback=function(v1660) v194.TrackingRadius=v1660;end});v721:AddSlider("CHTSmooth",{Text="smoothness",Default=152 -(14 + 118) ,Min=446 -(339 + 106) ,Max=80 + 20 ,Rounding=0,Callback=function(v1662) v194.TrackingSmoothness=v1662/100 ;end});v721:AddDropdown("CHTgt",{Text="part",Default=1 + 0 ,Values={"Head","HumanoidRootPart"},Callback=function(v1664) v194.TrackPart=v1664;end});v721:AddToggle("CHTChk",{Text="team",Default=true,Callback=function(v1666) v194.TeamCheck=v1666;end});v722:AddToggle("CHCirVis",{Text="visible",Default=true,Callback=function(v1668) v194.CircleVisible=v1668;end});v722:AddSlider("CHCirR",{Text="radius",Default=119,Min=17 -7 ,Max=300,Rounding=0 + 0 ,Callback=function(v1670) v194.CircleRadius=v1670;end});v722:AddSlider("CHCirT",{Text="transparency",Default=74 -44 ,Min=0,Max=69 + 31 ,Rounding=0,Callback=function(v1672) v194.CircleTransparency=v1672/(453 -(260 + 93)) ;end});v722:AddLabel("start"):AddColorPicker("CHColS",{Default=Color3.fromRGB(169 + 11 ,411 -231 ,325 -145 ),Callback=function(v1674) v194.ColorStart=v1674;end});v722:AddLabel("end"):AddColorPicker("CHColE",{Default=Color3.fromRGB(20,20,20),Callback=function(v1676) v194.ColorEnd=v1676;end});v722:AddLabel("color"):AddColorPicker("CHCirC",{Default=Color3.fromRGB(15,15,1999 -(1181 + 793) ),Callback=function(v1678) v194.CircleColor=v1678;end});local v723=v299.chL:AddTab("icon");v723:AddToggle("EnableShiftIcon",{Text="custom icon",Default=false,Callback=function(v1680) v259.Enabled=v1680;end});v723:AddDropdown("PresetShiftDropdown",{Values=v261,Default=1 + 0 ,Multi=false,Text="preset",Callback=function(v1682) local v1683=307 -(105 + 202) ;local v1684;while true do if (v1683==(0 + 0)) then v1684=v260[v1682];if v1684 then v259.CurrentID=v1684;end break;end end end});v723:AddInput("CustomShiftID_Input",{Default="",Numeric=true,Finished=true,Text="asset id",Placeholder="Custom ID eingeben...",Callback=function(v1685) if (v1685 and (v1685~="")) then v259.CurrentID=v1685;end end});v723:AddSlider("ShiftIconSizeSlider",{Text="size",Default=842 -(352 + 458) ,Min=10,Max=403 -303 ,Rounding=0 -0 ,Callback=function(v1686) v259.IconSize=v1686;end});print("[teddyhub] OK    tab misc built");v299.miscL=v689.Misc:AddLeftTabbox();v299.miscR=v689.Misc:AddRightTabbox();local v726=v299.miscL:AddTab("watermark");v726:AddToggle("WM_Enabled",{Text="watermark",Default=true,Callback=function(v1688) local v1689=0 + 0 ;while true do if (v1689==(0 -0)) then v70.Enabled=v1688;v54:SetWatermarkVisibility(v1688);break;end end end});v726:AddInput("WM_Text",{Default="teddyhub v.3",Numeric=false,Finished=true,Text="title",Placeholder="Text eingeben...",Callback=function(v1690) v70.Text=v1690;end});v726:AddToggle("WM_ShowFPS",{Text="fps",Default=true,Callback=function(v1692) v70.ShowFPS=v1692;end});v726:AddToggle("WM_ShowPing",{Text="ping",Default=true,Callback=function(v1694) v70.ShowPing=v1694;end});v726:AddToggle("WM_ShowTime",{Text="time",Default=true,Callback=function(v1696) v70.ShowTime=v1696;end});local v727=v299.miscR:AddTab("local");v727:AddToggle("Enable_ShiftLock",{Text="shift lock",Default=false,Tooltip="Allows mouse-lock camera control",Callback=function(v1698) pcall(function() v63.DevEnableMouseLock=v1698;end);end});print("[teddyhub] OK    tab settings built");local v728=v689.Settings:AddLeftGroupbox("menu");v299.setR=v689.Settings:AddRightTabbox();return v689,v728,v699;end local v301,v302,v303=v300();v302:AddButton({Text="unload",Func=function() v54:Unload();end});local function v304() local v730={saved=setmetatable({},{__mode="k"}),touched=setmetatable({},{__mode="k"})};local function v731(v1699) local v1700={};local v1701=Options.HB_Mode.Value;if (v1701=="All parts") then for v2611,v2612 in ipairs(v1699:GetChildren()) do if v2612:IsA("BasePart") then v1700[ #v1700 + (950 -(438 + 511)) ]=v2612;end end elseif (v1701=="Head only") then local v2894=0;local v2895;while true do if (v2894==(1383 -(1262 + 121))) then v2895=v1699:FindFirstChild("Head");if v2895 then v1700[1]=v2895;end break;end end elseif (v1701=="Torso") then for v3287,v3288 in ipairs({"UpperTorso","LowerTorso","Torso","HumanoidRootPart"}) do local v3289=v1699:FindFirstChild(v3288);if v3289 then v1700[ #v1700 + 1 ]=v3289;end end elseif (v1701=="Body") then for v3441,v3442 in ipairs(v1699:GetChildren()) do if (v3442:IsA("BasePart") and (v3442.Name~="Head") and (v3442.Name~="HumanoidRootPart")) then v1700[ #v1700 + 1 ]=v3442;end end end return v1700;end local function v732(v1702) local v1703=0 -0 ;local v1704;local v1705;local v1706;local v1707;local v1708;local v1709;local v1710;local v1711;local v1712;while true do if (v1703==(340 -(163 + 176))) then v1705=Options.HB_Scale.Value;v1706=Options.HB_ScaleX.Value * v1705 ;v1707=Options.HB_ScaleY.Value * v1705 ;v1703=2;end if (v1703==(5 -3)) then v1708=Options.HB_ScaleZ.Value * v1705 ;v1709=v67("HB_Massless",true);v1710=v67("HB_NoCollide",true);v1703=13 -10 ;end if (v1703==(2 + 2)) then v730.touched[v1702]=true;return v1712;end if (v1703==(1813 -(1564 + 246))) then v1711=v67("HB_Showbox");v1712=345 -(124 + 221) ;for v2896,v2897 in ipairs(v731(v1702)) do if v2897.Parent then local v3196=0 + 0 ;local v3197;while true do if (v3196==(454 -(115 + 336))) then v1712=v1712 + (1 -0) ;break;end if (v3196==(1 + 0)) then v2897.Size=Vector3.new(v3197.size.X * v1706 ,v3197.size.Y * v1707 ,v3197.size.Z * v1708 );v2897.Massless=v1709 or v3197.massless ;v3196=48 -(45 + 1) ;end if (v3196==2) then if (v2897.Name~="HumanoidRootPart") then v2897.CanCollide=( not v1710 and v3197.collide) or false ;end v2897.Transparency=(v1711 and 0.35) or v3197.trans ;v3196=3;end if (v3196==(0 + 0)) then v3197=v1704[v2897];if  not v3197 then v3197={size=v2897.Size,massless=v2897.Massless,collide=v2897.CanCollide,trans=v2897.Transparency};v1704[v2897]=v3197;end v3196=1;end end end end v1703=4;end if (v1703==0) then if ( not v1702 or  not v1702.Parent) then return 0;end v1704=v730.saved[v1702];if  not v1704 then v1704={};v730.saved[v1702]=v1704;end v1703=1991 -(1282 + 708) ;end end end local function v733(v1713) local v1714=0;local v1715;while true do if (v1714==1) then v730.saved[v1713]=nil;v730.touched[v1713]=nil;break;end if (v1714==(1212 -(583 + 629))) then v1715=v730.saved[v1713];if v1715 then for v3198,v3199 in pairs(v1715) do if (v3198 and v3198.Parent) then v3198.Size=v3199.size;v3198.Massless=v3199.massless;v3198.CanCollide=v3199.collide;v3198.Transparency=v3199.trans;end end end v1714=1 + 0 ;end end end local function v734() for v2277 in pairs(v730.touched) do pcall(v733,v2277);end v730.touched=setmetatable({},{__mode="k"});end local function v735(v1717) if ((v1717==v63) and  not v67("HB_Self")) then return false;end local v1718=v1717.Character;local v1719=v1718 and v1718:FindFirstChildOfClass("Humanoid") ;if ( not v1718 or  not v1719) then return false;end if ((v1719.Health<=(0 -0)) and  not v67("HB_Dead")) then return false;end if (v67("HB_Team",true) and (v1717.Team~=nil) and (v1717.Team==v63.Team)) then return false;end return true;end local function v736(v1720) if (v1720==v63.Character) then return v67("HB_Self");end local v1721=v1720:FindFirstChildOfClass("Humanoid");if ( not v1721 or  not v1721.RootPart) then return false;end if ((v1721.Health<=0) and  not v67("HB_Dead")) then return false;end return true;end local v737=v299.combatL:AddTab("hitbox");v737:AddToggle("HB_On",{Text="hitbox expander",Default=false});v737:AddDropdown("HB_Mode",{Text="parts",Default="All parts",Values={"All parts","Head only","Torso","Body"}});v737:AddDivider();v737:AddSlider("HB_Scale",{Text="uniform scale",Default=2 + 1 ,Min=1,Max=1641 -(1539 + 92) ,Rounding=1947 -(706 + 1240) });v737:AddSlider("HB_ScaleX",{Text="scale x",Default=1,Min=258.5 -(81 + 177) ,Max=5,Rounding=2 -1 });v737:AddSlider("HB_ScaleY",{Text="scale y",Default=258 -(212 + 45) ,Min=0.5 -0 ,Max=1951 -(708 + 1238) ,Rounding=1 + 0 });v737:AddSlider("HB_ScaleZ",{Text="scale z",Default=1 + 0 ,Min=1667.5 -(586 + 1081) ,Max=5,Rounding=512 -(348 + 163) });v737:AddDivider();v737:AddToggle("HB_Team",{Text="team check",Default=true});v737:AddToggle("HB_Dead",{Text="include dead",Default=false});v737:AddToggle("HB_Self",{Text="affect self",Default=false});v737:AddToggle("HB_Massless",{Text="massless",Default=true});v737:AddToggle("HB_NoCollide",{Text="no collide",Default=true});v737:AddToggle("HB_Showbox",{Text="show hitbox",Default=false});v737:AddSlider("HB_Rate",{Text="update hz",Default=27 + 3 ,Min=1,Max=340 -(215 + 65) ,Rounding=0 -0 });local v738,v739={},1859 -(1541 + 318) ;local function v740() local v1722=0 + 0 ;local v1723;while true do if (v1722==(0 + 0)) then if ((tick() -v739)<(1 + 0)) then return v738;end v739=tick();v1722=1751 -(1036 + 714) ;end if (1==v1722) then v738={};v1723=workspace:GetChildren();v1722=2 + 0 ;end if (v1722==2) then for v2898,v2899 in ipairs(v1723) do if v2899:IsA("Model") then local v3200=v2899:FindFirstChildOfClass("Humanoid");if (v3200 and v3200.RootPart) then v738[ #v738 + 1 + 0 ]=v2899;end elseif v2899:IsA("Folder") then for v3447,v3448 in ipairs(v2899:GetChildren()) do if v3448:IsA("Model") then local v3540=1280 -(883 + 397) ;local v3541;while true do if (v3540==0) then v3541=v3448:FindFirstChildOfClass("Humanoid");if (v3541 and v3541.RootPart) then v738[ #v738 + (591 -(563 + 27)) ]=v3448;end break;end end end end end end return v738;end end end local function v741() local v1724,v1725={},{};for v2278,v2279 in ipairs(v0:GetPlayers()) do local v2280=v2279.Character;if v2280 then v1724[v2280]=true;v1725[ #v1725 + (3 -2) ]=v2280;end end for v2281,v2282 in ipairs(v740()) do if ( not v1724[v2282] and v2282.Parent) then v1724[v2282]=true;v1725[ #v1725 + 1 ]=v2282;end end return v1725;end local function v742() local v1726=0;for v2283,v2284 in ipairs(v741()) do local v2285=v0:GetPlayerFromCharacter(v2284);if v2285 then if v735(v2285) then v1726=v1726 + v732(v2284) ;elseif v730.touched[v2284] then v733(v2284);end elseif v736(v2284) then v1726=v1726 + v732(v2284) ;elseif v730.touched[v2284] then v733(v2284);end end return v1726;end v45.Hitbox={cleanup=function() v734();end};local v744=0;v57.Heartbeat:Connect(function(v1727) if v54.Unloaded then return;end if  not v67("HB_On") then local v2452=1986 -(1369 + 617) ;while true do if (v2452==(1487 -(85 + 1402))) then if next(v730.touched) then v734();end return;end end end v744=v744 + v1727 ;if (v744<((1 + 0)/math.max(2 -1 ,Options.HB_Rate.Value))) then return;end v744=403 -(274 + 129) ;v742();end);local function v745() if v67("HB_On") then v742();end end if Toggles.HB_On then Toggles.HB_On.Callback=function(v2453) if v2453 then local v2900=v742();print(("[teddyhub] hitbox on - %d parts scaled"):format(v2900));pcall(function() v54:Notify(("hitbox: %d parts scaled"):format(v2900),222 -(12 + 205) );end);else v734();end end;end for v1728,v1729 in ipairs({"HB_Mode","HB_Scale","HB_ScaleX","HB_ScaleY","HB_ScaleZ"}) do Options[v1729]:OnChanged(v745);end end v8("hitbox",v304);v54.ToggleKeybind=nil;local function v306() local v746=game:GetService("UserInputService");local v747;local v748=0;local v749="teddyhub v.3";local function v750() local v1730=0;local v1731;local v1732;while true do if (v1730==(481 -(91 + 389))) then v748=tick();v1731,v1732=pcall(function() local v2901=0;while true do if (v2901==(297 -(90 + 207))) then for v3376,v3377 in ipairs({game:GetService("CoreGui"),v65}) do for v3449,v3450 in ipairs(v3377:GetDescendants()) do if (v3450:IsA("TextLabel") and string.find(string.lower(v3450.Text),v749,1,true)) then local v3542=1795 -(730 + 1065) ;local v3543;while true do if (v3542==0) then v3543=v3450;while v3543.Parent and  not v3543.Parent:IsA("ScreenGui")  do v3543=v3543.Parent;end v3542=1;end if (v3542==(1564 -(1339 + 224))) then if (v3543:IsA("GuiObject") and v3543.Parent and v3543.Parent:IsA("ScreenGui")) then return v3543;end break;end end end end end return nil;end end end);v1730=2 + 0 ;end if (v1730==(2 + 0)) then if (v1731 and v1732) then local v3018=0 -0 ;while true do if (v3018==(843 -(268 + 575))) then v747=v1732;return v1732;end end end return nil;end if (v1730==(1294 -(919 + 375))) then if (v747 and v747.Parent) then return v747;end if ((tick() -v748)<(2 -1)) then return nil;end v1730=972 -(180 + 791) ;end end end local v751=true;local v752=false;local function v753() local v1733=0;local v1734;local v1735;while true do if (v1733==0) then v1734,v1735=pcall(function() local v2902=v750();if  not v2902 then local v3201=1805 -(323 + 1482) ;while true do if (v3201==(1918 -(1177 + 741))) then warn("[Menu] could not find the menu window (title '"   .. v749   .. "')" );return;end end end v2902.Visible= not v2902.Visible;v751=v2902.Visible;if  not v752 then v752=true;print("[Menu] window '"   .. v2902.Name   .. "' is now "   .. ((v751 and "shown") or "hidden") );end end);if  not v1734 then warn("[Menu] toggle error: "   .. tostring(v1735) );end break;end end end local v746=game:GetService("UserInputService");local v754=v746.InputBegan:Connect(function(v1736,v1737) if v54.Unloaded then return;end local v1738=Options.MenuKeybind;local v1739=v1738 and v1738.Value ;local v1740=(v1736.KeyCode==Enum.KeyCode.RightShift) or ((type(v1739)=="string") and (v1736.KeyCode.Name==v1739)) ;if (v1736.UserInputType==Enum.UserInputType.Keyboard) then print("[Menu] any key: "   .. v1736.KeyCode.Name );end if (v1740 or v1736.KeyCode.Name:find("Shift")) then print("[Menu] key "   .. v1736.KeyCode.Name   .. " pressed (gameProcessed="   .. tostring(v1737)   .. ", textbox focused="   .. tostring(v746:GetFocusedTextBox()~=nil )   .. ")" );end if  not v1740 then return;end if (v746:GetFocusedTextBox() and (v1736.KeyCode~=Enum.KeyCode.RightShift)) then return;end v753();end);v54:OnUnload(function() v754:Disconnect();end);print("[teddyhub] OK    menu key listener (RightShift + "   .. tostring(Options.MenuKeybind and Options.MenuKeybind.Value )   .. ")" );v302:AddLabel("menu"):AddKeyPicker("MenuKeybind",{Default="RightShift",NoUI=false,Text="menu"});end v8("menu key",v306);local function v307() local v755=0 + 0 ;local v756;local v757;local v758;local v759;local v760;while true do if (v755==1) then v757:AddDropdown("UI_Font",{Text="font",Values=v756,Default="Code",Callback=function() end});v758=nil;function v758(v2623) local v2624=Enum.Font[v2623];if  not v2624 then return false;end for v2904,v2905 in ipairs({game:GetService("CoreGui"),v65}) do for v3019,v3020 in ipairs(v2905:GetDescendants()) do if (v3020:IsA("TextLabel") and string.find(string.lower(v3020.Text),"teddyhub v.3",1 -0 ,true)) then local v3290=v3020:FindFirstAncestorWhichIsA("ScreenGui");if v3290 then for v3497,v3498 in ipairs(v3290:GetDescendants()) do if (v3498:IsA("TextLabel") or v3498:IsA("TextButton") or v3498:IsA("TextBox")) then v3498.Font=v2624;end end end return true;end end end return false;end Options.UI_Font:OnChanged(function(v2625) v758(v2625);end);v755=2;end if ((0 + 0)==v755) then v756={};for v2626,v2627 in ipairs(Enum.Font:GetEnumItems()) do table.insert(v756,v2627.Name);end table.sort(v756);v757=v299.setR:AddTab("font");v755=110 -(96 + 13) ;end if (v755==(1923 -(962 + 959))) then v759=0;v760=v57.Heartbeat:Connect(function(v2628) if v54.Unloaded then return;end v759=v759 + v2628 ;if (v759<(7 -4)) then return;end v759=0;v758(Options.UI_Font.Value);end);v54:OnUnload(function() v760:Disconnect();end);break;end end end v8("font",v307);local v308=v60.Ambient;local v309=v60.OutdoorAmbient;local function v310(v761) local v762=0 + 0 ;local v763;while true do if (v762==2) then v761.CharacterAdded:Connect(v763);break;end if (v762==(1352 -(461 + 890))) then function v763(v2629) if  not v2629 then return;end local v2630="CustomHighlight"   .. v761.UserId ;local v2631=v130:FindFirstChild(v2630) or Instance.new("Highlight") ;v2631.Name=v2630;v2631.Adornee=v2629;v2631.Enabled=Toggles.Visuals_Enabled.Value;v2631.FillColor=Options.Visuals_FillColor.Value;v2631.OutlineColor=Options.Visuals_OutlineColor.Value;v2631.FillTransparency=(Toggles.Visuals_Fill.Value and Options.Visuals_FillTransparency.Value) or 1 ;v2631.OutlineTransparency=(Toggles.Visuals_Outline.Value and Options.Visuals_OutlineTransparency.Value) or (1 + 0) ;v2631.Parent=v130;end if v761.Character then v763(v761.Character);end v762=2;end if (v762==(0 -0)) then if (v761==v63) then return;end v763=nil;v762=1;end end end for v764,v765 in ipairs(v0:GetPlayers()) do v310(v765);end v0.PlayerAdded:Connect(v310);v0.PlayerRemoving:Connect(function(v766) local v767=v130:FindFirstChild("CustomHighlight"   .. v766.UserId );if v767 then v767:Destroy();end end);local v311=243 -(19 + 224) ;local v312;local v313=setmetatable({},{__mode="k"});v312=v57.RenderStepped:Connect(function(v768) if v54.Unloaded then if v312 then v312:Disconnect();end return;end local v769=Toggles.Visuals_Gradient.Value;if v769 then v311=(v311 + (v768 * Options.Visuals_GradientSpeed.Value * (0.2 + 0)))%(199 -(37 + 161)) ;end local v770=Color3.fromHSV(v311,1 + 0 ,1);local v771=Toggles.Visuals_Enabled.Value;local v772=(Toggles.Visuals_Fill.Value and Options.Visuals_FillTransparency.Value) or 1 ;local v773=(Toggles.Visuals_Outline.Value and Options.Visuals_OutlineTransparency.Value) or (1 + 0) ;local v774,v775;if v769 then v774,v775=v770,v770;else v774,v775=Options.Visuals_FillColor.Value,Options.Visuals_OutlineColor.Value;end for v1741,v1742 in ipairs(v0:GetPlayers()) do local v1743=v1742.Character;local v1744=v1743 and v130:FindFirstChild("CustomHighlight"   .. v1742.UserId ) ;if v1744 then local v2454=v313[v1744];if  not v2454 then v2454={};v313[v1744]=v2454;end if (v2454.en~=v771) then local v2907=0;while true do if (v2907==(0 + 0)) then v2454.en=v771;v1744.Enabled=v771;break;end end end if (v2454.fc~=v774) then v2454.fc=v774;v1744.FillColor=v774;end if (v2454.oc~=v775) then local v2910=61 -(60 + 1) ;while true do if (v2910==(923 -(826 + 97))) then v2454.oc=v775;v1744.OutlineColor=v775;break;end end end if (v2454.ft~=v772) then local v2911=0 + 0 ;while true do if ((0 -0)==v2911) then v2454.ft=v772;v1744.FillTransparency=v772;break;end end end if (v2454.ot~=v773) then local v2912=0;while true do if (v2912==(0 -0)) then v2454.ot=v773;v1744.OutlineTransparency=v773;break;end end end end end local v776=Toggles.Ambient_Enabled.Value;if v776 then local v2289=685 -(375 + 310) ;while true do if (v2289==(1999 -(1864 + 135))) then v60.Ambient=Options.Ambient_Color.Value;v60.OutdoorAmbient=Options.OutdoorAmbient_Color.Value;break;end end else local v2290=0 -0 ;while true do if (v2290==(0 + 0)) then v60.Ambient=v308;v60.OutdoorAmbient=v309;break;end end end end);local v314={};local function v315() local v777=0;while true do if (v777==(0 + 0)) then for v2643,v2644 in ipairs(v314) do if (v2644 and v2644.Parent) then local v3021=0;while true do if ((0 -0)==v3021) then v2644.Name=v2644:GetAttribute("teddyhubOrigName") or "Sky" ;v2644.Parent=v60;break;end end end end table.clear(v314);break;end end end local function v316() local v778=v60:FindFirstChild("teddyhubCustomSky");if  not Toggles.Skybox_Enabled.Value then if v778 then v778:Destroy();end v315();return;end if ( #v314==0) then for v2455,v2456 in ipairs(v60:GetChildren()) do if (v2456:IsA("Sky") and (v2456.Name~="teddyhubCustomSky")) then v2456:SetAttribute("teddyhubOrigName",v2456.Name);v2456.Name="teddyhubHiddenSky";table.insert(v314,v2456);v2456.Parent=nil;end end end if  not v778 then local v2291=1131 -(314 + 817) ;while true do if (v2291==(1 + 0)) then v778.Parent=v60;break;end if (v2291==0) then v778=Instance.new("Sky");v778.Name="teddyhubCustomSky";v2291=1;end end end local v779=Options.Skybox_CustomID.Value;if (v779 and (v779~="")) then local v2292="rbxassetid://"   .. v779 ;v778.SkyboxUp=v2292;v778.SkyboxDn=v2292;v778.SkyboxFt=v2292;v778.SkyboxBk=v2292;v778.SkyboxLf=v2292;v778.SkyboxRt=v2292;return;end local v780=v303[Options.Skybox_Preset.Value];if  not v780 then v778:Destroy();v315();return;end v778.SkyboxUp=v780.SkyboxUp;v778.SkyboxDn=v780.SkyboxDn;v778.SkyboxFt=v780.SkyboxFt;v778.SkyboxBk=v780.SkyboxBk;v778.SkyboxLf=v780.SkyboxLf;v778.SkyboxRt=v780.SkyboxRt;v778.StarCount=v780.StarCount or (214 -(32 + 182)) ;v778.SunAngularSize=v780.SunAngularSize or (16 + 5) ;v778.MoonAngularSize=v780.MoonAngularSize or (38 -27) ;v778.SunTextureId=(v780.SunTextureId and (v780.SunTextureId~="rbxassetid://0") and v780.SunTextureId) or "" ;v778.MoonTextureId=(v780.MoonTextureId and (v780.MoonTextureId~="rbxassetid://0") and v780.MoonTextureId) or "" ;end Toggles.Skybox_Enabled:OnChanged(v316);Options.Skybox_Preset:OnChanged(v316);Options.Skybox_CustomID:OnChanged(v316);local v317=65 -(39 + 26) ;local v318=tick();local v319=204 -(54 + 90) ;v57.RenderStepped:Connect(function() if v54.Unloaded then return;end v317=v317 + (199 -(45 + 153)) ;if ((tick() -v318)>=(1 + 0)) then v319=v317;v317=0;v318=tick();end if v70.Enabled then local v2299=552 -(457 + 95) ;local v2300;while true do if (v2299==(1 + 0)) then if v70.ShowFPS then table.insert(v2300,string.format("%d fps",v319));end if v70.ShowPing then local v3202=0;local v3203;local v3204;while true do if (v3202==(0 -0)) then v3203,v3204=pcall(function() return math.floor(v62.Network.ServerStatsItem["Data Ping"]:GetValue());end);if v3203 then table.insert(v2300,v3204   .. "ms" );end break;end end end v2299=2;end if ((0 -0)==v2299) then v2300={};if (v70.Text~="") then table.insert(v2300,v70.Text);end v2299=3 -2 ;end if (v2299==(1 + 1)) then if v70.ShowTime then table.insert(v2300,os.date("%X"));end v54:SetWatermark(table.concat(v2300," | "));break;end end end end);v54:SetWatermarkVisibility(v70.Enabled);v55:SetLibrary(v54);v56:SetLibrary(v54);v56:IgnoreThemeSettings();v56:SetIgnoreIndexes({"MenuKeybind"});v55:SetFolder("TeddyHub");v56:SetFolder("TeddyHub/Config");v56:BuildConfigSection(v301.Settings);v55:ApplyToTab(v301.Settings);v56:LoadAutoloadConfig();print("[teddyhub] OK    LinoriaLib + managers loaded");local v320={};local function v321() v320.FOLDER="teddyhub_V1/Songs";v320.EXTS={mp3=true,ogg=true,flac=true,wav=true};v320.songs={};v320.queue={};v320.queueIndex=0 -0 ;v320.favourites={};v320.playing=false;v320.paused=false;v320.volume=748.8 -(485 + 263) ;v320.pitch=1;v320.bassBoost=707 -(575 + 132) ;v320.repeatMode="off";v320.shuffle=false;v320.showViz=true;v320.sound=nil;v320.eqEnabled=false;v320.eqBass=861 -(750 + 111) ;v320.eqMid=1010 -(445 + 565) ;v320.eqTreble=0 + 0 ;v320.searchFilter="";v320.vizConn=nil;v320.autoConn=nil;pcall(function() if  not isfolder("teddyhub_V1") then makefolder("teddyhub_V1");end if  not isfolder(v320.FOLDER) then makefolder(v320.FOLDER);end end);local function v820() v320.songs={};if  not listfiles then local v2457=0;while true do if (v2457==(0 + 0)) then warn("[Music] executor has no listfiles()");return;end end end local v1746,v1747=pcall(listfiles,v320.FOLDER);if  not v1746 then local v2458=0 -0 ;while true do if (v2458==(0 + 0)) then warn("[Music] listfiles failed for "   .. v320.FOLDER   .. ": "   .. tostring(v1747) );return;end end end print("[Music] listfiles returned "   ..  #v1747   .. " entr"   .. ((( #v1747==(311 -(189 + 121))) and "y") or "ies") );for v2301,v2302 in ipairs(v1747) do local v2303=0;local v2304;local v2305;while true do if (v2303==(1 + 0)) then v2305=v2304:match("%.(%w+)$");if (v2305 and v320.EXTS[v2305:lower()]) then table.insert(v320.songs,{name=v2304,path=tostring(v2302)});end break;end if (v2303==(1347 -(634 + 713))) then print("[Music]   raw: "   .. tostring(v2302) );v2304=tostring(v2302):match("([^/\\]+)$") or tostring(v2302) ;v2303=539 -(493 + 45) ;end end end table.sort(v320.songs,function(v2306,v2307) return v2306.name<v2307.name ;end);end local function v821() local v1748=968 -(493 + 475) ;local v1749;while true do if ((0 + 0)==v1748) then v320.queue={};v1749=v320.searchFilter:lower();v1748=785 -(158 + 626) ;end if ((1 + 0)==v1748) then for v2923,v2924 in ipairs(v320.songs) do if ((v1749=="") or v2924.name:lower():find(v1749,1,true)) then table.insert(v320.queue,v2923);end end if v320.shuffle then for v3205= #v320.queue,2 -0 , -(1 + 0) do local v3206=0 + 0 ;local v3207;while true do if (v3206==(1091 -(1035 + 56))) then v3207=math.random(960 -(114 + 845) ,v3205);v320.queue[v3205],v320.queue[v3207]=v320.queue[v3207],v320.queue[v3205];break;end end end end break;end end end local function v822() local v1750=0 + 0 ;local v1751;local v1752;while true do if (v1750==1) then v1751.Parent=game:GetService("SoundService");v1751.Volume=v320.volume;v1751.PlaybackSpeed=v320.pitch;v1750=5 -3 ;end if (2==v1750) then v1752=Instance.new("EqualizerSoundEffect");v1752.Name="MP_EQ";v1752.Parent=v1751;v1750=3 + 0 ;end if (v1750==3) then v320.sound=v1751;return v1751;end if (v1750==(1049 -(179 + 870))) then if (v320.sound and v320.sound.Parent) then return v320.sound;end v1751=Instance.new("Sound");v1751.Name="teddyhubMusicPlayer";v1750=1 -0 ;end end end local function v823() if  not v320.sound then return;end v320.sound.Volume=v320.volume;v320.sound.PlaybackSpeed=v320.pitch;local v1757=v320.sound:FindFirstChild("MP_EQ");if v1757 then v1757.Enabled=v320.eqEnabled or (v320.bassBoost~=(878 -(827 + 51))) ;v1757.LowGain=(v320.eqEnabled and v320.eqBass) or (0 -0) ;v1757.MidGain=(v320.eqEnabled and v320.eqMid) or (0 + 0) ;v1757.HighGain=(v320.eqEnabled and v320.eqTreble) or (473 -(95 + 378)) ;if (v320.bassBoost~=(0 + 0)) then local v2925=0 -0 ;while true do if (v2925==(0 + 0)) then v1757.Enabled=true;v1757.LowGain=math.clamp((v1757.LowGain or (1011 -(334 + 677))) + v320.bassBoost , -(299 -219),1066 -(1049 + 7) );break;end end end end end local function v824() if v320.sound then pcall(function() v320.sound:Stop();end);end v320.playing=false;v320.paused=false;end local v825={};local v826;local function v827() end local function v828() end local v829;local function v830() v820();v821();print("[Music] found "   ..  #v320.songs   .. " song(s) in "   .. v320.FOLDER );if v829 then local v2463=0 -0 ;local v2464;local v2465;local v2466;while true do if (v2463==(3 -1)) then if  not v2465 then warn("[Music] could not update song list: "   .. tostring(v2466) );end break;end if (v2463==(1 + 0)) then if ( #v2464==(0 -0)) then v2464={"(no songs found)"};end v2465,v2466=pcall(function() v829:SetValues(v2464);end);v2463=3 -1 ;end if ((0 + 0)==v2463) then v2464={};for v3208,v3209 in ipairs(v320.queue) do table.insert(v2464,v320.songs[v3209].name);end v2463=1421 -(1004 + 416) ;end end end end local function v831() local v1760=1957 -(1621 + 336) ;while true do if (v1760==(1939 -(337 + 1602))) then if ((v320.queueIndex<(1518 -(1014 + 503))) or (v320.queueIndex> #v320.queue)) then return nil;end return v320.queue[v320.queueIndex];end end end local function v832(v1761) if  not v320.songs[v1761] then return;end local v1762=v320.songs[v1761];v824();local v1763=v822();if  not getcustomasset then local v2467=1015 -(446 + 569) ;while true do if (v2467==0) then warn("[Music] getcustomasset is not supported by this executor");if v320._nowPlayingLabel then v320._nowPlayingLabel.Text="executor lacks getcustomasset";end v2467=1 + 0 ;end if (1==v2467) then return;end end end local v1764,v1765=pcall(getcustomasset,v1762.path);if ( not v1764 or  not v1765) then local v2468=0;while true do if (v2468==(2 -1)) then return;end if (v2468==(0 + 0)) then warn("[Music] getcustomasset failed for "   .. v1762.path   .. ": "   .. tostring(v1765) );if v320._nowPlayingLabel then v320._nowPlayingLabel.Text="load error: "   .. v1762.name ;end v2468=1;end end end v1763.SoundId=v1765;v823();local v1767,v1768=pcall(function() v1763:Play();end);if  not v1767 then warn("[Music] Play failed: "   .. tostring(v1768) );end v320.playing=true;v320.paused=false;v320.currentSongName=v1762.name;if v320._nowPlayingLabel then local v2469=0 -0 ;local v2470;while true do if (v2469==(0 + 0)) then v2470=v1762.name:match("(.+)%..+$") or v1762.name ;v320._nowPlayingLabel.Text=((v320.favourites[v1762.name] and "* ") or "")   .. v2470 ;break;end end end end local function v833(v1773) local v1774=505 -(223 + 282) ;local v1775;while true do if (v1774==(1 + 0)) then v320.queueIndex=v1773;v1775=v831();v1774=2;end if (v1774==(0 -0)) then if ( #v320.queue==(0 -0)) then return;end v1773=((v1773-1)% #v320.queue) + (671 -(623 + 47)) ;v1774=46 -(32 + 13) ;end if (v1774==2) then if v1775 then v832(v1775);end if v829 then pcall(function() v829:SetValue(v320.songs[v1775].name);end);end break;end end end local function v834() local v1776=0;local v1777;while true do if (v1776==(2 + 0)) then v833(v1777);break;end if (v1776==(1 + 0)) then v1777=v320.queueIndex + (1802 -(1070 + 731)) ;if (v1777> #v320.queue) then if (v320.repeatMode=="all") then v1777=1 + 0 ;else v824();return;end end v1776=2;end if (0==v1776) then if ( #v320.queue==(1404 -(1257 + 147))) then return;end if (v320.repeatMode=="one") then local v3023=0 + 0 ;while true do if (v3023==(0 -0)) then v833(v320.queueIndex);return;end end end v1776=1;end end end local function v835() local v1778=0;while true do if (v1778==0) then if ( #v320.queue==0) then return;end if (v320.sound and (v320.sound.TimePosition>(136 -(98 + 35)))) then local v3024=0 + 0 ;while true do if (v3024==(0 -0)) then v832(v831());return;end end end v1778=3 -2 ;end if (v1778==1) then v833(v320.queueIndex-1 );break;end end end local v836=0 + 0 ;v320.autoConn=v57.Heartbeat:Connect(function(v1779) local v1780=0 + 0 ;while true do if (v1780==(1 + 1)) then pcall(function() if ((v320.sound.TimeLength>(557 -(395 + 162))) and (v320.sound.TimePosition>=(v320.sound.TimeLength-(0.1 + 0))) and  not v320.sound.IsPlaying) then v834();end end);v827();v1780=1944 -(816 + 1125) ;end if (v1780==1) then if (v836<0.1) then return;end v836=0 -0 ;v1780=2;end if (v1780==0) then if  not (v320.sound and v320.playing and  not v320.paused) then return;end v836=v836 + v1779 ;v1780=1149 -(701 + 447) ;end if (v1780==(4 -1)) then v828();break;end end end);local v837;local v838=v301.Misc;v299.musicL=v838:AddLeftTabbox();v299.musicR=v838:AddRightTabbox();local v841=v299.musicL:AddTab("playing");local v842=v299.musicR:AddTab("controls");local v843=v299.musicL:AddTab("songs");local v844=v299.musicR:AddTab("effects");local v845=v299.musicL:AddTab("visualizer");local v846=v299.musicR:AddTab("favourites");v841:AddLabel("no song");v837=v841:AddLabel("0:00 / 0:00");local v847=v841:AddSlider("MP_Seek",{Text="position",Default=0 -0 ,Min=0,Max=1441 -(391 + 950) ,Rounding=0 -0 ,Callback=function(v1781) if (v320.sound and (v320.sound.TimeLength>(0 -0))) then pcall(function() v320.sound.TimePosition=(v1781/(246 -146)) * v320.sound.TimeLength ;end);end end});v57.Heartbeat:Connect(function() if v54.Unloaded then return;end pcall(function() if (v320.sound and (v320.sound.TimeLength>0)) then local v2657=math.clamp((v320.sound.TimePosition/v320.sound.TimeLength) * 100 ,0 + 0 ,59 + 41 );if (math.abs((Options.MP_Seek.Value or 0) -v2657 )>(3 -2)) then Options.MP_Seek:SetValue(math.floor(v2657));end end end);end);v842:AddButton({Text="previous",Func=function() v835();end});v842:AddButton({Text="play/pause",Func=function() local v1782=1522 -(251 + 1271) ;while true do if (v1782==(0 + 0)) then if  not v320.sound then v830();if ( #v320.queue>0) then local v3303=0 -0 ;while true do if (v3303==(0 -0)) then v320.queueIndex=1;v833(1);break;end end end return;end if (v320.playing and  not v320.paused) then local v3025=0 -0 ;while true do if (v3025==(1259 -(1147 + 112))) then v320.sound:Pause();v320.paused=true;break;end end elseif v320.paused then v320.sound:Resume();v320.paused=false;elseif ( #v320.queue>(0 + 0)) then v833(((v320.queueIndex>0) and v320.queueIndex) or (1 -0) );end break;end end end});v842:AddButton({Text="next",Func=function() v834();end});v842:AddButton({Text="stop",Func=function() v824();end});v842:AddDivider();v842:AddSlider("MP_Volume",{Text="volume",Default=21 + 59 ,Min=697 -(335 + 362) ,Max=100,Rounding=0 + 0 ,Callback=function(v1783) v320.volume=v1783/100 ;if v320.sound then v320.sound.Volume=v320.volume;end end});v842:AddSlider("MP_Pitch",{Text="pitch",Default=150 -50 ,Min=25,Max=545 -345 ,Rounding=0 -0 ,Callback=function(v1785) v320.pitch=v1785/(486 -386) ;if v320.sound then v320.sound.PlaybackSpeed=v320.pitch;end end});v842:AddDivider();v842:AddToggle("MP_Shuffle",{Text="shuffle",Default=false,Callback=function(v1787) v320.shuffle=v1787;v821();end});v842:AddDropdown("MP_Repeat",{Text="repeat",Default=1,Values={"off","one","all"},Callback=function(v1789) v320.repeatMode=v1789;end});v842:AddDivider();v842:AddSlider("MP_Sleep",{Text="sleep (min)",Default=0 -0 ,Min=0 + 0 ,Max=120,Rounding=0 + 0 ,Callback=function(v1791) v320.sleepEnd=((v1791>(1124 -(408 + 716))) and (tick() + (v1791 * 60))) or nil ;end});v842:AddButton({Text="reload",Func=function() v830();end});v843:AddInput("MP_Search",{Text="search",Default="",Placeholder="Filter songs...",Callback=function(v1793) local v1794=0 -0 ;while true do if ((822 -(344 + 477))==v1794) then if v829 then local v3026=0 + 0 ;local v3027;while true do if ((1762 -(1188 + 573))==v3026) then if ( #v3027==0) then v3027={"(no results)"};end pcall(function() v829:SetValues(v3027);end);break;end if (v3026==0) then v3027={};for v3453,v3454 in ipairs(v320.queue) do table.insert(v3027,v320.songs[v3454].name);end v3026=1 + 0 ;end end end break;end if (v1794==0) then v320.searchFilter=v1793;v821();v1794=3 -2 ;end end end});do local v1795=0;local v1796;while true do if (v1795==0) then v820();v821();v1795=1 -0 ;end if (v1795==(4 -2)) then if ( #v1796==(1529 -(508 + 1021))) then v1796={"(no songs)"};end v829=v843:AddDropdown("MP_SongList",{Text="songs",Default=1,Values=v1796,Callback=function(v2926) for v3028,v3029 in ipairs(v320.queue) do if (v320.songs[v3029] and (v320.songs[v3029].name==v2926)) then v320.queueIndex=v3028;v832(v3029);return;end end end});break;end if (v1795==(1167 -(228 + 938))) then v1796={};for v2927,v2928 in ipairs(v320.queue) do table.insert(v1796,v320.songs[v2928].name);end v1795=2;end end end v843:AddButton({Text="play",Func=function() local v1797=0;local v1798;while true do if (v1797==(685 -(332 + 353))) then v1798=tostring(Options.MP_SongList.Value or "" );v830();v1797=1;end if ((1 -0)==v1797) then for v2929,v2930 in ipairs(v320.queue) do if (v320.songs[v2930] and (v320.songs[v2930].name==v1798)) then local v3210=0 -0 ;while true do if ((0 + 0)==v3210) then v320.queueIndex=v2929;v832(v2930);v3210=1 + 0 ;end if (1==v3210) then return;end end end end if ( #v320.queue>(0 -0)) then local v3030=423 -(18 + 405) ;while true do if (v3030==(0 + 0)) then warn("[Music] Selection '"   .. v1798   .. "' not found, playing first song instead" );v833(1);break;end end else local v3031=0 + 0 ;while true do if ((0 -0)==v3031) then warn("[Music] No songs found in teddyhub_V1/Songs/");if v320._nowPlayingLabel then v320._nowPlayingLabel.Text="no songs in teddyhub_v1/songs";end break;end end end break;end end end});v843:AddButton({Text="favourite",Func=function() local v1799=Options.MP_SongList.Value;if v320.favourites[v1799] then v320.favourites[v1799]=nil;else v320.favourites[v1799]=true;end end});v844:AddSlider("MP_Bass",{Text="bass boost",Default=978 -(194 + 784) ,Min= -(1780 -(694 + 1076)),Max=1914 -(122 + 1782) ,Rounding=1 + 0 ,Callback=function(v1800) local v1801=0;while true do if (0==v1801) then v320.bassBoost=v1800;v823();break;end end end});v844:AddDivider();v844:AddToggle("MP_EQOn",{Text="eq",Default=false,Callback=function(v1802) v320.eqEnabled=v1802;v823();end});v844:AddSlider("MP_EQBass",{Text="eq bass",Default=0,Min= -(10 + 0),Max=10,Rounding=1,Callback=function(v1804) v320.eqBass=v1804;v823();end});v844:AddSlider("MP_EQMid",{Text="eq mid",Default=0 + 0 ,Min= -(8 + 2),Max=29 -19 ,Rounding=1 + 0 ,Callback=function(v1806) local v1807=0;while true do if ((1970 -(214 + 1756))==v1807) then v320.eqMid=v1806;v823();break;end end end});v844:AddSlider("MP_EQTreble",{Text="eq treble",Default=0 -0 ,Min= -10,Max=2 + 8 ,Rounding=1,Callback=function(v1808) local v1809=0;while true do if ((0 + 0)==v1809) then v320.eqTreble=v1808;v823();break;end end end});v844:AddDivider();v844:AddToggle("MP_Reverb",{Text="reverb",Default=false,Callback=function(v1810) local v1811=585 -(217 + 368) ;local v1812;while true do if (v1811==0) then if  not v320.sound then return;end v1812=v320.sound:FindFirstChild("MP_Reverb") or Instance.new("ReverbSoundEffect") ;v1811=2 -1 ;end if (v1811==2) then v1812.Enabled=v1810;break;end if (v1811==(1 + 0)) then v1812.Name="MP_Reverb";v1812.Parent=v320.sound;v1811=2;end end end});v844:AddSlider("MP_ReverbLevel",{Text="level",Default=15 + 5 ,Min=0 + 0 ,Max=100,Rounding=0,Callback=function(v1813) if  not v320.sound then return;end local v1814=v320.sound:FindFirstChild("MP_Reverb");if v1814 then v1814.DecayTime=v1813/(909 -(844 + 45)) ;end end});v844:AddToggle("MP_Distortion",{Text="distortion",Default=false,Callback=function(v1815) local v1816=284 -(242 + 42) ;local v1817;while true do if (v1816==(0 -0)) then if  not v320.sound then return;end v1817=v320.sound:FindFirstChild("MP_Dist") or Instance.new("DistortionSoundEffect") ;v1816=2 -1 ;end if (v1816==1) then v1817.Name="MP_Dist";v1817.Parent=v320.sound;v1816=1202 -(132 + 1068) ;end if (v1816==2) then v1817.Enabled=v1815;break;end end end});v844:AddSlider("MP_DistLevel",{Text="level",Default=0 -0 ,Min=1623 -(214 + 1409) ,Max=78 + 22 ,Rounding=1634 -(497 + 1137) ,Callback=function(v1818) local v1819=0;local v1820;while true do if (v1819==0) then if  not v320.sound then return;end v1820=v320.sound:FindFirstChild("MP_Dist");v1819=941 -(9 + 931) ;end if (v1819==1) then if v1820 then v1820.Level=v1818/(389 -(181 + 108)) ;end break;end end end});v844:AddToggle("MP_Chorus",{Text="chorus",Default=false,Callback=function(v1821) local v1822=0 + 0 ;local v1823;while true do if (v1822==(2 -1)) then v1823.Name="MP_Chorus";v1823.Parent=v320.sound;v1822=5 -3 ;end if ((0 + 0)==v1822) then if  not v320.sound then return;end v1823=v320.sound:FindFirstChild("MP_Chorus") or Instance.new("ChorusSoundEffect") ;v1822=1;end if ((2 + 0)==v1822) then v1823.Enabled=v1821;break;end end end});v844:AddSlider("MP_ChorusDepth",{Text="depth",Default=526 -(296 + 180) ,Min=0,Max=1503 -(1183 + 220) ,Rounding=1265 -(1037 + 228) ,Callback=function(v1824) if  not v320.sound then return;end local v1825=v320.sound:FindFirstChild("MP_Chorus");if v1825 then v1825.Depth=v1824/(161 -61) ;end end});v844:AddToggle("MP_Normalize",{Text="normalize",Default=false,Callback=function(v1826) if  not v320.sound then return;end local v1827=v320.sound:FindFirstChild("MP_Norm") or Instance.new("CompressorSoundEffect") ;v1827.Name="MP_Norm";v1827.Parent=v320.sound;v1827.Enabled=v1826;end});v845:AddToggle("MP_VizOn",{Text="visualizer",Default=true,Callback=function(v1832) v320.showViz=v1832;end});local v848=Instance.new("ScreenGui");v848.Name="teddyhubMusicViz";v848.ResetOnSpawn=false;v848.DisplayOrder=432 -282 ;v848.IgnoreGuiInset=true;pcall(function() v848.Parent=v61;end);if  not v848.Parent then v848.Parent=v65;end local v853=Instance.new("Frame");v853.Name="VizHolder";v853.Size=UDim2.new(0,888 -628 ,734 -(527 + 207) ,591 -(187 + 340) );v853.Position=UDim2.new(1870.5 -(1298 + 572) , -130,0.9,0 -0 );v853.BackgroundColor3=v54.MainColor;v853.BorderSizePixel=170 -(144 + 26) ;v853.BackgroundTransparency=0.05 -0 ;v853.Parent=v848;local v862=Instance.new("UIStroke");v862.Color=v54.OutlineColor;v862.Thickness=2 -1 ;v862.Parent=v853;local v867=Instance.new("Frame");v867.Name="Strip";v867.Size=UDim2.new(1,0,0 + 0 ,2);v867.BorderSizePixel=0;v867.BackgroundColor3=v54.AccentColor;v867.ZIndex=5;v867.Parent=v853;local v875=Instance.new("TextLabel");v875.Name="Title";v875.Size=UDim2.new(1, -(32 -20),0 -0 ,77 -61 );v875.Position=UDim2.new(0 + 0 ,7 -1 ,0 + 0 ,2 + 3 );v875.BackgroundTransparency=1;v875.Font=Enum.Font.Code;v875.TextSize=13;v875.TextXAlignment=Enum.TextXAlignment.Left;v875.TextColor3=v54.FontColor;v875.TextTruncate=Enum.TextTruncate.AtEnd;v875.Text="no song";v875.Parent=v853;local v891=Instance.new("UIStroke");v891.Color=Color3.new(0,202 -(5 + 197) ,0);v891.Thickness=687 -(339 + 347) ;v891.LineJoinMode=Enum.LineJoinMode.Miter;v891.Parent=v875;v320._nowPlayingLabel=v875;v875.Size=UDim2.new(0.6,0 -0 ,0 -0 ,392 -(365 + 11) );local v898=Instance.new("TextLabel");v898.Name="Time";v898.Size=UDim2.new(0.4 + 0 , -(23 -17),0 -0 ,940 -(837 + 87) );v898.Position=UDim2.new(0.6 -0 ,0,1670 -(837 + 833) ,2 + 3 );v898.BackgroundTransparency=1388 -(356 + 1031) ;v898.Font=Enum.Font.Code;v898.TextSize=6 + 7 ;v898.TextXAlignment=Enum.TextXAlignment.Right;v898.TextColor3=v54.FontColor;v898.Text="0:00 / 0:00";v898.Parent=v853;local function v910(v1835) local v1836=0;while true do if (v1836==(1646 -(73 + 1573))) then v1835=math.max(1388 -(1307 + 81) ,math.floor(v1835 + (234.5 -(7 + 227)) ));return string.format("%d:%02d",math.floor(v1835/(98 -38) ),v1835%(226 -(90 + 76)) );end end end local v911=Instance.new("Frame");v911.Name="Bars";v911.Position=UDim2.new(0 -0 ,3 + 3 ,0 + 0 ,20 + 4 );v911.Size=UDim2.new(3 -2 , -(272 -(197 + 63)),1, -(7 + 23));v911.BackgroundTransparency=1 + 0 ;v911.Parent=v853;local v917=17 + 15 ;local v918={};for v1837=1 + 0 ,v917 do local v1838=0 -0 ;local v1839;while true do if ((1373 -(618 + 751))==v1838) then v825[v1837]=v1839;v918[v1837]=0 + 0 ;break;end if ((1912 -(206 + 1704))==v1838) then v1839.Position=UDim2.new((v1837-(1 -0))/v917 ,1 -0 ,1 + 0 ,1275 -(155 + 1120) );v1839.BackgroundColor3=v54.AccentColor;v1838=1509 -(396 + 1110) ;end if (v1838==3) then v1839.BorderSizePixel=0;v1839.Parent=v911;v1838=8 -4 ;end if (v1838==(0 + 0)) then v1839=Instance.new("Frame");v1839.Name="VizBar"   .. v1837 ;v1838=1;end if (v1838==(1 + 0)) then v1839.Size=UDim2.new(1/v917 , -2,0 + 0 ,0);v1839.AnchorPoint=Vector2.new(976 -(230 + 746) ,1);v1838=603 -(473 + 128) ;end end end v853.Active=true;do local v1840=false;local v1841=Vector2.zero;local v1842=UDim2.new();v853.InputBegan:Connect(function(v2309) if (v2309.UserInputType==Enum.UserInputType.MouseButton1) then local v2684=48 -(39 + 9) ;while true do if ((266 -(38 + 228))==v2684) then v1840=true;v1841=v2309.Position;v2684=1 -0 ;end if (v2684==1) then v1842=v853.Position;break;end end end end);v853.InputChanged:Connect(function(v2310) if (v1840 and (v2310.UserInputType==Enum.UserInputType.MouseMovement)) then local v2685=473 -(106 + 367) ;local v2686;while true do if ((0 + 0)==v2685) then v2686=v2310.Position-v1841 ;v853.Position=UDim2.new(v1842.X.Scale,v1842.X.Offset + v2686.X ,v1842.Y.Scale,v1842.Y.Offset + v2686.Y );break;end end end end);v853.InputEnded:Connect(function(v2311) if (v2311.UserInputType==Enum.UserInputType.MouseButton1) then v1840=false;end end);end v57.RenderStepped:Connect(function() if v54.Unloaded then return;end v853.Visible=v320.showViz;if (v320.sleepEnd and (tick()>=v320.sleepEnd)) then v320.sleepEnd=nil;v824();print("[Music] sleep timer stopped playback");end local v1845,v1846=0,1862 -(354 + 1508) ;if v320.sound then pcall(function() v1845=v320.sound.TimePosition;v1846=v320.sound.TimeLength;end);end local v1847=v910(v1845)   .. " / "   .. v910(v1846) ;v898.Text=v1847;if v837 then pcall(function() v837:SetText(v1847);end);end if  not v320.showViz then return;end local v1849=v320.sound and v320.playing and  not v320.paused ;local v1850=0 -0 ;if v1849 then pcall(function() v1850=v320.sound.PlaybackLoudness or (0 + 0) ;end);end local v1851=math.clamp(v1850/(88 + 62) ,0 -0 ,1);local v1852=tick();local v1853=math.max(v911.AbsoluteSize.Y,1264 -(334 + 910) );local v1854=Toggles.MP_VizRainbow and Toggles.MP_VizRainbow.Value ;for v2312,v2313 in ipairs(v825) do local v2314=895 -(92 + 803) ;local v2315;local v2316;while true do if (v2314==(0 + 0)) then v2315=(1181.5 -(1035 + 146)) + (0.5 * math.sin((v1852 * (2.2 + (v2312 * (616.09 -(230 + 386))))) + (v2312 * 0.6) )) ;v2316=nil;v2314=1 + 0 ;end if (v2314==(1512 -(353 + 1157))) then v918[v2312]=v918[v2312] + ((v2316-v918[v2312]) * 0.3) ;v2313.Size=UDim2.new((1115 -(53 + 1061))/v917 , -2,1635 -(1568 + 67) ,math.max(1 + 1 ,v918[v2312] * v1853 ));v2314=3;end if (v2314==(1 + 2)) then if v1854 then v2313.BackgroundColor3=Color3.fromHSV(((v2312/v917) + (v1852 * (0.08 -0)))%(2 -1) ,0.8 -0 ,1 + 0 );else v2313.BackgroundColor3=v54.AccentColor:Lerp(v54.FontColor,v918[v2312] * 0.6 );end break;end if (v2314==1) then if v1849 then v2316=(1212.08 -(615 + 597)) + (v1851 * (0.3 + (0.7 * v2315))) + (math.random() * v1851 * 0.12) ;else v2316=0.05 + 0 + ((0.04 -0) * v2315) ;end v2316=math.clamp(v2316,0,1);v2314=2 + 0 ;end end end v867.BackgroundColor3=v54.AccentColor;end);v845:AddSlider("MP_VizX",{Text="viz x",Default=1 + 49 ,Min=0,Max=56 + 44 ,Rounding=0,Callback=function(v1857) v853.Position=UDim2.new(v1857/100 , -100,v853.Position.Y.Scale,v853.Position.Y.Offset);end});v845:AddSlider("MP_VizY",{Text="viz y",Default=1991 -(1056 + 843) ,Min=0 -0 ,Max=166 -66 ,Rounding=0 -0 ,Callback=function(v1859) v853.Position=UDim2.new(v853.Position.X.Scale,v853.Position.X.Offset,v1859/(59 + 41) ,0);end});v845:AddSlider("MP_VizW",{Text="width",Default=2176 -(286 + 1690) ,Min=991 -(98 + 813) ,Max=159 + 441 ,Rounding=0 -0 ,Callback=function(v1861) v853.Size=UDim2.new(0,v1861,0,v853.AbsoluteSize.Y);end});v845:AddSlider("MP_VizH",{Text="height",Default=23 + 17 ,Min=527 -(263 + 244) ,Max=120,Rounding=0,Callback=function(v1863) v853.Size=UDim2.new(0,v853.AbsoluteSize.X,0 + 0 ,v1863);end});v845:AddToggle("MP_VizRainbow",{Text="rainbow",Default=true});v845:AddLabel("drag to move.");v846:AddLabel("use favourite on a song.");v846:AddButton({Text="play favs",Func=function() v320.queue={};for v2317,v2318 in ipairs(v320.songs) do if v320.favourites[v2318.name] then table.insert(v320.queue,v2317);end end if ( #v320.queue==0) then return;end v320.queueIndex=1688 -(1502 + 185) ;v833(1 + 0 );end});v846:AddButton({Text="clear favs",Func=function() v320.favourites={};end});v846:AddDivider();v846:AddLabel("folder: songs");v846:AddLabel("mp3 ogg flac wav");v846:AddButton({Text="song info",Func=function() local v1868=0 -0 ;while true do if (v1868==(0 -0)) then print("[Music] Songs folder: "   .. v320.FOLDER );print("[Music] "   ..  #v320.songs   .. " songs loaded" );v1868=1528 -(629 + 898) ;end if (v1868==(2 -1)) then for v2933,v2934 in ipairs(v320.songs) do print("  - "   .. v2934.name );end break;end end end});v320._vizGui=v848;end v8("music player",v321);local function v322() local v921=game:GetService("UserInputService");local v922=game:GetService("RunService");local v923=game:GetService("Lighting");local v924=game:GetService("TeleportService");local v925=game:GetService("VirtualUser");local v926=game:GetService("Players").LocalPlayer;local v927={};local function v928(v1869) local v1870=0;while true do if (v1870==0) then table.insert(v927,v1869);return v1869;end end end local v929,v930,v931,v932,v933=false,false,false,false,false;local v934={Brightness=v923.Brightness,Ambient=v923.Ambient,OutdoorAmbient=v923.OutdoorAmbient,GlobalShadows=v923.GlobalShadows,FogEnd=v923.FogEnd,ClockTime=v923.ClockTime};local function v935() local v1871=v926.Character;if  not v1871 then return;end for v2319,v2320 in ipairs(v1871:GetDescendants()) do if v2320:IsA("BasePart") then v2320.CanCollide=true;end end end v928(v922.Stepped:Connect(function() if  not v929 then return;end local v1872=v926.Character;if  not v1872 then return;end for v2321,v2322 in ipairs(v1872:GetDescendants()) do if (v2322:IsA("BasePart") and v2322.CanCollide and (v2322.Name~="HumanoidRootPart")) then v2322.CanCollide=false;end end end));v928(v921.JumpRequest:Connect(function() local v1873=0 -0 ;local v1874;while true do if ((366 -(12 + 353))==v1873) then if v1874 then v1874:ChangeState(Enum.HumanoidStateType.Jumping);end break;end if (v1873==(1911 -(1680 + 231))) then if  not v930 then return;end v1874=v926.Character and v926.Character:FindFirstChildOfClass("Humanoid") ;v1873=1;end end end));v928(v921.InputBegan:Connect(function(v1875,v1876) local v1877=0;local v1878;local v1879;while true do if (v1877==0) then if (v1876 or  not v931) then return;end if (v1875.UserInputType~=Enum.UserInputType.MouseButton1) then return;end v1877=1 + 0 ;end if (v1877==(2 + 0)) then v1879=v926:GetMouse().Hit;if (v1878 and v1879) then v1878.CFrame=CFrame.new(v1879.Position + Vector3.new(1149 -(212 + 937) ,2 + 1 ,1062 -(111 + 951) ) );end break;end if ((1 + 0)==v1877) then if  not v921:IsKeyDown(Enum.KeyCode.LeftControl) then return;end v1878=v926.Character and v926.Character:FindFirstChild("HumanoidRootPart") ;v1877=2;end end end));v928(v926.Idled:Connect(function() local v1880=27 -(18 + 9) ;while true do if (v1880==(0 + 0)) then if  not v932 then return;end pcall(function() local v2935=534 -(31 + 503) ;while true do if (v2935==(1632 -(595 + 1037))) then v925:CaptureController();v925:ClickButton2(Vector2.new());break;end end end);break;end end end));local function v936(v1881) if v1881 then v923.Brightness=1446 -(189 + 1255) ;v923.ClockTime=6 + 8 ;v923.GlobalShadows=false;v923.Ambient=Color3.new(1,1 -0 ,1280 -(1170 + 109) );v923.OutdoorAmbient=Color3.new(1,1818 -(348 + 1469) ,1);v923.FogEnd=101289 -(1115 + 174) ;else for v2692,v2693 in pairs(v934) do pcall(function() v923[v2692]=v2693;end);end end end local function v937(v1882) if  not setfpscap then warn("[Misc] setfpscap is not supported by this executor");return;end local v1883=tonumber(v1882) or 0 ;pcall(setfpscap,v1883);end local function v938() local v1884=v926.Character and v926.Character:FindFirstChildOfClass("Humanoid") ;if v1884 then v1884.Health=0;end end local function v939() if setclipboard then local v2487=0;while true do if (v2487==(0 -0)) then setclipboard(game.JobId);print("[Misc] JobId copied to clipboard");break;end end else print("[Misc] JobId: "   .. game.JobId );end end local function v940() pcall(function() v924:TeleportToPlaceInstance(game.PlaceId,game.JobId,v926);end);end local function v941() local v1885=1014 -(85 + 929) ;local v1886;while true do if (v1885==(0 + 0)) then v1886= #game:GetService("Players"):GetPlayers();print("[Misc] PlaceId: "   .. game.PlaceId );v1885=1;end if (v1885==1) then print("[Misc] JobId:   "   .. game.JobId );print("[Misc] Players: "   .. v1886   .. "/"   .. game:GetService("Players").MaxPlayers );break;end end end if  not v299.miscL2 then v299.miscL2=v301.Misc:AddLeftTabbox();end local v942=v299.miscL2:AddTab("player");local v943=v299.miscR:AddTab("server");v942:AddToggle("MX_Noclip",{Text="noclip",Default=false,Callback=function(v1887) local v1888=0;while true do if (v1888==(1867 -(1151 + 716))) then v929=v1887;if  not v1887 then v935();end break;end end end});v942:AddToggle("MX_InfJump",{Text="infinite jump",Default=false,Callback=function(v1889) v930=v1889;end});v942:AddToggle("MX_ClickTP",{Text="ctrl + click teleport",Default=false,Callback=function(v1890) v931=v1890;end});v942:AddToggle("MX_AntiAfk",{Text="anti-afk",Default=false,Callback=function(v1891) v932=v1891;end});v942:AddDivider();v942:AddButton({Text="reset character",Func=v938});v943:AddToggle("MX_Fullbright",{Text="fullbright",Default=false,Callback=function(v1892) local v1893=0;while true do if (0==v1893) then v933=v1892;v936(v1892);break;end end end});v943:AddDropdown("MX_FPS",{Text="fps cap",Values={"60","120","144","240","Unlimited"},Default="Unlimited",Callback=v937});v943:AddDivider();v943:AddButton({Text="copy jobid",Func=v939});v943:AddButton({Text="rejoin server",Func=v940});v943:AddButton({Text="print server info",Func=v941});local v944;local function v945() return v926.Character and v926.Character:FindFirstChild("HumanoidRootPart") ;end v942:AddButton({Text="set mark",Func=function() local v1894=0 + 0 ;local v1895;while true do if ((0 + 0)==v1894) then v1895=v945();if v1895 then v944=v1895.CFrame;print("[Misc] bookmark set");end break;end end end});v942:AddButton({Text="go mark",Func=function() local v1896=1704 -(95 + 1609) ;local v1897;while true do if (v1896==(0 -0)) then v1897=v945();if (v1897 and v944) then v1897.CFrame=v944;else warn("[Misc] no bookmark set");end break;end end end});v942:AddButton({Text="go spawn",Func=function() local v1898=workspace:FindFirstChildOfClass("SpawnLocation");local v1899=v945();if (v1898 and v1899) then v1899.CFrame=v1898.CFrame + Vector3.new(758 -(364 + 394) ,5 + 0 ,0 + 0 ) ;else warn("[Misc] no SpawnLocation found");end end});v943:AddButton({Text="copy pos",Func=function() local v1900=0 + 0 ;local v1901;local v1902;local v1903;while true do if (v1900==(2 + 0)) then if setclipboard then local v3036=0;while true do if (0==v3036) then setclipboard(v1903);print("[Misc] copied "   .. v1903 );break;end end else print("[Misc] "   .. v1903 );end break;end if (v1900==0) then v1901=v945();if  not v1901 then return;end v1900=1 + 0 ;end if (v1900==(1 + 0)) then v1902=v1901.Position;v1903=string.format("%.1f, %.1f, %.1f",v1902.X,v1902.Y,v1902.Z);v1900=1 + 1 ;end end end});v45.MiscExtras.cleanup=function() local v1904=0;while true do if (v1904==(2 + 0)) then v933=false;v935();break;end if (v1904==(1 + 0)) then v929,v930,v931,v932=false,false,false,false;if v933 then v936(false);end v1904=958 -(719 + 237) ;end if (v1904==(0 -0)) then for v2937,v2938 in ipairs(v927) do pcall(function() v2938:Disconnect();end);end v927={};v1904=1 + 0 ;end end end;end v8("misc tools",v322);local function v323() local v947=game:GetService("RunService");local v948=game:GetService("Stats");local v949=game:GetService("Players");local v950=game:GetService("UserInputService");local v951=v949.LocalPlayer;local v952=v951:WaitForChild("PlayerGui");local v953=Instance.new("ScreenGui");v953.Name="teddyhubCustomHUD";v953.ResetOnSpawn=false;v953.DisplayOrder=743 -443 ;v953.IgnoreGuiInset=true;pcall(function() v953.Parent=game:GetService("CoreGui");end);if  not v953.Parent then v953.Parent=v952;end local v958=Instance.new("Frame");v958.Name="Panel";v958.Size=UDim2.fromOffset(535 -345 ,0 -0 );v958.AutomaticSize=Enum.AutomaticSize.Y;v958.BackgroundColor3=v54.MainColor;v958.BorderSizePixel=1991 -(761 + 1230) ;v958.Position=UDim2.fromScale(193.01 -(80 + 113) ,0.01);v958.Parent=v953;local v968=Instance.new("UIScale");v968.Parent=v958;local v970=Instance.new("UIStroke");v970.Color=v54.OutlineColor;v970.Thickness=1;v970.Parent=v958;local v975=Instance.new("UIListLayout");v975.SortOrder=Enum.SortOrder.LayoutOrder;v975.Padding=UDim.new(0 + 0 ,2 + 0 );v975.Parent=v958;local v980=Instance.new("UIPadding");v980.PaddingTop=UDim.new(0 + 0 ,23 -17 );v980.PaddingBottom=UDim.new(0 + 0 ,2 + 4 );v980.PaddingLeft=UDim.new(1243 -(965 + 278) ,1737 -(1391 + 338) );v980.PaddingRight=UDim.new(0 -0 ,8 + 0 );v980.Parent=v958;local v986=Instance.new("Frame");v986.Name="AccentStrip";v986.Size=UDim2.new(1 -0 ,0,0 + 0 ,2);v986.Position=UDim2.new(1408 -(496 + 912) ,0 -0 ,0,0 + 0 );v986.BorderSizePixel=0 -0 ;v986.BackgroundColor3=v54.AccentColor;v986.ZIndex=1335 -(1190 + 140) ;v986.Parent=v958;local function v995(v1906) local v1907=0 + 0 ;local v1908;local v1909;while true do if (v1907==(721 -(317 + 401))) then v1908.Parent=v958;v1909=Instance.new("UIStroke");v1909.Color=Color3.new(949 -(303 + 646) ,0 -0 ,1732 -(1675 + 57) );v1907=4;end if ((0 + 0)==v1907) then v1908=Instance.new("TextLabel");v1908.LayoutOrder=v1906;v1908.BackgroundTransparency=2 -1 ;v1907=1;end if (v1907==(1 + 1)) then v1908.TextXAlignment=Enum.TextXAlignment.Left;v1908.TextColor3=v54.FontColor;v1908.Text="";v1907=980 -(338 + 639) ;end if (v1907==(380 -(320 + 59))) then v1908.Size=UDim2.new(1 + 0 ,732 -(628 + 104) ,0 -0 ,1907 -(439 + 1452) );v1908.Font=Enum.Font.Code;v1908.TextSize=14;v1907=2;end if (5==v1907) then return v1908;end if (v1907==(1951 -(105 + 1842))) then v1909.Thickness=4 -3 ;v1909.LineJoinMode=Enum.LineJoinMode.Miter;v1909.Parent=v1908;v1907=5;end end end local v996=v995(0 -0 );local v997={{key="HUD_ShowFPS",order=4 -3 },{key="HUD_ShowPing",order=1 + 1 },{key="HUD_ShowTime",order=2 + 1 },{key="HUD_ShowPlayers",order=4},{key="HUD_ShowGameTime",order=5 + 0 },{key="HUD_ShowHealth",order=2 + 4 },{key="HUD_ShowPos",order=7}};local v998={};for v1910,v1911 in ipairs(v997) do v998[v1911.key]=v995(v1911.order);end v958.Active=true;do local v1913,v1914,v1915=false,Vector2.zero,v958.Position;v958.InputBegan:Connect(function(v2325) if (v2325.UserInputType==Enum.UserInputType.MouseButton1) then v1913=true;v1914=v2325.Position;v1915=v958.Position;end end);v950.InputChanged:Connect(function(v2326) if (v1913 and (v2326.UserInputType==Enum.UserInputType.MouseMovement)) then local v2714=0;local v2715;while true do if (v2714==0) then v2715=v2326.Position-v1914 ;v958.Position=UDim2.new(v1915.X.Scale,v1915.X.Offset + v2715.X ,v1915.Y.Scale,v1915.Y.Offset + v2715.Y );break;end end end end);v950.InputEnded:Connect(function(v2327) if (v2327.UserInputType==Enum.UserInputType.MouseButton1) then v1913=false;end end);end local v1000,v1001,v1002=0 + 0 ,tick(),84 -24 ;local v1003=false;local v1004=setmetatable({},{__mode="k"});local v1005=setmetatable({},{__mode="k"});local function v1006() local v1916=819 -(731 + 88) ;local v1917;local v1918;while true do if ((0 + 0)==v1916) then v1917,v1918=pcall(function() return math.floor(v948.Network.ServerStatsItem["Data Ping"]:GetValue());end);return (v1917 and v1918) or (0 + 0) ;end end end local function v1007() local v1919=0 + 0 ;local v1920;while true do if (v1919==(0 -0)) then v1920=v951.Character and v951.Character:FindFirstChildOfClass("Humanoid") ;if  not v1920 then return "--";end v1919=1;end if (v1919==(2 -1)) then return string.format("%d / %d",math.floor(v1920.Health),math.floor(v1920.MaxHealth));end end end local function v1008() local v1921=0;local v1922;local v1923;while true do if (v1921==0) then v1922=v951.Character and v951.Character:FindFirstChild("HumanoidRootPart") ;if  not v1922 then return "--";end v1921=1;end if (v1921==1) then v1923=v1922.Position;return string.format("%d, %d, %d",math.floor(v1923.X),math.floor(v1923.Y),math.floor(v1923.Z));end end end local v1009=0 -0 ;local v1010;v1010=v947.RenderStepped:Connect(function(v1924) if v54.Unloaded then return;end v1000=v1000 + (1 -0) ;if ((tick() -v1001)>=1) then v1002=v1000;v1000=0 + 0 ;v1001=tick();end local v1925=Options.HUD_Accent.Value;local v1926=Options.HUD_TextColor.Value;local v1927=Options.HUD_TextSize.Value;local v1928=table.concat({tostring(v1925),tostring(v1926),tostring(v1927),tostring(Options.HUD_Scale.Value),tostring(Options.HUD_X.Value),tostring(Options.HUD_Y.Value),tostring(Options.HUD_BgTrans.Value),tostring(Toggles.HUD_Enabled.Value),tostring(Toggles.HUD_ShowTitle.Value),tostring(Options.HUD_Title.Value)},"|");if (v1928~=v1003) then v1003=v1928;v968.Scale=Options.HUD_Scale.Value/(14 + 86) ;v958.Position=UDim2.fromScale(Options.HUD_X.Value/(439 -339) ,Options.HUD_Y.Value/(915 -(117 + 698)) );v958.BackgroundTransparency=Options.HUD_BgTrans.Value/(581 -(305 + 176)) ;v958.Visible=Toggles.HUD_Enabled.Value;v986.BackgroundColor3=v1925;v986.Visible=Toggles.HUD_ShowTitle.Value;v996.Visible=Toggles.HUD_ShowTitle.Value;v996.Text=Options.HUD_Title.Value;v996.TextColor3=v1925;v996.TextSize=v1927;end v1009=v1009 + v1924 ;if (v1009<(0.2 + 0)) then return;end v1009=0;local v1929={HUD_ShowFPS="FPS: "   .. v1002 ,HUD_ShowPing="Ping: "   .. v1006()   .. " ms" ,HUD_ShowTime="Time: "   .. os.date("%H:%M:%S") ,HUD_ShowPlayers="Players: "   ..  #v949:GetPlayers()   .. " / "   .. v949.MaxPlayers ,HUD_ShowGameTime=string.format("Game time: %02d:%02d",math.floor(game:GetService("Lighting").ClockTime),math.floor((game:GetService("Lighting").ClockTime%(1 + 0)) * 60 )),HUD_ShowHealth="HP: "   .. v1007() ,HUD_ShowPos="Pos: "   .. v1008() };for v2328,v2329 in ipairs(v997) do local v2330=v998[v2329.key];local v2331=v1929[v2329.key];if (v1004[v2329.key]~=v2331) then v1004[v2329.key]=v2331;v2330.Text=v2331;end if (v1005["c"   .. v2329.key ]~=v1926) then local v2719=0;while true do if (v2719==(0 -0)) then v1005["c"   .. v2329.key ]=v1926;v2330.TextColor3=v1926;break;end end end if (v1005["s"   .. v2329.key ]~=v1927) then v1005["s"   .. v2329.key ]=v1927;v2330.TextSize=v1927;end local v2332=Toggles[v2329.key].Value;if (v1004["v"   .. v2329.key ]~=v2332) then v1004["v"   .. v2329.key ]=v2332;v2330.Visible=v2332;end end end);v45.CustomHUD.cleanup=function() if v1010 then v1010:Disconnect();end pcall(function() v953:Destroy();end);end;end local function v324() local v1012=0;local v1013;while true do if (v1012==(3 + 0)) then v1013:AddDivider();v1013:AddSlider("HUD_Scale",{Text="scale %",Default=173 -73 ,Min=113 -63 ,Max=347 -147 ,Rounding=0});v1013:AddSlider("HUD_TextSize",{Text="text size",Default=14,Min=270 -(159 + 101) ,Max=24,Rounding=0 -0 });v1013:AddSlider("HUD_BgTrans",{Text="background transparency %",Default=15,Min=0 -0 ,Max=50 + 50 ,Rounding=0});v1012=12 -8 ;end if (v1012==(1 -0)) then v1013:AddDivider();v1013:AddToggle("HUD_ShowFPS",{Text="fps",Default=true});v1013:AddToggle("HUD_ShowPing",{Text="ping",Default=true});v1013:AddToggle("HUD_ShowTime",{Text="real time",Default=true});v1012=1 + 1 ;end if (v1012==(268 -(112 + 154))) then v1013:AddToggle("HUD_ShowPlayers",{Text="player count",Default=true});v1013:AddToggle("HUD_ShowGameTime",{Text="game time",Default=false});v1013:AddToggle("HUD_ShowHealth",{Text="my health",Default=false});v1013:AddToggle("HUD_ShowPos",{Text="my position",Default=false});v1012=3;end if (v1012==(11 -6)) then v1013:AddDivider();v1013:AddButton({Text="reset position",Func=function() local v2724=31 -(21 + 10) ;while true do if ((1719 -(531 + 1188))==v2724) then Options.HUD_X:SetValue(1 + 0 );Options.HUD_Y:SetValue(1);break;end end end});break;end if (v1012==4) then v1013:AddSlider("HUD_X",{Text="position x %",Default=664 -(96 + 567) ,Min=0 -0 ,Max=42 + 58 ,Rounding=0 -0 });v1013:AddSlider("HUD_Y",{Text="position y %",Default=1696 -(867 + 828) ,Min=0 -0 ,Max=362 -262 ,Rounding=0 -0 });v1013:AddLabel("accent"):AddColorPicker("HUD_Accent",{Default=v54.AccentColor});v1013:AddLabel("text"):AddColorPicker("HUD_TextColor",{Default=v54.FontColor});v1012=7 -2 ;end if ((0 + 0)==v1012) then v1013=v299.visR2:AddTab("hud");v1013:AddToggle("HUD_Enabled",{Text="enable custom hud",Default=false});v1013:AddToggle("HUD_ShowTitle",{Text="show title",Default=true});v1013:AddInput("HUD_Title",{Default="teddyhub v.3",Text="title",Finished=true});v1012=1 -0 ;end end end v8("hud gui",v324);v8("custom HUD",v323);local function v325() local v1014={"AimbotOn","WallChk","StickyOn","TrigOn","SAOn","AA_Enable","RG_On","HB_On","ESPOn","Visuals_Enabled","Weather_Enabled","SelfChams_Enabled","FOV_Enabled","CC_Enabled","Bloom_Enabled","CHVis","SpeedOn","JumpOn","FlyOn","SpinBotOn","MX_Noclip","MX_InfJump","MX_ClickTP","MX_AntiAfk","MX_Fullbright","HUD_Enabled","MP_EQOn"};local v1015,v1016=0 + 0 ,0;for v1930,v1931 in ipairs(v1014) do local v1932=1592 -(683 + 909) ;local v1933;local v1934;while true do if (0==v1932) then v1933,v1934=pcall(function() local v2939=Toggles[v1931];if  not v2939 then error("toggle not found");end v2939:AddKeyPicker(v1931   .. "_Key" ,{Default="None",Mode="Toggle",SyncToggleState=true,Text=v1931,NoUI=false});end);if v1933 then v1015=v1015 + (2 -1) ;else v1016=v1016 + (1 -0) ;warn("[Keybind] "   .. v1931   .. ": "   .. tostring(v1934) );end break;end end end print("[Keybind] "   .. v1015   .. " feature keybind(s) added, "   .. v1016   .. " failed" );end v8("keybinds",v325);local function v326() local v1017=v299.visL:AddTab("effects");v45.EffectsGroup=v1017;v1017:AddToggle("GL_On",{Text="glow",Default=false});v1017:AddSlider("GL_Pulse",{Text="pulse",Default=2,Min=777 -(772 + 5) ,Max=1437 -(19 + 1408) ,Rounding=289 -(134 + 154) });v1017:AddSlider("GL_Fill",{Text="fill",Default=98 -38 ,Min=0,Max=310 -210 ,Rounding=0 + 0 });v1017:AddSlider("GL_Outline",{Text="outline",Default=68 + 12 ,Min=202 -(10 + 192) ,Max=147 -(13 + 34) ,Rounding=1289 -(342 + 947) });v1017:AddDivider();v1017:AddToggle("FX_On",{Text="particles",Default=false});v1017:AddDropdown("FX_Preset",{Text="preset",Default="Fire",Values={"Fire","Ember","Smoke","Dark Smoke","Sparks","Stars","Snow","Rain","Halo","Orbit","Aura","Mist","Electric","Pixel","Blaze","Glow Dots","Lava","Trail Up","Vortex","Storm","Pillar","Ring","Tornado","Ground Fire","Glow Ring"}});v1017:AddSlider("FX_Rate",{Text="amount %",Default=100,Min=477 -(369 + 98) ,Max=300,Rounding=1115 -(400 + 715) });v1017:AddSlider("FX_Size",{Text="size %",Default=100,Min=12 + 13 ,Max=300,Rounding=0});v1017:AddToggle("FX_Rainbow",{Text="rainbow",Default=false});v1017:AddLabel("color"):AddColorPicker("FX_Color",{Default=Color3.fromRGB(0 + 0 ,1580 -(744 + 581) ,71 + 69 )});v1017:AddDivider();v1017:AddLabel("glow + particles only show for you.");local v1019="rbxasset://textures/particles/fire_main.dds";local v1020="rbxasset://textures/particles/smoke_main.dds";local v1021="rbxasset://textures/particles/sparkles_main.dds";local v1022=Enum.ParticleEmitterShape;local v1023={Fire={tex=v1019,rate=1682 -(653 + 969) ,life={1631.6 -(12 + 1619) ,164.2 -(103 + 60) },speed={8 -6 ,23 -18 },spread=1687 -(710 + 952) ,size=1871 -(555 + 1313) ,light=1,accel=Vector3.new(0 + 0 ,4 + 0 ,0),rot={0 + 0 ,252 -(245 + 7) },shape=v1022.Disc,fade=true},Ember={tex=v1019,rate=25,life={4 -3 ,1478 -(905 + 571) },speed={1 -0 ,2},spread=158 -118 ,size=1.2 + 0 ,light=1,accel=Vector3.new(1463 -(522 + 941) ,1513 -(292 + 1219) ,1112 -(787 + 325) ),rot={0 + 0 ,534 -(424 + 110) },shape=v1022.Sphere,fade=true},Smoke={tex=v1020,rate=20,life={2 + 0 ,315 -(33 + 279) },speed={1354 -(1338 + 15) ,1 + 1 },spread=1954 -(1606 + 318) ,size=4,light=0,accel=Vector3.new(0,1820 -(298 + 1521) ,0 -0 ),rot={ -(76 -56),41 -21 },shape=v1022.Disc,fade=true},["Dark Smoke"]={tex=v1020,rate=12,life={453 -(168 + 282) ,4 + 0 },speed={0.5,1452 -(1242 + 209) },spread=20,size=685 -(20 + 659) ,light=0,accel=Vector3.new(0 + 0 ,0.5 + 0 ,0 -0 ),rot={ -(629 -(427 + 192)),4 + 6 },shape=v1022.Sphere,fade=true},Sparks={tex=v1021,rate=1987 -(1427 + 520) ,life={0.5 -0 ,1},speed={6 -3 ,571 -(35 + 530) },spread=180,size=0.8 + 0 ,light=3 -2 ,accel=Vector3.new(1378 -(1330 + 48) , -4,0 + 0 ),rot={0 + 0 ,0},shape=v1022.Sphere,fade=true},Stars={tex=v1021,rate=35 -27 ,life={1170.5 -(854 + 315) ,1.5 + 1 },speed={0.5 -0 ,2 -1 },spread=180,size=0.6 + 0 ,light=564 -(281 + 282) ,accel=Vector3.new(0 -0 ,0,0 + 0 ),rot={0,0},shape=v1022.Sphere,fade=true},Snow={tex=v1021,rate=69 -44 ,life={3,5},speed={0.5 + 0 ,1},spread=8 + 7 ,size=1305.5 -(535 + 770) ,light=0 + 0 ,accel=Vector3.new(0 + 0 , -(1996 -(211 + 1783)),0 + 0 ),rot={910 -(793 + 117) ,0},shape=v1022.Box,fade=false},Rain={tex=v1021,rate=60,life={1976.5 -(80 + 1896) ,0.8 -0 },speed={0.5,0.5 + 0 },spread=0,size=0.3 -0 ,light=0,accel=Vector3.new(0 + 0 , -(88 -58),0),rot={0 + 0 ,0 -0 },shape=v1022.Box,fade=false},Halo={tex=v1021,rate=40,life={1,1.5 + 0 },speed={0.1 -0 ,0.2},spread=180,size=0.7,light=1,accel=Vector3.new(0,0 + 0 ,1424 -(916 + 508) ),rot={0 -0 ,0},shape=v1022.Disc,fade=true},Orbit={tex=v1021,rate=50,life={324 -(140 + 183) ,565.5 -(297 + 267) },speed={4 + 2 ,8},spread=347 -(37 + 305) ,size=1266.5 -(323 + 943) ,light=1,accel=Vector3.new(0,0 + 0 ,0 -0 ),rot={90,180},shape=v1022.Disc,fade=true},Aura={tex=v1020,rate=3 + 7 ,life={2 -0 ,2.5 + 0 },speed={529.5 -(87 + 442) ,1},spread=167 + 13 ,size=5,light=1 + 0 ,accel=Vector3.new(0,0,0),rot={0 + 0 ,1865 -(1231 + 634) },shape=v1022.Sphere,fade=true},Mist={tex=v1020,rate=8,life={4,14 -9 },speed={0.2 -0 ,0.4 -0 },spread=55 + 5 ,size=1958 -(1111 + 839) ,light=951 -(496 + 455) ,accel=Vector3.new(698 -(66 + 632) ,0 -0 ,1136 -(441 + 695) ),rot={ -(9 -4),4 + 1 },shape=v1022.Box,fade=true},Electric={tex=v1021,rate=1928 -(286 + 1552) ,life={1320.1 -(708 + 612) ,0.2},speed={4 + 4 ,1182 -(979 + 191) },spread=319 -139 ,size=0.4,light=1,accel=Vector3.new(0,1735 -(339 + 1396) ,0 + 0 ),rot={0,0 -0 },shape=v1022.Sphere,fade=false},Pixel={tex=v1021,rate=30 + 0 ,life={349 -(187 + 160) ,6 -4 },speed={0.5,0.5},spread=27 + 153 ,size=0.3,light=0 -0 ,accel=Vector3.new(0,0,0),rot={ -(13 + 167),508 -(56 + 272) },shape=v1022.Box,fade=false},Blaze={tex=v1019,rate=69 + 51 ,life={0.2,0.4 + 0 },speed={650 -(455 + 185) ,803 -(757 + 31) },spread=2019 -(762 + 1237) ,size=3 -1 ,light=1,accel=Vector3.new(269 -(265 + 4) ,15 -9 ,0),rot={0 + 0 ,0 -0 },shape=v1022.Disc,fade=true},["Glow Dots"]={tex=v1021,rate=42 -27 ,life={0.8,1.2 + 0 },speed={0.2,0.2 -0 },spread=180,size=1734.9 -(1691 + 43) ,light=1 + 0 ,accel=Vector3.new(0,0 -0 ,0 + 0 ),rot={0,0},shape=v1022.Sphere,fade=true},Lava={tex=v1019,rate=35,life={1681 -(281 + 1399) ,2 -0 },speed={2 -1 ,2},spread=5,size=2 + 0 ,light=1,accel=Vector3.new(1291 -(260 + 1031) ,6,0),rot={ -(722 -(655 + 37)),50 -20 },shape=v1022.Disc,fade=true},["Trail Up"]={tex=v1021,rate=60,life={0.6,0.6 + 0 },speed={0,0},spread=0,size=770.6 -(383 + 387) ,light=1 + 0 ,accel=Vector3.new(0 + 0 ,24 -16 ,0 + 0 ),rot={0,510 -(304 + 206) },shape=v1022.Box,fade=true},Vortex={tex=v1021,rate=295 -(182 + 43) ,life={1,1 + 0 },speed={9 -5 ,1706 -(1635 + 67) },spread=0 + 0 ,size=0.5 + 0 ,light=198 -(131 + 66) ,accel=Vector3.new(0 -0 ,0 -0 ,0 + 0 ),rot={275 -95 ,360},shape=v1022.Cylinder,fade=true},Pillar={tex=v1019,rate=135 -55 ,life={1606.5 -(306 + 1299) ,4 -2 },speed={799 -(671 + 118) ,88 -(73 + 3) },spread=14 -9 ,size=9 -7 ,light=2 -1 ,accel=Vector3.new(1755 -(1668 + 87) ,1 + 1 ,1899 -(296 + 1603) ),rot={0 + 0 ,0},shape=Enum.ParticleEmitterShape.Disc,fade=true},Ring={tex=v1021,rate=60,life={1 + 0 ,1.2},speed={0.1 + 0 ,0.2},spread=414 -234 ,size=0.6,light=1 + 0 ,accel=Vector3.new(0 -0 ,0 + 0 ,0 -0 ),rot={180,360},shape=Enum.ParticleEmitterShape.Disc,fade=true},Tornado={tex=v1019,rate=120,life={0.8 + 0 ,1 -0 },speed={1792 -(20 + 1766) ,8},spread=869 -(88 + 721) ,size=2 + 0 ,light=1,accel=Vector3.new(0 + 0 ,0 + 0 ,0),rot={923 -563 ,1405 -685 },shape=Enum.ParticleEmitterShape.Cylinder,fade=true},["Ground Fire"]={tex=v1019,rate=487 -(93 + 344) ,life={1213.5 -(960 + 253) ,1},speed={0 -0 ,2 -1 },spread=1506 -(74 + 1342) ,size=1.5 + 1 ,light=475 -(33 + 441) ,accel=Vector3.new(0,8 -5 ,1419 -(64 + 1355) ),rot={11 -(5 + 6) ,0 + 0 },shape=Enum.ParticleEmitterShape.Disc,fade=true},["Glow Ring"]={tex=v1021,rate=546 -(369 + 77) ,life={738.6 -(438 + 300) ,0.6},speed={1201.5 -(95 + 1106) ,0.5 -0 },spread=90,size=0.4 -0 ,light=1897 -(1741 + 155) ,accel=Vector3.new(0 -0 ,0 -0 ,0 -0 ),rot={90,48 + 42 },shape=Enum.ParticleEmitterShape.Disc,fade=true},Storm={tex=v1021,rate=240 -140 ,life={0.4,497.7 -(73 + 424) },speed={320 -(93 + 215) ,1953 -(1756 + 179) },spread=60,size=1679.4 -(550 + 1129) ,light=107 -(57 + 50) ,accel=Vector3.new(629 -(30 + 599) , -(5 + 15),0 -0 ),rot={0,0},shape=v1022.Box,fade=false}};local v1024;local v1025;local function v1026(v1935) local v1936=0 + 0 ;while true do if (v1936==2) then v1025.Parent=v1935;return v1025;end if (v1936==(0 + 0)) then if (v1025 and (v1025.Parent==v1935)) then return v1025;end if v1025 then pcall(function() v1025:Destroy();end);end v1936=1 -0 ;end if (v1936==(1928 -(1299 + 628))) then v1025=Instance.new("ParticleEmitter");v1025.Name="teddyhubFX";v1936=3 -1 ;end end end local v1027=v57.Heartbeat:Connect(function() if v54.Unloaded then return;end local v1937=v63.Character;local v1938=v1937 and v1937:FindFirstChild("HumanoidRootPart") ;if ( not Toggles.GL_On.Value or  not v1937) then if v1024 then v1024.Enabled=false;end else local v2502=0;local v2503;local v2504;local v2505;while true do if (v2502==2) then v1024.Enabled=true;v1024.FillColor=v2505;v2502=8 -5 ;end if (v2502==(3 + 0)) then v1024.OutlineColor=v2505;v1024.FillTransparency=1 -((Options.GL_Fill.Value/(290 -190)) * v2504) ;v2502=1449 -(335 + 1110) ;end if (v2502==(4 + 0)) then v1024.OutlineTransparency=(3 -2) -(Options.GL_Outline.Value/100) ;break;end if ((0 -0)==v2502) then if ( not v1024 or (v1024.Parent~=v1937)) then v1024=v1937:FindFirstChild("teddyhubGlow") or Instance.new("Highlight") ;v1024.Name="teddyhubGlow";v1024.DepthMode=Enum.HighlightDepthMode.AlwaysOnTop;v1024.Adornee=v1937;v1024.Parent=v1937;end v2503=Options.GL_Pulse.Value;v2502=333 -(268 + 64) ;end if (v2502==(1 + 0)) then v2504=((v2503>(1278 -(243 + 1035))) and ((0.5 -0) + ((0.5 -0) * math.sin(tick() * v2503 )))) or (4 -3) ;v2505=(Toggles.FX_Rainbow.Value and Color3.fromHSV((tick() * (0.2 + 0))%1 ,1,1 + 0 )) or Options.FX_Color.Value ;v2502=2 -0 ;end end end if ( not Toggles.FX_On.Value or  not v1938) then local v2506=0;while true do if (v2506==0) then if v1025 then v1025.Enabled=false;end return;end end end local v1939=v1023[Options.FX_Preset.Value] or v1023['Fire'] ;local v1940=v1026(v1938);local v1941=Options.FX_Rate.Value/100 ;local v1942=Options.FX_Size.Value/(200 -(90 + 10)) ;local v1943=(Toggles.FX_Rainbow.Value and Color3.fromHSV((tick() * (804.25 -(209 + 595)))%1 ,1,806 -(603 + 202) )) or Options.FX_Color.Value ;v1940.Enabled=true;v1940.Texture=v1939.tex;v1940.Rate=v1939.rate * v1941 ;v1940.Lifetime=NumberRange.new(v1939.life[1 + 0 ],v1939.life[6 -4 ]);v1940.Speed=NumberRange.new(v1939.speed[1 + 0 ],v1939.speed[5 -3 ]);v1940.SpreadAngle=Vector2.new(v1939.spread,v1939.spread);v1940.Size=NumberSequence.new(v1939.size * v1942 );v1940.LightEmission=v1939.light;v1940.Acceleration=v1939.accel;v1940.RotSpeed=NumberRange.new(v1939.rot[1],v1939.rot[1 + 1 ]);v1940.Shape=v1939.shape;v1940.Color=ColorSequence.new(v1943);if v1939.fade then v1940.Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0 -0 ,279 -(174 + 105) ),NumberSequenceKeypoint.new(1,914 -(532 + 381) )});else v1940.Transparency=NumberSequence.new(0 + 0 );end end);v45.SelfFX.cleanup=function() if v1027 then v1027:Disconnect();end if v1024 then pcall(function() v1024:Destroy();end);end if v1025 then pcall(function() v1025:Destroy();end);end end;end v8("effects",v326);local function v327() local v1029=v299.setR:AddTab("search");v1029:AddInput("SR_Query",{Text="find",Default="",Finished=false,Placeholder="name..."});v1029:AddLabel("shows matching options and their value.");local v1030=Instance.new("ScreenGui");v1030.Name="teddyhubSearch";v1030.ResetOnSpawn=false;v1030.DisplayOrder=260;v1030.IgnoreGuiInset=true;pcall(function() v1030.Parent=game:GetService("CoreGui");end);if  not v1030.Parent then v1030.Parent=v65;end local v1035=Instance.new("Frame");v1035.Name="Panel";v1035.Size=UDim2.fromOffset(1059 -(137 + 702) ,0);v1035.AutomaticSize=Enum.AutomaticSize.Y;v1035.Position=UDim2.new(1, -230,0,161 -101 );v1035.BackgroundColor3=v54.MainColor;v1035.BorderSizePixel=0 + 0 ;v1035.Visible=false;v1035.Parent=v1030;local v1046=Instance.new("UIStroke");v1046.Color=v54.OutlineColor;v1046.Thickness=3 -2 ;v1046.Parent=v1035;local v1051=Instance.new("Frame");v1051.Size=UDim2.new(1887 -(1819 + 67) ,0 + 0 ,0 + 0 ,2);v1051.BorderSizePixel=0;v1051.BackgroundColor3=v54.AccentColor;v1051.ZIndex=1362 -(259 + 1098) ;v1051.Parent=v1035;local v1058=Instance.new("UIListLayout");v1058.SortOrder=Enum.SortOrder.LayoutOrder;v1058.Padding=UDim.new(0 + 0 ,1 + 1 );v1058.Parent=v1035;local v1063=Instance.new("UIPadding");v1063.PaddingTop=UDim.new(0 + 0 ,23 -16 );v1063.PaddingBottom=UDim.new(0 + 0 ,6 + 0 );v1063.PaddingLeft=UDim.new(0 -0 ,8);v1063.PaddingRight=UDim.new(0,8);v1063.Parent=v1035;local v1069={};local function v1070(v1961) local v1962=0;while true do if ((1706 -(667 + 1039))==v1962) then if  not v1069[v1961] then local v3043=Instance.new("TextLabel");v3043.BackgroundTransparency=1;v3043.Font=Enum.Font.Code;v3043.TextSize=1032 -(274 + 745) ;v3043.TextXAlignment=Enum.TextXAlignment.Left;v3043.Size=UDim2.new(1,0 + 0 ,0,15);v3043.LayoutOrder=v1961;v3043.TextColor3=v54.FontColor;v3043.Visible=false;v3043.Parent=v1035;local v3056=Instance.new("UIStroke");v3056.Color=Color3.new(0 + 0 ,430 -(288 + 142) ,1306 -(301 + 1005) );v3056.Thickness=1;v3056.LineJoinMode=Enum.LineJoinMode.Miter;v3056.Parent=v3043;v1069[v1961]=v3043;end return v1069[v1961];end end end local function v1071(v1963) local v1964=string.lower(v1963 or "" );if (v1964=="") then local v2509=0 + 0 ;while true do if (v2509==(0 -0)) then v1035.Visible=false;return;end end end local v1965={};for v2334,v2335 in pairs(Toggles) do if string.find(string.lower(v2334),v1964,1874 -(674 + 1199) ,true) then table.insert(v1965,{name=v2334,value=tostring(v2335.Value)});end end for v2336,v2337 in pairs(Options) do if (string.find(string.lower(v2336),v1964,1 + 0 ,true) and  not Toggles[v2336]) then local v2727=v2337.Value;if (typeof(v2727)=="Color3") then v2727="#"   .. string.format("%02X%02X%02X",v2727.R * (153 + 102) ,v2727.G * 255 ,v2727.B * (748 -493) ) ;end table.insert(v1965,{name=v2336,value=tostring(v2727)});end end table.sort(v1965,function(v2338,v2339) return v2338.name<v2339.name ;end);v1035.Visible=true;local v1967=math.min( #v1965,14);for v2340=1,v1967 do local v2341=0 -0 ;local v2342;while true do if (v2341==(1 + 0)) then v2342.Text=v1965[v2340].name   .. " = "   .. v1965[v2340].value ;break;end if (v2341==0) then v2342=v1070(v2340 + (446 -(92 + 353)) );v2342.Visible=true;v2341=1;end end end for v2343=v1967 + 2 , #v1069 do v1069[v2343].Visible=false;end if ( #v1965==(0 + 0)) then local v2510=0 -0 ;local v2511;while true do if (v2510==(1 -0)) then v2511.Text="no match";for v3219=8 -5 , #v1069 do v1069[v3219].Visible=false;end break;end if (v2510==(0 + 0)) then v2511=v1070(3 -1 );v2511.Visible=true;v2510=1;end end end end local v1072=Instance.new("TextLabel");v1072.LayoutOrder=0;v1072.BackgroundTransparency=1;v1072.Font=Enum.Font.Code;v1072.TextSize=29 -16 ;v1072.TextXAlignment=Enum.TextXAlignment.Left;v1072.Size=UDim2.new(4 -3 ,0,0 + 0 ,16);v1072.Text="search";v1072.TextColor3=v54.AccentColor;v1072.Parent=v1035;Options.SR_Query:OnChanged(function(v1968) v1071(v1968);end);v45.SearchUI.cleanup=function() pcall(function() v1030:Destroy();end);end;end v8("search ui",v327);local function v328() local v1085=game:GetService("Lighting");local v1086=v299.visR2:AddTab("extra");v1086:AddToggle("XF_Tint",{Text="tint",Default=false});v1086:AddLabel("tint color"):AddColorPicker("XF_TintColor",{Default=Color3.fromRGB(238 -118 ,445 -(34 + 231) ,1572 -(930 + 387) )});v1086:AddToggle("XF_Blur",{Text="blur",Default=false});v1086:AddSlider("XF_BlurSize",{Text="blur size",Default=8 + 0 ,Min=0 + 0 ,Max=83 -53 ,Rounding=697 -(389 + 308) });v1086:AddSlider("XF_Sat",{Text="saturation",Default=0,Min= -(256 -156),Max=227 -127 ,Rounding=0});local v1087=v299.movR:AddTab("extra");v1087:AddToggle("XM_GravOn",{Text="gravity",Default=false});v1087:AddSlider("XM_Gravity",{Text="gravity",Default=196,Min=0 -0 ,Max=159 + 241 ,Rounding=0});v1087:AddToggle("XM_Sprint",{Text="sprint (shift)",Default=false});v1087:AddSlider("XM_SprintMul",{Text="sprint x",Default=324 -(125 + 197) ,Min=998 -(339 + 658) ,Max=5,Rounding=1});local v1088=v299.chR:AddTab("extra");v1088:AddToggle("XC_Dot",{Text="center dot",Default=false});v1088:AddSlider("XC_DotSize",{Text="dot size",Default=2,Min=2 -1 ,Max=20 -10 ,Rounding=1348 -(743 + 605) });v1088:AddLabel("dot color"):AddColorPicker("XC_DotColor",{Default=Color3.new(1 + 0 ,1,1 + 0 )});local v1089=v299.miscR:AddTab("extra");v1089:AddToggle("XT_Timer",{Text="session timer",Default=false});v1089:AddInput("XN_Notes",{Text="notes",Default="",Finished=true,Placeholder="type..."});v1089:AddButton({Text="save notes",Func=function() pcall(function() local v2345=0;while true do if (v2345==(0 -0)) then if  not isfolder("teddyhub_V1") then makefolder("teddyhub_V1");end writefile("teddyhub_V1/notes.txt",Options.XN_Notes.Value);break;end end end);print("[extra] notes saved");end});v1089:AddButton({Text="load notes",Func=function() pcall(function() if isfile("teddyhub_V1/notes.txt") then Options.XN_Notes:SetValue(readfile("teddyhub_V1/notes.txt"));end end);print("[extra] notes loaded");end});local v1090=Instance.new("ColorCorrectionEffect");v1090.Name="teddyhubTint";v1090.Enabled=false;v1090.Parent=v1085;local v1094=Instance.new("BlurEffect");v1094.Name="teddyhubBlur";v1094.Enabled=false;v1094.Parent=workspace.CurrentCamera;local v1099=v132.new("Circle");v1099.Filled=true;v1099.Visible=false;v1099.NumSides=24;local v1103=Instance.new("ScreenGui");v1103.Name="teddyhubTimer";v1103.ResetOnSpawn=false;v1103.DisplayOrder=739 -499 ;pcall(function() v1103.Parent=game:GetService("CoreGui");end);if  not v1103.Parent then v1103.Parent=v65;end local v1107=Instance.new("TextLabel");v1107.Size=UDim2.fromOffset(120,14 + 6 );v1107.Position=UDim2.new(249.5 -(197 + 52) , -60,0,4);v1107.BackgroundTransparency=0.3 -0 ;v1107.BackgroundColor3=v54.MainColor;v1107.TextColor3=v54.FontColor;v1107.Font=Enum.Font.Code;v1107.TextSize=31 -17 ;v1107.Visible=false;v1107.Parent=v1103;local v1120=tick();local v1121=workspace.Gravity;local v1122={};local v1123=v57.RenderStepped:Connect(function() local v1970=0;local v1971;local v1972;local v1973;local v1974;local v1975;local v1976;local v1977;local v1978;local v1979;local v1980;while true do if ((0 + 0)==v1970) then if v54.Unloaded then return;end v1971=Toggles.XF_Tint.Value;if (v1122.tintOn~=v1971) then local v3066=0;while true do if (v3066==0) then v1122.tintOn=v1971;v1090.Enabled=v1971;break;end end end v1970=1 + 0 ;end if (v1970==(3 -1)) then if (v1122.sat~=v1973) then v1122.sat=v1973;v1090.Saturation=v1973;end v1974=Toggles.XF_Blur.Value;if (v1122.blurOn~=v1974) then v1122.blurOn=v1974;v1094.Enabled=v1974;end v1970=10 -7 ;end if (v1970==3) then v1975=Options.XF_BlurSize.Value;if (v1122.blurSize~=v1975) then local v3071=0 -0 ;while true do if (v3071==(0 + 0)) then v1122.blurSize=v1975;v1094.Size=v1975;break;end end end if Toggles.XM_GravOn.Value then workspace.Gravity=Options.XM_Gravity.Value;elseif (workspace.Gravity~=v1121) then workspace.Gravity=v1121;end v1970=4;end if (v1970==(5 -1)) then v1976=v63.Character;v1977=v1976 and v1976:FindFirstChildOfClass("Humanoid") ;if (v1977 and Toggles.XM_Sprint.Value and v58:IsKeyDown(Enum.KeyCode.LeftShift)) then v1977.WalkSpeed=(1113 -(97 + 1000)) * Options.XM_SprintMul.Value ;end v1970=17 -12 ;end if (v1970==(1851 -(143 + 1702))) then if v1979 then local v3075=Vector2.new(v1978.X/2 ,v1978.Y/2 );if (v1122.dotPos~=v3075) then local v3313=0;while true do if (v3313==0) then v1122.dotPos=v3075;v1099.Position=v3075;break;end end end local v3076=Options.XC_DotSize.Value;if (v1122.dotR~=v3076) then v1122.dotR=v3076;v1099.Radius=v3076;end local v3077=Options.XC_DotColor.Value;if (v1122.dotC~=v3077) then v1122.dotC=v3077;v1099.Color=v3077;end end v1980=Toggles.XT_Timer.Value;if (v1122.timerOn~=v1980) then local v3078=0;while true do if ((0 -0)==v3078) then v1122.timerOn=v1980;v1107.Visible=v1980;break;end end end v1970=376 -(40 + 329) ;end if ((1 + 0)==v1970) then v1972=(v1971 and Options.XF_TintColor.Value) or Color3.new(1 + 0 ,1 -0 ,1 + 0 ) ;if (v1122.tintCol~=v1972) then v1122.tintCol=v1972;v1090.TintColor=v1972;end v1973=Options.XF_Sat.Value/100 ;v1970=67 -(9 + 56) ;end if (v1970==(591 -(531 + 53))) then if v1980 then local v3081=math.floor(tick() -v1120 );local v3082=string.format("%02d:%02d:%02d",math.floor(v3081/(3353 + 247) ),math.floor(v3081/60 )%(833 -(89 + 684)) ,v3081%(42 + 18) );if (v1122.timerTxt~=v3082) then v1122.timerTxt=v3082;v1107.Text=v3082;end end break;end if ((2 + 3)==v1970) then v1978=workspace.CurrentCamera.ViewportSize;v1979=Toggles.XC_Dot.Value;if (v1122.dotOn~=v1979) then v1122.dotOn=v1979;v1099.Visible=v1979;end v1970=6;end end end);v45.Extra.cleanup=function() local v1981=0;while true do if (v1981==(1 + 0)) then pcall(function() v1090:Destroy();v1094:Destroy();v1103:Destroy();end);pcall(function() v1099:Remove();end);break;end if (v1981==(0 -0)) then if v1123 then v1123:Disconnect();end workspace.Gravity=v1121;v1981=1;end end end;end v8("extra",v328);local function v329() local v1125={conns={},originals={},watches={},ignore={},ignoreText={},raw={},restoring=false};local v1126=v63:WaitForChild("PlayerGui");local v1127=nil;pcall(function() v1127=v54.ScreenGui;end);local function v1128(v1983) return (v1983:gsub("[%^%$%(%)%%%.%[%]%*%+%-%?]","%%%1"));end local function v1129() local v1984=Options.NC_Spoof.Value;if ((type(v1984)~="string") or (v1984=="")) then return "spoofed";end return v1984;end local function v1130() local v1985=0 + 0 ;local v1986;while true do if (v1985==(1 + 0)) then for v2943 in v1986:gmatch("[^,]+") do local v2944=613 -(238 + 375) ;local v2945;while true do if (v2944==(0 + 0)) then v2945=v2943:match("^%s*(.-)%s*$");if (v2945~="") then local v3456=v2945:lower();v1125.ignore[v3456]=true;v1125.ignoreText[v3456]=true;end break;end end end break;end if (v1985==0) then v1125.ignore,v1125.ignoreText={},{};v1986=Options.NC_Ignore.Value or "" ;v1985=1 -0 ;end end end local function v1131(v1987) local v1988=0 + 0 ;local v1989;local v1990;while true do if (v1988==(0 -0)) then if (type(v1987)~="string") then return;end v1989=v1987:match("^%s*(.-)%s*$");v1988=2 -1 ;end if (v1988==(2 -1)) then if ( #v1989<(3 -1)) then return;end v1990=v1989:lower();v1988=2;end if (2==v1988) then if v1125.raw[v1990] then return;end v1125.raw[v1990]=v1989;break;end end end local v1132={};local function v1133() v1132={};local v1991,v1992=pcall(function() return v0:GetFriendsAsync(v63.UserId);end);if ( not v1991 or  not v1992) then return;end for v2347=1,25 do local v2348=v1992:GetCurrentPage();for v2512,v2513 in ipairs(v2348) do table.insert(v1132,v2513);end if v1992.IsFinished then break;end local v2349=pcall(function() v1992:AdvanceToNextPageAsync();end);if  not v2349 then break;end end end local function v1134() local v1993=0 -0 ;local v1994;while true do if ((1 -0)==v1993) then v1994=Options.NC_Match.Value;if (v1994~="friends") then for v3221,v3222 in ipairs(v0:GetPlayers()) do if ((v3222~=v63) or Toggles.NC_Self.Value) then v1131(v3222.Name);if Toggles.NC_Display.Value then v1131(v3222.DisplayName);end end end end v1993=2 + 0 ;end if (v1993==(1 + 1)) then if (v1994~="players") then local v3085=0;while true do if ((0 + 0)==v3085) then for v3459,v3460 in ipairs(v1132) do local v3461=462 -(428 + 34) ;while true do if (v3461==(0 + 0)) then v1131(v3460.Username);if (Toggles.NC_Display.Value and v3460.DisplayName) then v1131(v3460.DisplayName);end break;end end end if ( #v1132==(0 -0)) then task.spawn(function() v1133();v1134();applyAll();end);end break;end end end break;end if (v1993==(0 -0)) then v1125.raw={};if Toggles.NC_Self.Value then v1131(v63.Name);end v1993=2 -1 ;end end end local v1135=function(v1995,v1996) local v1997=918 -(223 + 695) ;local v1998;while true do if (v1997==(0 -0)) then v1998=v1128(v1996);return v1995:find("%f[%w]"   .. v1998   .. "%f[^%w]" )~=nil ;end end end;local v1136=function(v1999) local v2000=Options.NC_Mode.Value;local v2001=(Toggles.NC_Case and Toggles.NC_Case.Value and v1999) or v1999:lower() ;for v2350,v2351 in pairs(v1125.raw) do local v2352=511 -(329 + 182) ;local v2353;while true do if (v2352==(0 + 0)) then v2353=(Toggles.NC_Case and Toggles.NC_Case.Value and v2351) or v2350 ;if (v2000=="exact") then if (v2001==v2353) then return true;end elseif (v2000=="wholeword") then if v1135(v2001,v2353) then return true;end else if v1135(v2001,v2353) then return true;end if (( #v2353>=3) and v2001:find(v2353,1 -0 ,true)) then return true;end end break;end end end return false;end;local v1137=0 + 0 ;local function v1138(v2002) local v2003=0 + 0 ;local v2004;local v2005;local v2006;local v2007;local v2008;while true do if (v2003==(0 + 0)) then if (v1125.restoring or  not Toggles.NC_On.Value) then return;end v2004=v1129();v2005=v2002.Text;if ((type(v2005)~="string") or (v2005=="") or (v2005==v2004)) then return;end v2003=1 -0 ;end if (v2003==(1 -0)) then v2006=v2005:lower();if v1125.ignoreText[v2006] then return;end if v1125.ignore[v2002.Name and v2002.Name:lower() ] then return;end v2007,v2008=pcall(v1136,v2005);v2003=1202 -(177 + 1023) ;end if (v2003==(3 -1)) then if ( not v2007 or  not v2008) then return;end if  not v1125.originals[v2002] then v1125.originals[v2002]={text=v2005,color=v2002.TextColor3};v1137=v1137 + 1 + 0 ;end pcall(function() v2002.Text=v2004;if (Toggles.NC_Colors and Toggles.NC_Colors.Value and Options.NC_Color) then v2002.TextColor3=Options.NC_Color.Value;end end);break;end end end local function v1139(v2009) if  not v2009.Parent then return true;end if (v1127 and v2009:IsDescendantOf(v1127)) then return true;end local v2010=v2009:FindFirstAncestor("teddyhubBoot");if v2010 then return true;end v2010=v2009:FindFirstAncestor("KeySystemUI");if v2010 then return true;end return false;end local function v1140(v2011) local v2012=0 -0 ;local v2013;while true do if (v2012==(1466 -(120 + 1345))) then if v1139(v2011) then return;end v2013=v2011;v2012=339 -(8 + 329) ;end if (v2012==2) then v1125.conns[v2013]=v2013:GetPropertyChangedSignal("Text"):Connect(function() v1138(v2013);end);task.spawn(v1138,v2013);break;end if (v2012==(125 -(19 + 106))) then if ( not v2011:IsA("TextLabel") and  not v2011:IsA("TextButton")) then return;end if v1125.conns[v2011] then return;end v2012=3 -2 ;end end end local function v1141(v2014) local v2015=v1125.conns[v2014];if v2015 then local v2514=0 -0 ;while true do if (v2514==0) then v2015:Disconnect();v1125.conns[v2014]=nil;break;end end end end local function v1142() local v2016=0;while true do if (v2016==0) then v1125.restoring=true;for v2947,v2948 in pairs(v1125.originals) do pcall(function() if v2947.Parent then v2947.Text=v2948.text;v2947.TextColor3=v2948.color;end end);end v2016=1 + 0 ;end if ((2 -1)==v2016) then v1125.originals={};v1137=0 -0 ;v2016=2;end if (2==v2016) then v1125.restoring=false;break;end end end local function v1143(v2017) if v1125.watches[v2017] then return;end v1125.watches[v2017]={added=v2017.DescendantAdded:Connect(v1140),removed=v2017.DescendantRemoving:Connect(v1141)};end local function v1144() local v2019=0 -0 ;while true do if (v2019==0) then for v2949,v2950 in pairs(v1125.watches) do pcall(function() v2950.added:Disconnect();end);pcall(function() v2950.removed:Disconnect();end);end v1125.watches={};break;end end end local function v1145(v2020) local v2021,v2022=pcall(function() return v2020:GetDescendants();end);if  not v2021 then return;end for v2354,v2355 in ipairs(v2022) do v1140(v2355);end end local function v1146() local v2023={workspace};if Toggles.NC_ScopeGui.Value then pcall(function() if gethui then local v3088=0 + 0 ;local v3089;while true do if (v3088==0) then v3089=gethui();if v3089 then table.insert(v2023,v3089);end break;end end end end);pcall(function() local v2747=game:GetService("CoreGui");if v2747 then table.insert(v2023,v2747);end end);if v1126 then table.insert(v2023,v1126);end end return v2023;end local function v1147() local v2024=1503 -(957 + 546) ;while true do if (v2024==0) then if  not Toggles.NC_On.Value then return;end for v2951 in pairs(v1125.conns) do task.spawn(v1138,v2951);end break;end end end local v1148=(v299.miscL2 and v299.miscL2:AddTab("name changer")) or v301.Misc:AddLeftGroupbox("name changer") ;local v1149;local function v1150() local v2025=0;while true do if (v2025==(4 -3)) then v1149:SetText("on - "   .. v1137   .. " replaced" );break;end if (v2025==(0 + 0)) then if ( not v1149 or  not v1149.SetText) then return;end if  not Toggles.NC_On.Value then v1149:SetText("off");return;end v2025=1 + 0 ;end end end v1148:AddToggle("NC_On",{Text="enable",Default=false,Tooltip="Rewrite player names in game UI",Callback=function(v2026) v1130();v1134();v1133();v1134();if v2026 then local v2515=0 + 0 ;while true do if ((0 + 0)==v2515) then v1144();for v3225,v3226 in ipairs(v1146()) do v1143(v3226);v1145(v3226);end v2515=704 -(227 + 476) ;end if (v2515==(1 -0)) then v1147();break;end end else v1142();v1144();end v1150();end});v1148:AddInput("NC_Spoof",{Text="replacement",Default="teddyhub",Finished=false,Placeholder="spoof text",Callback=function() local v2027=0 -0 ;while true do if (v2027==0) then if Toggles.NC_On.Value then local v3090=0;while true do if (v3090==0) then v1142();v1134();v3090=1 -0 ;end if (v3090==(1 -0)) then for v3462,v3463 in ipairs(v1146()) do v1145(v3463);end v1147();break;end end end v1150();break;end end end});v1148:AddDropdown("NC_Match",{Text="targets",Default="both",Values={"players","friends","both"},Callback=function() v1134();v1147();end});v1148:AddDropdown("NC_Mode",{Text="match",Default="contains",Values={"contains","wholeword","exact"},Callback=function() if Toggles.NC_On.Value then v1147();end end});v1148:AddToggle("NC_Self",{Text="include self",Default=false,Callback=function() v1134();v1147();end});v1148:AddToggle("NC_Display",{Text="include displaynames",Default=true,Callback=function() v1134();v1147();end});v1148:AddToggle("NC_Case",{Text="case sensitive",Default=false,Callback=function() if Toggles.NC_On.Value then v1147();end end});v1148:AddToggle("NC_ScopeGui",{Text="scan CoreGui/PlayerGui",Default=true,Callback=function() local v2028=0 + 0 ;while true do if (v2028==(0 + 0)) then v1144();if Toggles.NC_On.Value then local v3091=0 + 0 ;while true do if (v3091==0) then for v3464,v3465 in ipairs(v1146()) do v1143(v3465);v1145(v3465);end v1147();break;end end end break;end end end});v1148:AddToggle("NC_Colors",{Text="recolor",Default=false,Callback=function() if Toggles.NC_On.Value then v1147();end end});v1148:AddLabel("color"):AddColorPicker("NC_Color",{Default=Color3.fromRGB(120,246 -76 ,166 + 89 ),Callback=function() if Toggles.NC_On.Value then v1147();end end});v1148:AddInput("NC_Ignore",{Text="ignore names/labels",Default="",Finished=true,Placeholder="name1,name2",Callback=function() local v2029=0 -0 ;while true do if (v2029==(0 + 0)) then v1130();if Toggles.NC_On.Value then v1147();end break;end end end});v1148:AddSlider("NC_Refresh",{Text="friend refresh (s)",Default=8 + 22 ,Min=5,Max=1592 -(1162 + 130) ,Rounding=0 -0 });v1148:AddButton({Text="rescan now",Func=function() local v2030=0 + 0 ;while true do if (v2030==(0 -0)) then v1130();v1134();v2030=937 -(889 + 47) ;end if (v2030==(1 + 0)) then v1133();v1134();v2030=1266 -(1153 + 111) ;end if (2==v2030) then if Toggles.NC_On.Value then v1144();for v3227,v3228 in ipairs(v1146()) do v1143(v3228);v1145(v3228);end v1147();end v1150();break;end end end});v1149=v1148:AddLabel("off");local v1151=0;local v1152= #v0:GetPlayers();local v1153=v0.PlayerAdded:Connect(function(v2031) local v2032=0 -0 ;while true do if (v2032==(1 + 0)) then if Toggles.NC_On.Value then v1147();end break;end if (v2032==(0 + 0)) then v1131(v2031.Name);if Toggles.NC_Display.Value then v1131(v2031.DisplayName);end v2032=1 + 0 ;end end end);local v1154=v57.Heartbeat:Connect(function() local v2033=0 + 0 ;local v2034;local v2035;local v2036;while true do if (v2033==(0 + 0)) then if v54.Unloaded then return;end v2034=tick();v2033=1;end if (v2033==2) then v2035= #v0:GetPlayers();if (v2035~=v1152) then local v3092=0 -0 ;while true do if (v3092==(1 + 0)) then v1147();break;end if (v3092==(96 -(23 + 73))) then v1152=v2035;v1134();v3092=1;end end end v2033=3;end if ((286 -(26 + 259))==v2033) then if ((v2034-v1151)>(1 + 1)) then v1151=v2034;v1150();end if  not Toggles.NC_On.Value then return;end v2033=2 -0 ;end if (v2033==(10 -7)) then v2036=tonumber(Options.NC_Refresh and Options.NC_Refresh.Value ) or 30 ;if ((v2034-(v1125._lastFriends or (1629 -(1094 + 535))))>v2036) then local v3093=0;while true do if ((0 + 0)==v3093) then v1125._lastFriends=v2034;task.spawn(function() local v3466=1876 -(1554 + 322) ;while true do if (v3466==(1425 -(989 + 436))) then v1133();v1134();v3466=1179 -(816 + 362) ;end if ((1 -0)==v3466) then v1147();break;end end end);break;end end end break;end end end);v45.NameChanger={cleanup=function() pcall(function() v1153:Disconnect();end);pcall(function() v1154:Disconnect();end);v1142();v1144();v1125.raw={};end};end v8("name changer",v329);local function v330() local v1156={conn=nil,hum=nil,dir=2 -1 ,lastFlip=0 -0 };local function v1157() return v63.Character;end local function v1158() local v2038=v1157();return v2038 and v2038:FindFirstChildOfClass("Humanoid") ;end local function v1159() local v2039=v1157();return v2039 and v2039:FindFirstChild("HumanoidRootPart") ;end local function v1160(v2040) local v2041=0 -0 ;local v2042;while true do if (0==v2041) then if  not v2040 then return;end v2042=v2040.AssemblyLinearVelocity;v2041=2 -1 ;end if (v2041==(4 -3)) then if ((v2042.X~=(0 + 0)) or (v2042.Z~=0)) then v2040.AssemblyLinearVelocity=Vector3.new(763 -(86 + 677) ,v2042.Y,0);end break;end end end local function v1161() local v2043=0 + 0 ;while true do if (v2043==(0 + 0)) then if v1156.conn then v1156.conn:Disconnect();v1156.conn=nil;end v1156.hum=nil;v2043=1;end if (v2043==1) then v1160(v1159());break;end end end local function v1162() local v2044=1026 -(263 + 763) ;while true do if (v2044==0) then v1161();v1156.hum=v1158();v2044=1 + 0 ;end if (v2044==1) then v1156.conn=v57.RenderStepped:Connect(function() local v2952=858 -(649 + 209) ;local v2953;local v2954;local v2955;local v2956;local v2957;local v2958;local v2959;local v2960;local v2961;local v2962;local v2963;local v2964;local v2965;local v2966;while true do if (v2952==(0 -0)) then if (v54.Unloaded or  not v67("AS_On")) then return;end v2953=v1158();v2954=v1159();if ( not v2953 or  not v2954 or (v2953.Health<=(731 -(643 + 88)))) then return;end v2952=1770 -(54 + 1715) ;end if (v2952==(19 -14)) then v2953:Move(v2966,false);if (v67("AS_AutoFlip") and (v2957>Options.AS_MinSpeed.Value)) then local v3467=tick();if ((v3467-v1156.lastFlip)>Options.AS_FlipRate.Value) then v1156.lastFlip=v3467;v1156.dir= -v1156.dir;end end if (v67("AS_SpeedBoost") and (v2957<Options.AS_MaxSpeed.Value)) then local v3468=0;local v3469;local v3470;while true do if (v3468==(2 -1)) then v2954.AssemblyLinearVelocity=Vector3.new(v3470.X,v2954.AssemblyLinearVelocity.Y,v3470.Z);break;end if (v3468==0) then v3469=Options.AS_Boost.Value;v3470=v2958 * math.min(v2957 + v3469 ,Options.AS_MaxSpeed.Value) ;v3468=1;end end end break;end if (v2952==(8 -4)) then v2964=v2961-(v2962 * v1156.dir) ;if (v67("AS_Straighten",true) and (math.abs(v2961)<math.rad(5 + 1 ))) then v2964=v2961;end v2965=(v2958 * math.cos(v2964)) + (v2958:Cross(Vector3.new(0 + 0 ,3 -2 ,1383 -(132 + 1251) )) * math.sin(v2964)) ;v2966=v2955:Lerp(v2965.Unit,math.clamp((1 + 0) -v2963 ,0.05,2 -1 ));v2952=4 + 1 ;end if (v2952==(460 -(185 + 273))) then v2957=v2956.Magnitude;if (v2957<0.5) then local v3471=0;while true do if (v3471==0) then v2953:Move(v2955,false);return;end end end v2958=v2956.Unit;v2959=v2958:Cross(v2955).Y;v2952=3;end if (v2952==(1 + 0)) then if v2953.SeatPart then return;end v2955=v2953.MoveDirection;if (v2955.Magnitude<0.05) then local v3472=0 -0 ;while true do if (v3472==(0 + 0)) then if v67("AS_InstantStop",true) then v1160(v2954);end return;end end end v2956=Vector3.new(v2954.AssemblyLinearVelocity.X,1224 -(361 + 863) ,v2954.AssemblyLinearVelocity.Z);v2952=5 -3 ;end if (v2952==3) then v2960=math.clamp(v2958:Dot(v2955), -1,1328 -(443 + 884) );v2961=math.atan2(v2959,v2960);v2962=math.rad(Options.AS_Angle.Value);v2963=Options.AS_Smooth.Value/(239 -139) ;v2952=1 + 3 ;end end end);break;end end end local v1163=v299.movR:AddTab("auto strafer");v1163:AddToggle("AS_On",{Text="enable",Default=false,Callback=function(v2045) if v2045 then v1162();else v1161();end end});v1163:AddToggle("AS_InstantStop",{Text="instant stop",Default=true});v1163:AddSlider("AS_Angle",{Text="strafe angle",Default=42 -12 ,Min=1 + 0 ,Max=90,Rounding=0 + 0 });v1163:AddSlider("AS_Smooth",{Text="smoothness",Default=40,Min=0 -0 ,Max=842 -(16 + 731) ,Rounding=0});v1163:AddToggle("AS_Straighten",{Text="straighten on aim",Default=true});v1163:AddToggle("AS_AutoFlip",{Text="auto flip",Default=false});v1163:AddSlider("AS_FlipRate",{Text="flip rate (s)",Default=1.2 + 0 ,Min=0.2 + 0 ,Max=4 + 1 ,Rounding=761 -(527 + 233) });v1163:AddSlider("AS_MinSpeed",{Text="flip above speed",Default=8,Min=0 + 0 ,Max=100,Rounding=0});v1163:AddToggle("AS_SpeedBoost",{Text="speed boost",Default=false});v1163:AddSlider("AS_Boost",{Text="boost / frame",Default=0.4 -0 ,Min=0.05 + 0 ,Max=1790 -(1107 + 678) ,Rounding=2});v1163:AddSlider("AS_MaxSpeed",{Text="max speed",Default=40,Min=14 + 2 ,Max=432 + 68 ,Rounding=0});v63.CharacterAdded:Connect(function() task.wait(50.4 -(4 + 46) );if v67("AS_On") then v1162();end end);v45.Strafer={cleanup=function() v1161();end};end v8("auto strafer",v330);local function v331() local v1165={red=Color3.fromRGB(961 -706 ,82 -37 ,30 + 15 ),orange=Color3.fromRGB(538 -283 ,208 -78 ,25),yellow=Color3.fromRGB(255,1626 -(1262 + 134) ,98 -58 ),green=Color3.fromRGB(12 + 33 ,185 + 70 ,90),cyan=Color3.fromRGB(25,240,1050 -(383 + 412) ),blue=Color3.fromRGB(36 + 9 ,8 + 92 ,117 + 138 ),purple=Color3.fromRGB(170,15 + 30 ,255),pink=Color3.fromRGB(251 + 4 ,65,190),white=Color3.fromRGB(349 -94 ,255,255)};local v1166={"red","orange","yellow","green","cyan","blue","purple","pink","white"};local v1167=v45.EffectsGroup;v1167:AddDivider();v1167:AddToggle("FX_Wings",{Text="wings",Default=false});v1167:AddDropdown("FX_WingStyle",{Text="wing style",Default="angel",Values={"angel","demon","crystal","energy"}});v1167:AddDropdown("FX_WingColor",{Text="wing color",Default="white",Values=v1166});v1167:AddToggle("FX_WingAnim",{Text="flap",Default=true});v1167:AddSlider("FX_WingSize",{Text="wing size",Default=1 + 0 ,Min=0.5 + 0 ,Max=479 -(209 + 267) ,Rounding=1 -0 });v1167:AddSlider("FX_WingSpeed",{Text="flap speed",Default=8 -5 ,Min=1,Max=1721 -(1611 + 100) ,Rounding=1 + 0 });v1167:AddDivider();v1167:AddToggle("FX_Aura",{Text="aura",Default=false});v1167:AddDropdown("FX_AuraStyle",{Text="aura style",Default="fire",Values={"fire","smoke","energy","magic","spark","floating"}});v1167:AddDropdown("FX_AuraColor",{Text="aura color",Default="orange",Values=v1166});v1167:AddSlider("FX_AuraRate",{Text="aura rate",Default=35,Min=199 -(107 + 87) ,Max=100,Rounding=0 -0 });v1167:AddDivider();v1167:AddToggle("FX_Trail",{Text="trail",Default=false});v1167:AddDropdown("FX_TrailStyle",{Text="trail style",Default="medium",Values={"short","medium","long","ghost"}});v1167:AddDropdown("FX_TrailColor",{Text="trail color",Default="cyan",Values=v1166});local v1168=v45.EffectsGroup;v1168:AddDivider();v1168:AddToggle("FX_World",{Text="world look",Default=false});v1168:AddDropdown("FX_WorldStyle",{Text="style",Default="bright",Values={"bright","dark","foggy","neon","sunset","dream"}});v1168:AddDropdown("FX_WorldColor",{Text="color",Default="blue",Values=v1166});local v1169=game:GetService("Lighting");local v1170={Ambient=v1169.Ambient,OutdoorAmbient=v1169.OutdoorAmbient,Brightness=v1169.Brightness,ClockTime=v1169.ClockTime,FogColor=v1169.FogColor,FogStart=v1169.FogStart,FogEnd=v1169.FogEnd};local function v1171() for v2356,v2357 in pairs(v1170) do pcall(function() v1169[v2356]=v2357;end);end end local v1172={};local function v1173(v2046) local v2047=0;local v2048;while true do if (v2047==0) then v2048=v1172[v2046];if (v2048 and v2048.obj) then pcall(function() v2048.obj:Destroy();end);end v2047=1 + 0 ;end if (v2047==1) then if (v2048 and v2048.parts) then for v3229,v3230 in ipairs(v2048.parts) do pcall(function() v3230:Destroy();end);end end v1172[v2046]=nil;break;end end end local function v1174() return v63.Character;end local function v1175() local v2049=0 + 0 ;local v2050;while true do if (v2049==(1058 -(987 + 71))) then v2050=v1174();return v2050 and (v2050:FindFirstChild("UpperTorso") or v2050:FindFirstChild("Torso")) ;end end end local function v1176() local v2051=v1174();return v2051 and v2051:FindFirstChild("HumanoidRootPart") ;end local function v1177() local v2052=0 -0 ;local v2053;local v2054;local v2055;local v2056;local v2057;local v2058;local v2059;while true do if (v2052==(1 -0)) then v2056=Options.FX_WingStyle.Value;v2057=Options.FX_WingSize.Value;v2058=Instance.new("Folder");v2058.Name="teddyhubWings";v2052=701 -(514 + 185) ;end if ((1 + 1)==v2052) then v2058.Parent=v2054;v2059={};for v2967= -1,1,3 -1  do for v3096=3 -2 ,1512 -(771 + 733)  do local v3097=Instance.new("Part");v3097.Material=Enum.Material.Neon;v3097.Color=v2055;v3097.Transparency=0.08;v3097.CanCollide=false;v3097.CanTouch=false;v3097.CanQuery=false;v3097.Massless=true;v3097.CastShadow=false;local v3107=((1.6 -0) + (v3096 * (0.28 -0))) * v2057 ;if (v2056=="angel") then v3097.Size=Vector3.new(1167.3 -(407 + 760) ,v3107,0.18);elseif (v2056=="demon") then v3097.Size=Vector3.new(0.25 + 0 ,v3107 * (1.2 + 0) ,0.2);elseif (v2056=="crystal") then v3097.Size=Vector3.new(0.4 + 0 ,v3107,0.35);else v3097.Size=Vector3.new(1854.18 -(169 + 1685) ,v3107,0.15 + 0 );end v3097.Parent=v2058;local v3109=Instance.new("SpecialMesh");v3109.MeshType=((v2056=="crystal") and Enum.MeshType.Brick) or Enum.MeshType.Sphere ;v3109.Parent=v3097;local v3112=Instance.new("Weld");v3112.Part0=v2053;v3112.Part1=v3097;local v3115=CFrame.new(v2967 * ((391.45 -(41 + 350)) + (v3096 * 0.35)) * v2057 ,0.3 -(v3096 * (0.1 -0)) ,((0.65 -0) + (v3096 * 0.035)) * v2057 ) * CFrame.Angles(0 -0 ,math.rad(v2967 * (23 -13) ),math.rad(v2967 * (20 + (v3096 * (4 + 2))) )) ;v3112.C0=v3115;v3112.Parent=v3097;table.insert(v2059,{w=v3112,b=v3115,s=v2967});end end v1172.wings={obj=v2058,feathers=v2059,char=v2054};break;end if (0==v2052) then v2053=v1175();v2054=v1174();if ( not v2053 or  not v2054) then return;end v2055=v1165[Options.FX_WingColor.Value] or v1165.white ;v2052=1;end end end local function v1178() local v2060=0;local v2061;local v2062;local v2063;local v2064;local v2065;while true do if (v2060==0) then v2061=v1176();if  not v2061 then return;end v2062=v1165[Options.FX_AuraColor.Value] or v1165.orange ;v2060=1;end if (v2060==(890 -(790 + 97))) then v2065.LightEmission=1;v2065.Rate=Options.FX_AuraRate.Value;v2065.Lifetime=NumberRange.new(0.5,1.5);v2060=4;end if (v2060==2) then v2064.Parent=v2061;v2065=Instance.new("ParticleEmitter");v2065.Color=ColorSequence.new(v2062);v2060=13 -10 ;end if (v2060==(2 + 2)) then v2065.Speed=NumberRange.new(1 + 0 ,4);v2065.SpreadAngle=Vector2.new(360,605 -(235 + 10) );v2065.Size=NumberSequence.new({NumberSequenceKeypoint.new(0 -0 ,1183.25 -(887 + 296) ),NumberSequenceKeypoint.new(0.5,1045.6 -(512 + 533) ),NumberSequenceKeypoint.new(1425 -(662 + 762) ,0)});v2060=682 -(334 + 343) ;end if (v2060==1) then v2063=Options.FX_AuraStyle.Value;v2064=Instance.new("Attachment");v2064.Name="teddyhubAura";v2060=6 -4 ;end if (v2060==(494 -(198 + 291))) then if (v2063=="fire") then local v3118=0;while true do if (v3118==(0 + 0)) then v2065.Acceleration=Vector3.new(0,8,574 -(141 + 433) );v2065.Rate=math.max(v2065.Rate,258 -203 );break;end end elseif (v2063=="smoke") then v2065.Acceleration=Vector3.new(0,2 + 0 ,777 -(227 + 550) );v2065.Speed=NumberRange.new(0.5 -0 ,2.5 -1 );elseif (v2063=="energy") then v2065.Speed=NumberRange.new(4,111 -(72 + 31) );elseif (v2063=="magic") then v2065.Rotation=NumberRange.new(348 -(89 + 259) ,315 + 45 );v2065.RotSpeed=NumberRange.new( -(159 + 21),180);elseif (v2063=="spark") then local v3573=0 + 0 ;while true do if (v3573==(1 -0)) then v2065.Size=NumberSequence.new(0.15 + 0 );break;end if (v3573==(0 -0)) then v2065.Lifetime=NumberRange.new(1403.1 -(1333 + 70) ,0.4);v2065.Speed=NumberRange.new(1837 -(701 + 1131) ,139 -(55 + 72) );v3573=157 -(99 + 57) ;end end elseif (v2063=="floating") then v2065.Acceleration=Vector3.new(0,8 -3 ,0 + 0 );v2065.Speed=NumberRange.new(1579 -(1243 + 336) ,1330 -(774 + 555) );end v2065.Parent=v2064;v1172.aura={obj=v2064,em=v2065,char=v1174()};break;end end end local function v1179() local v2066=v1176();if  not v2066 then return;end local v2067={short={0.2,800 -(150 + 649) },medium={0.5 -0 ,1986 -(1122 + 862) },long={1 -0 ,3},ghost={1.5 -0 ,1.5}};local v2068=v2067[Options.FX_TrailStyle.Value] or v2067.medium ;local v2069=v1165[Options.FX_TrailColor.Value] or v1165.cyan ;local v2070=Instance.new("Folder");v2070.Name="teddyhubTrail";v2070.Parent=v1174();local v2073=Instance.new("Attachment");v2073.Position=Vector3.new(0 + 0 ,v2068[2],743 -(549 + 194) );v2073.Parent=v2066;local v2076=Instance.new("Attachment");v2076.Position=Vector3.new(0, -v2068[2 + 0 ],0 -0 );v2076.Parent=v2066;local v2079=Instance.new("Trail");v2079.Attachment0=v2073;v2079.Attachment1=v2076;v2079.Color=ColorSequence.new(v2069);v2079.Lifetime=v2068[1];v2079.LightEmission=1 + 0 ;v2079.FaceCamera=true;v2079.Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0 + 0 ,0 -0 ),NumberSequenceKeypoint.new(2 -1 ,1)});v2079.Parent=v2066;v1172.trail={obj=v2070,parts={v2073,v2076,v2079},char=v1174()};v2070.Parent=v1174();end local function v1180() v1171();local v2090=v1165[Options.FX_WorldColor.Value] or v1165.blue ;local v2091=Options.FX_WorldStyle.Value;v1169.Ambient=v2090;v1169.OutdoorAmbient=v2090;if (v2091=="bright") then local v2517=0 -0 ;while true do if (v2517==(1382 -(978 + 404))) then v1169.Brightness=3;v1169.ClockTime=44 -30 ;v2517=1 + 0 ;end if (v2517==1) then v1169.FogEnd=100318 -(56 + 262) ;break;end end elseif (v2091=="dark") then v1169.Brightness=0.5 + 0 ;v1169.ClockTime=0;v1169.FogEnd=614 -(108 + 6) ;elseif (v2091=="foggy") then v1169.Brightness=1;v1169.FogColor=v2090;v1169.FogStart=10;v1169.FogEnd=53 + 47 ;elseif (v2091=="neon") then local v3390=0;while true do if (v3390==0) then v1169.Brightness=2;v1169.ClockTime=0 + 0 ;break;end end elseif (v2091=="sunset") then v1169.Brightness=1954 -(653 + 1299) ;v1169.ClockTime=16 + 2 ;elseif (v2091=="dream") then v1169.Brightness=2.5;v1169.ClockTime=12;v1169.FogColor=v2090;v1169.FogEnd=121 + 179 ;end end for v2094,v2095 in ipairs({"FX_WingStyle","FX_WingColor","FX_WingSize"}) do Options[v2095]:OnChanged(function() v1173("wings");end);end for v2096,v2097 in ipairs({"FX_AuraStyle","FX_AuraColor","FX_AuraRate"}) do Options[v2097]:OnChanged(function() v1173("aura");end);end for v2098,v2099 in ipairs({"FX_TrailStyle","FX_TrailColor"}) do Options[v2099]:OnChanged(function() v1173("trail");end);end local v1181;local v1182=1218 -(700 + 518) ;local v1183=v57.Heartbeat:Connect(function(v2100) if v54.Unloaded then return;end local v2101=v1174();if Toggles.FX_Wings.Value then if ( not v1172.wings or (v1172.wings.char~=v2101)) then v1173("wings");v1177();end if v1172.wings then if Toggles.FX_WingAnim.Value then local v3235=tick() * Options.FX_WingSpeed.Value * (3.5 -2) ;local v3236=math.rad(22);for v3331,v3332 in ipairs(v1172.wings.feathers) do if v3332.w.Parent then local v3475=0 -0 ;local v3476;while true do if ((1511 -(617 + 894))==v3475) then v3476=math.sin(v3235) * v3236 ;v3332.w.C0=v3332.b * CFrame.Angles(0,v3476 * v3332.s ,0 -0 ) ;break;end end end end else for v3333,v3334 in ipairs(v1172.wings.feathers) do if v3334.w.Parent then v3334.w.C0=v3334.b;end end end end elseif v1172.wings then v1173("wings");end if Toggles.FX_Aura.Value then if ( not v1172.aura or (v1172.aura.char~=v2101)) then v1173("aura");v1178();end elseif v1172.aura then v1173("aura");end if Toggles.FX_Trail.Value then if ( not v1172.trail or (v1172.trail.char~=v2101)) then local v2971=0;while true do if (0==v2971) then v1173("trail");v1179();break;end end end elseif v1172.trail then v1173("trail");end local v2102=(Toggles.FX_World.Value and (Options.FX_WorldStyle.Value   .. Options.FX_WorldColor.Value)) or nil ;if (v2102~=v1181) then v1181=v2102;if v2102 then v1180();else v1171();end end end);v45.VFX={cleanup=function() local v2103=458 -(271 + 187) ;while true do if (v2103==(1584 -(731 + 853))) then if v1183 then v1183:Disconnect();end v1173("wings");v2103=3 -2 ;end if (2==v2103) then v1171();break;end if (v2103==1) then v1173("aura");v1173("trail");v2103=1523 -(199 + 1322) ;end end end};end v8("visual fx",v331);local function v332() local v1185=v299.miscL2:AddTab("smooth cam");v1185:AddToggle("SC_On",{Text="enable",Default=false});v1185:AddSlider("SC_Pos",{Text="position",Default=78 -38 ,Min=0 + 0 ,Max=95,Rounding=0});v1185:AddSlider("SC_Rot",{Text="rotation",Default=1710 -(1291 + 369) ,Min=0 + 0 ,Max=45 + 50 ,Rounding=0});v1185:AddSlider("SC_Fov",{Text="fov",Default=60,Min=0 + 0 ,Max=95,Rounding=0 + 0 });v1185:AddSlider("SC_Damp",{Text="damping",Default=0,Min=685 -(561 + 124) ,Max=96 + 4 ,Rounding=0});v1185:AddToggle("SC_Lock",{Text="freeze y",Default=false});v1185:AddSlider("SC_Dist",{Text="distance (0 = first person)",Default=861 -(25 + 828) ,Min=0 -0 ,Max=54 -24 ,Rounding=591 -(99 + 491) });v1185:AddButton({Text="reset",Func=function() local v2104=0;while true do if (v2104==2) then Toggles.SC_Lock:SetValue(false);break;end if (v2104==1) then Options.SC_Fov:SetValue(60);Options.SC_Damp:SetValue(0);v2104=2;end if (v2104==(48 -(18 + 30))) then Options.SC_Pos:SetValue(40);Options.SC_Rot:SetValue(50);v2104=2 -1 ;end end end});local v1186="teddyhubSmoothCam";local v1187=game:GetService("UserInputService");local v1188,v1189,v1190,v1191,v1192,v1193;local v1194=false;local v1195=nil;local function v1196() if v54.Unloaded then return;end local v2105=workspace.CurrentCamera;local v2106=v63.Character;local v2107=v2106 and v2106:FindFirstChild("Head") ;if ( not Toggles.SC_On.Value or  not v2107) then MouseAcc.x=0 -0 ;MouseAcc.y=0 -0 ;if v1194 then local v2972=0;while true do if (v2972==0) then v1194=false;v2105.CameraType=Enum.CameraType.Custom;v2972=1;end if (v2972==1) then game:GetService("UserInputService").MouseBehavior=Enum.MouseBehavior.Default;if v2106 then for v3505,v3506 in ipairs(v2106:GetDescendants()) do if v3506:IsA("BasePart") then v3506.LocalTransparencyModifier=0 + 0 ;end end end break;end end end return;end if  not v1194 then local v2520=0 -0 ;local v2521;while true do if (v2520==(734 -(501 + 231))) then v1189=math.asin(math.clamp(v2521.Y, -(1 + 0),1));v1190,v1191,v1192,v1193=v1188,v1189,v2107.Position,v2105.FieldOfView;break;end if (v2520==(1698 -(470 + 1228))) then v1194=true;pcall(function() Toggles.TP_On:SetValue(false);end);v2520=1;end if (v2520==(1 + 0)) then v2521=v2105.CFrame.LookVector;v1188=math.atan2( -v2521.X, -v2521.Z);v2520=2 + 0 ;end end end local v2108=v7();game:GetService("UserInputService").MouseBehavior=Enum.MouseBehavior.LockCenter;v1188=v1188-(v2108.X * (686.005 -(537 + 149))) ;v1189=math.clamp(v1189-(v2108.Y * 0.005) , -1.4,1.4);local v2111=(1 -0) -(Options.SC_Damp.Value/100) ;local v2112=math.clamp(((1 + 0) -(Options.SC_Rot.Value/(210 -110))) * v2111 ,0.02 -0 ,2 -1 );local v2113=math.clamp(((1 + 0) -(Options.SC_Pos.Value/(35 + 65))) * v2111 ,0.02,1);local v2114=math.clamp(((1 + 0) -(Options.SC_Fov.Value/100)) * v2111 ,0.02 + 0 ,1 + 0 );v1190=v1190 + ((v1188-v1190) * v2112) ;v1191=v1191 + ((v1189-v1191) * v2112) ;v1192=v1192:Lerp(v2107.Position,v2113);if Toggles.SC_Lock.Value then v1192=Vector3.new(v1192.X,v2107.Position.Y,v1192.Z);end v1193=v1193 + ((v2105.FieldOfView-v1193) * v2114) ;v2105.CameraType=Enum.CameraType.Scriptable;local v2117=Vector3.new( -math.sin(v1190) * math.cos(v1191) ,math.sin(v1191), -math.cos(v1190) * math.cos(v1191) );local v2118=Options.SC_Dist.Value;local v2119=v1192-(v2117 * v2118) ;local v2120=v2118<(0.5 + 0) ;if (v2106 and (v2120~=v1195)) then v1195=v2120;for v2772,v2773 in ipairs(v2106:GetDescendants()) do if v2773:IsA("BasePart") then v2773.LocalTransparencyModifier=(v2120 and (1 + 0)) or (0 -0) ;end end end v2105.CFrame=CFrame.lookAt(v2119,v1192);v2105.FieldOfView=v1193;v2105:SetAttribute("teddyhubSmoothYaw",v1190);if (v168.enabled and v168.apply) then v168.apply();end end v57:BindToRenderStep(v1186,Enum.RenderPriority.Camera.Value + 1 + 0 ,v1196);v45.SmoothCam={cleanup=function() local v2123=579 -(134 + 445) ;while true do if (v2123==(0 -0)) then pcall(function() v57:UnbindFromRenderStep(v1186);end);pcall(function() workspace.CurrentCamera.CameraType=Enum.CameraType.Custom;end);break;end end end};end v8("smooth cam",v332);local function v333() local v1198=0 + 0 ;local v1199;local v1200;local v1201;local v1202;local v1203;local v1204;local v1205;local v1206;local v1207;local v1208;while true do if (v1198==3) then v1201=nil;v1202,v1203=0,0.25 + 0 ;v1204=false;v1205=game:GetService("UserInputService");v1198=15 -11 ;end if ((260 -(36 + 224))==v1198) then v1199=v299.miscR:AddTab("3rd person");v1199:AddToggle("TP_On",{Text="enable",Default=false});v1199:AddSlider("TP_Dist",{Text="distance",Default=1870 -(1033 + 827) ,Min=1848 -(1002 + 844) ,Max=1390 -(1126 + 224) ,Rounding=1 + 0 });v1199:AddSlider("TP_Height",{Text="height",Default=2,Min= -(5 + 0),Max=40 -28 ,Rounding=1});v1198=1;end if (v1198==4) then v1206=nil;v1207=RaycastParams.new();v1207.FilterType=Enum.RaycastFilterType.Exclude;v1208=nil;v1198=69 -(48 + 16) ;end if (v1198==(1 + 0)) then v1199:AddSlider("TP_Shoulder",{Text="shoulder",Default=4.5 -3 ,Min= -6,Max=19 -13 ,Rounding=1 + 0 });v1199:AddSlider("TP_Fov",{Text="fov",Default=1159 -(910 + 179) ,Min=59 -29 ,Max=120,Rounding=0 -0 });v1199:AddSlider("TP_Smooth",{Text="smooth",Default=1409 -(933 + 446) ,Min=0 + 0 ,Max=95,Rounding=1524 -(248 + 1276) });v1199:AddToggle("TP_Collide",{Text="wall check",Default=true});v1198=2 + 0 ;end if (v1198==2) then v1199:AddToggle("TP_Hide",{Text="hide head",Default=false});v1199:AddButton({Text="reset",Func=function() Options.TP_Dist:SetValue(5 + 5 );Options.TP_Height:SetValue(2);Options.TP_Shoulder:SetValue(1.5);Options.TP_Fov:SetValue(238 -168 );Options.TP_Smooth:SetValue(101 -71 );end});Toggles.TP_On:AddKeyPicker("TP_Key",{Default="None",Mode="Toggle",SyncToggleState=true,Text="thirdperson"});v1200="teddyhubThirdPerson";v1198=1548 -(151 + 1394) ;end if (v1198==(949 -(929 + 15))) then function v1208() if v54.Unloaded then return;end local v2774=workspace.CurrentCamera;local v2775=v63.Character;local v2776=v2775 and v2775:FindFirstChild("HumanoidRootPart") ;local v2777=v2775 and v2775:FindFirstChild("Head") ;if ( not Toggles.TP_On.Value or  not v2776 or  not v2777) then if v1204 then game:GetService("UserInputService").MouseBehavior=Enum.MouseBehavior.Default;end v1201=nil;v1204=false;v1206=nil;MouseAcc.x=1996 -(1173 + 823) ;MouseAcc.y=0 -0 ;return;end if  not v1204 then local v3128=1776 -(482 + 1294) ;local v3129;while true do if (1==v3128) then v1202=math.atan2( -v3129.X, -v3129.Z);v1203=math.asin(math.clamp(v3129.Y, -(1 -0),1 + 0 )) *  -1 ;break;end if (v3128==(1306 -(1125 + 181))) then v1204=true;v3129=v2774.CFrame.LookVector;v3128=2 -1 ;end end end local v2778=v7();game:GetService("UserInputService").MouseBehavior=Enum.MouseBehavior.LockCenter;v1202=v1202-(v2778.X * 0.005) ;v1203=math.clamp(v1203 + (v2778.Y * (0.005 + 0)) , -(1.2 -0),1190.2 -(626 + 563) );v2774.CameraType=Enum.CameraType.Scriptable;local v2783=v2777.Position + Vector3.new(1250 -(153 + 1097) ,Options.TP_Height.Value * (0.5 -0) ,0 + 0 ) ;local v2784=Vector3.new(math.sin(v1202) * math.cos(v1203) ,math.sin(v1203),math.cos(v1202) * math.cos(v1203) );local v2785=Vector3.new(math.cos(v1202),0, -math.sin(v1202));local v2786=v2783 + (v2784 * Options.TP_Dist.Value) + (v2785 * Options.TP_Shoulder.Value) + Vector3.new(0 -0 ,Options.TP_Height.Value,0) ;if Toggles.TP_Collide.Value then local v3130=0 + 0 ;local v3131;while true do if (v3130==(1 + 0)) then if v3131 then v2786=v3131.Position + ((v2783-v2786).Unit * (0.5 + 0)) ;end break;end if (v3130==(0 + 0)) then v1207.FilterDescendantsInstances={v2775};v3131=workspace:Raycast(v2783,v2786-v2783 ,v1207);v3130=1158 -(199 + 958) ;end end end if  not v1201 then v1201=v2786;end local v2787=math.clamp((1 + 0) -(Options.TP_Smooth.Value/100) ,0.02 -0 ,2 -1 );v1201=v1201:Lerp(v2786,v2787);local v2788,v2789=pcall(function() return v2774:GetAttribute("teddyhubAimAt");end);if ( not v2788 or (typeof(v2789)~="Vector3")) then v2789=nil;end if v2789 then local v3132=1176 -(1169 + 7) ;local v3133;while true do if (v3132==(1873 -(751 + 1122))) then v3133=pcall(function() local v3479=0 + 0 ;local v3480;while true do if (v3479==1) then v2774.CFrame=CFrame.lookAt(v1201,v2789);break;end if ((0 + 0)==v3479) then v3480=v2789-v2783 ;if (v3480.Magnitude>(0.01 + 0)) then local v3589=0;local v3590;local v3591;local v3592;local v3593;while true do if ((1 + 0)==v3589) then v1203=math.asin(math.clamp( -v3590.Y, -(1 -0),1182 -(589 + 592) ));v3591=Vector3.new(math.sin(v1202) * math.cos(v1203) ,math.sin(v1203),math.cos(v1202) * math.cos(v1203) );v3589=3 -1 ;end if (v3589==(0 + 0)) then v3590=v3480.Unit;v1202=math.atan2( -v3590.X, -v3590.Z);v3589=1;end if (v3589==2) then v3592=Vector3.new(math.cos(v1202),24 -(13 + 11) , -math.sin(v1202));v3593=v2783 + (v3591 * Options.TP_Dist.Value) + (v3592 * Options.TP_Shoulder.Value) + Vector3.new(0 + 0 ,Options.TP_Height.Value,0 + 0 ) ;v3589=3;end if (v3589==3) then v1201=v3593;break;end end end v3479=1261 -(684 + 576) ;end end end);if  not v3133 then v2774.CFrame=CFrame.lookAt(v1201,v2783);end break;end end else v2774.CFrame=CFrame.lookAt(v1201,v2783);end v2774.FieldOfView=Options.TP_Fov.Value;v2774:SetAttribute("teddyhubThirdYaw",v1202);if (v168.enabled and v168.apply) then v168.apply();end local v2792=Toggles.TP_Hide.Value;if (v2792~=v1206) then local v3135=0 + 0 ;while true do if (v3135==0) then v1206=v2792;if v2777 then v2777.LocalTransparencyModifier=(v2792 and 1) or 0 ;end break;end end end end v57:BindToRenderStep(v1200,Enum.RenderPriority.Camera.Value + (4 -2) ,v1208);v45.ThirdPerson={cleanup=function() pcall(function() v57:UnbindFromRenderStep(v1200);end);local v2793=workspace.CurrentCamera;if v2793 then v2793.CameraType=Enum.CameraType.Custom;end end};break;end end end v8("third person",v333);local function v334() local v1209=Instance.new("ScreenGui");v1209.Name="teddyhubKeybinds";v1209.ResetOnSpawn=false;v1209.DisplayOrder=250;v1209.IgnoreGuiInset=true;pcall(function() v1209.Parent=game:GetService("CoreGui");end);if  not v1209.Parent then v1209.Parent=v65;end local v1214=Instance.new("Frame");v1214.Name="Panel";v1214.Size=UDim2.fromOffset(85 + 85 ,0 + 0 );v1214.AutomaticSize=Enum.AutomaticSize.Y;v1214.Position=UDim2.new(0 -0 ,8,0.4 + 0 ,0 + 0 );v1214.BackgroundColor3=v54.MainColor;v1214.BorderSizePixel=0 + 0 ;v1214.Parent=v1209;local v1224=Instance.new("UIScale");v1224.Parent=v1214;local v1226=Instance.new("UIStroke");v1226.Color=v54.OutlineColor;v1226.Thickness=1 + 0 ;v1226.Parent=v1214;local v1231=Instance.new("Frame");v1231.Name="Strip";v1231.Size=UDim2.new(1,0 + 0 ,1848 -(230 + 1618) ,2 + 0 );v1231.BorderSizePixel=0 + 0 ;v1231.BackgroundColor3=v54.AccentColor;v1231.ZIndex=5 + 0 ;v1231.Parent=v1214;local v1239=Instance.new("UIListLayout");v1239.SortOrder=Enum.SortOrder.LayoutOrder;v1239.Padding=UDim.new(203 -(131 + 72) ,1 + 1 );v1239.Parent=v1214;local v1244=Instance.new("UIPadding");v1244.PaddingTop=UDim.new(204 -(144 + 60) ,28 -21 );v1244.PaddingBottom=UDim.new(0 -0 ,6);v1244.PaddingLeft=UDim.new(0 + 0 ,8);v1244.PaddingRight=UDim.new(0,38 -30 );v1244.Parent=v1214;local function v1250(v2125) v2125.BackgroundTransparency=1 + 0 ;v2125.Font=Enum.Font.Code;v2125.TextXAlignment=Enum.TextXAlignment.Left;local v2131=Instance.new("UIStroke");v2131.Color=Color3.new(1922 -(523 + 1399) ,0 + 0 ,0);v2131.Thickness=405 -(72 + 332) ;v2131.LineJoinMode=Enum.LineJoinMode.Miter;v2131.Parent=v2125;return v2125;end local v1251=v1250(Instance.new("TextLabel"));v1251.Name="Header";v1251.LayoutOrder=0;v1251.Size=UDim2.new(1,0,976 -(269 + 707) ,16);v1251.Text="keybinds";v1251.Parent=v1214;local v1257={};local function v1258(v2137) if  not v1257[v2137] then local v2525=v1250(Instance.new("TextLabel"));v2525.LayoutOrder=v2137;v2525.Size=UDim2.new(1 -0 ,0 -0 ,130 -(123 + 7) ,13 + 3 );v2525.Visible=false;v2525.Parent=v1214;v1257[v2137]=v2525;end return v1257[v2137];end local function v1259() local v2138={};for v2359,v2360 in pairs(Options) do if ((type(v2359)=="string") and ((v2359=="MenuKeybind") or (v2359:sub( -(3 + 1))=="_Key"))) then local v2794=v2360.Value;if ((type(v2794)=="string") and (v2794~="") and (v2794~="None")) then local v3138,v3139;if (v2359=="MenuKeybind") then v3138,v3139="Menu",true;else v3138=v2359:sub(4 -3 , -(12 -7));local v3341=Toggles[v3138];v3139=v3341 and (v3341.Value==true) ;end table.insert(v2138,{name=v3138,key=v2794,on=v3139});end end end table.sort(v2138,function(v2361,v2362) return v2361.name<v2362.name ;end);return v2138;end local v1260=0;local v1261=v57.Heartbeat:Connect(function(v2139) if v54.Unloaded then return;end v1260=v1260 + v2139 ;if (v1260<(1088.15 -(38 + 1050))) then return;end v1260=0 + 0 ;local v2140=Toggles.KL_Enable.Value;v1214.Visible=v2140;if  not v2140 then return;end v1214.Position=UDim2.fromScale(Options.KL_X.Value/(40 + 60) ,Options.KL_Y.Value/(55 + 45) );v1224.Scale=Options.KL_Scale.Value/(923 -(426 + 397)) ;v1214.BackgroundTransparency=Options.KL_Trans.Value/100 ;v1231.BackgroundColor3=v54.AccentColor;v1251.Visible=Toggles.KL_Title.Value;v1251.TextSize=Options.KL_Size.Value;v1251.TextColor3=v54.AccentColor;local v2152=v1259();local v2153=1406 -(751 + 655) ;for v2363,v2364 in ipairs(v2152) do if (Toggles.KL_ShowOff.Value or v2364.on) then v2153=v2153 + (1 -0) ;local v2795=v1258(v2153 + 1 );v2795.Visible=true;v2795.TextSize=Options.KL_Size.Value;v2795.Text=v2364.name   .. "  ["   .. v2364.key   .. "]" ;v2795.TextColor3=(v2364.on and v54.AccentColor) or v54.FontColor ;end end for v2365=v2153 + 1 + 1 , #v1257 do v1257[v2365].Visible=false;end v1214.Visible=v2153>(1245 -(39 + 1206)) ;end);v45.KeyList.cleanup=function() local v2154=0 -0 ;while true do if (v2154==0) then if v1261 then v1261:Disconnect();end pcall(function() v1209:Destroy();end);break;end end end;end v8("keybind list",v334);local function v335() local v1263=v299.setR:AddTab("keybinds");v1263:AddToggle("KL_Enable",{Text="enable",Default=true});v1263:AddToggle("KL_ShowOff",{Text="show off",Default=true});v1263:AddToggle("KL_Title",{Text="title",Default=true});v1263:AddDivider();v1263:AddSlider("KL_X",{Text="x",Default=841 -(566 + 275) ,Min=935 -(167 + 768) ,Max=100,Rounding=0 + 0 });v1263:AddSlider("KL_Y",{Text="y",Default=62 -22 ,Min=0,Max=100,Rounding=0 + 0 });v1263:AddSlider("KL_Scale",{Text="scale",Default=96 + 4 ,Min=68 -18 ,Max=200,Rounding=0});v1263:AddSlider("KL_Trans",{Text="transparency",Default=25 -(8 + 7) ,Min=1683 -(1510 + 173) ,Max=141 -41 ,Rounding=0});v1263:AddSlider("KL_Size",{Text="text size",Default=1 + 12 ,Min=263 -(30 + 223) ,Max=1276 -(300 + 956) ,Rounding=122 -(22 + 100) });end v8("keybind opts",v335);v54:OnUnload(function() v54.Unloaded=true;if v45.KeyList.cleanup then pcall(v45.KeyList.cleanup);end if (v45.Hitbox and v45.Hitbox.cleanup) then pcall(v45.Hitbox.cleanup);end if v45.SelfFX.cleanup then pcall(v45.SelfFX.cleanup);end if v45.SearchUI.cleanup then pcall(v45.SearchUI.cleanup);end if v45.Extra.cleanup then pcall(v45.Extra.cleanup);end if v45.CustomHUD.cleanup then pcall(v45.CustomHUD.cleanup);end if v45.MiscExtras.cleanup then pcall(v45.MiscExtras.cleanup);end if v45.NameChanger.cleanup then pcall(v45.NameChanger.cleanup);end if v45.Strafer.cleanup then pcall(v45.Strafer.cleanup);end if (v45.SmoothCam and v45.SmoothCam.cleanup) then pcall(v45.SmoothCam.cleanup);end if (v45.VFX and v45.VFX.cleanup) then pcall(v45.VFX.cleanup);end if (v45.ThirdPerson and v45.ThirdPerson.cleanup) then pcall(v45.ThirdPerson.cleanup);end if v312 then local v2367=0;while true do if (v2367==(0 -0)) then v312:Disconnect();v312=nil;break;end end end if v212 then v212:Disconnect();v212=nil;end pcall(function() if v320.autoConn then v320.autoConn:Disconnect();end if v320.sound then local v2531=282 -(47 + 235) ;while true do if (v2531==0) then v320.sound:Stop();v320.sound:Destroy();break;end end end if v320._vizGui then v320._vizGui:Destroy();end end);v140=false;pcall(function() v152:Remove();end);v162.enabled=false;v176.master=false;for v2155,v2156 in pairs(v193.players) do for v2368,v2369 in ipairs(v2156.connections) do pcall(v2369.Disconnect,v2369);end for v2370,v2371 in ipairs(v2156.drawings) do pcall(v2371.Remove,v2371);end end v193.players={};v194.Visible=false;pcall(v199);v165=false;v168.enabled=false;v171.enabled=false;v171.rotOwned=false;v206=false;v213();v208=false;v214();if v210 then v215(false);end v259.Enabled=false;v265.Visible=false;pcall(v272,false);pcall(function() v262:Destroy();end);v216=false;v60.Brightness=v220;for v2157,v2158 in ipairs(v226) do if v2158.Active then v2158.Active=false;v2158.Part.CFrame=CFrame.new(0 -0 , -1000,0 + 0 );end end pcall(function() v223:Destroy();end);v127=false;pcall(function() v71.gui:Destroy();end);v228=false;if (v241 and v63.Character) then v246(v63.Character);end v236=false;v273.FreezeTime=false;v255=false;v256=false;if v249 then v249.Enabled=false;end if v252 then v252.Enabled=false;end v60.Ambient=v308;v60.OutdoorAmbient=v309;local v1278=v60:FindFirstChild("teddyhubCustomSky");if v1278 then v1278:Destroy();end v315();local v1279=v63.Character and v63.Character:FindFirstChildOfClass("Humanoid") ;if v1279 then v1279.AutoRotate=true;end v279:Destroy();v280:Destroy();v281:Destroy();v60.ExposureCompensation=v276.Exposure;v60.FogStart=v276.FogStart;v60.FogEnd=v276.FogEnd;v60.FogColor=v276.FogColor;local v1288=workspace.CurrentCamera;if v1288 then v1288.FieldOfView=v276.Fov;end end);if v5 then pcall(v5.finish);end end;local v10=v0.LocalPlayer or v0:GetPropertyChangedSignal("LocalPlayer"):Wait() ;local v11=v10:WaitForChild("PlayerGui");local v12=Color3.fromRGB(255,255,741 -(21 + 465) );local v13=Color3.fromRGB(28,28,19 + 9 );local v14=Color3.fromRGB(14 + 6 ,7 + 13 ,24 -4 );local v15=Color3.fromRGB(0,85,1472 -(553 + 664) );local v16=Color3.fromRGB(21 + 29 ,128 -(73 + 5) ,50);local v17=Color3.fromRGB(1970 -(1128 + 587) ,194 -144 ,50);local v18=Color3.new(0,690 -(558 + 132) ,0);local v19=Enum.Font.Code;local v20=43 -27 ;local v21="[KeySystem] ";local v22="none";local function v23(v336) v22=v336;print(v21   .. "built: "   .. v336 );end local function v24() local v337=0 -0 ;local v338;local v339;local v340;while true do if (1==v337) then v340={};for v2534 in v339:gmatch("[^\r\n]+") do local v2535=v2534:match("^%s*(.-)%s*$");if (v2535 and ( #v2535>(0 + 0)) and (v2535:sub(1 + 0 ,1)~="#")) then table.insert(v340,v2535);end end v337=2;end if (v337==(1 + 1)) then if ( #v340==(0 + 0)) then return nil,"The key list came back empty.";end return v340;end if (v337==0) then v338,v339=pcall(function() return game:HttpGet(v3);end);if ( not v338 or (type(v339)~="string")) then return nil,"Could not reach the key server.";end v337=1;end end end local function v25(v341,v342) local v343=0 -0 ;while true do if (v343==(0 + 0)) then for v2536,v2537 in ipairs(v342) do if (v341==v2537) then return true;end end return false;end end end local v26="^[%a][%w]*%-[%w]+%-[%w]+$";local function v27(v344) local v345=0 + 0 ;local v346;while true do if (v345==(772 -(294 + 477))) then v346.Color=v18;v346.Thickness=1;v345=1 + 1 ;end if (v345==(6 -3)) then v346.Parent=v344;return v346;end if ((0 -0)==v345) then v344.TextStrokeTransparency=1 + 0 ;v346=Instance.new("UIStroke");v345=1 + 0 ;end if (v345==2) then v346.LineJoinMode=Enum.LineJoinMode.Miter;v346.Transparency=0 -0 ;v345=985 -(97 + 885) ;end end end local function v28(v347) local v348=0 + 0 ;local v349;while true do if (v348==(4 -1)) then for v2538,v2539 in pairs(v347) do v349[v2538]=v2539;end return v349;end if (v348==(367 -(271 + 94))) then v349.TextSize=v20;v27(v349);v348=3;end if (v348==(1603 -(777 + 826))) then v349=Instance.new("TextLabel");v349.BackgroundTransparency=1;v348=1 + 0 ;end if (v348==(1356 -(117 + 1238))) then v349.Font=v19;v349.TextColor3=v12;v348=1717 -(686 + 1029) ;end end end local function v29(v350,v351) local v352=0;local v353;while true do if (1==v352) then v353.BorderColor3=v16;for v2541,v2542 in pairs(v351) do v353[v2541]=v2542;end v352=1358 -(1074 + 282) ;end if (v352==2) then return v353;end if (v352==(1617 -(1359 + 258))) then v353=Instance.new(v350);v353.BorderSizePixel=2 -1 ;v352=1;end end end local function v30(v354,v355) v354.Active=true;local v357=false;local v358=Vector2.zero;local v359=UDim2.new();local v360=nil;local function v361() v357=false;if v360 then local v2390=1935 -(1730 + 205) ;while true do if (v2390==(528 -(67 + 461))) then v360:Disconnect();v360=nil;break;end end end end v354.InputBegan:Connect(function(v1289) local v1290=v1289.UserInputType;if ((v1290~=Enum.UserInputType.MouseButton1) and (v1290~=Enum.UserInputType.Touch)) then return;end v357=true;v358=v1289.Position;v359=v354.Position;v360=v1289.Changed:Connect(function() if (v1289.State==Enum.UserInputState.End) then v361();end end);end);v354.InputChanged:Connect(function(v1293) if  not v357 then return;end local v1294=v1293.UserInputType;if ((v1294~=Enum.UserInputType.MouseMovement) and (v1294~=Enum.UserInputType.Touch)) then return;end local v1295=v1293.Position-v358 ;local v1296=workspace.CurrentCamera.ViewportSize;v354.Position=UDim2.new(v359.X.Scale,math.clamp(v359.X.Offset + v1295.X , -v355,v1296.X-v355 ),v359.Y.Scale,math.clamp(v359.Y.Offset + v1295.Y , -v355,v1296.Y-v355 ));end);v354.InputEnded:Connect(v361);end task.spawn(function() if (readfile and isfile and isfile(v4)) then local v2159=0 -0 ;local v2160;while true do if (v2159==(0 -0)) then v2160=readfile(v4):match("^%s*(.-)%s*$");if (v2160 and ( #v2160>0)) then local v3140=0 -0 ;local v3141;local v3142;while true do if (v3140==1) then if  not v3141 then print(v21   .. "Saved Key check failed: "   .. tostring(v3142) );elseif v25(v2160,v3141) then print(v21   .. "Saved Key has passed" );v8("main script",v9);return;else local v3568=0 + 0 ;while true do if (v3568==(629 -(129 + 500))) then print(v21   .. "Saved Key has failed" );if delfile then delfile(v4);end break;end end end break;end if (v3140==(1711 -(1157 + 554))) then print(v21   .. "Checking Saved Key" );v3141,v3142=v24();v3140=1;end end end break;end end end local function v362() local v1298=Instance.new("ScreenGui");v1298.Name="KeySystemUI";v1298.Parent=v11;v1298.ResetOnSpawn=false;v1298.IgnoreGuiInset=true;v1298.DisplayOrder=723 -223 ;v1298.ZIndexBehavior=Enum.ZIndexBehavior.Global;v23("ScreenGui");local v1306,v1307=420,907 -(82 + 525) ;local v1308=v29("Frame",{Name="Outer",BackgroundColor3=v18,Position=UDim2.fromScale(0.5 + 0 ,0.5 -0 ),AnchorPoint=Vector2.new(1623.5 -(948 + 675) ,0.5 + 0 ),Size=UDim2.fromOffset(v1306,v1307),ZIndex=1 + 0 ,Parent=v1298});v30(v1308,167 -107 );v23("Outer");local v1309=v29("Frame",{Name="Inner",BackgroundColor3=v13,BorderColor3=v15,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(1,854 -(406 + 447) ),Size=UDim2.new(118 -(91 + 26) , -(6 -4),1 + 0 , -2),ZIndex=988 -(968 + 18) ,Parent=v1308});v23("Inner");local v1310=v28({Name="Title",Position=UDim2.fromOffset(7 + 0 ,0),Size=UDim2.new(1, -(37 + 3),0,50 -25 ),Text="key system",TextXAlignment=Enum.TextXAlignment.Left,ZIndex=3,Parent=v1309});v23("Title");local v1311=v29("TextButton",{Name="Close",Font=v19,TextColor3=v12,TextSize=v20,AutoButtonColor=false,Active=true,AnchorPoint=Vector2.new(1,267 -(172 + 95) ),Position=UDim2.new(3 -2 , -6,0,269 -(260 + 5) ),Size=UDim2.fromOffset(43 -27 ,16),Text="x",ZIndex=823 -(265 + 554) ,Parent=v1309});v27(v1311);v23("CloseButton");local v1312=v29("Frame",{Name="MainSectionOuter",BackgroundColor3=v14,BorderColor3=v16,Position=UDim2.fromOffset(1579 -(1440 + 131) ,70 -45 ),Size=UDim2.new(1396 -(253 + 1142) , -(269 -(133 + 120)),1, -(69 -36)),ZIndex=1959 -(809 + 1147) ,Parent=v1309});local v1313=v29("Frame",{Name="MainSectionInner",BackgroundColor3=v14,BorderColor3=v18,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(0,0),Size=UDim2.new(1,0,498 -(178 + 319) ,0 -0 ),ZIndex=3 + 1 ,Parent=v1312});v23("MainSection");local v1314=v29("Frame",{Name="GroupboxOuter",BackgroundColor3=v13,BorderColor3=v16,Position=UDim2.fromOffset(1276 -(1255 + 15) ,1548 -(1221 + 321) ),Size=UDim2.new(2 -1 , -(10 + 2),1, -(44 -32)),ZIndex=18 -13 ,Parent=v1313});local v1315=v29("Frame",{Name="GroupboxInner",BackgroundColor3=v13,BorderColor3=v18,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(0 + 0 ,0 + 0 ),Size=UDim2.new(1 -0 ,407 -(204 + 203) ,1,78 -(48 + 30) ),ZIndex=3 + 3 ,Parent=v1314});v23("Groupbox");v28({Name="GroupboxLabel",Position=UDim2.fromOffset(8,4),Size=UDim2.new(1965 -(1472 + 492) , -(42 -26),0 + 0 ,18),Text="authentication",TextXAlignment=Enum.TextXAlignment.Left,ZIndex=618 -(258 + 353) ,Parent=v1315});v23("GroupboxLabel");local v1316=2014 -(1382 + 612) ;v28({Name="KeyLabel",Position=UDim2.fromOffset(v1316,29 + 1 ),Size=UDim2.new(1, -v1316 * (1 + 1) ,0 + 0 ,47 -31 ),Text="key",TextXAlignment=Enum.TextXAlignment.Left,ZIndex=5 + 2 ,Parent=v1315});v23("KeyLabel");local v1317=v29("Frame",{Name="KeyInputShell",BackgroundColor3=v14,BorderColor3=v16,Position=UDim2.fromOffset(v1316,50),Size=UDim2.new(120 -(35 + 84) , -v1316 * (217 -(75 + 140)) ,0 -0 ,26),ZIndex=7,Parent=v1315});local v1318=v29("TextBox",{Name="KeyInput",BackgroundColor3=v14,BackgroundTransparency=1,BorderSizePixel=1799 -(923 + 876) ,Font=v19,TextColor3=v12,TextSize=v20,Text="",PlaceholderText="teddyhub-xxxx-xxxx",PlaceholderColor3=v16,TextXAlignment=Enum.TextXAlignment.Left,ClearTextOnFocus=false,Size=UDim2.new(2 -1 , -(822 -(284 + 528)),1,1019 -(867 + 152) ),Position=UDim2.fromOffset(4,0),ZIndex=1114 -(709 + 397) ,Parent=v1317});v23("KeyInput");local v1319=v28({Name="Status",Position=UDim2.fromOffset(v1316,297 -213 ),Size=UDim2.new(37 -(21 + 15) , -v1316 * (2 -0) ,0 -0 ,4 + 12 ),Text="",TextXAlignment=Enum.TextXAlignment.Left,ZIndex=20 -13 ,Parent=v1315});v23("Status");local v1320=v29("TextButton",{Name="SubmitButton",BackgroundColor3=v14,BorderColor3=v16,Position=UDim2.fromOffset(v1316,268 -160 ),Size=UDim2.new(1 + 0 , -v1316 * 2 ,135 -(97 + 38) ,108 -(52 + 28) ),Text="check key",TextColor3=v12,TextSize=v20,Font=v19,AutoButtonColor=false,ZIndex=4 + 3 ,Parent=v1315});v27(v1320);v23("SubmitButton");local v1321=false;local function v1322(v2161,v2162) local v2163=849 -(59 + 790) ;while true do if (v2163==0) then v1319.Text=v2161;v1319.TextColor3=v2162 or v12 ;break;end end end local function v1323(v2164) v1:Create(v1317,TweenInfo.new(0.15 + 0 ),{BorderColor3=v2164}):Play();end local function v1324(v2165,v2166) v1320.Text=v2166;v1:Create(v1320,TweenInfo.new(0.15 + 0 ),{BackgroundColor3=v2165}):Play();end local function v1325(v2168) v1321=true;v1322("Key passed.",v15);v1323(v15);v1324(v15,"Welcome");if writefile then writefile(v4,v2168);end print(v21   .. "Key has passed" );task.wait(941 -(467 + 473) );v1298:Destroy();v8("main script",v9);end local function v1326(v2169) v1321=true;v1322(v2169,v17);v1323(v17);v1324(v17,"Wrong Key");task.wait(1.5);v1323(v16);v1324(v14,"Check Key");v1321=false;end local function v1327() if v1321 then return;end local v2170=v1318.Text:match("^%s*(.-)%s*$");if ( not v2170 or ( #v2170==0)) then local v2544=0;while true do if (v2544==0) then v1326("Enter a key first.");return;end end end if  not v2170:match(v26) then local v2545=0 -0 ;while true do if (v2545==(0 -0)) then v1326("That is not a valid key format.");return;end end end v1321=true;v1320.Text="checking key...";v1322("Verifying...",v15);v1323(v15);local v2172,v2173=v24();if  not v2172 then v1326(v2173 or "Key check failed." );return;end if v25(v2170,v2172) then v1325(v2170);else v1326("Wrong key.");end end v1320.MouseButton1Click:Connect(function() v1327();end);v1318.Focused:Connect(function() v1323(v15);end);v1318.FocusLost:Connect(function(v2174) local v2175=0 -0 ;while true do if (v2175==0) then v1323(v16);if ( not v1321 and v2174) then v1327();end break;end end end);v1320.MouseEnter:Connect(function() local v2176=0;while true do if (v2176==(0 -0)) then if v1321 then return;end v1324(v15,v1320.Text);break;end end end);v1320.MouseLeave:Connect(function() local v2177=0 + 0 ;while true do if (v2177==0) then if v1321 then return;end v1324(v14,v1320.Text);break;end end end);v1311.InputBegan:Connect(function(v2178) if ((v2178.UserInputType==Enum.UserInputType.MouseButton1) or (v2178.UserInputType==Enum.UserInputType.Touch)) then v1298:Destroy();end end);local function v1328(v2179,v2180) local v2181={v2179};for v2391,v2392 in ipairs(v2179:GetDescendants()) do if v2392:IsA("GuiObject") then table.insert(v2181,v2392);end end for v2393,v2394 in ipairs(v2181) do local v2395={"BackgroundTransparency"};if (v2394:IsA("TextLabel") or v2394:IsA("TextButton") or v2394:IsA("TextBox")) then table.insert(v2395,"TextTransparency");end for v2546,v2547 in ipairs(v2395) do local v2548=0 -0 ;local v2549;while true do if (v2548==1) then v1:Create(v2394,TweenInfo.new(v2180),{[v2547]=v2549}):Play();break;end if (v2548==(0 -0)) then v2549=v2394[v2547];v2394[v2547]=math.clamp(v2549 + 0.6 ,0 + 0 ,1);v2548=1 + 0 ;end end end end end task.spawn(function() local v2182=0 + 0 ;while true do if (v2182==(237 -(58 + 179))) then task.wait(0.1 -0 );v1328(v1308,1253.25 -(677 + 576) );break;end end end);end local v363,v364=pcall(v362);if v363 then print(v21   .. "UI build finished, last element: "   .. v22 );else print(v21   .. "UI BUILD FAILED after: "   .. v22 );print(v21   .. "error = "   .. tostring(v364) );end end);
+local v0=[==[
+local uis = game:GetService("UserInputService")
+local players = game:GetService("Players")
+local ws = game:GetService("Workspace")
+local http_service = game:GetService("HttpService")
+local gui_service = game:GetService("GuiService")
+local lighting = game:GetService("Lighting")
+local run = game:GetService("RunService")
+local stats = game:GetService("Stats")
+local coregui = game:GetService("CoreGui")
+local debris = game:GetService("Debris")
+local tween_service = game:GetService("TweenService")
+local rs = game:GetService("ReplicatedStorage")
+local vec2 = Vector2.new
+local vec3 = Vector3.new
+local dim2 = UDim2.new
+local dim = UDim.new
+local rect = Rect.new
+local cfr = CFrame.new
+local color = Color3.new
+local rgb = Color3.fromRGB
+local hex = Color3.fromHex
+local hsv = Color3.fromHSV
+local rgbseq = ColorSequence.new
+local rgbkey = ColorSequenceKeypoint.new
+local camera = ws.CurrentCamera
+local lp = players.LocalPlayer
+local mouse = lp:GetMouse()
+local gui_offset = gui_service:GetGuiInset().Y
+local max = math.max
+local floor = math.floor
+local min = math.min
+local abs = math.abs
+if getgenv().library then
+	getgenv().library:unload()
+end
+getgenv().library = {
+	flags = {},
+	config_flags = {},
+	connections = {},
+	notifications = {},
+	instances = {},
+	main_frame = {},
+	config_holder,
+	current_tab,
+	current_element_open,
+	dock_button_holder,
+	gui,
+	sin = 0,
+	keybind_path,
+	panel_open = false,
+	directory = "sample_new",
+	folders = {
+		"/fonts",
+		"/configs",
+	},
+	font,
+}
+local flags = library.flags
+local config_flags = library.config_flags
+local themes = {
+	preset = {
+		["outline"] = rgb(32, 32, 38), --
+		["inline"] = rgb(60, 55, 75), --
+		["accent"] = rgb(255, 128, 0), --
+		["contrast"] = rgb(35, 35, 47),
+		["text"] = rgb(170, 170, 170),
+		["unselected_text"] = rgb(90, 90, 90),
+		["text_outline"] = rgb(0, 0, 0),
+		["glow"] = rgb(255, 128, 0),
+	},
+	utility = {
+		["outline"] = {
+			["BackgroundColor3"] = {},
+			["Color"] = {},
+		},
+		["inline"] = {
+			["BackgroundColor3"] = {},
+		},
+		["accent"] = {
+			["BackgroundColor3"] = {},
+			["TextColor3"] = {},
+			["ImageColor3"] = {},
+			["BorderColor3"] = {},
+			["ScrollBarImageColor3"] = {},
+		},
+		["contrast"] = {
+			["Color"] = {},
+		},
+		["text"] = {
+			["TextColor3"] = {},
+		},
+		["text_outline"] = {
+			["Color"] = {},
+		},
+		["glow"] = {
+			["ImageColor3"] = {},
+		},
+	},
+}
+local keys = {
+	[Enum.KeyCode.LeftShift] = "LS",
+	[Enum.KeyCode.RightShift] = "RS",
+	[Enum.KeyCode.LeftControl] = "LC",
+	[Enum.KeyCode.RightControl] = "RC",
+	[Enum.KeyCode.Insert] = "INS",
+	[Enum.KeyCode.Backspace] = "BS",
+	[Enum.KeyCode.Return] = "Ent",
+	[Enum.KeyCode.LeftAlt] = "LA",
+	[Enum.KeyCode.RightAlt] = "RA",
+	[Enum.KeyCode.CapsLock] = "CAPS",
+	[Enum.KeyCode.One] = "1",
+	[Enum.KeyCode.Two] = "2",
+	[Enum.KeyCode.Three] = "3",
+	[Enum.KeyCode.Four] = "4",
+	[Enum.KeyCode.Five] = "5",
+	[Enum.KeyCode.Six] = "6",
+	[Enum.KeyCode.Seven] = "7",
+	[Enum.KeyCode.Eight] = "8",
+	[Enum.KeyCode.Nine] = "9",
+	[Enum.KeyCode.Zero] = "0",
+	[Enum.KeyCode.KeypadOne] = "Num1",
+	[Enum.KeyCode.KeypadTwo] = "Num2",
+	[Enum.KeyCode.KeypadThree] = "Num3",
+	[Enum.KeyCode.KeypadFour] = "Num4",
+	[Enum.KeyCode.KeypadFive] = "Num5",
+	[Enum.KeyCode.KeypadSix] = "Num6",
+	[Enum.KeyCode.KeypadSeven] = "Num7",
+	[Enum.KeyCode.KeypadEight] = "Num8",
+	[Enum.KeyCode.KeypadNine] = "Num9",
+	[Enum.KeyCode.KeypadZero] = "Num0",
+	[Enum.KeyCode.Minus] = "-",
+	[Enum.KeyCode.Equals] = "=",
+	[Enum.KeyCode.Tilde] = "~",
+	[Enum.KeyCode.LeftBracket] = "[",
+	[Enum.KeyCode.RightBracket] = "]",
+	[Enum.KeyCode.RightParenthesis] = ")",
+	[Enum.KeyCode.LeftParenthesis] = "(",
+	[Enum.KeyCode.Semicolon] = ",",
+	[Enum.KeyCode.Quote] = "'",
+	[Enum.KeyCode.BackSlash] = "\\",
+	[Enum.KeyCode.Comma] = ",",
+	[Enum.KeyCode.Period] = ".",
+	[Enum.KeyCode.Slash] = "/",
+	[Enum.KeyCode.Asterisk] = "*",
+	[Enum.KeyCode.Plus] = "+",
+	[Enum.KeyCode.Period] = ".",
+	[Enum.KeyCode.Backquote] = "`",
+	[Enum.UserInputType.MouseButton1] = "MB1",
+	[Enum.UserInputType.MouseButton2] = "MB2",
+	[Enum.UserInputType.MouseButton3] = "MB3",
+	[Enum.KeyCode.Escape] = "ESC",
+	[Enum.KeyCode.Space] = "SPC",
+}
+library.__index = library
+for _, path in next, library.folders do
+	makefolder(library.directory .. path)
+end
+if not isfile(library.directory .. "/fonts/main.ttf") then
+	writefile(
+		library.directory .. "/fonts/main.ttf",
+		game:HttpGet("https://github.com/i77lhm/storage/raw/refs/heads/main/fonts/fs-tahoma-8px.ttf")
+	)
+end
+local tahoma = {
+	name = "SmallestPixel7",
+	faces = {
+		{
+			name = "Regular",
+			weight = 400,
+			style = "normal",
+			assetId = getcustomasset(library.directory .. "/fonts/main.ttf"),
+		},
+	},
+}
+if not isfile(library.directory .. "/fonts/main_encoded.ttf") then
+	writefile(library.directory .. "/fonts/main_encoded.ttf", http_service:JSONEncode(tahoma))
+end
+library.font = Font.new(getcustomasset(library.directory .. "/fonts/main_encoded.ttf"), Enum.FontWeight.Regular)
+-- functions
+-- misc functions
+function library.to_screen_point(position)
+	return camera:WorldToViewportPoint(position)
+end
+function library:unload()
+	library.gui:Destroy()
+	for _, connection in library.connections do
+		connection:Disconnect()
+	end
+	for _, item in library.instances do
+		item:Destroy()
+	end
+	getgenv().library = nil
+end
+function library:convert_string_rgb(str)
+	local values = {}
+	for value in string.gmatch(str, "[^,]+") do
+		table.insert(values, tonumber(value))
+	end
+	if #values == 4 then
+		local r, g, b, a = values[1], values[2], values[3], values[4]
+
+		return r, g, b, a
+	else
+		library:notification({ text = "Input a correct RGBA value (in the format 255, 255, 255, 0.5)" })
+	end
+end
+function library:connection(signal, callback)
+	local connection = signal:Connect(callback)
+	table.insert(library.connections, connection)
+	return connection
+end
+function library:make_resizable(frame)
+	local Frame = Instance.new("TextButton")
+	Frame.Position = dim2(1, -10, 1, -10)
+	Frame.BorderColor3 = rgb(0, 0, 0)
+	Frame.Size = dim2(0, 10, 0, 10)
+	Frame.BorderSizePixel = 0
+	Frame.BackgroundColor3 = rgb(255, 255, 255)
+	Frame.Parent = frame
+	Frame.BackgroundTransparency = 1
+	Frame.Text = ""
+	local resizing = false
+	local start_size
+	local start
+	local og_size = frame.Size
+	Frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			resizing = true
+			start = input.Position
+			start_size = frame.Size
+		end
+	end)
+	Frame.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			resizing = false
+		end
+	end)
+	library:connection(uis.InputChanged, function(input, game_event)
+		if resizing and input.UserInputType == Enum.UserInputType.MouseMovement then
+			local mouse_pos = vec2(mouse.X, mouse.Y)
+			local viewport_x = camera.ViewportSize.X
+			local viewport_y = camera.ViewportSize.Y
+
+			current_size = dim2(
+				start_size.X.Scale,
+				math.clamp(start_size.X.Offset + (input.Position.X - start.X), og_size.X.Offset, viewport_x),
+				start_size.Y.Scale,
+				math.clamp(start_size.Y.Offset + (input.Position.Y - start.Y), og_size.Y.Offset, viewport_y)
+			)
+			frame.Size = current_size
+		end
+	end)
+end
+function library:new_item(class, properties)
+	local ins = Instance.new(class)
+	for _, v in next, properties do
+		ins[_] = v
+	end
+	table.insert(library.instances, ins)
+	return ins
+end
+function library:animation(text)
+	local pattern = {}
+	for i = 1, tonumber(text:len()) do
+		table.insert(pattern, string.sub(text, 1, i))
+	end
+	for i = tonumber(text:len()) - 1, 0, -1 do
+		table.insert(pattern, string.sub(text, 1, i))
+	end
+	return pattern
+end
+
+function library:convert_enum(enum)
+	local enum_parts = {}
+
+	for part in string.gmatch(enum, "[%w_]+") do
+		table.insert(enum_parts, part)
+	end
+
+	local enum_table = Enum
+	for i = 2, #enum_parts do
+		local enum_item = enum_table[enum_parts[i]]
+
+		enum_table = enum_item
+	end
+
+	return enum_table
+end
+
+local http_service = game:GetService("HttpService")
+
+function library:config_list_update()
+	if not library.config_holder then
+		return
+	end
+
+	local list = {}
+	local config_path = library.directory .. "/configs"
+
+	if not isfolder(config_path) then
+		makefolder(config_path)
+	end
+
+	for _, file in next, listfiles(config_path) do
+		local normalized = file:gsub("\\", "/")
+		local parts = normalized:split("/")
+		local filename = parts[#parts]
+
+		if filename:sub(-4) == ".cfg" then
+			local name = filename:sub(1, -5)
+			table.insert(list, name)
+		end
+	end
+
+	library.config_holder:refresh_options(list)
+end
+
+function library:get_config()
+	local Config = {}
+
+	for i, v in next, flags do
+		if type(v) == "table" and v.key then
+			Config[i] = { active = v.active, mode = v.mode, key = tostring(v.key) }
+		elseif type(v) == "table" and v.Transparency and v.Color then
+			local color_hex = "ffffff"
+			if typeof(v.Color) == "Color3" then
+				color_hex = v.Color:ToHex()
+			end
+			Config[i] = { Transparency = v.Transparency, Color = color_hex }
+		else
+			Config[i] = v
+		end
+	end
+
+	return http_service:JSONEncode(Config)
+end
+
+function library:load_config(config_json)
+	local success, config = pcall(function()
+		return http_service:JSONDecode(config_json)
+	end)
+
+	if not success then return end
+
+	for i, v in next, config do
+		local function_set = library.config_flags[i]
+
+		if function_set then
+			if type(v) == "table" and v.Transparency and v.Color then
+				function_set(Color3.fromHex(v.Color), v.Transparency)
+			elseif type(v) == "table" and v.active ~= nil then
+				function_set(v)
+			else
+				function_set(v)
+			end
+		end
+	end
+end
+
+function library:round(number, float)
+	local multiplier = 1 / (float or 1)
+	return math.floor(number * multiplier + 0.5) / multiplier
+end
+
+function library:apply_theme(instance, theme, property)
+	table.insert(themes.utility[theme][property], instance)
+end
+
+function library:update_theme(theme, color)
+	for _, property in next, themes.utility[theme] do
+		for m, object in next, property do
+			if object[_] == themes.preset[theme] or object.ClassName == "UIGradient" then
+				object[_] = color
+			end
+		end
+	end
+
+	themes.preset[theme] = color
+end
+
+function library:connection(signal, callback)
+	local connection = signal:Connect(callback)
+
+	table.insert(library.connections, connection)
+
+	return connection
+end
+
+function library:create(instance, options)
+	local ins = Instance.new(instance)
+
+	for prop, value in next, options do
+		ins[prop] = value
+	end
+
+	return ins
+end
+library.gui = library:create("ScreenGui", {
+	Enabled = true,
+	Parent = coregui,
+	Name = "",
+	DisplayOrder = 2,
+	ZIndexBehavior = 1,
+})
+function library:window(properties)
+	local cfg = {
+		name = properties.Name or properties.name or properties.Title or properties.title or "sp4m.wtf",
+		size = properties.Size or properties.size or dim2(0, 500, 0, 650),
+	}
+	local animated_text = library:animation(cfg.name)
+	local __holder = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 20, 0, 20),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		ZIndex = 2,
+		AutomaticSize = Enum.AutomaticSize.X,
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+	})
+
+	local inline1 = library:create("Frame", {
+		Parent = __holder,
+		Name = "",
+		Active = true,
+		Draggable = true,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, ((#animated_text / 2) * 9) + 40, 0, 40),
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+	})
+
+	local accent_line = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(34, 34, 34),
+		Size = UDim2.new(1, 0, 0, 2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = themes.preset.accent,
+	})
+
+	library:apply_theme(accent_line, "accent", "BackgroundColor3")
+
+	local depth = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BackgroundTransparency = 0.5,
+		Position = UDim2.new(0, 0, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 0, 1),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	local inline2 = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -4, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local main = library:create("Frame", {
+		Parent = inline2,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(57, 57, 57),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local tab_inline = library:create("Frame", {
+		Parent = main,
+		Name = "",
+		Position = UDim2.new(0, 6, 0, 6),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -12, 1, -12),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(19, 19, 19),
+	})
+
+	local tabs = library:create("Frame", {
+		Parent = tab_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local name = library:create("TextLabel", {
+		Parent = tabs,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(0, 0, 1, 0),
+		Position = UDim2.new(0, 8, 0, 0),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		BorderSizePixel = 0,
+		AutomaticSize = Enum.AutomaticSize.X,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local TEXT_ANIMATION_GRADIENT = library:create("UIGradient", {
+		Parent = name,
+		Name = "",
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+			ColorSequenceKeypoint.new(0.01, themes.preset.accent),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
+		}),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = tabs,
+		Name = "",
+		PaddingRight = UDim.new(0, 21),
+	})
+
+	local glow = library:create("ImageLabel", {
+		Parent = accent_line,
+		Name = "",
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -20, 0, -20),
+		Size = UDim2.new(1, 40, 0, 42),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+
+	library:apply_theme(glow, "accent", "ImageColor3")
+
+	task.spawn(function()
+		while true do
+			if __holder.Visible then
+				for i = 1, #animated_text do
+					task.wait(0.2)
+					name.Text = animated_text[i]
+				end
+			end
+			task.wait(0.2)
+		end
+	end)
+	--
+
+	-- window
+	local inline1 = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		Active = true,
+		Draggable = true,
+		Position = UDim2.new(0.5, -cfg.size.X.Offset / 2, 0.5, -cfg.size.Y.Offset / 2),
+		BorderColor3 = Color3.fromRGB(8, 8, 8),
+		ZIndex = 2,
+		Size = cfg.size,
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+	})
+	table.insert(library.main_frame, inline1)
+	local WINDOW_PATH = inline1
+	library:make_resizable(inline1)
+
+	local inline2 = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -4, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local main = library:create("Frame", {
+		Parent = inline2,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(57, 57, 57),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local tab_buttons = library:create("Frame", {
+		Parent = main,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 16, 0, 4),
+		Size = UDim2.new(1, -32, 0, 0),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	cfg["tab_holder"] = tab_buttons
+
+	local list = library:create("UIListLayout", {
+		Parent = tab_buttons,
+		Name = "",
+		FillDirection = Enum.FillDirection.Horizontal,
+		HorizontalAlignment = Enum.HorizontalAlignment.Center,
+		HorizontalFlex = Enum.UIFlexAlignment.Fill,
+		Padding = UDim.new(0, 6),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local tab_inline = library:create("Frame", {
+		Parent = main,
+		Name = "",
+		Position = UDim2.new(0, 15, 0, 33),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -30, 1, -48),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(19, 19, 19),
+	})
+
+	local tabs = library:create("Frame", {
+		Parent = tab_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	cfg["tab_instance_holder"] = tabs
+
+	local accent_line = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(34, 34, 34),
+		Size = UDim2.new(1, 0, 0, 2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = themes.preset.accent,
+	})
+
+	library:apply_theme(accent_line, "accent", "BackgroundColor3")
+
+	local name = library:create("TextLabel", {
+		Parent = inline1,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = cfg.name,
+		TextStrokeTransparency = 0.5,
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 0, 0, -1),
+		Size = UDim2.new(1, 0, 0, 1),
+		ZIndex = 2,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local glow = library:create("ImageLabel", {
+		Parent = inline1,
+		Name = "",
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -20, 0, -20),
+		Size = UDim2.new(1, 40, 0, 42),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+	library:apply_theme(glow, "accent", "ImageColor3")
+
+	local depth = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BackgroundTransparency = 0.5,
+		Position = UDim2.new(0, 0, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 0, 1),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	local holder = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(1, 20, 0, 0),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		ZIndex = 2,
+		AutomaticSize = Enum.AutomaticSize.XY,
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+	})
+
+	task.spawn(function()
+		while true do
+			if flags["color_picker_anim_speed"] then
+				library.sin = math.abs(math.sin(tick() * flags["color_picker_anim_speed"]))
+
+				TEXT_ANIMATION_GRADIENT.Color = ColorSequence.new({
+					ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+					ColorSequenceKeypoint.new(math.abs(math.sin(tick())), themes.preset.accent),
+					ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
+				})
+			end
+			task.wait()
+		end
+	end)
+	--
+
+	-- esp preview
+	local esp_preview = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		Visible = false,
+		Active = true,
+		Draggable = true,
+		Position = UDim2.new(
+			0,
+			inline1.AbsolutePosition.X + inline1.AbsoluteSize.X + 8,
+			0,
+			inline1.AbsolutePosition.Y + 1
+		),
+		BorderColor3 = Color3.fromRGB(8, 8, 8),
+		Size = UDim2.new(0, 328, 0, 376),
+		BackgroundColor3 = Color3.fromRGB(56, 56, 56),
+	})
+	library:make_resizable(esp_preview)
+
+	local name = library:create("TextLabel", {
+		Parent = esp_preview,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "esp preview",
+		TextStrokeTransparency = 0.5,
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 0, 0, -1),
+		Size = UDim2.new(1, 0, 0, 1),
+		ZIndex = 2,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = name,
+		Name = "",
+	})
+
+	local main = library:create("Frame", {
+		Parent = esp_preview,
+		Name = "",
+		Position = UDim2.new(0, 4, 0, 4),
+		BorderColor3 = Color3.fromRGB(26, 26, 26),
+		Size = UDim2.new(1, -8, 1, -8),
+		BorderSizePixel = 2,
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	library:create("UIStroke", {
+		Parent = main,
+		Name = "",
+		Color = Color3.fromRGB(57, 57, 57),
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local tabs = library:create("Frame", {
+		Parent = main,
+		Name = "",
+		Position = UDim2.new(0, 8, 0, 8),
+		BorderColor3 = Color3.fromRGB(8, 8, 8),
+		Size = UDim2.new(1, -16, 1, -16),
+		BorderSizePixel = 2,
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	library:create("UIStroke", {
+		Parent = tabs,
+		Name = "",
+		Color = Color3.fromRGB(57, 57, 57),
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local hitpart = library:create("Frame", {
+		Parent = tabs,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 2, 0, 20),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local head = library:create("Frame", {
+		Parent = hitpart,
+		Name = "",
+		Position = UDim2.new(0.5, -25, 0, 16),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, 50, 0, 44),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local torso = library:create("Frame", {
+		Parent = hitpart,
+		Name = "",
+		Position = UDim2.new(0.5, -42, 0, 64),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, 84, 0, 90),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local l_arm = library:create("Frame", {
+		Parent = hitpart,
+		Name = "",
+		Position = UDim2.new(0.5, -86, 0, 64),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, 40, 0, 90),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local r_arm = library:create("Frame", {
+		Parent = hitpart,
+		Name = "",
+		Position = UDim2.new(0.5, 46, 0, 64),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, 40, 0, 90),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local r_leg = library:create("Frame", {
+		Parent = hitpart,
+		Name = "",
+		Position = UDim2.new(0.5, 2, 0, 158),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, 40, 0, 90),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local l_leg = library:create("Frame", {
+		Parent = hitpart,
+		Name = "",
+		Position = UDim2.new(0.5, -42, 0, 158),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, 40, 0, 90),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local hrp = library:create("Frame", {
+		Parent = hrp_out,
+		Name = "",
+		Position = UDim2.new(0, 4, 0, 4),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -8, 1, -8),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local glow_patterns = {}
+
+	for _, v in next, hitpart:GetChildren() do
+		local glow = library:create("ImageLabel", {
+			Parent = v,
+			Name = "",
+			Visible = false,
+			ImageColor3 = themes.preset.accent,
+			ScaleType = Enum.ScaleType.Slice,
+			ImageTransparency = 0.8999999761581421,
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+			Image = "http://www.roblox.com/asset/?id=18245826428",
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0, -20, 0, -20),
+			Size = UDim2.new(1, 40, 1, 40),
+			ZIndex = 2,
+			BorderSizePixel = 0,
+			SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+		})
+
+		library:apply_theme(glow, "accent", "ImageColor3")
+
+		table.insert(glow_patterns, glow)
+	end
+
+	function cfg.preview_chams(bool)
+		for _, glow in next, glow_patterns do
+			glow.Visible = bool
+		end
+
+		for _, part in next, hitpart:GetChildren() do
+			part.BackgroundColor3 = bool and themes.preset.accent or Color3.fromRGB(38, 38, 38)
+		end
+	end
+
+	local player = library:create("Frame", {
+		Parent = tabs,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 43, 0, 28),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -86, 1, -106),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local line_holder = library:create("Frame", {
+		Parent = player,
+		Name = "",
+		Size = UDim2.new(1, 0, 1, 0),
+		ZIndex = 50,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local box_outline = library:create("Frame", {
+		Parent = line_holder,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -1, 0, -1),
+		ZIndex = 50,
+		Size = UDim2.new(1, 2, 1, 2),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local BoxLine2 = library:create("UIStroke", {
+		Parent = box_outline,
+		Name = "",
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local box_color = library:create("UIStroke", {
+		Parent = line_holder,
+		Name = "",
+		Color = Color3.fromRGB(255, 255, 255),
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local corner_box = library:create("Frame", {
+		Parent = line_holder,
+		Name = "",
+		Visible = false,
+		BackgroundTransparency = 1,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local top_left = library:create("Frame", {
+		Parent = corner_box,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 50,
+		Size = UDim2.new(0, 1, 0.30000001192092896, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local top_right = library:create("Frame", {
+		Parent = corner_box,
+		Name = "",
+		AnchorPoint = Vector2.new(1, 0),
+		Position = UDim2.new(1, -1, 0, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 50,
+		Size = UDim2.new(0, 1, 0.30000001192092896, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local bottom_left = library:create("Frame", {
+		Parent = corner_box,
+		Name = "",
+		AnchorPoint = Vector2.new(0, 1),
+		Position = UDim2.new(0, 0, 1, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 50,
+		Size = UDim2.new(0.4000000059604645, 0, 0, 1),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local bottom_right = library:create("Frame", {
+		Parent = corner_box,
+		Name = "",
+		AnchorPoint = Vector2.new(1, 1),
+		Position = UDim2.new(1, -1, 1, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 50,
+		Size = UDim2.new(0.4000000059604645, 0, 0, 1),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local bottom_left2 = library:create("Frame", {
+		Parent = corner_box,
+		Name = "",
+		AnchorPoint = Vector2.new(0, 1),
+		Position = UDim2.new(0, 0, 1, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 50,
+		Size = UDim2.new(0, 1, 0.30000001192092896, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local bottom_right2 = library:create("Frame", {
+		Parent = corner_box,
+		Name = "",
+		AnchorPoint = Vector2.new(1, 1),
+		Position = UDim2.new(1, 0, 1, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 50,
+		Size = UDim2.new(0, 1, 0.30000001192092896, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local top_left2 = library:create("Frame", {
+		Parent = corner_box,
+		Name = "",
+		AnchorPoint = Vector2.new(0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 50,
+		Size = UDim2.new(0.4000000059604645, 0, 0, 1),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local top_right2 = library:create("Frame", {
+		Parent = corner_box,
+		Name = "",
+		AnchorPoint = Vector2.new(1, 1),
+		Position = UDim2.new(1, -1, 0, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 50,
+		Size = UDim2.new(0.4000000059604645, 0, 0, 1),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	function cfg.preview_corner_boxes(bool)
+		corner_box.Visible = bool == "Corner" and true or false
+		BoxLine2.Enabled = bool == "Corner" and false or true
+		box_outline.Visible = bool == "Corner" and false or true
+		box_color.Enabled = bool == "Corner" and false or true
+	end
+
+	function cfg.preview_bounding_box(bool)
+		BoxLine2.Enabled = bool
+		box_outline.Visible = bool
+		box_color.Enabled = bool
+	end
+
+	local bottom_holder = library:create("Frame", {
+		Parent = line_holder,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -1, 1, 3),
+		Size = UDim2.new(1, 2, 0, 0),
+		BorderSizePixel = 0,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = bottom_holder,
+		Name = "",
+		Padding = UDim.new(0, 2),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = bottom_holder,
+		Name = "",
+		PaddingTop = UDim.new(0, 1),
+	})
+
+	local bar_holder = library:create("Frame", {
+		Parent = bottom_holder,
+		Name = "",
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 4),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BorderSizePixel = 0,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local reload_bar = library:create("Frame", {
+		Parent = bar_holder,
+		Name = "",
+		Size = UDim2.new(1, 0, 0, 4),
+		ZIndex = 50,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	function cfg.preview_reload_bar(bool)
+		bar_holder.Visible = bool
+	end
+
+	local reload_slider = library:create("Frame", {
+		Parent = reload_bar,
+		Name = "",
+		Size = UDim2.new(0.5, -2, 0, 2),
+		Position = UDim2.new(0, 1, 0, 1),
+		ZIndex = 50,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(28, 145, 255),
+	})
+
+	local gradient = library:create("UIGradient", {
+		Parent = reload_slider,
+		Name = "",
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 238)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 255, 238)),
+		}),
+	})
+
+	local UIStroke = library:create("UIStroke", {
+		Parent = distance,
+		Name = "",
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local weapon = library:create("TextLabel", {
+		Parent = bottom_holder,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(255, 255, 255),
+		Text = "double barrel",
+		TextStrokeTransparency = 0,
+		AnchorPoint = Vector2.new(0.5, 0.5),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0.5, 0, 0.031031031161546707, 0),
+		AutomaticSize = Enum.AutomaticSize.Y,
+		ZIndex = 50,
+		TextSize = 12,
+		Size = UDim2.new(1, 0, 0, 4),
+	})
+
+	function cfg.preview_weapon(bool)
+		weapon.Visible = bool
+	end
+
+	local UIStroke = library:create("UIStroke", {
+		Parent = weapon,
+		Name = "",
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local UIStroke = library:create("UIStroke", {
+		Parent = distance,
+		Name = "",
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local image_holder = library:create("Frame", {
+		Parent = bottom_holder,
+		Name = "",
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BorderSizePixel = 0,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	function cfg.preview_icons(bool)
+		image_holder.Visible = bool
+	end
+
+	local ImageLabel = library:create("ImageLabel", {
+		Parent = image_holder,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		AnchorPoint = Vector2.new(0.5, 0),
+		Image = "rbxassetid://130516018594923",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0.5, 0, 0, 0),
+		Size = UDim2.new(0, 64, 0, 27),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local armor = library:create("Frame", {
+		Parent = line_holder,
+		Name = "",
+		Position = UDim2.new(0, -14, 0, -2),
+		Size = UDim2.new(0, 4, 1, 4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	function cfg.preview_armor(bool)
+		armor.Visible = bool
+	end
+
+	local armor_slider = library:create("Frame", {
+		Parent = armor,
+		Name = "",
+		Position = UDim2.new(0, 1, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0.5, 0, 1, -2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 13, 255),
+	})
+
+	local armor_gradient = library:create("UIGradient", {
+		Parent = armor_slider,
+		Name = "",
+		Rotation = 90,
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 242, 255)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 17, 255)),
+		}),
+		Enabled = false,
+	})
+
+	local armor_text = library:create("TextLabel", {
+		Parent = armor_slider,
+		Name = "",
+		ZIndex = 99,
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(0, 13, 255),
+		Text = "100",
+		Position = UDim2.new(0, -2, 0.75, -2),
+		TextStrokeTransparency = 0,
+		AnchorPoint = Vector2.new(1, 0),
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Right,
+		Active = true,
+		TextYAlignment = Enum.TextYAlignment.Top,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(26, 255, 0),
+	})
+
+	library:create("UIStroke", {
+		Parent = armor_text,
+		Name = "",
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local health = library:create("Frame", {
+		Parent = line_holder,
+		Name = "",
+		Position = UDim2.new(0, -8, 0, -2),
+		Size = UDim2.new(0, 4, 1, 4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	function cfg.preview_health(bool)
+		health.Visible = bool
+	end
+
+	local health_slider = library:create("Frame", {
+		Parent = health,
+		Name = "",
+		Position = UDim2.new(0, 1, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0.5, 0, 1, -2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 255, 42),
+	})
+
+	local health_text = library:create("TextLabel", {
+		Parent = health_slider,
+		Name = "",
+		Visible = false,
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(0, 255, 0),
+		Text = "100",
+		ZIndex = 99,
+		TextStrokeTransparency = 0,
+		AnchorPoint = Vector2.new(0.5, 0.5),
+		Position = UDim2.new(0, -4, 0.5, -2),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Right,
+		Active = true,
+		TextYAlignment = Enum.TextYAlignment.Top,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(26, 255, 0),
+	})
+
+	local UIStroke = library:create("UIStroke", {
+		Parent = health_text,
+		Name = "",
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local box_inline = library:create("Frame", {
+		Parent = line_holder,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 1, 0, 1),
+		ZIndex = 50,
+		Size = UDim2.new(1, -2, 1, -2),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local BoxLine3 = library:create("UIStroke", {
+		Parent = box_inline,
+		Name = "",
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local gradient = library:create("UIGradient", {
+		Parent = line_holder,
+		Name = "",
+		Rotation = -180,
+		Transparency = NumberSequence.new({
+			NumberSequenceKeypoint.new(0, 0.5),
+			NumberSequenceKeypoint.new(1, 0.5),
+		}),
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 0)),
+		}),
+	})
+
+	function cfg.preview_filler(bool)
+		line_holder.BackgroundTransparency = bool and 0 or 1
+		gradient.Enabled = bool
+	end
+
+	local top_holder = library:create("Frame", {
+		Parent = line_holder,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		AnchorPoint = Vector2.new(0, 1),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -2, 0, -4),
+		Size = UDim2.new(1, 4, 0, 0),
+		BorderSizePixel = 0,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	library:create("UIListLayout", {
+		Parent = top_holder,
+		Name = "",
+		Padding = UDim.new(0, 4),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	library:create("UIPadding", {
+		Parent = top_holder,
+		Name = "",
+		PaddingTop = UDim.new(0, 1),
+	})
+
+	local player_name = library:create("TextLabel", {
+		Parent = top_holder,
+		Name = "",
+		RichText = true,
+		TextColor3 = Color3.fromRGB(255, 255, 255),
+		Text = "hello there",
+		FontFace = library.font,
+		AnchorPoint = Vector2.new(0, 1),
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 0, 0, -2),
+		BorderSizePixel = 0,
+		ZIndex = 50,
+		TextSize = 12,
+		Size = UDim2.new(1, 0, 0, 0),
+	})
+
+	function cfg.preview_names(bool)
+		player_name.Visible = bool
+	end
+
+	local UIStroke = library:create("UIStroke", {
+		Parent = player_name,
+		Name = "",
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local accent_line = library:create("Frame", {
+		Parent = esp_preview,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(34, 34, 34),
+		Size = UDim2.new(1, 0, 0, 2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = themes.preset.accent,
+	})
+
+	library:apply_theme(accent_line, "accent", "BackgroundColor3")
+
+	local depth = library:create("Frame", {
+		Parent = esp_preview,
+		Name = "",
+		BackgroundTransparency = 0.5,
+		Position = UDim2.new(0, 0, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 0, 1),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	local glow = library:create("ImageLabel", {
+		Parent = esp_preview,
+		Name = "",
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -20, 0, -20),
+		Size = UDim2.new(1, 40, 0, 42),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+
+	library:apply_theme(glow, "accent", "ImageColor3")
+	--
+
+	-- playerlist
+	local selected_button
+	local selected_player
+	local player_buttons = {}
+	function library.get_priority(player)
+		return player_buttons[player.Name].priority.Text
+	end
+	local playerlist = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		Active = true,
+		Draggable = true,
+		AnchorPoint = Vector2.new(0, 0),
+		Position = UDim2.new(0, inline1.AbsolutePosition.X - 358 - 8, 0, inline1.AbsolutePosition.Y + 1),
+		BorderColor3 = Color3.fromRGB(8, 8, 8),
+		Size = UDim2.new(0, 358, 0, 328),
+		BackgroundColor3 = Color3.fromRGB(56, 56, 56),
+	})
+	library:make_resizable(playerlist)
+	table.insert(library.main_frame, playerlist)
+	getgenv().__RagebotList = playerlist
+	local name = library:create("TextLabel", {
+		Parent = playerlist,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "ragebot list",
+		TextStrokeTransparency = 0.5,
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 0, 0, -1),
+		Size = UDim2.new(1, 0, 0, 1),
+		ZIndex = 2,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+	local UIPadding = library:create("UIPadding", {
+		Parent = name,
+		Name = "",
+	})
+	local main = library:create("Frame", {
+		Parent = playerlist,
+		Name = "",
+		Position = UDim2.new(0, 4, 0, 4),
+		BorderColor3 = Color3.fromRGB(26, 26, 26),
+		Size = UDim2.new(1, -8, 1, -8),
+		BorderSizePixel = 2,
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	library:create("UIStroke", {
+		Parent = main,
+		Name = "",
+		Color = Color3.fromRGB(57, 57, 57),
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local tabs = library:create("Frame", {
+		Parent = main,
+		Name = "",
+		Position = UDim2.new(0, 8, 0, 8),
+		BorderColor3 = Color3.fromRGB(8, 8, 8),
+		Size = UDim2.new(1, -16, 1, -16),
+		BorderSizePixel = 2,
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	library:create("UIStroke", {
+		Parent = tabs,
+		Name = "",
+		Color = Color3.fromRGB(57, 57, 57),
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local list = library:create("Frame", {
+		Parent = tabs,
+		Name = "",
+		Position = UDim2.new(0, 14, 0, 14),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -28, 0.75, -28),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local inline = library:create("Frame", {
+		Parent = list,
+		Name = "",
+		Position = UDim2.new(0, 1, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -2, 1, -2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(57, 57, 57),
+	})
+
+	local background = library:create("Frame", {
+		Parent = inline,
+		Name = "",
+		Position = UDim2.new(0, 1, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -2, 1, -2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local UIGradient = library:create("UIGradient", {
+		Parent = background,
+		Name = "",
+		Rotation = 90,
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(167, 167, 167)),
+		}),
+	})
+
+	local contrast = library:create("Frame", {
+		Parent = background,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local __ScrollingFrame = library:create("ScrollingFrame", {
+		Parent = contrast,
+		Name = "",
+		ScrollBarImageColor3 = themes.preset.accent,
+		MidImage = "rbxassetid://18406573371",
+		Active = true,
+		AutomaticCanvasSize = Enum.AutomaticSize.Y,
+		ScrollBarThickness = 2,
+		Size = UDim2.new(1, 0, 1, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		TopImage = "rbxassetid://18406573371",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundTransparency = 1.0099999904632568,
+		BottomImage = "rbxassetid://18406573371",
+		BorderSizePixel = 0,
+		CanvasSize = UDim2.new(0, 0, 0, 0),
+	})
+
+	library:apply_theme(__ScrollingFrame, "accent", "ScrollBarImageColor3")
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = __ScrollingFrame,
+		Name = "",
+		PaddingTop = UDim.new(0, 4),
+		PaddingBottom = UDim.new(0, 4),
+		PaddingRight = UDim.new(0, 4),
+		PaddingLeft = UDim.new(0, 4),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = __ScrollingFrame,
+		Name = "",
+		Padding = UDim.new(0, 4),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local info = library:create("Frame", {
+		Parent = tabs,
+		Name = "",
+		Position = UDim2.new(0, 14, 0.75, -5),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -28, 0.30000001192092896, -23),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local inline = library:create("Frame", {
+		Parent = info,
+		Name = "",
+		Position = UDim2.new(0, 1, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -2, 1, -2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(57, 57, 57),
+	})
+
+	local background = library:create("Frame", {
+		Parent = inline,
+		Name = "",
+		Position = UDim2.new(0, 1, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -2, 1, -2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local UIGradient = library:create("UIGradient", {
+		Parent = background,
+		Name = "",
+		Rotation = 90,
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(167, 167, 167)),
+		}),
+	})
+
+	local contrast = library:create("Frame", {
+		Parent = background,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local ScrollingFrame = library:create("ScrollingFrame", {
+		Parent = contrast,
+		Name = "",
+		ScrollBarImageColor3 = Color3.fromRGB(155, 125, 175),
+		Active = true,
+		AutomaticCanvasSize = Enum.AutomaticSize.Y,
+		ScrollBarThickness = 3,
+		BackgroundTransparency = 1.0099999904632568,
+		Size = UDim2.new(1, 0, 1, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BorderSizePixel = 0,
+		CanvasSize = UDim2.new(0, 0, 0, 0),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = ScrollingFrame,
+		Name = "",
+		PaddingTop = UDim.new(0, 7),
+		PaddingBottom = UDim.new(0, 4),
+		PaddingRight = UDim.new(0, 4),
+		PaddingLeft = UDim.new(0, 10),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = ScrollingFrame,
+		Name = "",
+		Padding = UDim.new(0, 4),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local display_name_label = library:create("TextLabel", {
+		Parent = ScrollingFrame,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(180, 180, 180),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "display name: ...",
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		TextTruncate = Enum.TextTruncate.AtEnd,
+		AutomaticSize = Enum.AutomaticSize.XY,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	library:create("UIStroke", {
+		Parent = display_name_label,
+		Name = "",
+	})
+
+	local name_label = library:create("TextLabel", {
+		Parent = ScrollingFrame,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(180, 180, 180),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "name: ...",
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		TextTruncate = Enum.TextTruncate.AtEnd,
+		AutomaticSize = Enum.AutomaticSize.XY,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	library:create("UIStroke", {
+		Parent = name_label,
+		Name = "",
+	})
+
+	local priority_label = library:create("TextLabel", {
+		Parent = ScrollingFrame,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(180, 180, 180),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "priority: Friendly",
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		TextTruncate = Enum.TextTruncate.AtEnd,
+		AutomaticSize = Enum.AutomaticSize.XY,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	library:create("UIStroke", {
+		Parent = priority_label,
+		Name = "",
+	})
+
+	local Frame = library:create("Frame", {
+		Parent = contrast,
+		Name = "",
+		AnchorPoint = Vector2.new(1, 0),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(1, -10, 0, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -200, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local button_inline = library:create("Frame", {
+		Parent = Frame,
+		Name = "",
+		Position = UDim2.new(0, -15, 0, 2),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -26, 0, 16),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local button = library:create("TextButton", {
+		Parent = button_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "Neutral",
+		TextStrokeTransparency = 0.5,
+		Position = UDim2.new(0, 2, 0, 2),
+		Size = UDim2.new(1, -4, 1, -4),
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	button.MouseButton1Click:Connect(function()
+		player_buttons[selected_player.Name].priority.Text = "Neutral"
+		player_buttons[selected_player.Name].priority.TextColor3 = rgb(180, 180, 180)
+	end)
+
+	local button_inline = library:create("Frame", {
+		Parent = Frame,
+		Name = "",
+		Position = UDim2.new(0, -15, 0, 2),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -26, 0, 16),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local button = library:create("TextButton", {
+		Parent = button_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "Friendly",
+		TextStrokeTransparency = 0.5,
+		Position = UDim2.new(0, 2, 0, 2),
+		Size = UDim2.new(1, -4, 1, -4),
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	button.MouseButton1Click:Connect(function()
+		player_buttons[selected_player.Name].priority.Text = "Friendly"
+		player_buttons[selected_player.Name].priority.TextColor3 = rgb(15, 179, 255)
+	end)
+
+	local button_inline = library:create("Frame", {
+		Parent = Frame,
+		Name = "",
+		Position = UDim2.new(0, -15, 0, 2),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -26, 0, 16),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local button = library:create("TextButton", {
+		Parent = button_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "Enemy",
+		TextStrokeTransparency = 0.5,
+		Position = UDim2.new(0, 2, 0, 2),
+		Size = UDim2.new(1, -4, 1, -4),
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	button.MouseButton1Click:Connect(function()
+		player_buttons[selected_player.Name].priority.Text = "Enemy"
+		player_buttons[selected_player.Name].priority.TextColor3 = rgb(255, 44, 44)
+	end)
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = Frame,
+		Name = "",
+		VerticalAlignment = Enum.VerticalAlignment.Center,
+		SortOrder = Enum.SortOrder.LayoutOrder,
+		HorizontalAlignment = Enum.HorizontalAlignment.Center,
+		HorizontalFlex = Enum.UIFlexAlignment.Fill,
+		Padding = UDim.new(0, 4),
+	})
+
+	local accent_line = library:create("Frame", {
+		Parent = playerlist,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(34, 34, 34),
+		Size = UDim2.new(1, 0, 0, 2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = themes.preset.accent,
+	})
+
+	library:apply_theme(accent_line, "accent", "BackgroundColor3")
+
+	local depth = library:create("Frame", {
+		Parent = playerlist,
+		Name = "",
+		BackgroundTransparency = 0.5,
+		Position = UDim2.new(0, 0, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 0, 1),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	local glow = library:create("ImageLabel", {
+		Parent = playerlist,
+		Name = "",
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -20, 0, -20),
+		Size = UDim2.new(1, 40, 0, 42),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+
+	library:apply_theme(glow, "accent", "ImageColor3")
+
+	local function create_player(player)
+		local TextButton = library:create("TextButton", {
+			Parent = __ScrollingFrame,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(180, 180, 180),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Text = "",
+			BackgroundTransparency = 1,
+			Size = UDim2.new(1, 0, 0, 0),
+			BorderSizePixel = 0,
+			AutomaticSize = Enum.AutomaticSize.Y,
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		player_buttons[player.Name] = {}
+		player_buttons[player.Name].instance = TextButton
+
+		local TextLabel = library:create("TextLabel", {
+			Parent = TextButton,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(180, 180, 180),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Text = player.Name,
+			BorderSizePixel = 0,
+			BackgroundTransparency = 1,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			TextTruncate = Enum.TextTruncate.AtEnd,
+			AutomaticSize = Enum.AutomaticSize.Y,
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		library:create("UIStroke", {
+			Parent = TextLabel,
+			Name = "",
+		})
+
+		local TextLabel = library:create("TextLabel", {
+			Parent = TextButton,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(180, 180, 180),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Text = player.Team and tostring(player.Team) or "None",
+			BackgroundTransparency = 1,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			BorderSizePixel = 0,
+			AutomaticSize = Enum.AutomaticSize.Y,
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		library:create("UIStroke", {
+			Parent = TextLabel,
+			Name = "",
+		})
+
+		local Frame = library:create("Frame", {
+			Parent = TextLabel,
+			Name = "",
+			Position = UDim2.new(0, -10, 0, 0),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 1, 0, 12),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(32, 32, 38),
+		})
+
+		local TextLabel = library:create("TextLabel", {
+			Parent = TextButton,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(180, 180, 180),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Text = "Neutral",
+			BackgroundTransparency = 1,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			BorderSizePixel = 0,
+			AutomaticSize = Enum.AutomaticSize.Y,
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		player_buttons[player.Name].priority = TextLabel
+
+		library:create("UIStroke", {
+			Parent = TextLabel,
+			Name = "",
+		})
+
+		local Frame = library:create("Frame", {
+			Parent = TextLabel,
+			Name = "",
+			Position = UDim2.new(0, -10, 0, 0),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 1, 0, 12),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(32, 32, 38),
+		})
+
+		local UIListLayout = library:create("UIListLayout", {
+			Parent = TextButton,
+			Name = "",
+			FillDirection = Enum.FillDirection.Horizontal,
+			HorizontalFlex = Enum.UIFlexAlignment.Fill,
+			SortOrder = Enum.SortOrder.LayoutOrder,
+			VerticalFlex = Enum.UIFlexAlignment.Fill,
+		})
+
+		local UIPadding = library:create("UIPadding", {
+			Parent = TextButton,
+			Name = "",
+			PaddingRight = UDim.new(0, 2),
+			PaddingLeft = UDim.new(0, 2),
+		})
+
+		local line = library:create("Frame", {
+			Parent = tabs,
+			Name = "",
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(1, 0, 0, 1),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(32, 32, 38),
+		})
+
+		TextButton.MouseButton1Click:Connect(function()
+			if selected_button then
+				selected_button.BackgroundTransparency = 1
+			end
+
+			selected_button = TextButton
+			selected_player = player
+			TextButton.BackgroundTransparency = 0.85
+
+			priority_label.Text = "Priority: " .. library.get_priority(player)
+			name_label.Text = "Name: " .. player.Name
+			display_name_label.Text = "Display: " .. player.DisplayName
+		end)
+	end
+
+	for _, player in next, players:GetPlayers() do
+		create_player(player)
+	end
+
+	library:connection(players.PlayerAdded, function(player)
+		create_player(player)
+	end)
+
+	library:connection(players.PlayerRemoving, function(player)
+		player_buttons[player.Name].instance:Destroy()
+	end)
+	--
+
+	-- keybind list
+	local old_kblist = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		AnchorPoint = Vector2.new(0, 0.5),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 20, 0.5, 0),
+		ZIndex = 2,
+		Active = true,
+		Draggable = true,
+		AutomaticSize = Enum.AutomaticSize.XY,
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+	})
+
+	local glow = library:create("ImageLabel", {
+		Parent = old_kblist,
+		Name = "",
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -20, 0, -20),
+		Size = UDim2.new(1, 40, 0, 42),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+
+	library:apply_theme(glow, "accent", "ImageColor3")
+
+	local inline1 = library:create("Frame", {
+		Parent = old_kblist,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		AutomaticSize = Enum.AutomaticSize.XY,
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+	})
+
+	local accent_line = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(34, 34, 34),
+		Size = UDim2.new(1, 0, 0, 2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = themes.preset.accent,
+	})
+
+	library:apply_theme(accent_line, "accent", "BackgroundColor3")
+
+	local name = library:create("TextLabel", {
+		Parent = inline1,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "keybinds",
+		TextStrokeTransparency = 0.5,
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 0, 0, -1),
+		Size = UDim2.new(1, 0, 0, 1),
+		ZIndex = 2,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local inline2 = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -4, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local main = library:create("Frame", {
+		Parent = inline2,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(57, 57, 57),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local tab_inline = library:create("Frame", {
+		Parent = main,
+		Name = "",
+		Position = UDim2.new(0, 6, 0, 6),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -12, 1, -12),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(19, 19, 19),
+	})
+
+	local tabs = library:create("Frame", {
+		Parent = tab_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = tabs,
+		Name = "",
+		PaddingBottom = UDim.new(0, 22),
+		PaddingRight = UDim.new(0, 20),
+		PaddingLeft = UDim.new(0, 20),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = tabs,
+		Name = "",
+		SortOrder = Enum.SortOrder.LayoutOrder,
+		HorizontalAlignment = Enum.HorizontalAlignment.Center,
+		Padding = UDim.new(0, 3),
+	})
+
+	local UIStroke = library:create("UIStroke", {
+		Parent = tabs,
+		Name = "",
+		Color = Color3.fromRGB(57, 57, 57),
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local depth = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundTransparency = 0.5,
+		Position = UDim2.new(0, 0, 0, 1),
+		Size = UDim2.new(1, 0, 0, 1),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	library.keybind_path = tabs
+	--
+
+	function cfg.toggle_list(bool)
+		old_kblist.Visible = bool
+	end
+
+	function cfg.toggle_playerlist(bool)
+		playerlist.Visible = bool
+	end
+
+	function cfg.toggle_watermark(bool)
+		__holder.Visible = bool
+	end
+
+	function cfg.set_menu_visibility(bool, pl)
+		WINDOW_PATH.Visible = bool
+
+		playerlist.Visible = flags["player_list"] and bool or false
+	end
+
+	return setmetatable(cfg, library)
+end
+
+function library:new_keybind(properties)
+	local cfg = {
+		text = properties.name or properties.text or "aimbot",
+		key = properties.key or nil,
+		mode = properties.mode or "hold",
+	}
+
+	local keybind_text = library:create("TextLabel", {
+		Parent = library.keybind_path,
+		Name = "",
+		FontFace = library.font,
+		LineHeight = 1.2000000476837158,
+		TextStrokeTransparency = 0.5,
+		AnchorPoint = Vector2.new(0.5, 0),
+		TextSize = 12,
+		Size = UDim2.new(0, 0, 0, 11),
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0.5, 0, 0, 8),
+		BorderSizePixel = 0,
+		Visible = true,
+		TextYAlignment = Enum.TextYAlignment.Top,
+		AutomaticSize = Enum.AutomaticSize.X,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = keybind_text,
+		Name = "",
+		PaddingTop = UDim.new(0, 6),
+	})
+
+	function cfg.set_visible(bool)
+		keybind_text.Visible = bool
+	end
+
+	function cfg.change_text(text)
+		keybind_text.Text = text
+	end
+
+	function keyName(key)
+		local text = tostring(key) ~= "Enums" and (keys[key] or tostring(key):gsub("Enum.", "")) or nil
+		local __text = text and (tostring(text):gsub("KeyCode.", ""):gsub("UserInputType.", ""))
+
+		return __text or "..."
+	end
+
+	-- Shit ass function
+	function cfg.update(n_properties)
+		cfg.change_text(
+			"["
+				.. tostring(keyName(n_properties.key))
+				.. "] "
+				.. tostring(n_properties.text)
+				.. " ("
+				.. tostring(n_properties.mode)
+				.. ")"
+		)
+	end
+
+	cfg.change_text(
+		"[" .. tostring(keyName(cfg.key)) .. "] " .. tostring(cfg.text) .. " (" .. tostring(cfg.mode) .. ")"
+	)
+
+	return cfg
+end
+
+function library:notification(properties)
+	local cfg = {
+		time = properties.time or 5,
+		text = properties.text or properties.name,
+	}
+
+	-- 28 offset
+
+	function cfg:refresh_notifications()
+		for _, notif in next, library.notifications do
+			tween_service
+				:Create(
+					notif,
+					TweenInfo.new(0.3, Enum.EasingStyle.Exponential, Enum.EasingDirection.InOut),
+					{ Position = dim2(0, 20, 0, 72 + (_ * 28)) }
+				)
+				:Play()
+		end
+	end
+
+	-- Instances
+	local holder = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 20, 0, 72 + (#library.notifications * 28)),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		ZIndex = 2,
+		AutomaticSize = Enum.AutomaticSize.X,
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+		AnchorPoint = Vector2.new(1, 0),
+	})
+
+	local inline1 = library:create("Frame", {
+		Parent = holder,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, 0, 0, 24),
+		AutomaticSize = Enum.AutomaticSize.X,
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+	})
+
+	local inline2 = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		Position = UDim2.new(0, 0, 0, 2),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -4, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local main = library:create("Frame", {
+		Parent = inline2,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(57, 57, 57),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local tab_inline = library:create("Frame", {
+		Parent = main,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -4, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(19, 19, 19),
+	})
+
+	local name = library:create("TextLabel", {
+		Parent = tab_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = cfg.text,
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(0, 0, 1, 0),
+		Position = UDim2.new(0, 8, 0, 0),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		BorderSizePixel = 0,
+		AutomaticSize = Enum.AutomaticSize.X,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = tab_inline,
+		Name = "",
+		PaddingRight = UDim.new(0, 14),
+	})
+
+	local depth = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundTransparency = 0.5,
+		Position = UDim2.new(0, 1, 0, 0),
+		Size = UDim2.new(0, 1, 1, 0),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	local accent_line = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(34, 34, 34),
+		Size = UDim2.new(0, 2, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = themes.preset.accent,
+	})
+
+	library:apply_theme(accent_line, "accent", "BackgroundColor3")
+
+	local glow = library:create("ImageLabel", {
+		Parent = holder,
+		Name = "",
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -20, 0, 0),
+		Size = UDim2.new(0, 42, 1, 40),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+
+	library:apply_theme(glow, "accent", "ImageColor3")
+	--
+
+	task.spawn(function()
+		tween_service
+			:Create(
+				holder,
+				TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut),
+				{ AnchorPoint = Vector2.new(0, 0) }
+			)
+			:Play()
+
+		task.wait(cfg.time)
+
+		tween_service
+			:Create(
+				holder,
+				TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut),
+				{ AnchorPoint = Vector2.new(1, 0) }
+			)
+			:Play()
+		for _, v in next, holder:GetDescendants() do
+			if v:IsA("TextLabel") then
+				tween_service
+					:Create(
+						v,
+						TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut),
+						{ TextTransparency = 1 }
+					)
+					:Play()
+			elseif v:IsA("Frame") then
+				tween_service
+					:Create(
+						v,
+						TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut),
+						{ BackgroundTransparency = 1 }
+					)
+					:Play()
+			elseif v:IsA("ImageLabel") then
+				tween_service
+					:Create(
+						v,
+						TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut),
+						{ ImageTransparency = 1 }
+					)
+					:Play()
+			end
+		end
+	end)
+
+	task.delay(cfg.time + 0.1, function()
+		table.remove(library.notifications, table.find(library.notifications, holder))
+		cfg:refresh_notifications()
+		task.wait(0.5)
+		holder:Destroy()
+	end)
+
+	table.insert(library.notifications, holder)
+end
+
+function library:tab(properties)
+	local cfg = {
+		name = properties.name or "tab",
+		enabled = false,
+	}
+
+	-- Button
+	local TAB_BUTTON = library:create("TextButton", {
+		Parent = self.tab_holder,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = themes.preset.unselected_text,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = cfg.name,
+		TextStrokeTransparency = 0.5,
+		BackgroundTransparency = 1,
+		Size = UDim2.new(0.3330000042915344, -4, 0, 22),
+		BorderSizePixel = 0,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local line = library:create("Frame", {
+		Parent = TAB_BUTTON,
+		Name = "",
+		Position = UDim2.new(0, 0, 1, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 0, 2),
+		BorderSizePixel = 0,
+		BackgroundColor3 = rgb(57, 57, 57),
+	})
+
+	library:apply_theme(line, "accent", "BackgroundColor3")
+
+	local glow = library:create("ImageLabel", {
+		Parent = line,
+		Name = "",
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -20, 0, -20),
+		Size = UDim2.new(1, 40, 1, 40),
+		ZIndex = 2,
+		Visible = false,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+
+	library:apply_theme(glow, "accent", "ImageColor3")
+
+	local depth = library:create("Frame", {
+		Parent = line,
+		Name = "",
+		BackgroundTransparency = 0.5,
+		Position = UDim2.new(0, 0, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 0, 1),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+	--
+
+	-- Tab Instances
+	local TAB = library:create("Frame", {
+		Parent = self.tab_instance_holder,
+		Name = "",
+		Visible = false,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local scrolling_columns = library:create("Frame", {
+		Parent = TAB,
+		Name = "",
+		ClipsDescendants = true,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 6, 0, 6),
+		Size = UDim2.new(1, -12, 1, -12),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	cfg["column_holder"] = scrolling_columns
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = scrolling_columns,
+		Name = "",
+		FillDirection = Enum.FillDirection.Horizontal,
+		HorizontalFlex = Enum.UIFlexAlignment.Fill,
+		Padding = UDim.new(0, 5),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local left = library:create("ScrollingFrame", {
+		Parent = scrolling_columns,
+		Name = "",
+		ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0),
+		Active = true,
+		AutomaticCanvasSize = Enum.AutomaticSize.Y,
+		ScrollBarThickness = 0,
+		Size = UDim2.new(0.5, -64, 1, 0),
+		ClipsDescendants = false,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 4, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BorderSizePixel = 0,
+		CanvasSize = UDim2.new(0, 0, 0, 0),
+	})
+
+	left:GetPropertyChangedSignal("CanvasPosition"):Connect(function()
+		if library.current_element_open then
+			library.current_element_open.set_visible(false)
+			library.current_element_open.open = false
+			library.current_element_open = nil
+		end
+	end)
+
+	cfg["left"] = left
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = left,
+		Name = "",
+		Padding = UDim.new(0, 6),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = left,
+		Name = "",
+		PaddingBottom = UDim.new(0, 15),
+	})
+
+	local right = library:create("ScrollingFrame", {
+		Parent = scrolling_columns,
+		Name = "",
+		ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0),
+		Active = true,
+		AutomaticCanvasSize = Enum.AutomaticSize.Y,
+		ScrollBarThickness = 0,
+		Size = UDim2.new(0.5, -64, 1, 0),
+		ClipsDescendants = false,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0.5, -50, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BorderSizePixel = 0,
+		CanvasSize = UDim2.new(0, 0, 0, 0),
+	})
+
+	right:GetPropertyChangedSignal("CanvasPosition"):Connect(function()
+		if library.current_element_open then
+			library.current_element_open.set_visible(false)
+			library.current_element_open.open = false
+			library.current_element_open = nil
+		end
+	end)
+
+	cfg["right"] = right
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = right,
+		Name = "",
+		Padding = UDim.new(0, 6),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = right,
+		Name = "",
+		PaddingBottom = UDim.new(0, 15),
+	})
+	--
+
+	function cfg.open_tab()
+		if library.current_tab and library.current_tab[1] ~= TAB_BUTTON then
+			local button = library.current_tab[1]
+			button.TextColor3 = themes.preset.unselected_text
+
+			local parent = button:FindFirstChildOfClass("Frame")
+			parent.BackgroundColor3 = rgb(57, 57, 57)
+			parent:FindFirstChildOfClass("ImageLabel").Visible = false
+
+			library.current_tab[2].Visible = false
+		end
+
+		library.current_tab = {
+			TAB_BUTTON,
+			TAB,
+		}
+
+		line.BackgroundColor3 = themes.preset.accent
+		glow.Visible = true
+		TAB_BUTTON.TextColor3 = themes.preset.text
+		TAB.Visible = true
+
+		if library.current_element_open and library.current_element_open ~= cfg then
+			library.current_element_open.set_visible(false)
+			library.current_element_open.open = false
+			library.current_element_open = nil
+		end
+	end
+
+	TAB_BUTTON.MouseButton1Click:Connect(cfg.open_tab)
+
+	return setmetatable(cfg, library)
+end
+
+function library:section(properties)
+	local cfg = {
+		name = properties.name or properties.Name or "Section",
+		side = properties.side or properties.Side or "left",
+	}
+
+	-- Instances
+	local section = library:create("Frame", {
+		Parent = self[cfg.side],
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundTransparency = 1,
+		BorderSizePixel = 0,
+		Size = UDim2.new(1, 0, 0, 0),
+		ZIndex = 2,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local section_inline = library:create("Frame", {
+		Parent = section,
+		Name = "",
+		Position = UDim2.new(0, 0, 0, 4),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, 0, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local name = library:create("TextLabel", {
+		Parent = section_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = cfg.name,
+		TextStrokeTransparency = 0.5,
+		BorderSizePixel = 0,
+		Size = UDim2.new(1, 0, 0, 1),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 8, 0, 0),
+		ZIndex = 2,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local section = library:create("Frame", {
+		Parent = section_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local elements = library:create("Frame", {
+		Parent = section,
+		Name = "",
+		Position = UDim2.new(0, 12, 0, 12),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -24, 0, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = elements,
+		Name = "",
+		SortOrder = Enum.SortOrder.LayoutOrder,
+		HorizontalAlignment = Enum.HorizontalAlignment.Center,
+		Padding = UDim.new(0, 3),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = section,
+		Name = "",
+		PaddingBottom = UDim.new(0, 13),
+	})
+	--
+
+	cfg["holder"] = elements
+
+	return setmetatable(cfg, library)
+end
+
+function library:hitpart_picker(properties)
+	local cfg = {
+		name = properties.name or properties.Name or "Hitpart",
+		side = properties.side or properties.Side or "left",
+		flag = properties.flag or "Hitpart",
+		default = properties.default or { "Head" },
+		type_char = properties.type or "R6",
+		multi = properties.multi or false,
+		callback = properties.callback or function() end,
+		previous_holder = self,
+	}
+
+	flags[cfg.flag] = {}
+
+	local bodyparts = {}
+	local bools = {}
+
+	local r15_hitpart_holder = library:create("Frame", {
+		Parent = self[cfg.side],
+		Name = "",
+		BackgroundTransparency = 1,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 0, 272),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local hitpart_inline = library:create("Frame", {
+		Parent = r15_hitpart_holder,
+		Name = "",
+		Position = UDim2.new(0, 0, 0, 4),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, 0, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local hitpart = library:create("Frame", {
+		Parent = hitpart_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	if cfg.type_char == "R15" then
+		bodyparts.Head = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -25, 0, 16),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 50, 0, 44),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.UpperTorso = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -42, 0, 64),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 84, 0, 76),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LeftUpperArm = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -86, 0, 64),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 34),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.RightUpperArm = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, 46, 0, 64),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 34),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LeftUpperLeg = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -42, 0, 158),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 34),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LeftLowerLeg = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -42, 0, 196),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 42),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.RightFoot = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, 2, 0, 242),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 6),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LeftFoot = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -42, 0, 242),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 6),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.RightLowerLeg = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, 2, 0, 196),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 42),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.RightUpperLeg = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, 2, 0, 158),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 34),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LeftHand = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -86, 0, 148),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 6),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.RightHand = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, 46, 0, 148),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 6),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LowerTorso = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -42, 0, 144),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 84, 0, 10),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.RightLowerArm = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, 46, 0, 102),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 42),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LeftLowerArm = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -86, 0, 102),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 42),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		local outline = library:create("TextButton", {
+			Text = "",
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -10, 0, 96),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 20, 0, 20),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+		})
+
+		bodyparts.HumanoidRootPart = library:create("TextButton", {
+			Text = "",
+			Parent = outline,
+			Name = "",
+			Position = UDim2.new(0, 4, 0, 4),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(1, -8, 1, -8),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+	else
+		bodyparts.Head = library:create("TextButton", {
+			Parent = hitpart,
+			Name = "",
+			Text = "",
+			Position = UDim2.new(0.5, -25, 0, 16),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 50, 0, 44),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.Torso = library:create("TextButton", {
+			Parent = hitpart,
+			Name = "",
+			Text = "",
+			Position = UDim2.new(0.5, -42, 0, 64),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 84, 0, 90),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LeftArm = library:create("TextButton", {
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -86, 0, 64),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 90),
+			BorderSizePixel = 0,
+			Text = "",
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.RightArm = library:create("TextButton", {
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, 46, 0, 64),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 90),
+			Text = "",
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.RightLeg = library:create("TextButton", {
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, 2, 0, 158),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 90),
+			BorderSizePixel = 0,
+			Text = "",
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		bodyparts.LeftLeg = library:create("TextButton", {
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -42, 0, 158),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 40, 0, 90),
+			BorderSizePixel = 0,
+			Text = "",
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+
+		local hrp_out = library:create("TextButton", {
+			Parent = hitpart,
+			Name = "",
+			Position = UDim2.new(0.5, -10, 0, 99),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 20, 0, 20),
+			BorderSizePixel = 0,
+			Text = "",
+			BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+		})
+
+		bodyparts.HumanoidRootPart = library:create("TextButton", {
+			Parent = hrp_out,
+			Name = "",
+			Position = UDim2.new(0, 4, 0, 4),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(1, -8, 1, -8),
+			BorderSizePixel = 0,
+			Text = "",
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+	end
+
+	local name = library:create("TextLabel", {
+		Parent = hitpart_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = cfg.name,
+		TextStrokeTransparency = 0.5,
+		BorderSizePixel = 0,
+		Size = UDim2.new(1, 0, 0, 1),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 8, 0, 0),
+		ZIndex = 2,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	function cfg.set(parts)
+		flags[cfg.flag] = {}
+		for name, button in pairs(bodyparts) do
+			bools[name] = false
+			local glow = button:FindFirstChildOfClass("ImageLabel")
+			if glow then
+				glow.Visible = false
+			end
+			button.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+		end
+
+		for _, part in pairs(parts) do
+			if bodyparts[part] then
+				bools[part] = true
+				table.insert(flags[cfg.flag], part)
+				local glow = bodyparts[part]:FindFirstChildOfClass("ImageLabel")
+				if glow then
+					glow.Visible = true
+				end
+				bodyparts[part].BackgroundColor3 = themes.preset.accent
+			end
+		end
+
+		cfg.callback(flags[cfg.flag])
+	end
+
+	for name, button in next, bodyparts do
+		bools[name] = false
+
+		library:apply_theme(button, "accent", "BackgroundColor3")
+
+		local glow = library:create("ImageLabel", {
+			Parent = button,
+			Name = "",
+			Visible = false,
+			ImageColor3 = themes.preset.accent,
+			ScaleType = Enum.ScaleType.Slice,
+			ImageTransparency = 0.8999999761581421,
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+			Image = "http://www.roblox.com/asset/?id=18245826428",
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0, -20, 0, -20),
+			Size = UDim2.new(1, 40, 1, 40),
+			ZIndex = 2,
+			BorderSizePixel = 0,
+			SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+		})
+
+		library:apply_theme(glow, "accent", "ImageColor3")
+
+		library:connection(button.MouseButton1Click, function()
+			if not cfg.multi then
+				cfg.set({ name })
+			else
+				bools[name] = not bools[name]
+
+				if bools[name] then
+					table.insert(flags[cfg.flag], name)
+				else
+					local index = table.find(flags[cfg.flag], name)
+					table.remove(flags[cfg.flag], index)
+				end
+
+				glow.Visible = bools[name]
+				button.BackgroundColor3 = bools[name] and themes.preset.accent or Color3.fromRGB(38, 38, 38)
+
+				cfg.callback(flags[cfg.flag])
+			end
+		end)
+	end
+
+	if #cfg.default > 1 and not cfg.multi then
+		cfg.default = { cfg.default[1] }
+	end
+
+	cfg.set(cfg.default)
+	config_flags[cfg.flag] = cfg.set
+	return setmetatable(cfg, library)
+end
+
+function library:toggle(properties)
+	local cfg = {
+		enabled = properties.enabled or nil,
+		name = properties.name or "Toggle",
+		flag = properties.flag or tostring(math.random(1, 9999999)),
+		callback = properties.callback or function() end,
+		default = properties.default or false,
+		previous_holder = self,
+	}
+
+	-- Instances
+	local object = library:create("TextButton", {
+		Parent = self.holder,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = cfg.name,
+		TextStrokeTransparency = 0.5,
+		BorderSizePixel = 0,
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Size = UDim2.new(1, -26, 0, 12),
+		ZIndex = 1,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local right_components = library:create("Frame", {
+		Parent = object,
+		Name = "",
+		Position = UDim2.new(1, 15, 0, 1),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(0, 0, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local list = library:create("UIListLayout", {
+		Parent = right_components,
+		Name = "",
+		FillDirection = Enum.FillDirection.Horizontal,
+		HorizontalAlignment = Enum.HorizontalAlignment.Right,
+		Padding = UDim.new(0, 3),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local icon_inline = library:create("TextButton", {
+		Parent = object,
+		Name = "",
+		Position = UDim2.new(0, -15, 0, 1),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(0, 10, 0, 10),
+		BorderSizePixel = 0,
+		Text = "",
+		AutoButtonColor = false,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local icon = library:create("Frame", {
+		Parent = icon_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local icon_2 = library:create("Frame", {
+		Parent = icon,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, 0, 1, 0),
+		BackgroundColor3 = themes.preset.accent,
+	})
+	library:apply_theme(icon_2, "accent", "BackgroundColor3")
+
+	local glow = library:create("ImageLabel", {
+		Parent = icon_inline,
+		Name = "",
+		Visible = false,
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.75,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -12, 0, -12),
+		Size = UDim2.new(1, 24, 1, 24),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+
+	library:apply_theme(glow, "accent", "ImageColor3")
+
+	local bottom_components = library:create("Frame", {
+		Parent = object,
+		Name = "",
+		Visible = true,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Position = UDim2.new(0, 0, 0, 13),
+		Size = UDim2.new(1, 26, 0, 0),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local list = library:create("UIListLayout", {
+		Parent = bottom_components,
+		Name = "",
+		Padding = UDim.new(0, 4),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+	--
+
+	function cfg.set(bool)
+		icon_2.Visible = bool
+		glow.Visible = bool
+
+		flags[cfg.flag] = bool
+
+		cfg.callback(bool)
+	end
+
+	library:connection(object.MouseButton1Click, function()
+		cfg.enabled = not cfg.enabled
+
+		cfg.set(cfg.enabled)
+	end)
+
+	library:connection(icon_inline.MouseButton1Click, function()
+		cfg.enabled = not cfg.enabled
+
+		cfg.set(cfg.enabled)
+	end)
+
+	cfg.set(cfg.default)
+
+	self.previous_holder = left_components
+	self.bottom_holder = bottom_components
+	self.right_holder = right_components
+
+	config_flags[cfg.flag] = cfg.set
+
+	return setmetatable(cfg, library)
+end
+
+function library:slider(properties)
+	local cfg = {
+		name = properties.name or nil,
+		suffix = properties.suffix or "",
+		flag = properties.flag or tostring(2 ^ 789),
+		callback = properties.callback or function() end,
+
+		min = properties.min or properties.minimum or 0,
+		max = properties.max or properties.maximum or 100,
+		intervals = properties.interval or properties.decimal or 1,
+		default = properties.default or 10,
+
+		dragging = false,
+		value = properties.default or 10,
+
+		previous_holder = self,
+	}
+
+	local bottom_components
+	if cfg.name then
+		object = library:create("TextLabel", {
+			Parent = self.holder,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(170, 170, 170),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Text = cfg.name,
+			TextStrokeTransparency = 0.5,
+			Size = UDim2.new(1, -26, 0, 12),
+			BorderSizePixel = 0,
+			BackgroundTransparency = 1,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			AutomaticSize = Enum.AutomaticSize.Y,
+			TextYAlignment = Enum.TextYAlignment.Top,
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		bottom_components = library:create("Frame", {
+			Parent = object,
+			Name = "",
+			Visible = true,
+			Position = UDim2.new(0, 0, 0, 13),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(1, 26, 0, 0),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		local list = library:create("UIListLayout", {
+			Parent = bottom_components,
+			Name = "",
+			Padding = UDim.new(0, 4),
+			SortOrder = Enum.SortOrder.LayoutOrder,
+		})
+	else
+		self.bottom_holder.Parent.AutomaticSize = Enum.AutomaticSize.Y
+		self.bottom_holder.Parent.TextYAlignment = Enum.TextYAlignment.Top
+	end
+
+	local slider_holder = library:create("Frame", {
+		Parent = cfg.name and bottom_components or self.bottom_holder,
+		Name = "",
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BorderSizePixel = 0,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local slider_inline = library:create("TextButton", {
+		Parent = slider_holder,
+		Name = "",
+		Position = UDim2.new(0, 0, 0, 1),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -26, 0, 8),
+		BorderSizePixel = 0,
+		Text = "",
+		AutoButtonColor = false,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local fill_inline = library:create("Frame", {
+		Parent = slider_inline,
+		Name = "",
+		Size = UDim2.new(0.5, 0, 1, 0),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(19, 19, 19),
+	})
+
+	local fill = library:create("Frame", {
+		Parent = fill_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		Size = UDim2.new(1, 0, 1, -4),
+		BackgroundColor3 = themes.preset.accent,
+	})
+
+	library:apply_theme(fill, "accent", "BackgroundColor3")
+	library:apply_theme(fill, "accent", "BorderColor3")
+
+	local VALUE_TEXT = library:create("TextLabel", {
+		Parent = fill_inline,
+		Name = "",
+		RichText = true,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(0, 1, 0, 11),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(1, 0, 0, 1),
+		BorderSizePixel = 0,
+		FontFace = library.font,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local glow = library:create("ImageLabel", {
+		Parent = fill_inline,
+		Name = "",
+		ImageColor3 = themes.preset.accent,
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -18, 0, -18),
+		Size = UDim2.new(1, 36, 1, 36),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+
+	library:apply_theme(glow, "accent", "ImageColor3")
+
+	local add = library:create("TextButton", {
+		Parent = slider_inline,
+		Name = "",
+		TextWrapped = true,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "+",
+		TextStrokeTransparency = 0.5,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(1, 5, 0, -1),
+		Size = UDim2.new(0, 8, 0, 8),
+		FontFace = library.font,
+		TextSize = 8,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local sub = library:create("TextButton", {
+		Parent = slider_inline,
+		Name = "",
+		TextWrapped = true,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "-",
+		TextStrokeTransparency = 0.5,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -15, 0, -1),
+		Size = UDim2.new(0, 8, 0, 8),
+		FontFace = library.font,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local slider = library:create("Frame", {
+		Parent = slider_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local pad = library:create("UIPadding", {
+		Parent = slider_holder,
+		Name = "",
+		PaddingBottom = UDim.new(0, -17),
+	})
+
+	function cfg.set(value)
+		if type(value) ~= "number" then
+			return
+		end
+
+		cfg.value = math.clamp(library:round(value, cfg.intervals), cfg.min, cfg.max)
+
+		fill_inline.Size = dim2((cfg.value - cfg.min) / (cfg.max - cfg.min), 0, 1, 0)
+		VALUE_TEXT.Text = tostring(cfg.value) .. cfg.suffix
+		flags[cfg.flag] = cfg.value
+
+		cfg.callback(flags[cfg.flag])
+	end
+
+	library:connection(uis.InputChanged, function(input)
+		if cfg.dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+			local size_x = (input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X
+			local value = ((cfg.max - cfg.min) * size_x) + cfg.min
+			cfg.set(value)
+		end
+	end)
+
+	library:connection(uis.InputEnded, function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			cfg.dragging = false
+		end
+	end)
+
+	slider_inline.MouseButton1Down:Connect(function()
+		cfg.dragging = true
+	end)
+
+	add.MouseButton1Down:Connect(function()
+		cfg.value += cfg.intervals
+		cfg.set(cfg.value)
+	end)
+
+	sub.MouseButton1Down:Connect(function()
+		cfg.value -= cfg.intervals
+		cfg.set(cfg.value)
+	end)
+
+	cfg.set(cfg.default)
+
+	config_flags[cfg.flag] = cfg.set
+
+	library.config_flags[cfg.flag] = cfg.set
+
+	return setmetatable(cfg, library)
+end
+
+function library:dropdown(properties)
+	local cfg = {
+		name = properties.name or nil,
+		flag = properties.flag or tostring(math.random(1, 9999999)),
+		items = properties.items or { "1", "2", "3" },
+		callback = properties.callback or function() end,
+		multi = properties.multi or false,
+		open = false,
+		option_instances = {},
+		multi_items = {},
+		previous_holder = self,
+	}
+	cfg.default = properties.default or (cfg.multi and { cfg.items[1] }) or cfg.items[1] or nil
+
+	local bottom_components
+	local object
+	if cfg.name then
+		object = library:create("TextLabel", {
+			Parent = self.holder,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(170, 170, 170),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Text = cfg.name,
+			TextStrokeTransparency = 0.5,
+			Size = UDim2.new(1, -26, 0, 12),
+			BorderSizePixel = 0,
+			ZIndex = 2,
+			BackgroundTransparency = 1,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			AutomaticSize = Enum.AutomaticSize.Y,
+			TextYAlignment = Enum.TextYAlignment.Top,
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		bottom_components = library:create("Frame", {
+			Parent = object,
+			Name = "",
+			Visible = true,
+			Position = UDim2.new(0, 0, 0, 13),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(1, 26, 0, 0),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		local list = library:create("UIListLayout", {
+			Parent = bottom_components,
+			Name = "",
+			Padding = UDim.new(0, 4),
+			SortOrder = Enum.SortOrder.LayoutOrder,
+		})
+	else
+		self.bottom_holder.Parent.AutomaticSize = Enum.AutomaticSize.Y
+		self.bottom_holder.Parent.TextYAlignment = Enum.TextYAlignment.Top
+	end
+
+	local dropdown_inline = library:create("Frame", {
+		Parent = cfg.name and bottom_components or self.bottom_holder,
+		Name = "",
+		Position = UDim2.new(0, -15, 0, 2),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -26, 0, 16),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local dropdown = library:create("TextButton", {
+		Parent = dropdown_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "",
+		TextStrokeTransparency = 0.5,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Size = UDim2.new(1, -4, 1, -4),
+		Position = UDim2.new(0, 2, 0, 2),
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = dropdown,
+		Name = "",
+		PaddingLeft = UDim.new(0, 5),
+	})
+
+	local icon = library:create("TextLabel", {
+		Parent = dropdown,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "+",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(0, 1, 1, 0),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Right,
+		Position = UDim2.new(1, -6, 0, -1),
+		BorderSizePixel = 0,
+		TextSize = 8,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local content_inline = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(0, dropdown_inline.AbsoluteSize.X, 0, 0),
+		Position = UDim2.new(
+			0,
+			dropdown_inline.AbsolutePosition.X,
+			0,
+			dropdown_inline.AbsolutePosition.Y + dropdown_inline.AbsoluteSize.Y + 2
+		),
+		BorderSizePixel = 0,
+		ZIndex = 5,
+		Visible = false,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	dropdown_inline:GetPropertyChangedSignal("AbsolutePosition"):Connect(function()
+		content_inline.Position = UDim2.new(
+			0,
+			dropdown_inline.AbsolutePosition.X,
+			0,
+			dropdown_inline.AbsolutePosition.Y + dropdown_inline.AbsoluteSize.Y + 2
+		)
+	end)
+
+	dropdown_inline:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+		content_inline.Size = UDim2.new(0, dropdown_inline.AbsoluteSize.X, 0, 0)
+	end)
+
+	local content = library:create("Frame", {
+		Parent = content_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local options = library:create("Frame", {
+		Parent = content,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -4, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(50, 50, 50),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = options,
+		Name = "",
+		Padding = UDim.new(0, 2),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = options,
+		Name = "",
+		PaddingBottom = UDim.new(0, 4),
+	})
+
+	function cfg.set_visible(bool)
+		content_inline.Visible = bool
+		icon.Text = bool and "-" or "+"
+		icon.TextSize = bool and 12 or 8
+
+		if cfg.name then
+			object.ZIndex = bool and 9999 or 3
+		end
+
+		if bool then
+			if library.current_element_open and library.current_element_open ~= cfg then
+				library.current_element_open.set_visible(false)
+				library.current_element_open.open = false
+			end
+			library.current_element_open = cfg
+		end
+	end
+
+	function cfg.set(value)
+		local selected = {}
+		local is_table = type(value) == "table"
+
+		for _, v in next, cfg.option_instances do
+			local match = false
+			if is_table then
+				for _, val in next, value do
+					if v.Text == tostring(val) then
+						match = true
+						break
+					end
+				end
+			elseif v.Text == tostring(value) then
+				match = true
+			end
+
+			if match then
+				table.insert(selected, v.Text)
+				v.BackgroundTransparency = 0
+			else
+				v.BackgroundTransparency = 1
+			end
+		end
+
+		cfg.multi_items = selected
+		dropdown.Text = table.concat(selected, ", ")
+		flags[cfg.flag] = cfg.multi and selected or selected[1]
+		cfg.callback(flags[cfg.flag])
+	end
+
+	function cfg:refresh_options(refreshed_list)
+		for _, v in next, cfg.option_instances do
+			v:Destroy()
+		end
+		cfg.option_instances = {}
+		cfg.items = refreshed_list
+
+		for i, v in next, refreshed_list do
+			local op = library:create("TextButton", {
+				Parent = options,
+				Name = "",
+				FontFace = library.font,
+				TextColor3 = Color3.fromRGB(170, 170, 170),
+				BorderColor3 = Color3.fromRGB(56, 56, 56),
+				Text = tostring(v),
+				BackgroundTransparency = 1,
+				TextStrokeTransparency = 0.5,
+				Size = UDim2.new(1, 0, 0, 14),
+				TextXAlignment = Enum.TextXAlignment.Left,
+				Position = UDim2.new(0, 2, 0, 2),
+				BorderSizePixel = 0,
+				TextSize = 12,
+				BackgroundColor3 = Color3.fromRGB(65, 65, 65),
+			})
+
+			library:create("UIPadding", {
+				Parent = op,
+				Name = "",
+				PaddingLeft = UDim.new(0, 5),
+			})
+
+			table.insert(cfg.option_instances, op)
+
+			op.MouseButton1Down:Connect(function()
+				if cfg.multi then
+					local selected_index = table.find(cfg.multi_items, op.Text)
+					if selected_index then
+						table.remove(cfg.multi_items, selected_index)
+					else
+						table.insert(cfg.multi_items, op.Text)
+					end
+					cfg.set(cfg.multi_items)
+				else
+					cfg.set(op.Text)
+					cfg.set_visible(false)
+					cfg.open = false
+				end
+			end)
+		end
+	end
+
+	function cfg:list(new_list)
+		cfg:refresh_options(new_list)
+		local current = flags[cfg.flag]
+		if current then
+			cfg.set(current)
+		end
+	end
+
+	dropdown.MouseButton1Click:Connect(function()
+		cfg.open = not cfg.open
+		cfg.set_visible(cfg.open)
+	end)
+
+	cfg:refresh_options(cfg.items)
+	cfg.set(cfg.default)
+	library.config_flags[cfg.flag] = cfg.set
+
+	return setmetatable(cfg, library)
+end
+
+function library:colorpicker(properties)
+	local cfg = {
+		name = properties.name or nil,
+		flag = properties.flag or tostring(2 ^ 789),
+		color = properties.color or properties.default or Color3.new(1, 1, 1), -- Default to white color if not provided
+		alpha = properties.alpha or 1,
+		callback = properties.callback or function() end,
+		animation = "normal",
+		saved_color,
+		right_holder = self.right_holder or nil,
+		holder = self.holder or nil,
+	}
+
+	flags[cfg.flag] = {}
+
+	local dragging_sat = false
+	local dragging_hue = false
+	local dragging_alpha = false
+
+	local h, s, v = cfg.color:ToHSV()
+	local a = cfg.alpha
+
+	-- Button Instances
+	local right_components
+	if cfg.name then
+		local object = library:create("TextLabel", {
+			Parent = self.holder,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(170, 170, 170),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Text = cfg.name,
+			TextStrokeTransparency = 0.5,
+			Size = UDim2.new(1, -26, 0, 12),
+			BorderSizePixel = 0,
+			BackgroundTransparency = 1,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			TextYAlignment = Enum.TextYAlignment.Top,
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		right_components = library:create("Frame", {
+			Parent = object,
+			Name = "",
+			Position = UDim2.new(1, 15, 0, 1),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 0, 1, 0),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		local list = library:create("UIListLayout", {
+			Parent = right_components,
+			Name = "",
+			FillDirection = Enum.FillDirection.Horizontal,
+			HorizontalAlignment = Enum.HorizontalAlignment.Right,
+			Padding = UDim.new(0, 3),
+			SortOrder = Enum.SortOrder.LayoutOrder,
+		})
+	end
+
+	local icon_inline = library:create("TextButton", {
+		Parent = cfg.name and right_components or self.right_holder,
+		Name = "",
+		Text = "",
+		Size = UDim2.new(0, 16, 0, 10),
+		Position = UDim2.new(0, -15, 0, 1),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		ZIndex = 3,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(9, 9, 44),
+	})
+
+	local icon = library:create("Frame", {
+		Parent = icon_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(22, 22, 108),
+		ZIndex = 2,
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(41, 41, 204),
+	})
+
+	local glow = library:create("ImageLabel", {
+		Parent = icon_inline,
+		Name = "",
+		ImageColor3 = Color3.fromRGB(41, 41, 204),
+		ScaleType = Enum.ScaleType.Slice,
+		ImageTransparency = 0.8999999761581421,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		Image = "http://www.roblox.com/asset/?id=18245826428",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, -20, 0, -20),
+		Size = UDim2.new(1, 40, 1, 40),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		SliceCenter = Rect.new(Vector2.new(21, 21), Vector2.new(79, 79)),
+	})
+	--
+
+	-- Colorpicker Instances
+	local picker_inline = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		Size = UDim2.new(0, 142, 0, 146),
+		Position = dim2(0, icon_inline.AbsolutePosition.X + 1, 0, icon_inline.AbsolutePosition.Y + 17),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		ZIndex = 9999,
+		BorderSizePixel = 0,
+		Visible = false,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local picker = library:create("Frame", {
+		Parent = picker_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local sat_inline = library:create("TextButton", {
+		Parent = picker,
+		Name = "",
+		Text = "",
+		Position = UDim2.new(0, 4, 0, 4),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -8, 1, -50),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local sat = library:create("Frame", {
+		Parent = sat_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(255, 0, 0),
+	})
+
+	local sat_white = library:create("Frame", {
+		Parent = sat,
+		Name = "",
+		Size = UDim2.new(1, 0, 1, 0),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		ZIndex = 2,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIGradient = library:create("UIGradient", {
+		Parent = sat_white,
+		Name = "",
+		Transparency = NumberSequence.new({
+			NumberSequenceKeypoint.new(0, 0),
+			NumberSequenceKeypoint.new(1, 1),
+		}),
+	})
+
+	local sat_black = library:create("Frame", {
+		Parent = sat_white,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, 0, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIGradient = library:create("UIGradient", {
+		Parent = sat_black,
+		Name = "",
+		Rotation = 90,
+		Transparency = NumberSequence.new({
+			NumberSequenceKeypoint.new(0, 1),
+			NumberSequenceKeypoint.new(1, 0),
+		}),
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 0)),
+		}),
+	})
+
+	local sat_black_cursor = library:create("Frame", {
+		Parent = sat_black,
+		Name = "",
+		Position = UDim2.new(0.800000011920929, 0, 0.20000000298023224, 0),
+		BorderColor3 = Color3.fromRGB(108, 22, 22),
+		Size = UDim2.new(0, 1, 0, 1),
+		BackgroundColor3 = Color3.fromRGB(204, 41, 41),
+	})
+
+	local preview_inline = library:create("Frame", {
+		Parent = picker,
+		Name = "",
+		Position = UDim2.new(1, -20, 1, -20),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(0, 16, 0, 16),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+	})
+
+	local preview = library:create("Frame", {
+		Parent = preview_inline,
+		Name = "",
+		BackgroundTransparency = 0,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 2,
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(204, 41, 41),
+	})
+
+	local preview_image = library:create("ImageLabel", {
+		Parent = preview_inline,
+		Name = "",
+		ScaleType = Enum.ScaleType.Tile,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Image = "http://www.roblox.com/asset/?id=18274452449",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 2, 0, 2),
+		Size = UDim2.new(1, -4, 1, -4),
+		TileSize = UDim2.new(0, 6, 0, 6),
+		BorderSizePixel = 0,
+		ZIndex = 3,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local hue_inline = library:create("TextButton", {
+		Parent = picker,
+		Text = "",
+		Name = "",
+		Position = UDim2.new(0, 4, 1, -44),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -8, 0, 10),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local hue_border = library:create("Frame", {
+		Parent = hue_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local hue = library:create("Frame", {
+		Parent = hue_border,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, 0, 1, 0),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIGradient = library:create("UIGradient", {
+		Parent = hue,
+		Name = "",
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+			ColorSequenceKeypoint.new(0.16699999570846558, Color3.fromRGB(255, 255, 0)),
+			ColorSequenceKeypoint.new(0.3330000042915344, Color3.fromRGB(0, 255, 0)),
+			ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 255, 255)),
+			ColorSequenceKeypoint.new(0.6669999957084656, Color3.fromRGB(0, 0, 255)),
+			ColorSequenceKeypoint.new(0.8330000042915344, Color3.fromRGB(255, 0, 255)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0)),
+		}),
+	})
+
+	local hue_cursor = library:create("Frame", {
+		Parent = hue,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(108, 22, 22),
+		Size = UDim2.new(0, 1, 1, 0),
+		BackgroundColor3 = Color3.fromRGB(204, 41, 41),
+	})
+
+	local input_inline = library:create("Frame", {
+		Parent = picker,
+		Name = "",
+		Position = UDim2.new(0, 4, 1, -20),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -26, 0, 16),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local __input = library:create("TextBox", {
+		Parent = input_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "204, 41, 41, 0.5",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(1, -4, 1, -4),
+		PlaceholderColor3 = Color3.fromRGB(90, 90, 90),
+		Position = UDim2.new(0, 2, 0, 2),
+		PlaceholderText = "r, g, b, a",
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local alpha_inline = library:create("TextButton", {
+		Parent = picker,
+		Name = "",
+		Text = "",
+		Position = UDim2.new(0, 4, 1, -32),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -8, 0, 10),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local alpha = library:create("Frame", {
+		Parent = alpha_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(204, 41, 41),
+	})
+
+	local alpha_image = library:create("ImageLabel", {
+		Parent = alpha,
+		Name = "",
+		ScaleType = Enum.ScaleType.Tile,
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Image = "http://www.roblox.com/asset/?id=18343135386",
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 1, 0),
+		TileSize = UDim2.new(0, 6, 0, 6),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIGradient = library:create("UIGradient", {
+		Parent = alpha_image,
+		Name = "",
+		Transparency = NumberSequence.new({
+			NumberSequenceKeypoint.new(0, 1),
+			NumberSequenceKeypoint.new(1, 0),
+		}),
+	})
+
+	local alpha_cursor = library:create("Frame", {
+		Parent = alpha_image,
+		Name = "",
+		Position = UDim2.new(0.5, 0, 0, 0),
+		BorderColor3 = Color3.fromRGB(108, 22, 22),
+		Size = UDim2.new(0, 1, 1, 0),
+		BackgroundColor3 = Color3.fromRGB(204, 41, 41),
+	})
+
+	--
+
+	-- Animation Handling
+	local content_inline = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(0, 73, 0, 0),
+		Position = dim2(0, icon_inline.AbsolutePosition.X + 20, 0, icon_inline.AbsolutePosition.Y),
+		BorderSizePixel = 0,
+		ZIndex = 2,
+		Visible = false,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local content = library:create("Frame", {
+		Parent = content_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local options = library:create("Frame", {
+		Parent = content,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -4, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(50, 50, 50),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = options,
+		Name = "",
+		Padding = UDim.new(0, 2),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local normal = library:create("TextButton", {
+		Parent = options,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "normal",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(1, 0, 0, 12),
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderSizePixel = 0,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(65, 65, 65),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = normal,
+		Name = "",
+		PaddingBottom = UDim.new(0, 1),
+		PaddingLeft = UDim.new(0, 5),
+	})
+
+	local rainbow = library:create("TextButton", {
+		Parent = options,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "rainbow",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(1, 0, 0, 12),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderSizePixel = 0,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(65, 65, 65),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = rainbow,
+		Name = "",
+		PaddingBottom = UDim.new(0, 1),
+		PaddingLeft = UDim.new(0, 5),
+	})
+
+	local fade = library:create("TextButton", {
+		Parent = options,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "fade",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(1, 0, 0, 12),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderSizePixel = 0,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(65, 65, 65),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = fade,
+		Name = "",
+		PaddingBottom = UDim.new(0, 1),
+		PaddingLeft = UDim.new(0, 5),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = options,
+		Name = "",
+		PaddingBottom = UDim.new(0, 4),
+	})
+
+	local fade_alpha = library:create("TextButton", {
+		Parent = options,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "fade alpha",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(1, 0, 0, 12),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderSizePixel = 0,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(65, 65, 65),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = fade_alpha,
+		Name = "",
+		PaddingBottom = UDim.new(0, 1),
+		PaddingLeft = UDim.new(0, 5),
+	})
+	--
+
+	function cfg.set_visible(bool)
+		picker_inline.Visible = bool
+		content_inline.Visible = false
+
+		if bool then
+			if library.current_element_open and library.current_element_open ~= cfg then
+				library.current_element_open.set_visible(false)
+				library.current_element_open.open = false
+			end
+
+			library.current_element_open = cfg
+		end
+
+		picker_inline.Position = dim2(0, icon_inline.AbsolutePosition.X + 1, 0, icon_inline.AbsolutePosition.Y + 17)
+		content_inline.Position = dim2(0, icon_inline.AbsolutePosition.X + 20, 0, icon_inline.AbsolutePosition.Y)
+	end
+
+	icon_inline.MouseButton1Click:Connect(function()
+		cfg.open = not cfg.open
+
+		cfg.set_visible(cfg.open)
+	end)
+
+	icon_inline.MouseButton2Click:Connect(function()
+		if cfg.open then
+			cfg.open = false
+			cfg.set_visible(false)
+		end
+
+		content_inline.Visible = not content_inline.Visible
+
+		picker_inline.Position = dim2(0, icon_inline.AbsolutePosition.X + 1, 0, icon_inline.AbsolutePosition.Y + 17)
+		content_inline.Position = dim2(0, icon_inline.AbsolutePosition.X + 20, 0, icon_inline.AbsolutePosition.Y)
+	end)
+
+	function cfg.set(color, alpha)
+		if color then
+			h, s, v = color:ToHSV()
+		else
+			cfg.saved_color = hsv(s, s, v)
+		end
+
+		if alpha then
+			a = alpha
+		end
+
+		local visual = alpha_inline:FindFirstChildOfClass("Frame")
+
+		if not visual then
+			return
+		end
+
+		local hsv_position = Color3.fromHSV(h, s, v)
+		local Color = Color3.fromHSV(h, s, v)
+
+		local value = h
+		local offset = (value < 1) and 0 or -4
+		hue_cursor.Position = dim2(value, offset, 0, 0)
+
+		local offset = (a < 1) and 0 or -4
+		alpha_cursor.Position = dim2(a, offset, 0, 0)
+
+		visual.BackgroundColor3 = Color
+		glow.ImageColor3 = Color
+
+		local RGB_Format = visual.BackgroundColor3
+
+		icon_inline.BackgroundColor3 = Color3.fromRGB(RGB_Format.R / 4, RGB_Format.G / 4, RGB_Format.B / 4)
+		icon.BorderColor3 = Color3.fromRGB(
+			math.floor((Color.R * 255) + 0.5) / 2,
+			math.floor((Color.G * 255) + 0.5) / 2,
+			math.floor((Color.B * 255) + 0.5) / 2
+		)
+		icon.BackgroundColor3 = Color
+
+		__input.Text = math.floor(RGB_Format.R * 255)
+			.. ", "
+			.. math.floor(RGB_Format.G * 255)
+			.. ", "
+			.. math.floor(RGB_Format.B * 255)
+			.. ", "
+			.. library:round(a, 0.01)
+		preview.BackgroundColor3 = Color
+		preview_image.ImageTransparency = 1 - a
+
+		sat.BackgroundColor3 = Color3.fromHSV(h, 1, 1)
+
+		local s_offset = (s < 1) and 0 or -3
+		local v_offset = (1 - v < 1) and 0 or -3
+		sat_black_cursor.Position = dim2(s, s_offset, 1 - v, v_offset)
+
+		cfg.color = Color
+		cfg.alpha = a
+
+		flags[cfg.flag] = {
+			Color = Color,
+			Transparency = a,
+		}
+		cfg.saved_color = hsv(s, s, v)
+
+		cfg.callback(Color, a)
+	end
+
+	__input.FocusLost:Connect(function()
+		local text = __input.Text
+		local r, g, b, a = library:convert_string_rgb(text)
+
+		if r and g and b and a then
+			cfg.set(rgb(r, g, b), a)
+		end
+	end)
+
+	function cfg.update_color()
+		local mouse = uis:GetMouseLocation()
+
+		if dragging_sat then
+			s = math.clamp(
+				(vec2(mouse.X, mouse.Y - gui_offset) - sat_white.AbsolutePosition).X / sat_white.AbsoluteSize.X,
+				0,
+				1
+			)
+			v = 1
+				- math.clamp(
+					(vec2(mouse.X, mouse.Y - gui_offset) - sat_black.AbsolutePosition).Y / sat_black.AbsoluteSize.Y,
+					0,
+					1
+				)
+		elseif dragging_hue then
+			h = 1
+				- math.clamp(
+					1
+						- (vec2(mouse.X, mouse.Y - gui_offset) - hue_inline.AbsolutePosition).X
+							/ hue_inline.AbsoluteSize.X,
+					0,
+					1
+				)
+		elseif dragging_alpha then
+			a = math.clamp(
+				(vec2(mouse.X, mouse.Y - gui_offset) - alpha_inline.AbsolutePosition).X / alpha_inline.AbsoluteSize.X,
+				0,
+				1
+			)
+		end
+
+		cfg.set(nil, nil)
+	end
+
+	alpha_inline.MouseButton1Down:Connect(function()
+		dragging_alpha = true
+	end)
+
+	hue_inline.MouseButton1Down:Connect(function()
+		dragging_hue = true
+	end)
+
+	sat_inline.MouseButton1Down:Connect(function()
+		dragging_sat = true
+	end)
+
+	cfg.saved_color = hsv(h, s, v)
+	local selected = normal
+	flags[cfg.flag]["animation"] = "normal"
+
+	rainbow.MouseButton1Down:Connect(function()
+		selected.BackgroundTransparency = 1
+		selected = "rainbow"
+		rainbow.BackgroundTransparency = 0
+
+		flags[cfg.flag]["animation"] = "rainbow"
+		cfg.saved_color = hsv(s, s, v)
+	end)
+
+	fade_alpha.MouseButton1Down:Connect(function()
+		selected.BackgroundTransparency = 1
+		selected = "fade_alpha"
+		fade_alpha.BackgroundTransparency = 0
+
+		flags[cfg.flag]["animation"] = "fade_alpha"
+		cfg.saved_color = hsv(s, s, v)
+	end)
+
+	fade.MouseButton1Down:Connect(function()
+		selected.BackgroundTransparency = 1
+		selected = "fade"
+		fade.BackgroundTransparency = 0
+
+		flags[cfg.flag]["animation"] = "fade"
+		cfg.saved_color = hsv(s, s, v)
+	end)
+
+	normal.MouseButton1Down:Connect(function()
+		selected.BackgroundTransparency = 1
+		selected = "normal"
+		normal.BackgroundTransparency = 0
+
+		flags[cfg.flag]["animation"] = "normal"
+		cfg.set(cfg.saved_color)
+	end)
+
+	uis.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging_sat = false
+			dragging_hue = false
+			dragging_alpha = false
+		end
+	end)
+
+	uis.InputChanged:Connect(function(input)
+		if
+			(dragging_sat or dragging_hue or dragging_alpha)
+			and input.UserInputType == Enum.UserInputType.MouseMovement
+		then
+			cfg.update_color()
+		end
+	end)
+
+	cfg.set(cfg.color, cfg.alpha)
+
+	self.previous_holder = parent
+
+	library.config_flags[cfg.flag] = cfg.set
+
+	task.spawn(function()
+		while true do
+			if selected ~= "normal" then
+				cfg.set(
+					hsv(
+						selected == "rainbow" and library.sin or h,
+						selected == "rainbow" and 1 or s,
+						selected == "fade" and library.sin or v
+					),
+					selected == "fade_alpha" and library.sin
+				)
+			end
+			task.wait()
+		end
+	end)
+
+	return setmetatable(cfg, library)
+end
+
+function library:keybind(properties)
+	local cfg = {
+		flag = properties.flag or tostring(2 ^ math.random(1, 30) * 3),
+		keybind_name = properties.keybind_name or nil,
+		callback = properties.callback or function() end,
+		open = false,
+		binding = nil,
+		name = properties.name or nil,
+		key = properties.default or properties.key or nil,
+		mode = properties.mode or "toggle",
+		active = properties.default or false,
+		display = properties.displayName or properties.display or properties.name or nil,
+		hold_instances = {},
+	}
+
+	flags[cfg.flag] = {}
+
+	local key = library:new_keybind({
+		text = cfg.display,
+		key = cfg.key,
+		mode = cfg.mode,
+	})
+
+	-- Instances
+	local right_components
+	if cfg.name then
+		local object = library:create("TextLabel", {
+			Parent = self.holder,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(170, 170, 170),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Text = cfg.name,
+			TextStrokeTransparency = 0.5,
+			Size = UDim2.new(1, -26, 0, 12),
+			BorderSizePixel = 0,
+			BackgroundTransparency = 1,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			TextYAlignment = Enum.TextYAlignment.Top,
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		right_components = library:create("Frame", {
+			Parent = object,
+			Name = "",
+			Position = UDim2.new(1, 15, 0, 1),
+			BorderColor3 = Color3.fromRGB(0, 0, 0),
+			Size = UDim2.new(0, 0, 1, 0),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		})
+
+		local list = library:create("UIListLayout", {
+			Parent = right_components,
+			Name = "",
+			FillDirection = Enum.FillDirection.Horizontal,
+			HorizontalAlignment = Enum.HorizontalAlignment.Right,
+			Padding = UDim.new(0, 3),
+			SortOrder = Enum.SortOrder.LayoutOrder,
+		})
+	end
+
+	local keybind = library:create("TextButton", {
+		Parent = cfg.name and right_components or self.right_holder,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = "ERROR",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(0, 16, 1, 0),
+		BackgroundTransparency = 1,
+		BorderSizePixel = 0,
+		AutoButtonColor = false,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local content_inline = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(0, 57, 0, 0),
+		Position = dim2(0, keybind.AbsolutePosition.X, 0, keybind.AbsolutePosition.Y - 5),
+		BorderSizePixel = 0,
+		ZIndex = 2,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		Visible = false,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	keybind:GetPropertyChangedSignal("AbsolutePosition"):Connect(function()
+		content_inline.Position = UDim2.new(0, keybind.AbsolutePosition.X, 0, keybind.AbsolutePosition.Y + 15)
+	end)
+
+	local content = library:create("Frame", {
+		Parent = content_inline,
+		Name = "",
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Size = UDim2.new(1, -4, 1, -4),
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	local options = library:create("Frame", {
+		Parent = content,
+		Name = "",
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Size = UDim2.new(1, -4, 1, -4),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(50, 50, 50),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = options,
+		Name = "",
+		Padding = UDim.new(0, 2),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
+	local press = library:create("TextButton", {
+		Parent = options,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "press",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(1, 0, 0, 12),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderSizePixel = 0,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(65, 65, 65),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = press,
+		Name = "",
+		PaddingBottom = UDim.new(0, 1),
+		PaddingLeft = UDim.new(0, 5),
+	})
+
+	local hold = library:create("TextButton", {
+		Parent = options,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "hold",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(1, 0, 0, 12),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderSizePixel = 0,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(65, 65, 65),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = hold,
+		Name = "",
+		PaddingBottom = UDim.new(0, 1),
+		PaddingLeft = UDim.new(0, 5),
+	})
+
+	local always = library:create("TextButton", {
+		Parent = options,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "always",
+		TextStrokeTransparency = 0.5,
+		Size = UDim2.new(1, 0, 0, 12),
+		BackgroundTransparency = 1,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		Position = UDim2.new(0, 2, 0, 2),
+		BorderSizePixel = 0,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(65, 65, 65),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = always,
+		Name = "",
+		PaddingBottom = UDim.new(0, 1),
+		PaddingLeft = UDim.new(0, 5),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = options,
+		Name = "",
+		PaddingBottom = UDim.new(0, 4),
+	})
+	--
+
+	function cfg.set_visible(bool)
+		content_inline.Visible = bool
+
+		if bool then
+			if library.current_element_open and library.current_element_open ~= cfg then
+				library.current_element_open.set_visible(false)
+				library.current_element_open.open = false
+			end
+
+			library.current_element_open = cfg
+		end
+	end
+
+	function cfg.set_mode(mode)
+		cfg.mode = mode
+
+		if mode == "always" then
+			cfg.set(true)
+		elseif mode == "hold" then
+			cfg.set(false)
+		end
+
+		flags[cfg.flag] = {
+			mode = cfg.mode,
+			key = cfg.key,
+			active = cfg.active,
+		}
+
+		flags[cfg.flag]["mode"] = mode
+	end
+
+	function cfg.set(input)
+		if type(input) == "boolean" then
+			local __cached = input
+
+			if cfg.mode == "always" then
+				__cached = true
+			end
+
+			cfg.active = __cached
+			flags[cfg.flag]["active"] = __cached
+			cfg.callback(__cached)
+
+			flags[cfg.flag] = {
+				mode = cfg.mode,
+				key = cfg.key,
+				active = cfg.active,
+			}
+		elseif tostring(input):find("Enum") then
+			input = input.Name == "Escape" and "..." or input
+
+			cfg.key = input or "..."
+
+			local _text = keys[cfg.key] or tostring(cfg.key):gsub("Enum.", "")
+			local _text2 = (tostring(_text):gsub("KeyCode.", ""):gsub("UserInputType.", "")) or "..."
+			cfg.key_name = _text2
+
+			flags[cfg.flag]["mode"] = cfg.mode
+			flags[cfg.flag]["key"] = cfg.key
+
+			keybind.Text = "[" .. string.lower(_text2) .. "]"
+
+			cfg.callback(cfg.active or false)
+
+			flags[cfg.flag] = {
+				mode = cfg.mode,
+				key = cfg.key,
+				active = cfg.active,
+			}
+		elseif table.find({ "toggle", "hold", "always" }, input) then
+			cfg.set_mode(input)
+
+			if input == "always" then
+				cfg.active = true
+			end
+
+			cfg.callback(cfg.active or false)
+
+			flags[cfg.flag] = {
+				mode = cfg.mode,
+				key = cfg.key,
+				active = cfg.active,
+			}
+		elseif type(input) == "table" then
+			input.key = type(input.key) == "string" and input.key ~= "..." and library:convert_enum(input.key)
+				or input.key
+
+			input.key = input.key == Enum.KeyCode.Escape and "..." or input.key
+			cfg.key = input.key or "..."
+
+			cfg.mode = input.mode or "toggle"
+
+			if input.active then
+				cfg.active = input.active
+			end
+
+			flags[cfg.flag] = {
+				mode = cfg.mode,
+				key = cfg.key,
+				active = cfg.active,
+			}
+
+			local text = tostring(cfg.key) ~= "Enums" and (keys[cfg.key] or tostring(cfg.key):gsub("Enum.", "")) or nil
+			local __text = text and (tostring(text):gsub("KeyCode.", ""):gsub("UserInputType.", ""))
+
+			keybind.Text = "[" .. string.lower(__text) .. "]" or "..."
+			cfg.key_name = __text
+		end
+
+		if cfg.keybind_name then
+			key.change_text(keybind.Text .. " " .. cfg.keybind_name .. " (" .. flags[cfg.flag].mode .. ")")
+			key.set_visible(cfg.active)
+		end
+	end
+
+	local selected
+
+	hold.MouseButton1Click:Connect(function()
+		if selected then
+			selected.BackgroundTransparency = 1
+		end
+		selected = hold
+		hold.BackgroundTransparency = 0
+
+		cfg.set_mode("hold")
+		cfg.set_visible(false)
+		cfg.open = false
+
+		key.update({
+			text = cfg.display,
+			key = cfg.key,
+			mode = cfg.mode,
+		})
+	end)
+
+	press.MouseButton1Click:Connect(function()
+		if selected then
+			selected.BackgroundTransparency = 1
+		end
+		selected = press
+		press.BackgroundTransparency = 0
+
+		cfg.set_mode("toggle")
+		cfg.set_visible(false)
+		cfg.open = false
+
+		key.update({
+			text = cfg.display,
+			key = cfg.key,
+			mode = cfg.mode,
+		})
+	end)
+
+	always.MouseButton1Click:Connect(function()
+		if selected then
+			selected.BackgroundTransparency = 1
+		end
+		selected = always
+
+		always.BackgroundTransparency = 0
+		cfg.set_mode("always")
+		cfg.set_visible(false)
+		cfg.open = false
+
+		key.update({
+			text = cfg.display,
+			key = cfg.key,
+			mode = cfg.mode,
+		})
+	end)
+
+	keybind.MouseButton2Click:Connect(function()
+		cfg.open = not cfg.open
+
+		cfg.set_visible(cfg.open)
+	end)
+
+	keybind.MouseButton1Down:Connect(function()
+		task.wait()
+		keybind.Text = "..."
+
+		cfg.binding = library:connection(uis.InputBegan, function(input, game_event)
+			if input.UserInputType == Enum.UserInputType.Keyboard then
+				cfg.set(input.KeyCode)
+			elseif
+				input.UserInputType == Enum.UserInputType.MouseButton1
+				or Enum.UserInputType.MouseButton2
+				or Enum.UserInputType.MouseButton3
+			then
+				-- I put this giant elseif to avoid having "mousemovement" as a keybind
+
+				cfg.set(input.UserInputType)
+			end
+
+			key.update({
+				text = cfg.display,
+				key = cfg.key,
+				mode = cfg.mode,
+			})
+			cfg.binding:Disconnect()
+			cfg.binding = nil
+		end)
+	end)
+
+	library:connection(uis.InputBegan, function(input, game_event)
+		if not game_event then
+			if input.UserInputType == Enum.UserInputType.Keyboard then
+				if input.KeyCode == cfg.key then
+					if cfg.mode == "toggle" then
+						toggled = not toggled
+						cfg.set(toggled)
+					elseif cfg.mode == "hold" then
+						cfg.set(true)
+					end
+				end
+			else
+				if input.UserInputType == cfg.key then
+					if cfg.mode == "toggle" then
+						toggled = not toggled
+						cfg.set(toggled)
+					elseif cfg.mode == "hold" then
+						cfg.set(true)
+					end
+				end
+			end
+		end
+	end)
+
+	library:connection(uis.InputEnded, function(input, game_event)
+		if game_event then
+			return
+		end
+
+		local selected_key = input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode or input.UserInputType
+
+		if selected_key == cfg.key then
+			if cfg.mode == "hold" then
+				cfg.set(false)
+			end
+		end
+	end)
+
+	cfg.set({ mode = cfg.mode, active = cfg.active, key = cfg.key })
+	key.update({
+		text = cfg.display,
+		key = cfg.key,
+		mode = cfg.mode,
+	})
+
+	library.config_flags[cfg.flag] = cfg.set
+
+	return setmetatable(cfg, library)
+end
+
+function library:button(properties)
+	local cfg = {
+		callback = properties.callback or function() end,
+		name = properties.text or properties.name or "Button",
+	}
+
+	local button_inline = library:create("Frame", {
+		Parent = self.holder,
+		Name = "",
+		Position = UDim2.new(0, -15, 0, 2),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -26, 0, 16),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local button = library:create("TextButton", {
+		Parent = button_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = cfg.name,
+		TextStrokeTransparency = 0.5,
+		Position = UDim2.new(0, 2, 0, 2),
+		Size = UDim2.new(1, -4, 1, -4),
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	button.MouseButton1Click:Connect(function()
+		cfg.callback()
+	end)
+
+	return setmetatable(cfg, library)
+end
+
+function library:textbox(properties)
+	local cfg = {
+		placeholder = properties.placeholder
+			or properties.placeholdertext
+			or properties.holder
+			or properties.holdertext
+			or "type here...",
+		default = properties.default,
+		clear_on_focus = properties.clearonfocus or false,
+		flag = properties.flag or "...",
+		callback = properties.callback or function() end,
+	}
+
+	local textbox_inline = library:create("Frame", {
+		Parent = self.holder,
+		Name = "",
+		Position = UDim2.new(0, -15, 0, 2),
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		Size = UDim2.new(1, -26, 0, 16),
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+	})
+
+	local textbox = library:create("TextBox", {
+		Parent = textbox_inline,
+		Name = "",
+		FontFace = library.font,
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(56, 56, 56),
+		Text = "",
+		TextStrokeTransparency = 0.5,
+		Position = UDim2.new(0, 2, 0, 2),
+		Size = UDim2.new(1, -4, 1, -4),
+		ClearTextOnFocus = cfg.clear_on_focus,
+		PlaceholderColor3 = Color3.fromRGB(90, 90, 90),
+		CursorPosition = -1,
+		PlaceholderText = cfg.placeholder,
+		TextSize = 12,
+		BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+	})
+
+	textbox:GetPropertyChangedSignal("Text"):Connect(function()
+		flags[cfg.flag] = textbox.text
+		cfg.callback(textbox.text)
+	end)
+
+	function cfg.set(text)
+		flags[cfg.flag] = text
+		textbox.Text = text
+		cfg.callback(text)
+	end
+
+	if cfg.default then
+		cfg.set(cfg.default)
+	end
+
+	library.config_flags[cfg.flag] = cfg.set
+
+	return setmetatable(cfg, library)
+end
+
+function library:panel(properties)
+	if library.__panel == true then
+		return
+	end
+
+	library.__panel = true
+
+	local cfg = {
+		name = properties.name or "Are you sure?",
+		options = properties.options or { "Confirm", "Discard" },
+		callback = properties.callback or function() end,
+	}
+
+	local panel_main_frame = library:create("Frame", {
+		Parent = library.gui,
+		Name = "",
+		BackgroundTransparency = 0.4000000059604645,
+		Size = UDim2.new(1, 0, 1, 0),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		ZIndex = 3,
+		BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+	})
+
+	local holder = library:create("Frame", {
+		Parent = panel_main_frame,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(19, 19, 19),
+		AnchorPoint = Vector2.new(0.5, 0.5),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0.5, 0, 0.5, 0),
+		ZIndex = 4,
+		AutomaticSize = Enum.AutomaticSize.XY,
+		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+	})
+
+	local inline1 = library:create("Frame", {
+		Parent = holder,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(8, 8, 8),
+		AutomaticSize = Enum.AutomaticSize.XY,
+		BackgroundColor3 = Color3.fromRGB(56, 56, 56),
+	})
+
+	local main = library:create("Frame", {
+		Parent = inline1,
+		Name = "",
+		Position = UDim2.new(0, 4, 0, 4),
+		BorderColor3 = Color3.fromRGB(26, 26, 26),
+		Size = UDim2.new(1, -8, 1, -8),
+		BorderSizePixel = 2,
+		BackgroundColor3 = Color3.fromRGB(26, 26, 26),
+	})
+
+	local UIStroke = library:create("UIStroke", {
+		Parent = main,
+		Name = "",
+		Color = Color3.fromRGB(57, 57, 57),
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local tabs = library:create("Frame", {
+		Parent = main,
+		Name = "",
+		Position = UDim2.new(0, 8, 0, 8),
+		BorderColor3 = Color3.fromRGB(8, 8, 8),
+		Size = UDim2.new(1, -16, 1, -16),
+		BorderSizePixel = 2,
+		BackgroundColor3 = Color3.fromRGB(22, 22, 22),
+	})
+
+	local UIStroke = library:create("UIStroke", {
+		Parent = tabs,
+		Name = "",
+		Color = Color3.fromRGB(57, 57, 57),
+		LineJoinMode = Enum.LineJoinMode.Miter,
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = tabs,
+		Name = "",
+		PaddingTop = UDim.new(0, 5),
+		PaddingBottom = UDim.new(0, 22),
+		PaddingRight = UDim.new(0, 20),
+		PaddingLeft = UDim.new(0, 20),
+	})
+
+	local aimbot = library:create("TextLabel", {
+		Parent = tabs,
+		Name = "",
+		FontFace = library.font,
+		LineHeight = 1.2000000476837158,
+		TextStrokeTransparency = 0.5,
+		AnchorPoint = Vector2.new(0.5, 0),
+		TextSize = 12,
+		Size = UDim2.new(0, 0, 0, 11),
+		TextColor3 = Color3.fromRGB(170, 170, 170),
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		Text = cfg.name,
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0.5, 0, 0, 8),
+		BorderSizePixel = 0,
+		TextYAlignment = Enum.TextYAlignment.Top,
+		AutomaticSize = Enum.AutomaticSize.XY,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = aimbot,
+		Name = "",
+		PaddingTop = UDim.new(0, 6),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = tabs,
+		Name = "",
+		SortOrder = Enum.SortOrder.LayoutOrder,
+		HorizontalAlignment = Enum.HorizontalAlignment.Center,
+		Padding = UDim.new(0, 4),
+	})
+
+	local Frame = library:create("Frame", {
+		Parent = tabs,
+		Name = "",
+		BorderColor3 = Color3.fromRGB(0, 0, 0),
+		BorderSizePixel = 0,
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	})
+
+	local UIListLayout = library:create("UIListLayout", {
+		Parent = Frame,
+		Name = "",
+		SortOrder = Enum.SortOrder.LayoutOrder,
+		HorizontalAlignment = Enum.HorizontalAlignment.Center,
+		Padding = UDim.new(0, 3),
+	})
+
+	local UIPadding = library:create("UIPadding", {
+		Parent = Frame,
+		Name = "",
+	})
+
+	-- local textbox_inline = library:create("Frame", {
+	--     Parent = Frame,
+	--     Name = "",
+	--     Position = UDim2.new(0, -15, 0, 2),
+	--     BorderColor3 = Color3.fromRGB(19, 19, 19),
+	--     Size = UDim2.new(0, 130, 0, 16),
+	--     BorderSizePixel = 0,
+	--     BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+	-- })
+
+	-- local textbox = library:create("TextBox", {
+	--     Parent = textbox_inline,
+	--     Name = "",
+	--     FontFace = library.font,
+	--     TextColor3 = Color3.fromRGB(170, 170, 170),
+	--     BorderColor3 = Color3.fromRGB(56, 56, 56),
+	--     Text = "",
+	--     TextStrokeTransparency = 0.5,
+	--     Size = UDim2.new(1, -4, 1, -4),
+	--     PlaceholderColor3 = Color3.fromRGB(90, 90, 90),
+	--     Position = UDim2.new(0, 2, 0, 2),
+	--     PlaceholderText = "name",
+	--     TextSize = 12,
+	--     BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+	-- })
+	for _, v in next, cfg.options do
+		local button_inline = library:create("Frame", {
+			Parent = Frame,
+			Name = "",
+			Position = UDim2.new(0, 0, 0, 4),
+			BorderColor3 = Color3.fromRGB(19, 19, 19),
+			Size = UDim2.new(0, 130, 0, 16),
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.fromRGB(8, 8, 8),
+		})
+		local button = library:create("TextButton", {
+			Parent = button_inline,
+			Name = "",
+			FontFace = library.font,
+			TextColor3 = Color3.fromRGB(170, 170, 170),
+			BorderColor3 = Color3.fromRGB(56, 56, 56),
+			Text = v,
+			TextStrokeTransparency = 0.5,
+			Position = UDim2.new(0, 2, 0, 2),
+			Size = UDim2.new(1, -4, 1, -4),
+			TextSize = 12,
+			BackgroundColor3 = Color3.fromRGB(38, 38, 38),
+		})
+		button.MouseButton1Click:Connect(function()
+			cfg.callback(v)
+			panel_main_frame:Destroy()
+			library.__panel = false
+		end)
+	end
+end
+return library
+]==];local v1=(function() local v38=loadstring(v0)();local v39=UDim2.new;local v40=Color3.fromRGB;local v41={Unloaded=false,_unload={}};v41.AccentColor=v40(255,128,0);v41.MainColor=v40(35,35,47);v41.OutlineColor=v40(32,32,38);v41.BackgroundColor=v40(26,26,26);v41.FontColor=v40(170,170,170);v41.ScreenGui=v38.gui;v41.font=v38.font;local v51=getgenv().Toggles or {} ;local v52=getgenv().Options or {} ;getgenv().Toggles,getgenv().Options=v51,v52;setmetatable(v51,{__index=function() return {Value=false,SetValue=function() end,SetValues=function() end,OnChanged=function() end};end});setmetatable(v52,{__index=function() return {Value=0,SetValue=function() end,SetValues=function() end,SetValueRGB=function() end,OnChanged=function() end};end});local v55=false;local v56=false;local v57={};local v58={};local v59={};local function v60(v474) for v1632,v1633 in ipairs(v59[v474] or {} ) do pcall(v1633);end end local function v61(v475) v56=true;local v476,v477=pcall(v475);v56=false;local v478=v57;local v479=v58;v57={};v58={};for v1634,v1635 in pairs(v478) do pcall(v1634,table.unpack(v1635,1,v1635.n));end for v1636 in pairs(v479) do v60(v1636);end return v476,v477;end local function v62() end local function v63(v480) v480=v480 or v62 ;return function(...) if v55 then return;end if v56 then v57[v480]=table.pack(...);return;end return v480(...);end;end local function v64(v481,v482) v482=v482 or v62 ;return function(...) if v55 then return;end if v56 then v57[v482]=table.pack(...);v58[v481]=true;return;end v482(...);v60(v481);end;end local function v65(v483,v484,v485,v486) local v487=setmetatable({},{__index=function(v1637,v1638) if (v1638=="Value") then if v486 then return v486();end return v38.flags[v484];end return nil;end});v487.SetValue=function(v1639,v1640) if v485 then v485(v1640);end end;v487.SetValues=function(v1641,v1642) warn("SetValues: nicht umgebaut: "   .. tostring(v484) );end;v487.OnChanged=function(v1643,v1644) v59[v484]=v59[v484] or {} ;table.insert(v59[v484],v1644);end;v487.SetValueRGB=function(v1646,v1647) if v485 then v485(v1647);end end;v483[v484]=v487;end local function v66(v493) if (typeof(v493)=="EnumItem") then return v493;end if ((type(v493)=="string") and (v493~="")) then local v2670,v2671=pcall(function() return Enum.KeyCode[v493];end);if (v2670 and v2671) then return v2671;end v2670,v2671=pcall(function() return Enum.UserInputType[v493];end);if (v2670 and v2671) then return v2671;end end return nil;end local v67={};local v68=v40(255,128,0);local function v69(v494,v495) if (string.sub(tostring(v494),1,6)=="Theme_") then return v495.Default;end return v68;end local function v70(v496,v497) return function(v1648,...) v67[v496]=v1648;if (v497 and  not v55) then if v56 then v57[v497]=table.pack(v1648,...);v58[v496]=true;else v497(v1648,...);v60(v496);end end end;end local v71={};v71.__index=v71;v71.AddColorPicker=function(v498,v499,v500) v500=v500 or {} ;local v501=v498.sec:colorpicker({flag=v499,color=v69(v499,v500),alpha=(v500.Transparency and (1 -v500.Transparency)) or 1 ,callback=v70(v499,v500.Callback)});v67[v499]=v69(v499,v500);v65(v52,v499,function(v1650) if v501.set then v501.set(v1650);end end,function() return v67[v499] or v69(v499,v500) ;end);pcall(v500.Callback or v62 ,v69(v499,v500));return v498;end;v71.AddKeyPicker=function(v503,v504,v505) v505=v505 or {} ;local v506=string.lower(v505.Mode or "toggle" );local v507=v63(v505.Callback);local v508=v507;if v503.toggleSet then function v508(v3028) if (v55 or v56) then return;end if (v506=="hold") then v503.toggleSet((v3028 and true) or false );elseif (v3028~=false) then v503.toggleSet( not v503.toggleGet());end v507(v3028);end end v503.sec:keybind({name=v505.Text,flag=v504,key=v66(v505.Default),mode=v506,callback=v508});v65(v52,v504,nil);return v503;end;v71.SetupDependencies=function(v509) return v509;end;local v76={};v76.__index=v76;v76.AddColorPicker=function(v510,v511,v512) v510.inst:Destroy();v512=v512 or {} ;local v513=v510.sec:colorpicker({name=v510.text,flag=v511,color=v69(v511,v512),alpha=(v512.Transparency and (1 -v512.Transparency)) or 1 ,callback=v70(v511,v512.Callback)});v67[v511]=v69(v511,v512);v65(v52,v511,function(v1651) if v513.set then v513.set(v1651);end end,function() return v67[v511] or v69(v511,v512) ;end);pcall(v512.Callback or v62 ,v69(v511,v512));return setmetatable({sec=v510.sec,flag=v511},v71);end;v76.SetText=function(v515,v516) v515.inst.Text=v516;v515.text=v516;end;v76.AddKeyPicker=function(v519,v520,v521) return setmetatable({sec=v519.sec,flag=v520},v71):AddKeyPicker(v520,v521);end;local v81={};v81.__index=v81;local function v83(v522) return setmetatable({sec=v522},v81);end v81.AddToggle=function(v523,v524,v525) v525=v525 or {} ;local v526=v523.sec:toggle({name=v525.Text or tostring(v524) ,flag=v524,default=v525.Default or false ,callback=v64(v524,v525.Callback)});v65(v51,v524,function(v1652) v526.set(v1652);end);local v527=setmetatable({sec=v523.sec,flag=v524,toggleSet=function(v1653) v526.set(v1653);end,toggleGet=function() return (v38.flags[v524] and true) or false ;end},v71);local v528=v51[v524];v528.AddKeyPicker=function(v1654,v1655,v1656) return v527:AddKeyPicker(v1655,v1656);end;v528.AddColorPicker=function(v1657,v1658,v1659) return v527:AddColorPicker(v1658,v1659);end;return v527;end;v81.AddSlider=function(v531,v532,v533) v533=v533 or {} ;local v534=v533.Rounding or 0 ;local v535=v531.sec:slider({name=v533.Text,flag=v532,min=v533.Min or 0 ,max=v533.Max or 100 ,interval=((v534==0) and 1) or (10^ -v534) ,default=v533.Default or v533.Min or 0 ,suffix=v533.Suffix or "" ,callback=v64(v532,v533.Callback)});v65(v52,v532,function(v1660) v535.set(v1660);end);return setmetatable({sec=v531.sec,flag=v532},v71);end;v81.AddDropdown=function(v536,v537,v538) v538=v538 or {} ;local v539=v538.Values or {} ;local v540=v538.Default;if (type(v540)=="number") then v540=v539[v540];end local v541=v536.sec:dropdown({name=v538.Text,flag=v537,items=v539,default=v540,multi=v538.Multi or false ,callback=v64(v537,v538.Callback)});v65(v52,v537,function(v1661) if v541.set then v541.set(v1661);end end);return setmetatable({sec=v536.sec,flag=v537},v71);end;v81.AddInput=function(v542,v543,v544) v544=v544 or {} ;local v545=v542.sec:textbox({flag=v543,placeholder=v544.Placeholder,default=v544.Default,callback=v64(v543,v544.Callback)});v65(v52,v543,function(v1662) if v545.set then v545.set(v1662);end end);return setmetatable({sec=v542.sec,flag=v543},v71);end;v81.AddButton=function(v546,v547) v547=v547 or {} ;v546.sec:button({text=v547.Text or "button" ,callback=v63(v547.Func)});return v546;end;v81.AddLabel=function(v548,v549) local v550=v38:create("TextLabel",{Parent=v548.sec.holder,Name="",BackgroundTransparency=1,FontFace=v38.font,TextColor3=v40(170,170,170),TextSize=12,TextStrokeTransparency=0.5,TextXAlignment=Enum.TextXAlignment.Left,Text=tostring(v549 or "" ),Size=v39(1, -26,0,12)});return setmetatable({sec=v548.sec,inst=v550,text=v549},v76);end;v81.AddDivider=function(v551) v38:create("Frame",{Parent=v551.sec.holder,Name="",BackgroundColor3=v40(56,56,56),BorderSizePixel=0,Size=v39(1, -26,0,1)});return v551;end;v81.AddDependencyBox=function(v552) return v83(v552.sec);end;v81.SetupDependencies=function(v553) return v553;end;v81.AddKeyPicker=function(v554,v555,v556) return setmetatable({sec=v554.sec,flag=v555},v71):AddKeyPicker(v555,v556);end;local v94={};v94.__index=v94;v94.AddTab=function(v557,v558) return v83(v557.tab:section({name=v558,side=v557.side}));end;local v97={};v97.__index=v97;v97.AddLeftGroupbox=function(v559,v560) return v83(v559.tab:section({name=v560,side="left"}));end;v97.AddRightGroupbox=function(v561,v562) return v83(v561.tab:section({name=v562,side="right"}));end;v97.AddLeftTabbox=function(v563) return setmetatable({tab=v563.tab,side="left"},v94);end;v97.AddRightTabbox=function(v564) return setmetatable({tab=v564.tab,side="right"},v94);end;local v103={};v103.__index=v103;v103.AddTab=function(v565,v566) return setmetatable({tab=v565.win:tab({name=v566})},v97);end;v41.CreateWindow=function(v567,v568) v568=v568 or {} ;local v569=v38:window({name=v568.Title or v568.title or "teddyhub" ,size=v39(0,500,0,650)});return setmetatable({win=v569},v103);end;v41.Notify=function(v570,v571,v572) v38:notification({text=tostring(v571),time=v572 or 5 });end;v41.OnUnload=function(v573,v574) table.insert(v573._unload,v574);end;v41.Unload=function(v575) if v575.Unloaded then return;end v575.Unloaded=true;for v1663,v1664 in ipairs(v575._unload) do pcall(v1664);end pcall(function() v38:unload();end);end;local v110=v38:create("TextLabel",{Parent=v38.gui,Name="",BackgroundColor3=v40(20,20,20),BackgroundTransparency=0.2,BorderSizePixel=0,FontFace=v38.font,TextColor3=v41.FontColor,TextSize=12,TextStrokeTransparency=0.5,Position=v39(0,8,0,8),Size=v39(0,0,0,18),AutomaticSize=Enum.AutomaticSize.X,Text="",ZIndex=50,Visible=false});v41.SetWatermark=function(v577,v578) v110.Text=" "   .. tostring(v578)   .. " " ;end;v41.SetWatermarkVisibility=function(v580,v581) v110.Visible=false;end;local v113=setmetatable({},{__index=function(v583) return function() return v583;end;end});local function v114(v584,v585) for v1665,v1666 in pairs(v584) do if ((type(v1666)=="function") and (string.sub(tostring(v1665),1,2)~="__")) then v584[v1665]=function(...) local v3291=v55;v55=true;local v3292=table.pack(pcall(v1666,...));v55=v3291;if v3292[1] then return table.unpack(v3292,2,v3292.n);end v41:Notify(v585   .. ":"   .. tostring(v1665)   .. " -> "   .. tostring(v3292[2]) ,12);return v113;end;end end end v114(v81,"group");v114(v71,"element");v114(v76,"label");v114(v97,"tab");v114(v94,"tabbox");v114(v103,"window");local v115={aim={enabled=false,center=v40(255,128,0),edge=v40(255,128,0),transparency=0.6},sil={enabled=false,center=v40(255,128,0),edge=v40(255,128,0),transparency=0.6}};v41.FillState=v115;v41.FillRings=function(v586) local v587={};for v1667=1,v586 do local v1668,v1669=pcall(function() return Drawing.new("Circle");end);if (v1668 and v1669) then v1669.Filled=true;v1669.NumSides=48;v1669.Thickness=1;v1669.Visible=false;v587[v1667]=v1669;end end return v587;end;v41.UpdateFill=function(v588,v589,v590,v591,v592) if  not v588 then return;end local v593= #v588;for v1670,v1671 in ipairs(v588) do local v1672=(v589 and v592.enabled and true) or false ;v1671.Visible=v1672;if v1672 then v1671.Position=v590;v1671.Radius=v591 * (1 -((v1670-1)/v593)) ;local v3037=(v1670-1)/math.max(v593-1 ,1) ;v1671.Color=v592.edge:Lerp(v592.center,v3037);v1671.Transparency=v592.transparency;end end end;local v119=function(v594) return v594;end;local v120=setmetatable({},{__index=function() return v119;end});local v121=setmetatable({},{__index=function() return v119;end});local v122="TeddyHub/Config";local v123=v122   .. "/autoload.txt" ;local function v124(v595) return v122   .. "/"   .. v595   .. ".json" ;end local function v125(v596) return (v596~=nil) and (v596~="") and  not v596:find('[/\\:*?\"<>|]') ;end local function v126() local v597={};if listfiles then local v2673,v2674=pcall(listfiles,v122);if (v2673 and v2674) then for v3479,v3480 in ipairs(v2674) do local v3481=tostring(v3480):match("([^/\\]+)%.json$");if (v3481 and (v3481~="autoload")) then table.insert(v597,v3481);end end end end table.sort(v597);return v597;end v121.BuildConfigSection=function(v598,v599) if makefolder then pcall(makefolder,"TeddyHub");pcall(makefolder,v122);end local v600=v599:AddRightGroupbox("configs");local v601="default";local v602;local v603=v600:AddLabel("saved: ...");local v604=v38:create("Frame",{Parent=v600.sec.holder,Name="",BackgroundTransparency=1,BorderSizePixel=0,Size=v39(1, -26,0,0),AutomaticSize=Enum.AutomaticSize.Y});v38:create("UIListLayout",{Parent=v604,SortOrder=Enum.SortOrder.LayoutOrder,Padding=UDim.new(0,2)});local function v605(v1674) for v2675,v2676 in ipairs(v604:GetChildren()) do if v2676:IsA("TextButton") then v2676:Destroy();end end for v2677,v2678 in ipairs(v1674) do local v2679=v2678==v601 ;local v2680=v38:create("TextButton",{Parent=v604,Name="",AutoButtonColor=false,FontFace=v38.font,Text=v2678,TextSize=12,TextStrokeTransparency=0.5,TextColor3=(v2679 and v41.AccentColor) or v41.FontColor ,BackgroundColor3=(v2679 and v40(48,48,56)) or v40(38,38,38) ,BorderColor3=v40(56,56,56),BorderSizePixel=1,Size=v39(1,0,0,18)});v2680.MouseButton1Click:Connect(function() v601=v2678;pcall(function() v52.ConfigName:SetValue(v2678);end);v605(v1674);end);end end local function v606(v1675) v41:Notify(v1675,4);end function v602() local v1676=v126();v605(v1676);local v1677=(readfile and isfile and isfile(v123) and readfile(v123):match("^%s*(.-)%s*$")) or "" ;local v1678=(( #v1676>0) and table.concat(v1676,", ")) or "none" ;v603:SetText("saved: "   .. v1678   .. (((v1677~="") and ("  |  autoload: "   .. v1677)) or "") );end local function v607(v1679,v1680) if  not v125(v1679) then v606("invalid config name");return;end if ( not v1680 and isfile and isfile(v124(v1679))) then v606("'"   .. v1679   .. "' exists, use save to overwrite" );return;end local v1681,v1682=pcall(function() writefile(v124(v1679),v38:get_config());end);v606((v1681 and ("saved "   .. v1679)) or ("save failed: "   .. tostring(v1682)) );v602();end local function v608(v1683) if ( not v125(v1683) or  not (isfile and isfile(v124(v1683)))) then v606("config '"   .. tostring(v1683)   .. "' not found" );return;end local v1684,v1685=v61(function() v38:load_config(readfile(v124(v1683)));end);v606((v1684 and ("loaded "   .. v1683)) or ("load failed: "   .. tostring(v1685)) );end local function v609(v1686) if ( not v125(v1686) or  not (isfile and isfile(v124(v1686)))) then v606("config '"   .. tostring(v1686)   .. "' not found" );return;end local v1687,v1688=pcall(function() delfile(v124(v1686));end);if (v1687 and readfile and isfile and isfile(v123) and (readfile(v123):match("^%s*(.-)%s*$")==v1686)) then pcall(writefile,v123,"");end v606((v1687 and ("deleted "   .. v1686)) or ("delete failed: "   .. tostring(v1688)) );v602();end v600:AddInput("ConfigName",{Text="name",Default="default",Placeholder="config name",Callback=function(v1689) v601=v1689;end});v600:AddButton({Text="save / overwrite",Func=function() v607(v601,true);end});v600:AddButton({Text="create new",Func=function() v607(v601,false);end});v600:AddButton({Text="load",Func=function() v608(v601);end});v600:AddButton({Text="delete",Func=function() v609(v601);end});v600:AddButton({Text="set autoload",Func=function() if  not v125(v601) then v606("invalid config name");return;end pcall(writefile,v123,v601);v606("autoload: "   .. v601 );v602();end});v600:AddButton({Text="clear autoload",Func=function() pcall(writefile,v123,"");v606("autoload cleared");v602();end});v600:AddButton({Text="refresh list",Func=v602});v602();local v610=v599:AddLeftGroupbox("menu theme");local v611={accent=v40(255,128,0),outline=v40(32,32,38),inline=v40(60,55,75),contrast=v40(35,35,47),text=v40(170,170,170),unselected_text=v40(90,90,90)};local v612={};for v1690,v1691 in pairs(v611) do v612[v1690]=v1691;end local v613={"BackgroundColor3","TextColor3","BorderColor3","Color","ImageColor3","ScrollBarImageColor3"};local function v614(v1693,v1694) return (math.abs(v1693.R-v1694.R )<0.02) and (math.abs(v1693.G-v1694.G )<0.02) and (math.abs(v1693.B-v1694.B )<0.02) ;end local function v615(v1695,v1696) if (v1695==v1696) then return;end local v1697={v38.gui};for v2681,v2682 in ipairs(getgenv().__themeRoots or {} ) do table.insert(v1697,v2682);end for v2683,v2684 in ipairs(v1697) do for v3041,v3042 in ipairs(v2684:GetDescendants()) do for v3293,v3294 in ipairs(v613) do local v3295,v3296=pcall(function() return v3042[v3294];end);if (v3295 and (typeof(v3296)=="Color3") and v614(v3296,v1695)) then pcall(function() v3042[v3294]=v1696;end);end end end end end local function v616(v1698,v1699) v615(v611[v1698],v1699);v611[v1698]=v1699;if (v1698=="accent") then v41.AccentColor=v1699;end if (v1698=="text") then v41.FontColor=v1699;end end local v617={"accent","outline","inline","contrast","text","unselected_text"};for v1701,v1702 in ipairs(v617) do v610:AddLabel(v1702):AddColorPicker("Theme_"   .. v1702 ,{Default=v612[v1702],Callback=function(v2685) v616(v1702,v2685);end});end v610:AddButton({Text="reset theme",Func=function() for v2686,v2687 in ipairs(v617) do v52["Theme_"   .. v2687 ]:SetValueRGB(v612[v2687]);v616(v2687,v612[v2687]);end end});local v618;v610:AddSlider("Menu_Scale",{Text="menu scale",Default=125,Min=80,Max=160,Rounding=0,Callback=function(v1703) v618(v1703/100 );end});local v619=v599:AddLeftGroupbox("keybind list");local v620=v38.keybind_path;local v621=(v620 and v620.BackgroundTransparency) or 1 ;local v622=(v620 and v620.Position) or UDim2.new(0,0,0,0) ;local function v623(v1704) if v620 then pcall(v1704,v620);end end local function v624() local v1705=v620;if  not v1705 then return nil;end while v1705.Parent and (v1705.Parent~=v38.gui)  do v1705=v1705.Parent;end return v1705;end local v625=math.floor(((1 -v621) * 100) + 0.5 );local v626=math.floor(v622.X.Offset);local v627=math.floor(v622.Y.Offset);v619:AddToggle("KB_Show",{Text="show keybinds",Default=false,Callback=function(v1706) local v1707=v624();if v1707 then v1707.Visible=v1706;end v623(function(v2689) v2689.Visible=v1706;end);end});v619:AddSlider("KB_Opacity",{Text="opacity",Default=v625,Min=0,Max=100,Rounding=0,Callback=function(v1708) v623(function(v2691) v2691.BackgroundTransparency=1 -(v1708/100) ;end);end});v619:AddSlider("KB_X",{Text="x",Default=v626,Min=0,Max=1900,Rounding=0,Callback=function(v1709) v623(function(v2693) v2693.Position=UDim2.new(v622.X.Scale,v1709,v622.Y.Scale,v2693.Position.Y.Offset);end);end});v619:AddSlider("KB_Y",{Text="y",Default=v627,Min=0,Max=1000,Rounding=0,Callback=function(v1710) v623(function(v2695) v2695.Position=UDim2.new(v2695.Position.X.Scale,v2695.Position.X.Offset,v622.Y.Scale,v1710);end);end});v619:AddButton({Text="reset keybind list",Func=function() v52.KB_Opacity:SetValue(v625);v52.KB_X:SetValue(v626);v52.KB_Y:SetValue(v627);v51.KB_Show:SetValue(true);end});local v628=false;local function v629() if  not v620 then return;end pcall(function() for v3046,v3047 in ipairs(v620:GetDescendants()) do if (v3047:IsA("TextLabel") and string.match(v3047.Text,"%]%s*(%S+)%s*%(")) then local v3482=v3047;while v3482.Parent and (v3482.Parent~=v620)  do v3482=v3482.Parent;end v3482.Visible=true;end end end);end v619:AddToggle("KB_OnlyEnabled",{Text="only show enabled",Default=false,Callback=function(v1711) v628=v1711;if  not v1711 then v629();end end});task.spawn(function() while  not v41.Unloaded do task.wait(0.25);if (v628 and v620) then pcall(function() for v3585,v3586 in ipairs(v620:GetDescendants()) do if v3586:IsA("TextLabel") then local v3658=string.match(v3586.Text,"%]%s*(%S+)%s*%(");if v3658 then local v3715=v3586;while v3715.Parent and (v3715.Parent~=v620)  do v3715=v3715.Parent;end local v3716=v38.flags[v3658];v3715.Visible=(v3716==nil) or (v3716==true) ;end end end end);end end end);local v630=v599:AddLeftGroupbox("ragebot list");v630:AddToggle("RL_Show",{Text="show ragebot list",Default=false,Callback=function(v1712) local v1713=getgenv().__RagebotList;if v1713 then v1713.Visible=v1712;end end});pcall(function() v51.RG_On:OnChanged(function() if (__menuOpen and v51.RG_On.Value) then pcall(function() v51.RG_On:SetValue(false);end);end end);end);do local v1714=v624();if v1714 then v1714.Visible=false;end end task.defer(function() local v1715=getgenv().__RagebotList;if v1715 then v1715.Visible=false;end local v1716=v624();if v1716 then v1716.Visible=false;end if v620 then v620.Visible=false;end end);local v631,v632,v633=nil,nil,false;local function v634() if (v631 and v631.Parent) then return v631;end for v2697,v2698 in ipairs(v38.gui:GetDescendants()) do if (v2698:IsA("TextButton") and (v2698.Text=="combat")) then local v3297=v2698;while v3297.Parent and (v3297.Parent~=v38.gui)  do v3297=v3297.Parent;end if v3297:IsA("GuiObject") then v631=v3297;return v3297;end end end return nil;end function v618(v1717) local v1718=v634();if  not v1718 then return;end if ( not v632 or (v632.Parent~=v1718)) then v632=v38:create("UIScale",{Parent=v1718});end v632.Scale=v1717;end local v635=false;v41.RevealMenu=function() local v1720=v634();if  not v1720 then v41:Notify("menu root nicht gefunden",6);return;end v635=true;v1720.Visible=true;end;task.delay(8,function() if  not v635 then v41.RevealMenu();end end);local v637=false;local function v638() if  not v635 then return;end local v1722=v634();if  not v1722 then if  not v633 then v633=true;v41:Notify("menu window not found",5);end return;end v1722.Visible= not v1722.Visible;v637=v1722.Visible;if v637 then pcall(function() v51.RG_On:SetValue(false);end);end end local v639=game:GetService("UserInputService");v639.InputBegan:Connect(function(v1724) if v41.Unloaded then return;end if v639:GetFocusedTextBox() then return;end local v1725=v52.MenuKeybind;local v1726=v1725 and v1725.Value ;local v1727;if (typeof(v1726)=="EnumItem") then v1727=v1724.KeyCode==v1726 ;elseif (type(v1726)=="string") then v1727=v1724.KeyCode.Name==v1726 ;else v1727=v1724.KeyCode==Enum.KeyCode.K ;end if v1727 then v638();end end);task.defer(function() v618(1.25);end);do local v1728=v634();if v1728 then v1728.Visible=false;end end return v598;end;v121.LoadAutoloadConfig=function(v640) if  not (readfile and isfile and isfile(v123)) then return v640;end local v641=readfile(v123):match("^%s*(.-)%s*$");if (v125(v641) and isfile(v124(v641))) then task.defer(function() local v3054,v3055=v61(function() v38:load_config(readfile(v124(v641)));end);v41:Notify((v3054 and ("autoloaded "   .. v641)) or ("autoload failed: "   .. tostring(v3055)) ,4);end);end return v640;end;return {Library=v41,ThemeManager=v120,SaveManager=v121};end)();local v2=getinfo or debug.getinfo ;local v3=false;local v4={};local v5,v6;pcall(function() setthreadidentity(2);for v642,v643 in getgc(true) do if (typeof(v643)=="table") then local v2699=rawget(v643,"Detected");local v2700=rawget(v643,"Kill");if ((typeof(v2699)=="function") and  not v5) then v5=v2699;local v3298;v3298=hookfunction(v5,function(v3485,v3486,v3487) if ((v3485~="_") and v3) then warn("Adonis AntiCheat flagged\nMethod: "   .. tostring(v3485)   .. "\nInfo: "   .. tostring(v3486) );end return true;end);table.insert(v4,v5);end if (rawget(v643,"Variables") and rawget(v643,"Process") and (typeof(v2700)=="function") and  not v6) then v6=v2700;local v3299;v3299=hookfunction(v6,function(v3488) if v3 then warn("Adonis AntiCheat tried to kill: "   .. tostring(v3488) );end end);table.insert(v4,v6);end end end local v129;v129=hookfunction(getrenv().debug.info,newcclosure(function(...) local v644,v645=...;if (v5 and (v644==v5)) then if v3 then warn("Adonis sanity check broken");end return coroutine.yield(coroutine.running());end return v129(...);end));end);pcall(setthreadidentity,7);local v7=game:GetService("Players");local v8=game:GetService("TweenService");local function v9(v130) local v131="";for v646,v647 in ipairs(v130) do v131=v131   .. string.char(v647) ;end return v131;end local v10=v9({104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,84,101,100,100,121,102,101,105,116,47,115,114,121,45,98,114,111,45,105,100,107,45,119,104,97,116,45,116,102,45,105,109,45,100,111,110,103,47,114,101,102,115,47,104,101,97,100,115,47,109,97,105,110,47,107,101,121,115,46,116,120,116});local v11="teddyhub_v1_key.txt";function print() end function warn() end local v12=nil;local function v13() if v12 then return v12;end local v132,v133;local v134=pcall(function() local v648=game:GetService("TweenService");local v649=Enum.Font.Code;local v650=Color3.fromRGB(170,170,170);local v651=Color3.fromRGB(35,35,47);local v652=Color3.fromRGB(26,26,26);local v653=Color3.fromRGB(255,128,0);local v654=Color3.fromRGB(32,32,38);local v655=Color3.fromRGB(255,50,50);local v656=Color3.new(0,0,0);local v657;for v1729,v1730 in ipairs({function() return gethui and gethui() ;end,function() return game:GetService("CoreGui");end,function() return game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui");end}) do local v1731,v1732=pcall(v1730);if (v1731 and v1732) then v657=v1732;break;end end if  not v657 then return;end local function v658(v1733,v1734) local v1735=Instance.new(v1733);for v2701,v2702 in pairs(v1734) do v1735[v2701]=v2702;end return v1735;end local function v659(v1736) local v1737=v658("TextLabel",{BackgroundTransparency=1,TextColor3=v650,TextSize=16,TextStrokeTransparency=1});if  not pcall(function() v1737.FontFace=Library.font;end) then v1737.Font=v649;end for v2706,v2707 in pairs(v1736) do v1737[v2706]=v2707;end local v1738=Instance.new("UIStroke");v1738.Color=v656;v1738.Thickness=1;v1738.LineJoinMode=Enum.LineJoinMode.Miter;v1738.Parent=v1737;return v1737;end local v660=v658("ScreenGui",{Name="teddyhubBoot",DisplayOrder=9999,IgnoreGuiInset=true,ResetOnSpawn=false,ZIndexBehavior=Enum.ZIndexBehavior.Global,Parent=v657});v132=v660;pcall(function() local v1744=v658("ImageLabel",{Name="Glow",BackgroundTransparency=1,Image="rbxassetid://5028857084",ImageColor3=v653,ImageTransparency=0.5,AnchorPoint=Vector2.new(0.5,0.5),Position=UDim2.fromScale(0.5,0.5),Size=UDim2.fromOffset(410,182),ZIndex=0,Parent=v660});v648:Create(v1744,TweenInfo.new(1.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut, -1,true),{ImageTransparency=0.72}):Play();end);pcall(function() local v1745=protectgui or (syn and syn.protect_gui) ;if v1745 then v1745(v660);end end);local v661=v658("Frame",{Name="Window",BackgroundColor3=v656,BorderSizePixel=0,AnchorPoint=Vector2.new(0.5,0.5),Position=UDim2.fromScale(0.5,0.5),Size=UDim2.fromOffset(380,152),BackgroundTransparency=1,Parent=v660});local v662=v658("Frame",{BackgroundColor3=v651,BorderColor3=v653,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(1,1),Size=UDim2.new(1, -2,1, -2),BackgroundTransparency=1,Parent=v661});local v663=v659({Position=UDim2.fromOffset(7,0),Size=UDim2.new(0,0,0,25),Text="teddyhub v.3",TextXAlignment=Enum.TextXAlignment.Left,TextTransparency=1,Parent=v662});local v664=v658("Frame",{BackgroundColor3=v652,BorderColor3=v654,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(8,25),Size=UDim2.new(1, -16,1, -33),BackgroundTransparency=1,Parent=v662});local v665=v658("Frame",{BackgroundColor3=v652,BorderColor3=v656,BorderMode=Enum.BorderMode.Inset,Size=UDim2.fromScale(1,1),BackgroundTransparency=1,Parent=v664});local v666=v658("Frame",{BackgroundColor3=v651,BorderColor3=v654,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(8,8),Size=UDim2.new(1, -16,1, -16),BackgroundTransparency=1,Parent=v665});local v667=v658("Frame",{BackgroundColor3=v652,BorderColor3=v654,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(0,0),Size=UDim2.new(1,0,1,0),BackgroundTransparency=1,Parent=v666});local v668=v658("Frame",{BackgroundColor3=v652,BorderColor3=v656,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(1,1),Size=UDim2.new(1, -2,1, -2),BackgroundTransparency=1,Parent=v667});local v669=v658("Frame",{BackgroundColor3=v653,BorderSizePixel=0,Size=UDim2.new(1,0,0,2),BackgroundTransparency=1,Parent=v668});local v670=v659({Position=UDim2.fromOffset(4,2),Size=UDim2.new(1, -8,0,18),TextSize=14,Text="loading",TextXAlignment=Enum.TextXAlignment.Left,TextTransparency=1,Parent=v668});local v671=v658("Frame",{BackgroundTransparency=1,Position=UDim2.fromOffset(4,22),Size=UDim2.new(1, -8,1, -26),Parent=v668});v658("UIListLayout",{Padding=UDim.new(0,5),FillDirection=Enum.FillDirection.Vertical,SortOrder=Enum.SortOrder.LayoutOrder,Parent=v671});local v672=v659({Size=UDim2.new(1,0,0,14),TextSize=14,Text="starting up",TextXAlignment=Enum.TextXAlignment.Left,TextTransparency=1,LayoutOrder=1,Parent=v671});local v673=v658("Frame",{BackgroundColor3=v656,BorderSizePixel=0,Size=UDim2.new(1,0,0,20),BackgroundTransparency=1,LayoutOrder=2,Parent=v671});local v674=v658("Frame",{BackgroundColor3=v651,BorderColor3=v654,BorderMode=Enum.BorderMode.Inset,Size=UDim2.new(1,0,1,0),BackgroundTransparency=1,Parent=v673});local v675=v658("UIGradient",{Color=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.new(1,1,1)),ColorSequenceKeypoint.new(1,Color3.fromRGB(212,212,212))}),Rotation=90,Parent=v674});local v676=v658("Frame",{BackgroundColor3=v653,BorderSizePixel=0,Size=UDim2.new(0,0,1,0),BackgroundTransparency=1,Parent=v674});local v677=v659({Size=UDim2.new(1,0,1,0),TextSize=14,Text="0%",TextTransparency=1,Parent=v674});local v678=v659({Size=UDim2.new(1,0,0,14),TextSize=14,Text="building menu",TextXAlignment=Enum.TextXAlignment.Left,TextColor3=v654,TextTransparency=1,LayoutOrder=3,Parent=v671});v648:Create(v661,TweenInfo.new(0.25),{BackgroundTransparency=0}):Play();for v1746,v1747 in ipairs({v662,v664,v665,v666,v667,v668,v669,v673,v674,v676}) do pcall(function() v648:Create(v1747,TweenInfo.new(0.3),{BackgroundTransparency=0}):Play();end);end for v1748,v1749 in ipairs({v663,v670,v672,v677,v678}) do pcall(function() v648:Create(v1749,TweenInfo.new(0.3),{TextTransparency=0}):Play();end);end local v679,v680,v681=0.05,0,true;local v682=tick();local v683=tick();task.spawn(function() while v681 do if (v680<v679) then v680=v680 + ((v679-v680) * 0.1) + 0.0012 ;end v676.Size=UDim2.new(math.clamp(v680,0,1),0,1,0);v677.Text=string.format("%d%%",math.floor(math.clamp(v680,0,1) * 100 ));v677.TextTransparency=1 -math.clamp(v680 * 1.6 ,0,1) ;task.wait(1/60 );end end);v133={};v133.set=function(v1750,v1751) if  not v681 then return;end if v1750 then v672.Text=tostring(v1750);v672.TextColor3=((v1751==false) and v655) or v650 ;v678.Text=((v1751==false) and "stage failed") or "building menu" ;end v679=math.min(0.93,v679 + ((0.93 -v679) * 0.14) );end;v133.finish=function() if  not v681 then return;end v681=false;local v1752=tick() -v682 ;if (v1752<2.4) then task.wait(2.4 -v1752 );end pcall(function() v676.Size=UDim2.new(1,0,1,1);v677.Text="100%";v672.Text="Thanks for using Teddyhub!";v672.TextColor3=v650;v678.Text="";end);task.spawn(function() task.wait(1.5);for v3060,v3061 in ipairs({v661,v662,v664,v665,v666,v667,v668,v669,v673,v674,v676}) do pcall(function() v648:Create(v3061,TweenInfo.new(0.4),{BackgroundTransparency=1}):Play();end);end for v3062,v3063 in ipairs({v663,v670,v672,v677,v678}) do pcall(function() v648:Create(v3063,TweenInfo.new(0.4),{TextTransparency=1}):Play();end);end task.wait(0.45);pcall(function() v660:Destroy();end);pcall(function() Library.RevealMenu();end);v12=nil;end);end;end);if ( not v134 or  not v133) then pcall(function() if v132 then v132:Destroy();end end);return nil;end v12=v133;return v12;end MouseAcc={x=0,y=0};MouseSeen=false;local function v14() local v135=Vector2.new(MouseAcc.x,MouseAcc.y);MouseAcc.x=0;MouseAcc.y=0;if (v135.Magnitude==0) then v135=game:GetService("UserInputService"):GetMouseDelta();end if ((v135.Magnitude>0) and  not MouseSeen) then MouseSeen=true;print("[cam] mouse input ok");end return v135;end game:GetService("UserInputService").InputChanged:Connect(function(v138) if (v138.UserInputType==Enum.UserInputType.MouseMovement) then MouseAcc.x=MouseAcc.x + v138.Delta.X ;MouseAcc.y=MouseAcc.y + v138.Delta.Y ;end end);local function v15(v139,v140) local v141,v142=pcall(v140);if  not v141 then pcall(function() game:GetService("StarterGui"):SetCore("SendNotification",{Title="teddyhub: "   .. v139 ,Text=tostring(v142):sub(1,180),Duration=10});end);end if v12 then pcall(v12.set,v139,v141);end return v141;end local v16=function() v13();print("[teddyhub] START script");local v143={};v143.SelfGlow={};v143.SelfFX={};v143.SearchUI={};v143.Extra={};v143.KeyList={};v143.CustomHUD={};v143.MiscExtras={};local v151="https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/";local v152=v1.Library;local v153=v1.ThemeManager;local v154=v1.SaveManager;local v155=game:GetService("RunService");local v156=game:GetService("UserInputService");local v157=game:GetService("VirtualInputManager");local v158=game:GetService("Lighting");local v159=game:GetService("CoreGui");local v160=game:GetService("Stats");local v161=v7.LocalPlayer;local v162=v161:GetMouse();local v163=v161:WaitForChild("PlayerGui");local v164={};local function v165(v686,v687) local v688=Toggles and Toggles[v686] ;if (v688==nil) then if  not v164[v686] then v164[v686]=true;warn("[teddyhub] toggle not registered yet: "   .. v686 );end return v687==true ;end return v688.Value;end local function v166(v689) local v690=Options and Options[v689] ;return (v690 and v690.Value) or nil ;end local v167=workspace.CurrentCamera;workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function() v167=workspace.CurrentCamera;end);local v168={Enabled=true,Text="teddyhub v.3",ShowFPS=true,ShowPing=true,ShowTime=true};local v169={};v169.gui=Instance.new("ScreenGui");v169.gui.Name="TargetHUD_Gui";v169.gui.Parent=v159 or v163 ;v169.frame=Instance.new("Frame");v169.frame.Name="TargetHUD";v169.frame.Size=UDim2.new(0,220,0,70);v169.frame.Position=UDim2.new(0.5, -110,0.75,0);v169.frame.BackgroundColor3=Color3.fromRGB(20,20,25);v169.frame.BorderSizePixel=0;v169.frame.Visible=false;v169.frame.Parent=v169.gui;Instance.new("UICorner",v169.frame).CornerRadius=UDim.new(0,8);v169.avatar=Instance.new("ImageLabel");v169.avatar.Size=UDim2.new(0,50,0,50);v169.avatar.Position=UDim2.new(0,10,0,10);v169.avatar.BackgroundColor3=Color3.fromRGB(30,30,35);v169.avatar.BorderSizePixel=0;v169.avatar.Parent=v169.frame;Instance.new("UICorner",v169.avatar).CornerRadius=UDim.new(0,6);v169.name=Instance.new("TextLabel");v169.name.Size=UDim2.new(0,140,0,20);v169.name.Position=UDim2.new(0,68,0,10);v169.name.Text="target name";v169.name.TextColor3=Color3.fromRGB(255,255,255);v169.name.TextXAlignment=Enum.TextXAlignment.Left;v169.name.Font=Enum.Font.SourceSansBold;v169.name.TextSize=16;v169.name.BackgroundTransparency=1;v169.name.Parent=v169.frame;v169.health=Instance.new("TextLabel");v169.health.Size=UDim2.new(0,140,0,15);v169.health.Position=UDim2.new(0,68,0,28);v169.health.Text="100 / 100 hp";v169.health.TextColor3=Color3.fromRGB(200,200,200);v169.health.TextXAlignment=Enum.TextXAlignment.Left;v169.health.Font=Enum.Font.SourceSans;v169.health.TextSize=13;v169.health.BackgroundTransparency=1;v169.health.Parent=v169.frame;v169.barBG=Instance.new("Frame");v169.barBG.Size=UDim2.new(0,140,0,8);v169.barBG.Position=UDim2.new(0,68,0,48);v169.barBG.BackgroundColor3=Color3.fromRGB(40,40,45);v169.barBG.BorderSizePixel=0;v169.barBG.Parent=v169.frame;Instance.new("UICorner",v169.barBG).CornerRadius=UDim.new(0,4);v169.barFill=Instance.new("Frame");v169.barFill.Size=UDim2.new(1,0,1,0);v169.barFill.BackgroundColor3=Color3.fromRGB(0,255,120);v169.barFill.BorderSizePixel=0;v169.barFill.Parent=v169.barBG;Instance.new("UICorner",v169.barFill).CornerRadius=UDim.new(0,4);local v225=false;local function v226(v692) if ( not v225 or  not v692 or  not v692.Character) then v169.frame.Visible=false;return;end local v693=v692.Character:FindFirstChildOfClass("Humanoid");if ( not v693 or (v693.Health<=0)) then v169.frame.Visible=false;return;end v169.frame.Visible=true;v169.name.Text=v692.DisplayName or v692.Name ;v169.avatar.Image="https://www.roblox.com/headshot-thumbnail/image?userId="   .. v692.UserId   .. "&width=150&height=150&format=png" ;local v697=math.floor(v693.Health);local v698=math.floor(v693.MaxHealth);local v699=math.clamp(v697/v698 ,0,1);v169.health.Text=v697   .. " / "   .. v698   .. " HP" ;v169.barFill.Size=UDim2.new(v699,0,1,0);if (v699>0.5) then v169.barFill.BackgroundColor3=Color3.fromRGB(0,255,120);elseif (v699>0.25) then v169.barFill.BackgroundColor3=Color3.fromRGB(255,200,0);else v169.barFill.BackgroundColor3=Color3.fromRGB(255,50,50);end end local v227=Vector2.new(v167.ViewportSize.X/2 ,v167.ViewportSize.Y/2 );local v228=v163;pcall(function() local v702=game:GetService("CoreGui");if v702 then v228=v702;end end);do local v703=Instance.new("ScreenGui");v703.Name="teddyhubHighlights";v703.ResetOnSpawn=false;v703.IgnoreGuiInset=true;v703.DisplayOrder=999;local v708=pcall(function() v703.Parent=v228;end);if  not v708 then v703.Parent=v163;end v228=v703;end local function v229() local v709=v163;pcall(function() local v1756=game:GetService("CoreGui");if v1756 then v709=v1756;end end);local v710=Instance.new("ScreenGui");v710.Name="teddyhubDrawFallback";v710.ResetOnSpawn=false;v710.IgnoreGuiInset=true;v710.DisplayOrder=10;v710.Parent=v709;local v716={};local function v717(v1757) local v1758,v1759=v1757._from,v1757._to;if ( not v1758 or  not v1759) then return;end local v1760=v1759-v1758 ;local v1761=v1757._obj;v1761.Position=UDim2.fromOffset(v1758.X,v1758.Y);v1761.Size=UDim2.fromOffset(v1760.Magnitude,math.max(1,v1757._props.Thickness or 1 ));v1761.Rotation=math.deg(math.atan2(v1760.Y,v1760.X));end v716.new=function(v1765) local v1766;if (v1765=="Square") then v1766=Instance.new("Frame");v1766.BorderSizePixel=0;v1766.BackgroundTransparency=1;elseif (v1765=="Text") then v1766=Instance.new("TextLabel");v1766.BackgroundTransparency=1;v1766.Font=Enum.Font.Code;v1766.TextSize=13;elseif (v1765=="Line") then v1766=Instance.new("Frame");v1766.BorderSizePixel=0;elseif (v1765=="Circle") then v1766=Instance.new("Frame");v1766.BackgroundTransparency=1;local v3688=Instance.new("UICorner");v3688.Parent=v1766;else v1766=Instance.new("Frame");v1766.BorderSizePixel=0;v1766.BackgroundTransparency=1;end v1766.Visible=false;v1766.Parent=v710;return setmetatable({_obj=v1766,_kind=v1765,_props={}},v716);end;v716.__index=function(v1769,v1770) if (v1770=="Remove") then return function() pcall(function() v1769._obj:Destroy();end);end;end return rawget(v1769,"_props")[v1770];end;v716.__newindex=function(v1771,v1772,v1773) local v1774=v1771._obj;if (v1772=="Visible") then v1774.Visible=v1773;elseif (v1772=="Position") then v1774.Position=UDim2.fromOffset(v1773.X,v1773.Y);elseif (v1772=="Size") then if (v1771._kind=="Text") then v1774.TextSize=v1773.X;else v1774.Size=UDim2.fromOffset(v1773.X,v1773.Y);end elseif (v1772=="Color") then if (v1771._kind=="Text") then v1774.TextColor3=v1773;else v1774.BackgroundColor3=v1773;end elseif (v1772=="Thickness") then v1774.BorderSizePixel=(((v1773 or 1)>1) and 1) or 0 ;elseif (v1772=="Filled") then v1774.BackgroundTransparency=(v1773 and 0) or 1 ;elseif (v1772=="Transparency") then if (v1771._kind=="Text") then v1774.TextTransparency=v1773;else v1774.BackgroundTransparency=v1773;end elseif (v1772=="Text") then v1774.Text=v1773;elseif (v1772=="Center") then v1774.TextXAlignment=(v1773 and Enum.TextXAlignment.Center) or Enum.TextXAlignment.Left ;elseif (v1772=="From") then v1771._from=v1773;v717(v1771);elseif (v1772=="To") then v1771._to=v1773;v717(v1771);elseif (v1772=="Radius") then local v3779=v1774:FindFirstChildOfClass("UICorner");if v3779 then v3779.CornerRadius=UDim.new(1,0);end elseif ((v1772~="NumSides") and (v1772~="Outline")) then rawget(v1771,"_props")[v1772]=v1773;return;end rawget(v1771,"_props")[v1772]=v1773;end;return {new=function(v1776) return v716.new(v1776);end,_gui=v710};end local v230=Drawing;if  not (v230 and pcall(function() local v721=v230.new("Line");v721:Remove();end)) then v230=v229();end local v231=0;local v232=false;local v233=0.005;local v234=100;local v235=false;local v236=0.065;local v237=0.05;local v238=false;local v239=true;local v240=false;local v241=false;local v242=false;local v243=0;local v244=Color3.fromRGB(255,192,253);local v245=Color3.fromRGB(250,139,255);local v246=nil;local v247=false;local v248="Camera";local v249=0.5;local v250=v230.new("Circle");v250.Thickness=2;v250.Radius=v234;v250.Filled=false;v250.Color=v244;v250.Visible=false;getgenv().__aimFillRings=v152.FillRings(16);local function v257(v722) return v241 and (v722.Team==v161.Team) ;end local function v258(v723) local v724=v723:FindFirstChild("Head");if  not v724 then return true;end local v725=v167.CFrame.Position;local v726=v724.Position-v725 ;local v727=RaycastParams.new();v727.FilterDescendantsInstances={v161.Character,v723};v727.FilterType=Enum.RaycastFilterType.Exclude;return workspace:Raycast(v725,v726,v727)~=nil ;end local function v259() local v731,v732,v733=nil,v234,math.huge;local v734=v167.CFrame.Position;for v1777,v1778 in ipairs(v7:GetPlayers()) do if ((v1778==v161) or  not v1778.Character) then continue;end local v1779=v1778.Character:FindFirstChild("Head");local v1780=v1778.Character:FindFirstChildOfClass("Humanoid");if ( not v1779 or  not v1780) then continue;end if v257(v1778) then continue;end if (v242 and (v1780.Health<v243)) then continue;end local v1781,v1782=v167:WorldToViewportPoint(v1779.Position);if ( not v1782 or (v1781.Z<=0)) then continue;end local v1783=Vector2.new(v1781.X,v1781.Y);local v1784=(v1783-Vector2.new(v162.X,v162.Y)).Magnitude;local v1785=(v1779.Position-v734).Magnitude;if ((v1784<v732) and ( not v239 or  not v258(v1778.Character))) then if (v1785<v733) then v733=v1785;v732=v1784;v731=v1778;end end end return v731;end local function v260(v735) local v736=v735.Character and v735.Character:FindFirstChild("Head") ;local v737=v735.Character and v735.Character:FindFirstChild("HumanoidRootPart") ;if ( not v736 or  not v737) then return;end local v738=v736.Position + (v737.AssemblyLinearVelocity * v236) ;if ((v248=="Mouse") and mousemoverel) then local v2721,v2722=v167:WorldToViewportPoint(v738);if ( not v2722 or (v2721.Z<=0)) then return;end local v2723=v156:GetMouseLocation();local v2724=(v2721.X-v2723.X) * v249 ;local v2725=(v2721.Y-v2723.Y) * v249 ;local v2726=math.sqrt((v2724 * v2724) + (v2725 * v2725) );if (v2726<0.5) then return;end if (v2726>90) then local v3303=90/v2726 ;v2724,v2725=v2724 * v3303 ,v2725 * v3303 ;end mousemoverel(v2724,v2725);else v167.CFrame=v167.CFrame:Lerp(CFrame.new(v167.CFrame.Position,v738),v237);end end v155.RenderStepped:Connect(function() if v152.Unloaded then return;end if v238 then v250.Position=(v247 and v227) or Vector2.new(v162.X,v162.Y + 50 ) ;v152.UpdateFill(getgenv().__aimFillRings,v238,v250.Position,v234,v152.FillState.aim);if v232 then v231=(v231 + v233)%1 ;v250.Color=Color3.fromHSV(v231,1,1);else v250.Color=(v235 and v246 and v245) or v244 ;end if v235 then if (v240 and v246) then local v3587=v246.Character;local v3588=v3587 and v3587:FindFirstChild("Head") ;if  not v3588 then v246=nil;else local v3659,v3660=v167:WorldToViewportPoint(v3588.Position);local v3661=(Vector2.new(v3659.X,v3659.Y) -Vector2.new(v162.X,v162.Y)).Magnitude;if ( not v3660 or (v3661>v234) or (v239 and v258(v3587)) or v257(v246)) then v246=nil;end end end if ( not v240 or  not v246) then v246=v259();end if v246 then v260(v246);end else v246=nil;end end v226(v246);end);v162.Button2Down:Connect(function() if v238 then v235=true;end end);v162.Button2Up:Connect(function() if v238 then v235=false;end end);local v261={enabled=false,teamCheck=false,delay=0,holdMode=false,clickInterval=0.05};local v262=0;local function v263() local v739=v162.Target;if ( not v739 or  not v739.Parent) then return nil;end local v740=v739.Parent;if  not v740:FindFirstChild("Humanoid") then return nil;end local v741=v7:GetPlayerFromCharacter(v740);if ( not v741 or (v741==v161)) then return nil;end if (v261.teamCheck and (v741.Team==v161.Team)) then return nil;end return v741;end v155.RenderStepped:Connect(function() if  not v261.enabled then return;end local v742= not v261.holdMode or v156:IsMouseButtonPressed(Enum.UserInputType.MouseButton2) ;if (v742 and v263() and ((tick() -v262)>=(v261.delay + v261.clickInterval))) then v262=tick();if mouse1click then mouse1click();else v157:SendMouseButtonEvent(v162.X,v162.Y,0,true,game,0);v157:SendMouseButtonEvent(v162.X,v162.Y,0,false,game,0);end end end);local v264=false;local v265=10;local v266="Linear";local v267={enabled=false,yawMode="At Targets",yawOffset=0,yawJitter=false,yawJitterRange=30,pitchMode="Zero",pitchOffset=0,lbyEnabled=false,lbyOffset=60,lbyMode="Jitter",spinSpeed=45,teamCheck=false,manualSide=0,fov=450,velocityDesync=false,veloX=0,veloY=1000,veloZ=0,st_spin=0,st_side=0,st_flip=1,st_flipNext=0,st_jit=0,st_jitNext=0,st_pit=0,st_pitNext=0,st_lbyVal=0,st_lbyNext=0,st_rnd=0,st_rndNext=0,st_pitLive=0,st_lastYaw=0,st_sbot=0,st_sbotNext=0,st_targetNext=0,st_enemy=nil,owned=false};v155.Heartbeat:Connect(function(v743) if v152.Unloaded then return;end local v744=v267;local v745=v161.Character;local v746=v745 and v745:FindFirstChild("HumanoidRootPart") ;local v747=v745 and v745:FindFirstChildOfClass("Humanoid") ;local v748=(v264 or v744.enabled) and (v746~=nil) ;if (v747 and v747.SeatPart) then v748=false;if v744.owned then v747.AutoRotate=true;v744.owned=false;end elseif v747 then if (v748 and v747.AutoRotate) then v747.AutoRotate=false;v744.owned=true;elseif ( not v748 and v744.owned) then v747.AutoRotate=true;v744.owned=false;end end if  not v748 then return;end local v749=tick();local v750=v167.CFrame.LookVector;local v751=v167:GetAttribute("teddyhubSmoothYaw");if v751 then v750=Vector3.new( -math.sin(v751),0, -math.cos(v751));else local v2729=v167:GetAttribute("teddyhubThirdYaw");if v2729 then v750=Vector3.new( -math.sin(v2729),0, -math.cos(v2729));end end local v752=math.deg(math.atan2( -v750.X, -v750.Z));local v753=v744.yawMode;local v754;if (v753=="At Targets") then if (v749>v744.st_targetNext) then v744.st_targetNext=v749 + 0.1 ;local v3309=v744.fov;for v3494,v3495 in ipairs(v7:GetPlayers()) do if ((v3495==v161) or  not v3495.Character) then continue;end local v3496=v3495.Character:FindFirstChild("HumanoidRootPart");local v3497=v3495.Character:FindFirstChildOfClass("Humanoid");if ( not v3496 or  not v3497 or (v3497.Health<=0)) then continue;end if (v744.teamCheck and (v3495.Team==v161.Team)) then continue;end local v3498=(v3496.Position-v746.Position).Magnitude;if (v3498<v3309) then v3309=v3498;v754=v3496;end end v744.st_enemy=v754;else v754=v744.st_enemy;end end local v755;if (v264 and  not v744.enabled) then if (v266=="Jitter") then if (v749>v744.st_sbotNext) then v744.st_sbotNext=v749 + 0.03 ;v744.st_sbot=math.random( -180,180);end v755=v744.st_sbot;else v744.st_spin=(v744.st_spin + (v265 * v743 * 60))%360 ;v755=v744.st_spin;end elseif ((v753=="At Targets") and v754) then local v3314=v754.Position-v746.Position ;v755=math.deg(math.atan2( -v3314.X, -v3314.Z)) + 180 ;elseif (v753=="Backwards") then v755=v752 + 180 ;elseif (v753=="Spin") then v744.st_spin=(v744.st_spin + math.rad(v744.spinSpeed))%(math.pi * 2) ;v755=math.deg(v744.st_spin);elseif (v753=="Random") then if (v749>v744.st_rndNext) then v744.st_rndNext=v749 + (math.random(8,40)/100) ;v744.st_rnd=math.random( -180,180);end v755=v744.st_rnd;elseif (v753=="Freestanding") then local v3749=math.rad(v752);local v3750=Vector3.new(math.cos(v3749),0, -math.sin(v3749));local v3751=RaycastParams.new();v3751.FilterDescendantsInstances={v745};v3751.FilterType=Enum.RaycastFilterType.Exclude;local v3755=v746.Position + Vector3.new(0,1,0) ;local v3756=workspace:Raycast(v3755, -v3750 * 120 ,v3751);local v3757=workspace:Raycast(v3755,v3750 * 120 ,v3751);local v3758=(v3756 and (v3755-v3756.Position).Magnitude) or 999 ;local v3759=(v3757 and (v3755-v3757.Position).Magnitude) or 999 ;local v3760=((v3758<v3759) and  -1) or 1 ;v744.st_side=v744.st_side + ((v3760-v744.st_side) * 0.2) ;v755=v752 + (v744.st_side * 90) ;elseif (v753=="Manual") then v755=v752 + (v744.manualSide * 90) ;else v755=v752;end local v756=v755 + v744.yawOffset ;if v744.yawJitter then if (v749>v744.st_jitNext) then v744.st_jitNext=v749 + 0.1 ;v744.st_jit=((math.random() * 2) -1) * v744.yawJitterRange ;end v756=v756 + v744.st_jit ;end local v757=v744.pitchMode;local v758=0;if (v757=="Down") then v758= -89;elseif (v757=="Up") then v758=89;elseif (v757=="Random") then v758=((math.random() * 2) -1) * 89 ;elseif (v757=="Jitter") then if (v749>v744.st_pitNext) then v744.st_pitNext=v749 + 0.1 ;v744.st_pit=((math.random() * 2) -1) * 89 ;end v758=v744.st_pit;elseif (v757=="Forward") then v758= -15;end local v759=math.clamp(v758 + v744.pitchOffset , -89,89);local v760=(v747 and (v747.MoveDirection.Magnitude>0.05) and 0) or v759 ;v744.st_pitLive=v744.st_pitLive + ((v760-v744.st_pitLive) * 0.25) ;local v762=0;if v744.lbyEnabled then local v2730=v744.lbyMode;if (v2730=="Flip") then if (v749>v744.st_flipNext) then v744.st_flipNext=v749 + 0.5 ;v744.st_flip= -v744.st_flip;end v762=v744.lbyOffset * v744.st_flip ;elseif (v2730=="Jitter") then if (v749>v744.st_lbyNext) then v744.st_lbyNext=v749 + 0.08 ;v744.st_lbyVal=((math.random() * 2) -1) * v744.lbyOffset ;end v762=v744.st_lbyVal;elseif (v2730=="Random") then if (v749>v744.st_lbyNext) then v744.st_lbyNext=v749 + (math.random(10,60)/100) ;v744.st_lbyVal=((math.random() * 2) -1) * v744.lbyOffset ;end v762=v744.st_lbyVal;else v762=v744.lbyOffset;end end v746.CFrame=CFrame.new(v746.Position) * CFrame.Angles(0,math.rad(v756 + v762 ),0) * CFrame.Angles(math.rad(v744.st_pitLive),0,0) ;v744.st_lastYaw=v756 + v762 ;end);v267.apply=function() local v765=v161.Character;local v766=v765 and v765:FindFirstChild("HumanoidRootPart") ;local v767=v765 and v765:FindFirstChildOfClass("Humanoid") ;if ( not v766 or (v767 and v767.SeatPart)) then return;end local v768=workspace.CurrentCamera;local v769=v267.st_lastYaw or 0 ;local v770=v267.st_pitLive or 0 ;v768:SetAttribute("teddyhubAAYaw",math.rad(v769));v768:SetAttribute("teddyhubAAPitch",math.rad(v770));v766.CFrame=CFrame.new(v766.Position) * CFrame.Angles(0,math.rad(v769),0) * CFrame.Angles(math.rad(v770),0,0) ;end;v156.InputBegan:Connect(function(v772,v773) if (v773 or  not v267.enabled) then return;end if (v772.KeyCode==Enum.KeyCode.Z) then v267.manualSide= -1;elseif (v772.KeyCode==Enum.KeyCode.X) then v267.manualSide=1;end end);v156.InputEnded:Connect(function(v774) if ((v774.KeyCode==Enum.KeyCode.Z) and (v267.manualSide== -1)) then v267.manualSide=0;elseif ((v774.KeyCode==Enum.KeyCode.X) and (v267.manualSide==1)) then v267.manualSide=0;end end);local v269=0;v155.Heartbeat:Connect(function(v775) if  not (v267.enabled and v267.velocityDesync) then v269=0;return;end v269=v269 + v775 ;if (v269<0.05) then return;end v269=0;local v776=v161.Character;local v777=v776 and v776:FindFirstChild("HumanoidRootPart") ;if v777 then local v2733=v777.AssemblyLinearVelocity;v777.AssemblyLinearVelocity=Vector3.new(v267.veloX,v267.veloY,v267.veloZ);task.wait();v777.AssemblyLinearVelocity=v2733;end end);local v270={enabled=false,fov=250,hitpart="Head",teamCheck=true,wallCheck=false,healthCheck=false,minHealth=0,prediction=0.065,smooth=0.5,autoFire=true,fireDelay=0.02,visibleOnly=true,holdRMB=false,silent=false,silentPart=nil,silentCFrame=nil,target=nil,lastFire=0,fireHold=false,silentUntil=0,rotOwned=false,thirdAim=true};v270.find=function() local v778=Vector2.new(v167.ViewportSize.X/2 ,v167.ViewportSize.Y/2 );local v779,v780=nil,math.huge;local v781=v167.CFrame.Position;for v1786,v1787 in ipairs(v7:GetPlayers()) do if ((v1787==v161) or  not v1787.Character) then continue;end local v1788=v1787.Character:FindFirstChildOfClass("Humanoid");local v1789=v1787.Character:FindFirstChild(v270.hitpart) or v1787.Character:FindFirstChild("Head") or v1787.Character:FindFirstChild("HumanoidRootPart") ;if ( not v1788 or (v1788.Health<=0) or  not v1789) then continue;end if (v270.teamCheck and (v1787.Team==v161.Team)) then continue;end if (v270.healthCheck and (v1788.Health<v270.minHealth)) then continue;end local v1790,v1791=v167:WorldToViewportPoint(v1789.Position);if ( not v1791 or (v1790.Z<=0)) then continue;end local v1792=(Vector2.new(v1790.X,v1790.Y) -v778).Magnitude;if (v1792>v270.fov) then continue;end if v270.wallCheck then local v3067=RaycastParams.new();v3067.FilterDescendantsInstances={v161.Character,v1787.Character};v3067.FilterType=Enum.RaycastFilterType.Exclude;if workspace:Raycast(v781,v1789.Position-v781 ,v3067) then continue;end end if (v1792<v780) then v780=v1792;v779=v1787;end end return v779;end;v270.fire=function() if ((tick() -v270.lastFire)<v270.fireDelay) then return;end v270.lastFire=tick();if v270.silent then v270.silentUntil=tick() + 0.12 ;end if mouse1click then mouse1click();elseif (mouse1press and mouse1release) then mouse1press();task.wait(0.02);mouse1release();else pcall(function() v157:SendMouseButtonEvent(v162.X,v162.Y,0,true,game,0);v157:SendMouseButtonEvent(v162.X,v162.Y,0,false,game,0);end);end end;v270.face=function(v783) local v784=v161.Character;local v785=v784 and v784:FindFirstChild("HumanoidRootPart") ;local v786=v784 and v784:FindFirstChildOfClass("Humanoid") ;if  not v785 then return;end if (v786 and v786.SeatPart) then return;end if (v786 and v786.AutoRotate) then v786.AutoRotate=false;v270.rotOwned=true;end local v787=v783-v785.Position ;v785.CFrame=CFrame.new(v785.Position) * CFrame.Angles(0,math.atan2( -v787.X, -v787.Z),0) ;end;v270.release=function() local v789=workspace.CurrentCamera;if v789 then pcall(function() v789:SetAttribute("teddyhubAimAt",nil);end);end if  not v270.rotOwned then return;end local v790=v161.Character;local v791=v790 and v790:FindFirstChildOfClass("Humanoid") ;if v791 then v791.AutoRotate=true;end v270.rotOwned=false;end;v155.RenderStepped:Connect(function() if (v152.Unloaded or  not v270.enabled) then v270.release();return;end local v793= not v270.holdRMB or v156:IsMouseButtonPressed(Enum.UserInputType.MouseButton2) ;if v793 then local v2739=v270.find();if v2739 then v270.target=v2739;elseif v270.visibleOnly then v270.target=nil;end else v270.target=nil;end local v794=v270.target;if ( not v794 or  not v794.Character) then v270.silentPart=nil;v270.silentCFrame=nil;v270.release();return;end local v795=v794.Character:FindFirstChild(v270.hitpart) or v794.Character:FindFirstChild("Head") ;local v796=v794.Character:FindFirstChild("HumanoidRootPart");if ( not v795 or  not v796) then v270.target=nil;v270.silentPart=nil;v270.silentCFrame=nil;v270.release();return;end local v797=v795.Position + (v796.AssemblyLinearVelocity * v270.prediction) ;if v270.silent then v270.silentPart=v795;v270.silentCFrame=CFrame.new(v797);local v2748=workspace.CurrentCamera;if v2748 then pcall(function() v2748:SetAttribute("teddyhubAimAt",v797);end);end if  not v267.enabled then v270.face(v797);end if v793 then v270.silentUntil=tick() + 0.12 ;end local v2749=Toggles.TP_On and Toggles.TP_On.Value ;local v2750=Toggles.SC_On and Toggles.SC_On.Value ;if (v270.thirdAim and  not v2749 and  not v2750) then local v3321=v161.Character;local v3322=v3321 and v3321:FindFirstChild("Head") ;if (v3322 and v2748) then local v3597=(v2748.CFrame.Position-v3322.Position).Magnitude;if (v3597>2.5) then v167.CFrame=CFrame.lookAt(v167.CFrame.Position,v797);end end end if (v793 and v270.autoFire) then v270.fire();end else v270.silentPart=nil;v270.silentCFrame=nil;v270.release();v167.CFrame=v167.CFrame:Lerp(CFrame.new(v167.CFrame.Position,v797),v270.smooth);if (v793 and v270.autoFire) then local v3323,v3324=v167:WorldToViewportPoint(v797);local v3325=Vector2.new(v167.ViewportSize.X/2 ,v167.ViewportSize.Y/2 );if (v3324 and (v3323.Z>0) and ((Vector2.new(v3323.X,v3323.Y) -v3325).Magnitude<15)) then v270.fire();end end end end);local v275={master=false,box=true,fill=false,name=true,distance=true,weapon=false,healthbar=true,skeleton=false,skeletonOutline=false};local v276={boundsType="static",boundsScale=100,color=Color3.fromRGB(0,255,140)};local v277={"RightHand","LeftLowerArm","RightLowerArm","LeftUpperArm","RightUpperArm","LowerTorso","LeftLowerLeg","LeftUpperLeg","LeftFoot","RightFoot","RightLowerLeg","RightUpperLeg","UpperTorso","LeftHand","Head"};local v278={{"LeftUpperArm","UpperTorso"},{"LeftLowerArm","LeftUpperArm"},{"LeftLowerArm","LeftHand"},{"RightUpperArm","UpperTorso"},{"RightLowerArm","RightUpperArm"},{"RightHand","RightLowerArm"},{"LeftUpperLeg","LowerTorso"},{"LeftLowerLeg","LeftUpperLeg"},{"LeftFoot","LeftLowerLeg"},{"RightUpperLeg","LowerTorso"},{"RightLowerLeg","RightUpperLeg"},{"RightFoot","RightLowerLeg"},{"LowerTorso","UpperTorso"}};local v279={};v279.__index=v279;v279.new=function() return setmetatable({players={}},v279);end;v279.createState=function(v798,v799) local v800={player=v799,character=nil,humanoid=nil,humanoidRootPart=nil,parts={},connections={},drawings={},squares={},lines={},text={}};for v1793=1,26 do local v1794=v230.new("Line");v1794.Visible=false;v1794.Thickness=1;v1794.Color=Color3.new(1,1,1);table.insert(v800.drawings,v1794);table.insert(v800.lines,v1794);end for v1798=1,4 do local v1799=v230.new("Text");v1799.Outline=true;v1799.Visible=false;v1799.Color=Color3.new(1,1,1);v1799.Center=true;v1799.Size=13;table.insert(v800.drawings,v1799);table.insert(v800.text,v1799);end for v1805=1,4 do local v1806=v230.new("Square");v1806.Visible=false;table.insert(v800.drawings,v1806);table.insert(v800.squares,v1806);end v800.squares[1].Thickness=1;v800.squares[1].Color=Color3.new(0,0,0);v800.squares[2].Thickness=1;v800.squares[3].Filled=true;v800.squares[4].Filled=true;v800.squares[4].Color=Color3.new(0,0,0);return v800;end;v279.updateState=function(v807,v808,v809) local v810=v807.players[v808];if  not v810 then return;end v810.character=v809;v810.humanoidRootPart=v809:FindFirstChild("HumanoidRootPart") or v809:FindFirstChild("UpperTorso") or v809:FindFirstChild("Torso") or v809:FindFirstChild("Head") or v809.PrimaryPart ;v810.humanoid=v809:FindFirstChildOfClass("Humanoid") or v809:FindFirstChild("Humanoid") ;v810.parts={};if ( not v810.humanoid or  not v810.humanoidRootPart) then return;end for v1808,v1809 in ipairs(v277) do local v1810=v809:FindFirstChild(v1809);if v1810 then v810.parts[v1809]=v1810;end end end;v279.bounds=function(v815,v816) local v817=v816.humanoidRootPart;if  not v817 then return nil;end local v818=v816.parts and v816.parts.Head ;local v819,v820;if v818 then v819=v818.Position + Vector3.new(0,(v818.Size.Y/2) + 0.4 ,0) ;v820=v818.Position-Vector3.new(0,math.max(0.5,v818.Position.Y-v817.Position.Y ) + 3.2 ,0) ;else v819=(v817.CFrame * CFrame.new(0,3,0)).Position;v820=(v817.CFrame * CFrame.new(0, -3.5,0)).Position;end local v821=v167:WorldToViewportPoint(v819);local v822=v167:WorldToViewportPoint(v820);if ((v821.Z<=0) or (v822.Z<=0)) then return nil;end local v823=math.abs(v821.Y-v822.Y );if (v823<1) then return nil;end local v824=v823 * 0.6 * (v276.boundsScale/100) ;return v824,v823,Vector2.new(v821.X,v821.Y);end;v279.drawSkeleton=function(v825,v826) for v1811,v1812 in ipairs(v826.lines) do v1812.Visible=false;end if ( not v275.skeleton or  not v826.character) then return;end for v1814,v1815 in ipairs(v278) do local v1816=v826.parts[v1815[1]];local v1817=v826.parts[v1815[2]];if ( not v1816 or  not v1817) then continue;end local v1818=v167:WorldToViewportPoint(v1816.Position);local v1819=v167:WorldToViewportPoint(v1817.Position);if ((v1818.Z<=0) or (v1819.Z<=0)) then continue;end local v1820=v826.lines[v1814];v1820.From=Vector2.new(v1818.X,v1818.Y);v1820.To=Vector2.new(v1819.X,v1819.Y);v1820.Color=v276.color;v1820.Thickness=(v275.skeletonOutline and 2) or 1 ;v1820.Visible=true;end end;v279.drawBox=function(v827,v828,v829,v830,v831) v828.squares[1].Visible=false;v828.squares[2].Visible=false;if  not v275.box then return;end v828.squares[2].Size=Vector2.new(v829,v830);v828.squares[2].Position=v831-Vector2.new(v829/2 ,0) ;v828.squares[2].Color=v276.color;v828.squares[2].Filled=v275.fill;v828.squares[2].Visible=true;end;v279.drawText=function(v840,v841,v842,v843,v844) for v1827,v1828 in ipairs(v841.text) do v1828.Visible=false;end local v845=v844-Vector2.new(0,15) ;local v846=v844 + Vector2.new(0,v843 + 2 ) ;if v275.name then v841.text[1].Text=v841.player.Name;v841.text[1].Position=v845;v841.text[1].Color=v276.color;v841.text[1].Visible=true;end if v275.weapon then local v2762=v841.character and (v841.character:FindFirstChildOfClass("Tool") or v841.character:FindFirstChild("EquippedItem")) ;v841.text[2].Text=(v2762 and v2762.Name) or "None" ;v841.text[2].Position=v846;v841.text[2].Color=v276.color;v841.text[2].Visible=true;v846=v846 + Vector2.new(0,14) ;end if (v275.distance and v841.humanoidRootPart) then local v2768=math.round((v841.humanoidRootPart.Position-v167.CFrame.Position).Magnitude);v841.text[3].Text="["   .. v2768   .. "m]" ;v841.text[3].Position=v846;v841.text[3].Color=v276.color;v841.text[3].Visible=true;end end;v279.drawHealthbar=function(v847,v848,v849,v850,v851) v848.squares[3].Visible=false;v848.squares[4].Visible=false;if ( not v275.healthbar or  not v848.humanoid) then return;end local v854=math.clamp(v848.humanoid.Health/v848.humanoid.MaxHealth ,0,1);local v855=v850 * v854 ;local v856=v851-Vector2.new((v849/2) + 6 , -v850 + v855 ) ;local v857=v851-Vector2.new((v849/2) + 6 ,0) ;v848.squares[4].Size=Vector2.new(3,v850);v848.squares[4].Position=v857;v848.squares[4].Visible=true;v848.squares[3].Size=Vector2.new(3,v855);v848.squares[3].Position=v856;v848.squares[3].Color=Color3.fromRGB(255,0,0):Lerp(Color3.fromRGB(0,255,0),v854);v848.squares[3].Visible=true;end;v279.hideAll=function(v863,v864) for v1830,v1831 in ipairs(v864.drawings) do v1831.Visible=false;end end;v279.update=function(v865,v866) local v867=v865.players[v866];if  not v867 then return;end if  not v275.master then v865:hideAll(v867);return;end local v868=v867.character;if ( not v868 or  not v867.humanoidRootPart or  not v867.humanoid or (v867.humanoid.Health<=0)) then v865:hideAll(v867);return;end if (v866==v161) then v865:hideAll(v867);return;end local v869,v870,v871=v865:bounds(v867);if  not v869 then v865:hideAll(v867);return;end v865:drawSkeleton(v867);v865:drawBox(v867,v869,v870,v871);v865:drawText(v867,v869,v870,v871);v865:drawHealthbar(v867,v869,v870,v871);end;v279.start=function(v872) local function v873(v1833) if v152.Unloaded then return;end local v1834=v872:createState(v1833);v872.players[v1833]=v1834;local function v1836(v2774) task.spawn(function() v872:updateState(v1833,v2774);end);end table.insert(v1834.connections,v1833.CharacterAdded:Connect(v1836));table.insert(v1834.connections,v1833.CharacterRemoving:Connect(function() v872:hideAll(v1834);v1834.character=nil;end));if v1833.Character then v1836(v1833.Character);end end for v1837,v1838 in ipairs(v7:GetPlayers()) do v873(v1838);end v7.PlayerAdded:Connect(v873);v7.PlayerRemoving:Connect(function(v1839) local v1840=v872.players[v1839];if  not v1840 then return;end for v2776,v2777 in ipairs(v1840.connections) do pcall(v2777.Disconnect,v2777);end for v2778,v2779 in ipairs(v1840.drawings) do pcall(v2779.Remove,v2779);end v872.players[v1839]=nil;end);v155.RenderStepped:Connect(function() if v152.Unloaded then return;end if  not v275.master then if  not v872._hiddenOnce then v872._hiddenOnce=true;for v3598,v3599 in pairs(v872.players) do v872:hideAll(v3599);end end return;end v872._hiddenOnce=false;for v2780 in pairs(v872.players) do if (v2780.Parent and v2780.Character) then v872:update(v2780);end end end);end;local v292=v279.new();v292:start();local v293={Visible=false,SpinSpeed=0.005,CentralGap=8,TotalLength=112,LineThickness=2,OutlineThickness=4,ColorStart=Color3.fromRGB(180,180,180),ColorEnd=Color3.fromRGB(20,20,20),CircleVisible=true,CircleRadius=119,CircleTransparency=0.3,CircleColor=Color3.fromRGB(15,15,25),TrackingEnabled=false,TrackingRadius=150,TrackingSmoothness=0.2,TrackPart="Head",TeamCheck=true};local v294=2;local v295,v296,v297={},{},nil;local function v298() if v297 then v297:Remove();v297=nil;end for v1843=1, #v295 do if v295[v1843] then for v3326=1, #v295[v1843] do if v295[v1843][v3326] then v295[v1843][v3326]:Remove();end if v296[v1843][v3326] then v296[v1843][v3326]:Remove();end end end end v295,v296={},{};end local function v299() v298();v297=v230.new("Circle");v297.Filled=true;v297.NumSides=64;v297.Radius=v293.CircleRadius;v297.Color=v293.CircleColor;v297.Transparency=v293.CircleTransparency;v297.Visible=v293.Visible and v293.CircleVisible ;local v883=math.max(1,math.floor(v293.TotalLength/v294 ));for v1844=1,4 do v295[v1844],v296[v1844]={},{};for v2781=1,v883 do local v2782=(v2781-0.5)/v883 ;local v2783=v230.new("Line");v2783.Thickness=v293.OutlineThickness;v2783.Color=Color3.new(0,0,0);v2783.Visible=v293.Visible;local v2789=v230.new("Line");v2789.Thickness=v293.LineThickness;v2789.Color=v293.ColorStart:Lerp(v293.ColorEnd,v2782);v2789.Visible=v293.Visible;v296[v1844][v2781]=v2783;v295[v1844][v2781]=v2789;end end end local function v300(v884) local v885,v886=nil,v293.TrackingRadius;for v1847,v1848 in ipairs(v7:GetPlayers()) do if ((v1848==v161) or  not v1848.Character) then continue;end local v1849=v1848.Character:FindFirstChild(v293.TrackPart);local v1850=v1848.Character:FindFirstChildOfClass("Humanoid");if ( not v1849 or  not v1850 or (v1850.Health<=0)) then continue;end if (v293.TeamCheck and (v1848.Team==v161.Team)) then continue;end local v1851,v1852=v167:WorldToViewportPoint(v1849.Position);if v1852 then local v3072=(Vector2.new(v1851.X,v1851.Y) -v884).Magnitude;if (v3072<v886) then v886=v3072;v885=Vector2.new(v1851.X,v1851.Y);end end end return v885;end local v301={0,math.pi/2 ,math.pi,math.pi * 1.5 };local v302=0;local v303,v304=0,0;v155.RenderStepped:Connect(function() if v152.Unloaded then return;end if v293.Visible then local v2796=v293.SpinSpeed;local v2797=tick();if (v2796~=0) then if (v304==0) then v304=v2797;end v302=v303 + ((v2797-v304) * v2796) ;elseif (v304~=0) then v303=v302;v304=0;end local v2798=Vector2.new(v167.ViewportSize.X/2 ,v167.ViewportSize.Y/2 );local v2799=v2798;if v293.TrackingEnabled then local v3327=v300(v2798);if v3327 then v2799=v3327;end end v227=v227:Lerp(v2799,v293.TrackingSmoothness);if v297 then v297.Position=v227;v297.Radius=v293.CircleRadius;v297.Color=v293.CircleColor;v297.Transparency=v293.CircleTransparency;v297.Visible=v293.CircleVisible;end local v2800=math.max(1,math.floor(v293.TotalLength/v294 ));for v3073=1,4 do local v3074=v301[v3073] + v302 ;local v3075,v3076=math.cos(v3074),math.sin(v3074);local v3077,v3078=v295[v3073],v296[v3073];if  not v3077 then continue;end for v3337=1, #v3077 do local v3338,v3339=v3077[v3337],v3078[v3337];if ( not v3338 or  not v3339) then continue;end local v3340=v293.CentralGap + ((v3337-1) * v294) ;local v3341=v293.CentralGap + (v3337 * v294) ;local v3342=v227 + Vector2.new(v3075 * v3340 ,v3076 * v3340 ) ;local v3343=v227 + Vector2.new(v3075 * v3341 ,v3076 * v3341 ) ;v3339.From=v3342;v3339.To=v3343;v3339.Thickness=v293.OutlineThickness;v3339.Visible=true;v3338.From=v3342;v3338.To=v3343;v3338.Thickness=v293.LineThickness;v3338.Color=v293.ColorStart:Lerp(v293.ColorEnd,(v3337-0.5)/v2800 );v3338.Visible=true;end end elseif (v297 and v297.Visible) then v297.Visible=false;for v3500=1,4 do local v3501,v3502=v295[v3500],v296[v3500];if  not v3501 then continue;end for v3600=1, #v3501 do if v3501[v3600] then v3501[v3600].Visible=false;end if v3502[v3600] then v3502[v3600].Visible=false;end end end end end);v299();local v305=false;local v306=16;local v307=false;local v308=50;local v309=false;local v310=50;local v311;local function v312() local v887=v161.Character;if  not v887 then return;end local v888=v887:FindFirstChildOfClass("Humanoid");if  not v888 then return;end v888.WalkSpeed=(v305 and v306) or 16 ;end local function v313() local v890=v161.Character;if  not v890 then return;end local v891=v890:FindFirstChildOfClass("Humanoid");if  not v891 then return;end v891.UseJumpPower=true;v891.JumpPower=(v307 and v308) or 50 ;end local function v314(v894) v309=v894;if v311 then v311:Disconnect();v311=nil;end if  not v309 then local v2801=v161.Character;local v2802=v2801 and v2801:FindFirstChild("HumanoidRootPart") ;if v2802 then v2802.AssemblyLinearVelocity=Vector3.new(0,0,0);end return;end v311=v155.RenderStepped:Connect(function() local v1853=v161.Character;local v1854=v1853 and v1853:FindFirstChild("HumanoidRootPart") ;if  not v1854 then return;end local v1855=Vector3.new(0,0,0);local v1856=workspace.CurrentCamera;if v156:IsKeyDown(Enum.KeyCode.W) then v1855=v1855 + v1856.CFrame.LookVector ;end if v156:IsKeyDown(Enum.KeyCode.S) then v1855=v1855-v1856.CFrame.LookVector ;end if v156:IsKeyDown(Enum.KeyCode.A) then v1855=v1855-v1856.CFrame.RightVector ;end if v156:IsKeyDown(Enum.KeyCode.D) then v1855=v1855 + v1856.CFrame.RightVector ;end if v156:IsKeyDown(Enum.KeyCode.Space) then v1855=v1855 + Vector3.new(0,1,0) ;end if v156:IsKeyDown(Enum.KeyCode.LeftControl) then v1855=v1855-Vector3.new(0,1,0) ;end v1854.AssemblyLinearVelocity=v1855 * v310 ;v1854.AssemblyAngularVelocity=Vector3.new(0,0,0);end);end v161.CharacterAdded:Connect(function() task.wait(0.5);if v305 then v312();end if v307 then v313();end if v309 then v314(true);end end);local v315=false;local v316="Rain";local v317=31;local v318=Color3.fromRGB(200,220,255);local v319=v158.Brightness;local v320=0;local v321=false;local v322=workspace:FindFirstChild("CustomWeatherFolder") or Instance.new("Folder") ;v322.Name="CustomWeatherFolder";v322.Parent=workspace;local v325={};local v326=120;for v895=1,v326 do local v896=Instance.new("Part");v896.Name="WeatherParticle";v896.Material=Enum.Material.SmoothPlastic;v896.Transparency=0.4;v896.CanCollide=false;v896.Anchored=true;v896.CastShadow=false;v896.Parent=v322;table.insert(v325,{Part=v896,Active=false,Speed=0,Drift=0});end v155.RenderStepped:Connect(function() if v152.Unloaded then return;end if  not v315 then for v3079,v3080 in ipairs(v325) do if v3080.Active then v3080.Active=false;v3080.Part.CFrame=CFrame.new(0, -1000,0);end end if v321 then v158.Brightness=v319;v321=false;end return;end local v905=v161.Character;local v906=v905 and v905:FindFirstChild("HumanoidRootPart") ;if  not v906 then return;end local v907=math.clamp(math.floor((v317/100) * v326 ),5,v326);local v908=v906.Position;for v1859=1,v326 do local v1860=v325[v1859];if (v1859<=v907) then if ( not v1860.Active or (v1860.Part.Position.Y<(v908.Y-10))) then v1860.Part.CFrame=CFrame.new(v908 + Vector3.new(math.random( -60,60),math.random(20,50),math.random( -60,60)) );v1860.Active=true;if (v316=="Snow") then v1860.Part.Size=Vector3.new(0.4,0.4,0.4);v1860.Part.Shape=Enum.PartType.Ball;v1860.Speed=math.random(10,25);v1860.Drift=math.random( -5,5)/10 ;elseif (v316=="Storm") then v1860.Part.Size=Vector3.new(0.09,3.2,0.09);v1860.Part.Shape=Enum.PartType.Block;v1860.Speed=math.random(150,220);v1860.Drift=0;else v1860.Part.Size=Vector3.new(0.08,2.5,0.08);v1860.Part.Shape=Enum.PartType.Block;v1860.Speed=math.random(80,120);v1860.Drift=0;end else v1860.Part.CFrame=v1860.Part.CFrame-Vector3.new(v1860.Drift,v1860.Speed * (1/60) ,0) ;v1860.Part.Color=v318;end elseif v1860.Active then v1860.Active=false;v1860.Part.CFrame=CFrame.new(0, -1000,0);end end if ((v316=="Storm") and (tick()>=v320)) then v320=tick() + (math.random(40,180)/10) ;v321=true;task.spawn(function() for v3358=1,math.random(1,3) do v158.Brightness=v319 + 6 ;task.wait(0.06);if ( not v315 or (v316~="Storm")) then break;end v158.Brightness=v319;task.wait(math.random(4,12)/100 );end v158.Brightness=v319;end);end end);local v327=false;local v328="Highlight";local v329=false;local v330=5;local v331=Color3.fromRGB(255,255,255);local v332=Color3.fromRGB(255,255,255);local v333=0.5;local v334=0;local v335=false;local v336=90;local v337=(workspace.CurrentCamera and workspace.CurrentCamera.FieldOfView) or 70 ;local v338=0;local v339={};local v340=false;local v341,v342=0,true;local function v343() v342=true;end local function v344(v909) v339={Parts={},Clothing={},Textures={},Mesh={}};for v1861,v1862 in ipairs(v909:GetDescendants()) do if v1862:IsA("BasePart") then v339.Parts[v1862]={Material=v1862.Material,Color=v1862.Color,Transparency=v1862.Transparency};elseif (v1862:IsA("Clothing") or v1862:IsA("ShirtGraphic")) then v339.Clothing[v1862]=v1862.Parent;elseif (v1862:IsA("Decal") or v1862:IsA("Texture")) then v339.Textures[v1862]=v1862.Transparency;end end end local function v345(v910) if  not v340 then return;end v340=false;local v911=v228:FindFirstChild("SelfHighlight");if v911 then v911:Destroy();end for v1863,v1864 in pairs(v339.Parts or {} ) do if (v1863 and v1863.Parent) then v1863.Material=v1864.Material;v1863.Color=v1864.Color;v1863.Transparency=v1864.Transparency;end end for v1865,v1866 in pairs(v339.Clothing or {} ) do if v1865 then v1865.Parent=v1866;end end for v1867,v1868 in pairs(v339.Textures or {} ) do if (v1867 and v1867.Parent) then v1867.Transparency=v1868;end end for v1869,v1870 in pairs(v339.Mesh or {} ) do if (v1869 and v1869.Parent) then pcall(function() v1869.TextureID=v1870;end);end end v339={};end local v346={ForceField=Enum.Material.ForceField,["Solid Color"]=Enum.Material.SmoothPlastic,Neon=Enum.Material.Neon,Glass=Enum.Material.Glass,Ice=Enum.Material.Ice,Metal=Enum.Material.Metal,Foil=Enum.Material.Foil,Marble=Enum.Material.Marble,Granite=Enum.Material.Granite,Wood=Enum.Material.Wood,Brick=Enum.Material.Brick,Cobblestone=Enum.Material.Cobblestone,Sand=Enum.Material.Sand,Fabric=Enum.Material.Fabric,Concrete=Enum.Material.Concrete,Slate=Enum.Material.Slate};local function v347() local v912=v161.Character;if ( not v912 or  not v912:FindFirstChild("HumanoidRootPart")) then return;end if  not v327 then v345(v912);return;end if  not v340 then v344(v912);v340=true;end local v913=(v329 and Color3.fromHSV(v338,1,1)) or v331 ;if (v328=="Highlight") then for v3091,v3092 in pairs(v339.Clothing) do if v3091 then v3091.Parent=v3092;end end for v3093,v3094 in pairs(v339.Textures) do if v3093 then v3093.Transparency=v3094;end end for v3095,v3096 in pairs(v339.Parts) do if v3095 then v3095.Material=v3096.Material;v3095.Color=v3096.Color;v3095.Transparency=v3096.Transparency;end end local v2803=v228:FindFirstChild("SelfHighlight") or Instance.new("Highlight") ;v2803.Name="SelfHighlight";v2803.Adornee=v912;v2803.Enabled=true;v2803.FillColor=v913;v2803.OutlineColor=(v329 and v913) or v332 ;v2803.FillTransparency=v333;v2803.OutlineTransparency=v334;v2803.DepthMode=Enum.HighlightDepthMode.AlwaysOnTop;v2803.Parent=v228;elseif v346[v328] then local v3361=v228:FindFirstChild("SelfHighlight");if v3361 then v3361:Destroy();end for v3521 in pairs(v339.Clothing) do if v3521 then v3521.Parent=nil;end end for v3522 in pairs(v339.Textures) do if v3522 then v3522.Transparency=1;end end local v3362=v346[v328];for v3523,v3524 in ipairs(v912:GetDescendants()) do if (v3524:IsA("BasePart") and (v3524.Name~="HumanoidRootPart")) then if v3524:IsA("MeshPart") then if (v339.Mesh and (v339.Mesh[v3524]==nil)) then v339.Mesh[v3524]=v3524.TextureID;end pcall(function() v3524.TextureID="";end);end v3524.Material=v3362;v3524.Color=v913;v3524.Transparency=v333;end end end end v155.RenderStepped:Connect(function(v914) if v152.Unloaded then return;end if v329 then v338=(v338 + (v914 * v330 * 0.2))%1 ;end v341=v341 + v914 ;if (v342 or (v341>=0.2)) then v341=0;v342=false;v347();if v335 then workspace.CurrentCamera.FieldOfView=v336;end elseif (v329 and v340) then v347();elseif v335 then workspace.CurrentCamera.FieldOfView=v336;end end);v161.CharacterAdded:Connect(function() v340=false;v339={};end);local v348=v158:FindFirstChild("CustomColorCorrection") or Instance.new("ColorCorrectionEffect") ;v348.Name="CustomColorCorrection";v348.Parent=v158;local v351=v158:FindFirstChild("CustomBloom") or Instance.new("BloomEffect") ;v351.Name="CustomBloom";v351.Parent=v158;local v354=false;local v355=false;local function v356(v915,v916,v917,v918) v348.Enabled=v354;if v354 then v348.Brightness=v915;v348.Contrast=v916;v348.Saturation=v917;v348.TintColor=v918;end end local function v357(v920,v921,v922) v351.Enabled=v355;if v355 then v351.Intensity=v920;v351.Size=v921;v351.Threshold=v922;end end local v358={Enabled=false,CurrentID="6031075931",IconSize=32};local v359={["Clean White Dot"]="6031075931",["Red Dot"]="6830874135",["Crosshair Small"]="138380362",["Crosshair Large"]="254508119",["Circle Scope"]="3523723128",["Purple Crosshair"]="6031075931",["Target Scope"]="5820712980"};local v360={};for v924,v925 in pairs(v359) do table.insert(v360,v924);end local v361=Instance.new("ScreenGui");v361.Name="CustomShiftlockOverlay";v361.ResetOnSpawn=false;pcall(function() v361.Parent=v159;end);if  not v361.Parent then v361.Parent=v163;end local v364=Instance.new("ImageLabel");v364.Name="CursorImage";v364.AnchorPoint=Vector2.new(0.5,0.5);v364.BackgroundTransparency=1;v364.Size=UDim2.new(0,32,0,32);v364.Visible=false;v364.Parent=v361;local function v371(v927) pcall(function() local v1872=v159:FindFirstChild("RobloxGui") or v161.PlayerGui ;for v2821,v2822 in pairs(v1872:GetDescendants()) do if (v2822:IsA("ImageLabel") and ((v2822.Name=="ShiftLockCursor") or (v2822.Name=="MouseIcon"))) then v2822.ImageTransparency=(v927 and 1) or 0 ;end end end);end v155.RenderStepped:Connect(function() if v152.Unloaded then return;end if  not v358.Enabled then v364.Visible=false;v371(false);return;end if (v156.MouseBehavior==Enum.MouseBehavior.LockCenter) then v371(true);local v2824=workspace.CurrentCamera.ViewportSize;v364.Position=UDim2.new(0,v2824.X/2 ,0,v2824.Y/2 );v364.Image="rbxassetid://"   .. tostring(v358.CurrentID):gsub("%D","") ;v364.Size=UDim2.new(0,v358.IconSize,0,v358.IconSize);v364.Visible=true;else v364.Visible=false;v371(false);end end);local v372={CurrentTime=14,FreezeTime=false};local function v373(v928) v372.CurrentTime=v928;v158.ClockTime=v928;end v155.RenderStepped:Connect(function() if v372.FreezeTime then v158.ClockTime=v372.CurrentTime;end end);local function v374(v931,v932,v933) local v934=Instance.new(v931);local v935=nil;for v1873,v1874 in pairs(v932) do if (v1873=="Parent") then v935=v1874;else v934[v1873]=v1874;end end v934.Parent=v935 or v933 ;return v934;end local v375={Exposure=v158.ExposureCompensation,FogStart=v158.FogStart,FogEnd=v158.FogEnd,FogColor=v158.FogColor,Fov=(workspace.CurrentCamera and workspace.CurrentCamera.FieldOfView) or 70 };local v376={Enabled=true,AtmoEnabled=true,Density=0.32,Offset=0.5,Haze=1.8,Glare=0.35,AtmoColor=Color3.fromRGB(199,199,199),AtmoDecay=Color3.fromRGB(106,112,125),CcEnabled=true,Brightness=0,Contrast=0.12,Saturation=0.12,Exposure=0.12,TintColor=Color3.fromRGB(255,244,230),FogEnabled=false,FogStart=150,FogEnd=1400,FogColor=Color3.fromRGB(190,200,215),VignetteEnabled=true,VignetteStrength=0.5};local v377={Default={AtmoEnabled=false,CcEnabled=false,FogEnabled=false,VignetteEnabled=false,Exposure=0},Cinematic={AtmoEnabled=true,Density=0.32,Haze=1.8,Glare=0.35,AtmoColor=Color3.fromRGB(199,199,199),AtmoDecay=Color3.fromRGB(106,112,125),CcEnabled=true,Contrast=0.12,Saturation=0.12,TintColor=Color3.fromRGB(255,244,230),Exposure=0.12,VignetteEnabled=true,VignetteStrength=0.5,FogEnabled=false},Hazy={AtmoEnabled=true,Density=0.55,Haze=3.5,Glare=0.15,AtmoColor=Color3.fromRGB(220,220,225),AtmoDecay=Color3.fromRGB(140,145,160),CcEnabled=true,Contrast=0.05,Saturation= -0.08,TintColor=Color3.fromRGB(245,245,250),Exposure=0.08,FogEnabled=true,FogStart=80,FogEnd=900,FogColor=Color3.fromRGB(205,210,220),VignetteEnabled=true,VignetteStrength=0.35},Vibrant={AtmoEnabled=true,Density=0.25,Haze=1.2,Glare=0.45,AtmoColor=Color3.fromRGB(199,199,199),AtmoDecay=Color3.fromRGB(106,112,125),CcEnabled=true,Contrast=0.22,Saturation=0.4,TintColor=Color3.fromRGB(255,255,255),Exposure=0.1,VignetteEnabled=false,FogEnabled=false},Noir={AtmoEnabled=true,Density=0.4,Haze=2.2,Glare=0.1,AtmoColor=Color3.fromRGB(160,160,170),AtmoDecay=Color3.fromRGB(60,60,70),CcEnabled=true,Contrast=0.3,Saturation= -0.85,Brightness= -0.03,TintColor=Color3.fromRGB(235,235,240),Exposure= -0.05,VignetteEnabled=true,VignetteStrength=0.75,FogEnabled=true,FogStart=100,FogEnd=700,FogColor=Color3.fromRGB(40,40,48)},Night={AtmoEnabled=true,Density=0.45,Haze=2.5,Glare=0.05,AtmoColor=Color3.fromRGB(120,135,170),AtmoDecay=Color3.fromRGB(40,45,70),CcEnabled=true,Contrast=0.15,Saturation= -0.15,TintColor=Color3.fromRGB(200,215,255),Exposure= -0.1,VignetteEnabled=true,VignetteStrength=0.6,FogEnabled=true,FogStart=60,FogEnd=600,FogColor=Color3.fromRGB(25,30,50)}};local v378=v374("Atmosphere",{Name="teddyhubAtmosphere",Color=v376.AtmoColor,Decay=v376.AtmoDecay},nil);local v379=v374("ColorCorrectionEffect",{Name="teddyhubColorCorrection",Parent=v158});local v380=v374("ScreenGui",{Name="teddyhubVignette",IgnoreGuiInset=true,ResetOnSpawn=false,DisplayOrder=100,Enabled=false,Parent=v163});local v381={};local function v382(v937,v938,v939,v940) local v941=v374("Frame",{Name=v937,Size=v938,Position=v939,BackgroundColor3=Color3.new(0,0,0),BackgroundTransparency=0,BorderSizePixel=0,ZIndex=5},v380);local v942=v374("UIGradient",{Rotation=v940,Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0,1),NumberSequenceKeypoint.new(1,1)})},v941);table.insert(v381,v942);end v382("Top",UDim2.new(1,0,0.32,0),UDim2.new(0,0,0,0),90);v382("Bottom",UDim2.new(1,0,0.32,0),UDim2.new(0,0,0.68,0),270);v382("Left",UDim2.new(0.32,0,1,0),UDim2.new(0,0,0,0),0);v382("Right",UDim2.new(0.32,0,1,0),UDim2.new(0.68,0,0,0),180);local v383=false;local v384=false;local function v385() v380.Enabled=v376.Enabled and v376.VignetteEnabled ;if  not v380.Enabled then return;end local v944=1 -math.clamp(v376.VignetteStrength,0,1) ;for v1875,v1876 in ipairs(v381) do v1876.Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0,v944),NumberSequenceKeypoint.new(1,1)});end end local function v386() local v945=v376.Enabled;if (v945 and v376.AtmoEnabled) then v378.Parent=v158;v378.Density=v376.Density;v378.Offset=v376.Offset;v378.Haze=v376.Haze;v378.Glare=v376.Glare;v378.Color=v376.AtmoColor;v378.Decay=v376.AtmoDecay;else v378.Parent=nil;end v379.Enabled=v945 and v376.CcEnabled ;if v379.Enabled then v379.Brightness=v376.Brightness;v379.Contrast=v376.Contrast;v379.Saturation=v376.Saturation;v379.TintColor=v376.TintColor;end local v947=v945 and v376.CcEnabled ;if v947 then v158.ExposureCompensation=v376.Exposure;elseif v383 then v158.ExposureCompensation=v375.Exposure;end v383=v947;local v948=v945 and v376.FogEnabled ;if v948 then v158.FogStart=v376.FogStart;v158.FogEnd=v376.FogEnd;v158.FogColor=v376.FogColor;elseif v384 then v158.FogStart=v375.FogStart;v158.FogEnd=v375.FogEnd;v158.FogColor=v375.FogColor;end v384=v948;v385();end local v387={};local function v388(v949,v950,v951) table.insert(v387,{kind=v950,idx=v949,key=v951});end local function v389(v952,v953,v954,v955) v955.Callback=function(v1878) v376[v954]=v1878;v386();end;v952:AddToggle(v953,v955);v388(v953,"toggle",v954);end local function v390(v957,v958,v959,v960) v960.Callback=function(v1880) v376[v959]=v1880;v386();end;v957:AddSlider(v958,v960);v388(v958,"slider",v959);end local function v391(v962,v963,v964,v965,v966) v962:AddLabel(v963):AddColorPicker(v964,{Default=v966,Callback=function(v1882) v376[v965]=v1882;v386();end});v388(v964,"color",v965);end local function v392() for v1884,v1885 in ipairs(v387) do local v1886=v376[v1885.key];if (v1885.kind=="toggle") then if (Toggles[v1885.idx] and (Toggles[v1885.idx].Value~=v1886)) then Toggles[v1885.idx]:SetValue(v1886);end elseif (v1885.kind=="slider") then if (Options[v1885.idx] and (Options[v1885.idx].Value~=v1886)) then Options[v1885.idx]:SetValue(v1886);end elseif (v1885.kind=="color") then if (Options[v1885.idx] and (Options[v1885.idx].Value~=v1886)) then Options[v1885.idx]:SetValueRGB(v1886);end end end end local function v393(v967) local v968=v377[v967];if  not v968 then return;end for v1887,v1888 in pairs(v968) do v376[v1887]=v1888;end v392();v386();end local v394={enabled=false,teamCheck=false,fov=200,hitpart="Head",wallCheck=false,hitChance=100,showFov=false};local function v395() local v969=Vector2.new(v167.ViewportSize.X/2 ,v167.ViewportSize.Y/2 );local v970,v971=nil,v394.fov;for v1890,v1891 in ipairs(v7:GetPlayers()) do if ((v1891==v161) or  not v1891.Character) then continue;end local v1892=v1891.Character:FindFirstChildOfClass("Humanoid");local v1893=v1891.Character:FindFirstChild(v394.hitpart) or v1891.Character:FindFirstChild("HumanoidRootPart") ;if ( not v1892 or (v1892.Health<=0) or  not v1893) then continue;end if (v394.teamCheck and (v1891.Team==v161.Team)) then continue;end local v1894,v1895=v167:WorldToViewportPoint(v1893.Position);if  not v1895 then continue;end local v1896=(Vector2.new(v1894.X,v1894.Y) -v969).Magnitude;if v394.wallCheck then local v3098=RaycastParams.new();v3098.FilterType=Enum.RaycastFilterType.Exclude;v3098.FilterDescendantsInstances={v161.Character,v1891.Character};local v3102=v167.CFrame.Position;if workspace:Raycast(v3102,v1893.Position-v3102 ,v3098) then continue;end end if (v1896<v971) then v971=v1896;v970=v1893;end end if (v970 and (math.random(1,100)>v394.hitChance)) then return nil;end return v970;end local v396;pcall(function() v396=Drawing.new("Circle");v396.Thickness=1;v396.Color=Color3.fromRGB(255,128,0);v396.Filled=false;v396.Visible=false;end);getgenv().__silFillRings=v152.FillRings(16);v155.RenderStepped:Connect(function() if  not v396 then return;end v396.Visible=(v394.showFov and v394.enabled and true) or false ;v396.Position=Vector2.new(v167.ViewportSize.X/2 ,v167.ViewportSize.Y/2 );v396.Radius=v394.fov;v152.UpdateFill(getgenv().__silFillRings,v394.showFov and v394.enabled ,v396.Position,v394.fov,v152.FillState.sil);end);local v398=false;pcall(function() local v980=getrawmetatable(game);local v981=rawget(v980,"__index");setreadonly(v980,false);rawset(v980,"__index",newcclosure(function(v1897,v1898) if (v1897==v162) then if (v270.silent and v270.silentPart) then if (v1898=="Hit") then return v270.silentCFrame;end if (v1898=="Target") then return v270.silentPart;end if (v1898=="UnitRay") then local v3644=v167.CFrame.Position;return Ray.new(v3644,v270.silentCFrame.Position-v3644 );end end if v394.enabled then if (v1898=="Hit") then local v3645=v395();if v3645 then return v3645.CFrame;end elseif (v1898=="Target") then local v3705=v395();if v3705 then return v3705;end elseif (v1898=="UnitRay") then local v3739=v395();if v3739 then local v3764=v167.CFrame.Position;return Ray.new(v3764,v3739.Position-v3764 );end end end end return v981(v1897,v1898);end));setreadonly(v980,true);v398=true;end);if  not v398 then pcall(function() local v2862=getrawmetatable(game);local v2863=rawget(v2862,"__namecall");setreadonly(v2862,false);rawset(v2862,"__namecall",newcclosure(function(v3103,...) local v3104=getnamecallmethod();if (v3103==v162) then if (v270.silent and v270.silentPart) then if (v3104=="Hit") then return v270.silentCFrame;end if (v3104=="Target") then return v270.silentPart;end if (v3104=="UnitRay") then local v3706=v167.CFrame.Position;return Ray.new(v3706,v270.silentCFrame.Position-v3706 );end end if v394.enabled then if (v3104=="Hit") then local v3707=v395();if v3707 then return v3707.CFrame;end elseif (v3104=="Target") then local v3740=v395();if v3740 then return v3740;end elseif (v3104=="UnitRay") then local v3765=v395();if v3765 then local v3772=v167.CFrame.Position;return Ray.new(v3772,v3765.Position-v3772 );end end end end return v2863(v3103,...);end));setreadonly(v2862,true);v398=true;end);end v152:Notify((v398 and "silent aim hook ok") or "silent aim hook fehlgeschlagen (executor)" ,6);local function v399() local function v982(v1899) return v270.silentCFrame.Position-v1899 ;end local function v983() return v270.silent and (v270.silentPart~=nil) and (tick()<v270.silentUntil) ;end local function v984(v1900) local v1901=v161.Character and v161.Character:FindFirstChild("Head") ;return (v1901~=nil) and ((v1900-v1901.Position).Magnitude<15) ;end if hookfunction then pcall(function() local v3105=v167.ViewportPointToRay;hookfunction(v3105,function(v3373,v3374,v3375) if ((v3373==v167) and v983()) then local v3602=Vector2.new(v3373.ViewportSize.X,v3373.ViewportSize.Y) * 0.5 ;if ((v3374-v3602).Magnitude<80) then local v3673=v3373.CFrame.Position;return Ray.new(v3673,v982(v3673));end end return v3105(v3373,v3374,v3375);end);end);pcall(function() local v3106=v167.ScreenPointToRay;hookfunction(v3106,function(v3376,v3377,v3378,v3379) if ((v3376==v167) and v983()) then local v3603=Vector2.new(v3376.ViewportSize.X,v3376.ViewportSize.Y) * 0.5 ;if ((Vector2.new(v3377,v3378) -v3603).Magnitude<80) then local v3674=v3376.CFrame.Position;return Ray.new(v3674,v982(v3674));end end return v3106(v3376,v3377,v3378,v3379);end);end);pcall(function() local v3107=workspace.Raycast;hookfunction(v3107,function(v3380,v3381,v3382,v3383) if (v983() and v984(v3381)) then return v3107(v3380,v3381,v982(v3381),v3383);end return v3107(v3380,v3381,v3382,v3383);end);end);pcall(function() local v3108=workspace.FindPartOnRayWithIgnoreList;if v3108 then hookfunction(v3108,function(v3604,v3605,v3606,...) if (v983() and v984(v3605.Origin)) then return v3108(v3604,Ray.new(v3605.Origin,v982(v3605.Origin)),v3606,...);end return v3108(v3604,v3605,v3606,...);end);end end);end end v15("silent rays",v399);local v400={};local function v401() print("[teddyhub] OK    LinoriaLib loaded, creating window");local v985=v152:CreateWindow({Title="teddyhub v.3",Center=true,AutoShow=true,TabPadding=8,MenuFadeTime=0.2});local v986={Combat=v985:AddTab("combat"),Visuals=v985:AddTab("visuals"),Movement=v985:AddTab("movement"),Misc=v985:AddTab("misc"),Crosshair=v985:AddTab("crosshair"),Settings=v985:AddTab("settings")};print("[teddyhub] OK    tab combat built");v400.combatL=v986.Combat:AddLeftTabbox();v400.combatR=v986.Combat:AddRightTabbox();local v989=v400.combatL:AddTab("aimbot");local v990=v400.combatR:AddTab("colors");local v991=v400.combatR:AddTab("anti-aim");local v992=v400.combatR:AddTab("trigger");v989:AddToggle("AimbotOn",{Text="aimbot",Default=false,Callback=function(v1902) v238=v1902;v250.Visible=v1902;if  not v1902 then for v3384,v3385 in ipairs(getgenv().__aimFillRings or {} ) do v3385.Visible=false;end end end});v989:AddToggle("LinkFovCH",{Text="link fov",Default=false,Callback=function(v1904) v247=v1904;end});v989:AddSlider("Smooth",{Text="smoothing",Default=5,Min=0,Max=100,Rounding=0,Callback=function(v1905) v237=1 -(v1905/100) ;end});v989:AddSlider("PredStr",{Text="prediction",Default=65,Min=0,Max=200,Rounding=0,Callback=function(v1906) v236=v1906/1000 ;end});v989:AddSlider("FovSize",{Text="radius",Default=100,Min=0,Max=1000,Rounding=0,Callback=function(v1907) v234=v1907;v250.Radius=v1907;end});v989:AddToggle("FovFill",{Text="fill fov",Default=false,Callback=function(v1909) v152.FillState.aim.enabled=v1909;end});v989:AddLabel("fill edge"):AddColorPicker("FovFillEdge",{Default=Color3.fromRGB(255,128,0),Callback=function(v1911) v152.FillState.aim.edge=v1911;end});v989:AddLabel("fill center"):AddColorPicker("FovFillCenter",{Default=Color3.fromRGB(255,128,0),Callback=function(v1913) v152.FillState.aim.center=v1913;end});v989:AddSlider("FovFillT",{Text="fill transparency",Default=60,Min=0,Max=100,Rounding=0,Callback=function(v1915) v152.FillState.aim.transparency=v1915/100 ;end});v989:AddToggle("WallChk",{Text="wall",Default=true,Callback=function(v1917) v239=v1917;end});v989:AddToggle("StickyOn",{Text="sticky",Default=false,Callback=function(v1918) v240=v1918;end});v989:AddDropdown("AB_Mode",{Text="aim mode",Default="Camera",Values={"Camera","Mouse"},Callback=function(v1919) v248=v1919;end});v989:AddSlider("AB_MouseSens",{Text="mouse sens",Default=50,Min=1,Max=300,Rounding=0,Callback=function(v1920) v249=v1920/100 ;end});v989:AddToggle("TeamChk",{Text="team",Default=false,Callback=function(v1921) v241=v1921;end});v989:AddToggle("HealthChk",{Text="health",Default=false,Callback=function(v1922) v242=v1922;end});v989:AddSlider("MinHp",{Text="min hp",Default=0,Min=0,Max=100,Rounding=0,Callback=function(v1923) v243=v1923;end});v989:AddToggle("RainbowFov",{Text="rainbow",Default=false,Callback=function(v1924) v232=v1924;end});v990:AddLabel("fov"):AddColorPicker("FovCol",{Default=v244,Callback=function(v1925) v244=v1925;if  not v232 then v250.Color=v1925;end end});v990:AddLabel("target"):AddColorPicker("TgtCol",{Default=v245,Callback=function(v1926) v245=v1926;end});v990:AddToggle("TargetHUD_Enable",{Text="target hud",Default=false,Callback=function(v1927) v225=v1927;if  not v1927 then v169.frame.Visible=false;end end});v991:AddToggle("AA_Enable",{Text="anti-aim",Default=false,Callback=function(v1928) v267.enabled=v1928;end});v991:AddDropdown("AA_YawMode",{Text="yaw",Default="At Targets",Values={"At Targets","Backwards","Forward","Spin","Random","Freestanding","Manual","Zero"},Callback=function(v1930) v267.yawMode=v1930;end});v991:AddSlider("AA_YawOffset",{Text="yaw offset",Default=0,Min= -180,Max=180,Rounding=0,Callback=function(v1932) v267.yawOffset=v1932;end});v991:AddToggle("AA_YawJitter",{Text="yaw jitter",Default=false,Callback=function(v1934) v267.yawJitter=v1934;end});v991:AddSlider("AA_YawJitterRange",{Text="jitter range",Default=30,Min=1,Max=90,Rounding=0,Callback=function(v1936) v267.yawJitterRange=v1936;end});v991:AddDropdown("AA_PitchMode",{Text="pitch",Default="Zero",Values={"Down","Up","Zero","Random","Jitter","Forward"},Callback=function(v1938) v267.pitchMode=v1938;end});v991:AddSlider("AA_PitchOffset",{Text="pitch offset",Default=0,Min= -89,Max=89,Rounding=0,Callback=function(v1940) v267.pitchOffset=v1940;end});v991:AddToggle("AA_LBY",{Text="fake yaw (lby)",Default=false,Callback=function(v1942) v267.lbyEnabled=v1942;end});v991:AddSlider("AA_LBYOffset",{Text="lby offset",Default=60,Min= -180,Max=180,Rounding=0,Callback=function(v1944) v267.lbyOffset=v1944;end});v991:AddDropdown("AA_LBYMode",{Text="lby mode",Default="Jitter",Values={"Static","Jitter","Flip","Random"},Callback=function(v1946) v267.lbyMode=v1946;end});v991:AddSlider("AA_SpinSpeed",{Text="spin speed",Default=45,Min=10,Max=360,Rounding=0,Callback=function(v1948) v267.spinSpeed=v1948;end});v991:AddToggle("AA_TeamChk",{Text="team",Default=false,Callback=function(v1950) v267.teamCheck=v1950;end});v991:AddLabel("manual yaw: hold Z = left, X = right");v991:AddDivider();v991:AddToggle("AA_VeloDesync",{Text="desync",Default=false,Callback=function(v1952) v267.velocityDesync=v1952;end});v991:AddSlider("AA_VeloY",{Text="desync y",Default=1000,Min= -5000,Max=5000,Rounding=0,Callback=function(v1954) v267.veloY=v1954;end});v992:AddToggle("TrigOn",{Text="enable",Default=false,Callback=function(v1956) v261.enabled=v1956;end});v992:AddToggle("TrigTeam",{Text="team",Default=false,Callback=function(v1958) v261.teamCheck=v1958;end});v992:AddToggle("TrigHold",{Text="hold",Default=false,Callback=function(v1960) v261.holdMode=v1960;end});v992:AddSlider("TrigDelay",{Text="delay",Default=0,Min=0,Max=100,Rounding=0,Callback=function(v1962) v261.delay=v1962/100 ;end});v992:AddSlider("TrigCPS",{Text="interval",Default=5,Min=1,Max=50,Rounding=0,Callback=function(v1964) v261.clickInterval=v1964/100 ;end});local v993=v400.combatL:AddTab("ragebot");v993:AddToggle("RG_On",{Text="ragebot",Default=false,Callback=function(v1966) v270.enabled=v1966;end});v993:AddToggle("RG_Team",{Text="team check",Default=true,Callback=function(v1968) v270.teamCheck=v1968;end});v993:AddToggle("RG_Wall",{Text="wall check",Default=false,Callback=function(v1970) v270.wallCheck=v1970;end});v993:AddToggle("RG_Visible",{Text="visible only",Default=true,Callback=function(v1972) v270.visibleOnly=v1972;end});v993:AddToggle("RG_Health",{Text="health check",Default=false,Callback=function(v1974) v270.healthCheck=v1974;end});v993:AddDivider();v993:AddToggle("RG_Silent",{Text="silent (camera stays still)",Default=false,Callback=function(v1976) v270.silent=v1976;end});v993:AddToggle("RG_ThirdAim",{Text="aim in third person",Default=true,Callback=function(v1978) v270.thirdAim=v1978;end});v993:AddToggle("RG_AutoFire",{Text="auto shoot",Default=true,Callback=function(v1980) v270.autoFire=v1980;end});v993:AddToggle("RG_Hold",{Text="hold rmb",Default=false,Callback=function(v1982) v270.holdRMB=v1982;end});v993:AddDivider();v993:AddSlider("RG_Fov",{Text="fov",Default=250,Min=0,Max=1000,Rounding=0,Callback=function(v1984) v270.fov=v1984;end});v993:AddDropdown("RG_Part",{Text="hitpart",Default="Head",Values={"Head","UpperTorso","HumanoidRootPart"},Callback=function(v1986) v270.hitpart=v1986;end});v993:AddSlider("RG_Smooth",{Text="smooth",Default=50,Min=0,Max=100,Rounding=0,Callback=function(v1988) v270.smooth=1 -(v1988/100) ;end});v993:AddSlider("RG_Pred",{Text="prediction",Default=65,Min=0,Max=200,Rounding=0,Callback=function(v1990) v270.prediction=v1990/1000 ;end});v993:AddSlider("RG_FireDelay",{Text="fire delay",Default=2,Min=0,Max=100,Rounding=0,Callback=function(v1992) v270.fireDelay=v1992/100 ;end});v993:AddSlider("RG_MinHp",{Text="min hp",Default=0,Min=0,Max=100,Rounding=0,Callback=function(v1994) v270.minHealth=v1994;end});v993:AddLabel("aims + shoots the moment an enemy enters view");local v994=v400.combatL:AddTab("silent");v994:AddToggle("SAOn",{Text="enable",Default=false,Callback=function(v1996) v394.enabled=v1996;end});v994:AddToggle("SATeam",{Text="team",Default=false,Callback=function(v1998) v394.teamCheck=v1998;end});v994:AddToggle("SAWall",{Text="wall check",Default=false,Callback=function(v2000) v394.wallCheck=v2000;end});v994:AddToggle("SAFovShow",{Text="show fov circle",Default=false,Callback=function(v2002) v394.showFov=v2002;end});v994:AddSlider("SAFov",{Text="fov",Default=200,Min=10,Max=800,Rounding=0,Callback=function(v2004) v394.fov=v2004;end});v994:AddToggle("SAFill",{Text="fill fov",Default=false,Callback=function(v2006) v152.FillState.sil.enabled=v2006;end});v994:AddLabel("fill edge"):AddColorPicker("SAFillEdge",{Default=Color3.fromRGB(255,128,0),Callback=function(v2008) v152.FillState.sil.edge=v2008;end});v994:AddLabel("fill center"):AddColorPicker("SAFillCenter",{Default=Color3.fromRGB(255,128,0),Callback=function(v2010) v152.FillState.sil.center=v2010;end});v994:AddSlider("SAFillT",{Text="fill transparency",Default=60,Min=0,Max=100,Rounding=0,Callback=function(v2012) v152.FillState.sil.transparency=v2012/100 ;end});v994:AddSlider("SAHit",{Text="hit chance",Default=100,Min=1,Max=100,Rounding=0,Callback=function(v2014) v394.hitChance=v2014;end});v994:AddDropdown("SAHitpart",{Text="hitpart",Default="Head",Values={"Head","UpperTorso","HumanoidRootPart"},Callback=function(v2016) v394.hitpart=v2016;end});v994:AddSlider("SAFov",{Text="fov",Default=200,Min=0,Max=800,Rounding=0,Callback=function(v2018) v394.fov=v2018;end});v994:AddDropdown("SAPart",{Text="part",Default=1,Values={"Head","UpperTorso","HumanoidRootPart"},Callback=function(v2020) v394.hitpart=v2020;end});local function v995() return {Afternoon={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://162001926",SkyboxDn="rbxassetid://161998893",SkyboxFt="rbxassetid://162001897",SkyboxBk="rbxassetid://162001887",SkyboxLf="rbxassetid://162001904",SkyboxRt="rbxassetid://162001919"},["Blue Space"]={StarCount=0,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://367149078",SkyboxDn="rbxassetid://367147970",SkyboxFt="rbxassetid://366731193",SkyboxBk="rbxassetid://366731024",SkyboxLf="rbxassetid://366731613",SkyboxRt="rbxassetid://366731514"},["Classic Roblox"]={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://11138465883",SkyboxDn="rbxassetid://11138453351",SkyboxFt="rbxassetid://11138458027",SkyboxBk="rbxassetid://11138450201",SkyboxLf="rbxassetid://11138460736",SkyboxRt="rbxassetid://11138463127",SunTextureId="rbxassetid://11138537872"},Cloudy={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://246480504",SkyboxDn="rbxassetid://246480523",SkyboxFt="rbxassetid://246480105",SkyboxBk="rbxassetid://246480323",SkyboxLf="rbxassetid://246480549",SkyboxRt="rbxassetid://246480565"},Dusk={StarCount=3000,SunAngularSize=0,MoonAngularSize=11,SkyboxUp="rbxassetid://9778106496",SkyboxDn="rbxassetid://9778110864",SkyboxFt="rbxassetid://9778101192",SkyboxBk="rbxassetid://9778108979",SkyboxLf="rbxassetid://9778103329",SkyboxRt="rbxassetid://9778104889"},Dawn={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://323478865",SkyboxDn="rbxassetid://323481190",SkyboxFt="rbxassetid://323480314",SkyboxBk="rbxassetid://323479840",SkyboxLf="rbxassetid://323480786",SkyboxRt="rbxassetid://323480131"},["Dark Skies"]={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://149397702",SkyboxDn="rbxassetid://149397686",SkyboxFt="rbxassetid://149397697",SkyboxBk="rbxassetid://149397692",SkyboxLf="rbxassetid://149397684",SkyboxRt="rbxassetid://149397688"},Earth={StarCount=3000,SunAngularSize=0,MoonAngularSize=0,SkyboxUp="rbxassetid://15753304473",SkyboxDn="rbxassetid://15753362674",SkyboxFt="rbxassetid://15753305823",SkyboxBk="rbxassetid://15753305495",SkyboxLf="rbxassetid://15753310707",SkyboxRt="rbxassetid://15753304774"},Ethereal={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://16823395515",SkyboxDn="rbxassetid://16823388586",SkyboxFt="rbxassetid://16823390254",SkyboxBk="rbxassetid://16823386986",SkyboxLf="rbxassetid://16823392344",SkyboxRt="rbxassetid://16823394120"},Galaxy={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://2049518578",SkyboxDn="rbxassetid://2049519279",SkyboxFt="rbxassetid://2049519882",SkyboxBk="rbxassetid://2049520382",SkyboxLf="rbxassetid://2049522478",SkyboxRt="rbxassetid://2049521207"},Heaven={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://7951703855",SkyboxDn="rbxassetid://7951706908",SkyboxFt="rbxassetid://7951694757",SkyboxBk="rbxassetid://7951826533",SkyboxLf="rbxassetid://7951697216",SkyboxRt="rbxassetid://7951700251"},["Horizontal Milky Way"]={StarCount=0,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://714276621",SkyboxDn="rbxassetid://714276541",SkyboxFt="rbxassetid://714276657",SkyboxBk="rbxassetid://714276643",SkyboxLf="rbxassetid://714276648",SkyboxRt="rbxassetid://714276638"},Jungle={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://525546479",SkyboxDn="rbxassetid://525544628",SkyboxFt="rbxassetid://525548536",SkyboxBk="rbxassetid://525546178",SkyboxLf="rbxassetid://525550171",SkyboxRt="rbxassetid://525545319"},Mountains={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://48015387",SkyboxDn="rbxassetid://48015300",SkyboxFt="rbxassetid://368388290",SkyboxBk="rbxassetid://368385273",SkyboxLf="rbxassetid://368390615",SkyboxRt="rbxassetid://368385190"},Nebula={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://171448889",SkyboxDn="rbxassetid://171448902",SkyboxFt="rbxassetid://171448848",SkyboxBk="rbxassetid://171448875",SkyboxLf="rbxassetid://171448933",SkyboxRt="rbxassetid://171448925"},Night={StarCount=0,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://12064131",SkyboxDn="rbxassetid://12064152",SkyboxFt="rbxassetid://12064121",SkyboxBk="rbxassetid://12064107",SkyboxLf="rbxassetid://12063984",SkyboxRt="rbxassetid://12064115"},["Night Light"]={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://171447068",SkyboxDn="rbxassetid://171447094",SkyboxFt="rbxassetid://171447041",SkyboxBk="rbxassetid://171447054",SkyboxLf="rbxassetid://171447128",SkyboxRt="rbxassetid://171447111"},["Ocean Sky"]={StarCount=3000,SunAngularSize=1,MoonAngularSize=0,SkyboxUp="rbxassetid://11854708161",SkyboxDn="rbxassetid://11854687121",SkyboxFt="rbxassetid://11854693863",SkyboxBk="rbxassetid://11854686548",SkyboxLf="rbxassetid://11854696162",SkyboxRt="rbxassetid://11854698541",SunTextureId="rbxassetid://4774583925",MoonTextureId="rbxassetid://4774580371"},["Pink Clouds"]={StarCount=1334,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://271077958",SkyboxDn="rbxassetid://271077243",SkyboxFt="rbxassetid://271042556",SkyboxBk="rbxassetid://271042516",SkyboxLf="rbxassetid://271042310",SkyboxRt="rbxassetid://271042467"},["Red Dusk"]={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://136208328681929",SkyboxDn="rbxassetid://123407860042117",SkyboxFt="rbxassetid://132624761762466",SkyboxBk="rbxassetid://85146619291315",SkyboxLf="rbxassetid://102069641249982",SkyboxRt="rbxassetid://136526747107728"},Redshift={StarCount=0,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://401664936",SkyboxDn="rbxassetid://401664862",SkyboxFt="rbxassetid://401664960",SkyboxBk="rbxassetid://401664839",SkyboxLf="rbxassetid://401664881",SkyboxRt="rbxassetid://401664901"},Saturn={StarCount=3000,SunAngularSize=10,MoonAngularSize=0,SkyboxUp="rbxassetid://1898736761",SkyboxDn="rbxassetid://1898727189",SkyboxFt="rbxassetid://1898722814",SkyboxBk="rbxassetid://1898724755",SkyboxLf="rbxassetid://1898729298",SkyboxRt="rbxassetid://1898741025",MoonTextureId="rbxassetid://0"},SFOTH={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://1014449",SkyboxDn="rbxassetid://1012891",SkyboxFt="rbxassetid://1012887",SkyboxBk="rbxassetid://1012890",SkyboxLf="rbxassetid://1012889",SkyboxRt="rbxassetid://1012888"},Smoke={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://171410742",SkyboxDn="rbxassetid://171410748",SkyboxFt="rbxassetid://171410730",SkyboxBk="rbxassetid://171410736",SkyboxLf="rbxassetid://171410766",SkyboxRt="rbxassetid://171410755"},["Solid Black"]={StarCount=0,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://2013298",SkyboxDn="rbxassetid://2013298",SkyboxFt="rbxassetid://2013298",SkyboxBk="rbxassetid://2013298",SkyboxLf="rbxassetid://2013298",SkyboxRt="rbxassetid://2013298"},Space={StarCount=0,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://155441905",SkyboxDn="rbxassetid://155441905",SkyboxFt="rbxassetid://155441905",SkyboxBk="rbxassetid://155441905",SkyboxLf="rbxassetid://155441905",SkyboxRt="rbxassetid://155441905"},Storm={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://171410789",SkyboxDn="rbxassetid://171410792",SkyboxFt="rbxassetid://171410775",SkyboxBk="rbxassetid://171410784",SkyboxLf="rbxassetid://171410807",SkyboxRt="rbxassetid://171410798"},Sunset={StarCount=5000,SunAngularSize=18,MoonAngularSize=11,SkyboxUp="rbxassetid://264907379",SkyboxDn="rbxassetid://264907909",SkyboxFt="rbxassetid://264909420",SkyboxBk="rbxassetid://264908339",SkyboxLf="rbxassetid://264909758",SkyboxRt="rbxassetid://264908886"},Underworld={StarCount=3000,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://171561009",SkyboxDn="rbxassetid://171561019",SkyboxFt="rbxassetid://171560968",SkyboxBk="rbxassetid://171560994",SkyboxLf="rbxassetid://171561065",SkyboxRt="rbxassetid://171561026"},["Vertical Milky Way"]={StarCount=3000,SunAngularSize=1.440000057220459,MoonAngularSize=0.5699999928474426,SkyboxUp="rbxassetid://5559302033",SkyboxDn="rbxassetid://5559290893",SkyboxFt="rbxassetid://5559300879",SkyboxBk="rbxassetid://5559289158",SkyboxLf="rbxassetid://5559292825",SkyboxRt="rbxassetid://5559302989"},White={StarCount=0,SunAngularSize=21,MoonAngularSize=11,SkyboxUp="rbxassetid://321136141",SkyboxDn="rbxassetid://321136141",SkyboxFt="rbxassetid://321136141",SkyboxBk="rbxassetid://321136141",SkyboxLf="rbxassetid://321136141",SkyboxRt="rbxassetid://321136141"}};end local v996=v995();local v997={};for v2022 in pairs(v996) do table.insert(v997,v2022);end table.sort(v997);table.insert(v997,1,"Default");print("[teddyhub] OK    tab visuals built");v400.visL=v986.Visuals:AddLeftTabbox();v400.visR=v986.Visuals:AddRightTabbox();local v1000=v400.visL:AddTab("esp");local v1001=v400.visR:AddTab("world");v1000:AddToggle("ESPOn",{Text="esp",Default=false,Callback=function(v2023) v275.master=v2023;end});v1000:AddToggle("ESPBox",{Text="box",Default=true,Callback=function(v2025) v275.box=v2025;end});v1000:AddToggle("ESPFill",{Text="fill",Default=false,Callback=function(v2027) v275.fill=v2027;end});v1000:AddToggle("ESPName",{Text="name",Default=true,Callback=function(v2029) v275.name=v2029;end});v1000:AddToggle("ESPDist",{Text="distance",Default=true,Callback=function(v2031) v275.distance=v2031;end});v1000:AddToggle("ESPWep",{Text="weapon",Default=false,Callback=function(v2033) v275.weapon=v2033;end});v1000:AddToggle("ESPHp",{Text="health",Default=true,Callback=function(v2035) v275.healthbar=v2035;end});v1000:AddToggle("ESPSkel",{Text="skeleton",Default=false,Callback=function(v2037) v275.skeleton=v2037;end});v1000:AddToggle("ESPSkelO",{Text="skel outline",Default=false,Callback=function(v2039) v275.skeletonOutline=v2039;end});v1001:AddDropdown("ESPType",{Text="type",Default=1,Values={"static","dynamic"},Callback=function(v2041) v276.boundsType=v2041;end});v1001:AddSlider("ESPScale",{Text="scale",Default=100,Min=50,Max=200,Rounding=0,Callback=function(v2043) v276.boundsScale=v2043;end});v1001:AddLabel("color"):AddColorPicker("ESPCol",{Default=v276.color,Callback=function(v2045) v276.color=v2045;end});v1001:AddDivider();v1001:AddToggle("Visuals_Enabled",{Text="highlight",Default=false});v1001:AddToggle("Visuals_Gradient",{Text="rainbow",Default=false});v1001:AddSlider("Visuals_GradientSpeed",{Text="speed",Default=5,Min=1,Max=20,Rounding=0});v1001:AddToggle("Visuals_Fill",{Text="fill",Default=true});v1001:AddSlider("Visuals_FillTransparency",{Text="transparency",Default=0.5,Min=0,Max=1,Rounding=2});v1001:AddLabel("fill"):AddColorPicker("Visuals_FillColor",{Default=Color3.fromRGB(255,0,0)});v1001:AddToggle("Visuals_Outline",{Text="outline",Default=true});v1001:AddSlider("Visuals_OutlineTransparency",{Text="transparency",Default=0,Min=0,Max=1,Rounding=2});v1001:AddLabel("outline"):AddColorPicker("Visuals_OutlineColor",{Default=Color3.fromRGB(255,255,255)});v1001:AddDivider();v1001:AddToggle("Ambient_Enabled",{Text="ambient",Default=false});v1001:AddLabel("ambient"):AddColorPicker("Ambient_Color",{Default=Color3.fromRGB(128,128,128)});v1001:AddLabel("outdoor"):AddColorPicker("OutdoorAmbient_Color",{Default=Color3.fromRGB(128,128,128)});v1000:AddDivider();v1000:AddToggle("Skybox_Enabled",{Text="skybox",Default=false});v1000:AddDropdown("Skybox_Preset",{Values=v997,Default=1,Text="preset"});v1000:AddInput("Skybox_CustomID",{Default="",Numeric=true,Finished=true,Text="skybox id",Placeholder="Dont Use"});v1001:AddToggle("Weather_Enabled",{Text="weather",Default=false,Callback=function(v2047) v315=v2047;end});v1001:AddDropdown("Weather_Type",{Values={"Rain","Snow","Storm"},Default=1,Multi=false,Text="type",Callback=function(v2048) v316=v2048;end});v1001:AddSlider("Weather_Intensity",{Text="intensity",Default=31,Min=5,Max=100,Rounding=0,Callback=function(v2049) v317=v2049;end});v1001:AddLabel("color"):AddColorPicker("Weather_Color",{Default=Color3.fromRGB(200,220,255),Callback=function(v2050) v318=v2050;end});v1001:AddDivider();v1001:AddToggle("SelfChams_Enabled",{Text="self chams",Default=false,Callback=function(v2051) v327=v2051;v343();end});v1001:AddDropdown("SelfChams_Style",{Values={"Highlight","ForceField","Solid Color","Neon","Glass","Ice","Metal","Foil","Marble","Granite","Wood","Brick","Cobblestone","Sand","Fabric","Concrete","Slate"},Default=1,Multi=false,Text="style",Callback=function(v2052) v328=v2052;v343();end});v1001:AddToggle("SelfChams_Gradient",{Text="rainbow",Default=false,Callback=function(v2053) v329=v2053;v343();end});v1001:AddSlider("SelfChams_GradSpeed",{Text="rate",Default=5,Min=1,Max=20,Rounding=0,Callback=function(v2054) v330=v2054;end});v1001:AddSlider("SelfChams_FillTrans",{Text="alpha",Default=0,Min=0,Max=100,Rounding=0,Callback=function(v2055) v333=v2055/100 ;v343();end});v1001:AddLabel("fill"):AddColorPicker("SelfChams_Color",{Default=Color3.fromRGB(255,255,255),Callback=function(v2056) v331=v2056;v343();end});v1001:AddLabel("outline"):AddColorPicker("SelfChams_OutlineColor",{Default=Color3.fromRGB(255,255,255),Callback=function(v2057) v332=v2057;v343();end});v1001:AddDivider();v1001:AddToggle("FOV_Enabled",{Text="fov",Default=false,Callback=function(v2058) v335=v2058;if  not v2058 then workspace.CurrentCamera.FieldOfView=v337;end end});v1001:AddSlider("FOV_Value",{Text="field",Default=90,Min=30,Max=120,Rounding=0,Callback=function(v2059) v336=v2059;end});local v1002=v400.visL:AddTab("bloom");v1002:AddToggle("CC_Enabled",{Text="color",Default=false,Callback=function(v2060) v354=v2060;v356(Options.CC_Brightness.Value/100 ,Options.CC_Contrast.Value/100 ,Options.CC_Saturation.Value/100 ,Options.CC_TintColor.Value);end});v1002:AddSlider("CC_Brightness",{Text="brightness",Default=0,Min= -100,Max=100,Rounding=0,Callback=function(v2061) v356(v2061/100 ,Options.CC_Contrast.Value/100 ,Options.CC_Saturation.Value/100 ,Options.CC_TintColor.Value);end});v1002:AddSlider("CC_Contrast",{Text="contrast",Default=0,Min= -100,Max=100,Rounding=0,Callback=function(v2062) v356(Options.CC_Brightness.Value/100 ,v2062/100 ,Options.CC_Saturation.Value/100 ,Options.CC_TintColor.Value);end});v1002:AddSlider("CC_Saturation",{Text="saturation",Default=0,Min= -100,Max=100,Rounding=0,Callback=function(v2063) v356(Options.CC_Brightness.Value/100 ,Options.CC_Contrast.Value/100 ,v2063/100 ,Options.CC_TintColor.Value);end});v1002:AddLabel("tint"):AddColorPicker("CC_TintColor",{Default=Color3.fromRGB(255,255,255),Callback=function(v2064) v356(Options.CC_Brightness.Value/100 ,Options.CC_Contrast.Value/100 ,Options.CC_Saturation.Value/100 ,v2064);end});v1002:AddDivider();v1002:AddToggle("Bloom_Enabled",{Text="bloom",Default=false,Callback=function(v2065) v355=v2065;v357(Options.Bloom_Intensity.Value/5 ,Options.Bloom_Size.Value,Options.Bloom_Threshold.Value/100 );end});v1002:AddSlider("Bloom_Intensity",{Text="intensity",Default=15,Min=0,Max=50,Rounding=0,Callback=function(v2066) v357(v2066/5 ,Options.Bloom_Size.Value,Options.Bloom_Threshold.Value/100 );end});v1002:AddSlider("Bloom_Size",{Text="size",Default=24,Min=1,Max=56,Rounding=0,Callback=function(v2067) v357(Options.Bloom_Intensity.Value/5 ,v2067,Options.Bloom_Threshold.Value/100 );end});v1002:AddSlider("Bloom_Threshold",{Text="threshold",Default=0,Min=0,Max=100,Rounding=0,Callback=function(v2068) v357(Options.Bloom_Intensity.Value/5 ,Options.Bloom_Size.Value,v2068/100 );end});local v1003=v400.visR:AddTab("time");v1003:AddSlider("TimeSlider",{Text="time",Default=14,Min=0,Max=24,Rounding=1,Callback=function(v2069) v373(v2069);end});v1003:AddToggle("FreezeTimeToggle",{Text="lock time",Default=false,Callback=function(v2070) v372.FreezeTime=v2070;end});v1003:AddButton({Text="day",Func=function() Options.TimeSlider:SetValue(12);end});v1003:AddButton({Text="night",Func=function() Options.TimeSlider:SetValue(0);end});v1003:AddButton({Text="sunset",Func=function() Options.TimeSlider:SetValue(18);end});v400.visL2=v986.Visuals:AddLeftTabbox();local v1005=v400.visL2:AddTab("presets");v1005:AddDropdown("SV_PresetSelect",{Values={"Default","Cinematic","Hazy","Vibrant","Noir","Night"},Default=1,Text="preset"});v1005:AddButton({Text="apply preset",Func=function() v393(Options.SV_PresetSelect.Value);end});local v1006=v400.visL2:AddTab("atmos");v389(v1006,"SV_AtmoOn","AtmoEnabled",{Text="atmosphere",Default=false});local v1007=v1006:AddDependencyBox();v390(v1007,"SV_Density","Density",{Text="density",Default=0.32,Min=0,Max=1,Rounding=2});v390(v1007,"SV_Offset","Offset",{Text="offset",Default=0.5,Min=0,Max=1,Rounding=2});v390(v1007,"SV_Haze","Haze",{Text="haze",Default=1.8,Min=0,Max=10,Rounding=1});v390(v1007,"SV_Glare","Glare",{Text="glare",Default=0.35,Min=0,Max=2,Rounding=2});v391(v1007,"Atmo","SV_AtmoColor","AtmoColor",Color3.fromRGB(199,199,199));v391(v1007,"Decay","SV_AtmoDecay","AtmoDecay",Color3.fromRGB(106,112,125));v1007:SetupDependencies({{Toggles.SV_AtmoOn,true}});local v1008=v400.visR:AddTab("fog");v389(v1008,"SV_FogOn","FogEnabled",{Text="fog",Default=false});local v1009=v1008:AddDependencyBox();v390(v1009,"SV_FogStart","FogStart",{Text="start",Default=150,Min=0,Max=2000,Rounding=0});v390(v1009,"SV_FogEnd","FogEnd",{Text="end",Default=1400,Min=100,Max=10000,Rounding=0});v391(v1009,"Color","SV_FogColor","FogColor",Color3.fromRGB(190,200,215));v1009:SetupDependencies({{Toggles.SV_FogOn,true}});v400.visR2=v986.Visuals:AddRightTabbox();local v1011=v400.visR2:AddTab("vignette");v389(v1011,"SV_VigOn","VignetteEnabled",{Text="vignette",Default=true});local v1012=v1011:AddDependencyBox();v390(v1012,"SV_VigStr","VignetteStrength",{Text="strength",Default=0.5,Min=0,Max=1,Rounding=2});v1012:SetupDependencies({{Toggles.SV_VigOn,true}});v155.RenderStepped:Connect(function() if v152.Unloaded then return;end v386();end);Options.SV_PresetSelect:OnChanged(function(v2072) v393(v2072);end);v386();print("[teddyhub] OK    tab movement built");v400.movL=v986.Movement:AddLeftTabbox();v400.movR=v986.Movement:AddRightTabbox();local v1015=v400.movL:AddTab("player");v1015:AddToggle("SpeedOn",{Text="speed",Default=false,Callback=function(v2073) v305=v2073;v312();end});v1015:AddSlider("WalkSpd",{Text="walk",Default=16,Min=16,Max=500,Rounding=0,Callback=function(v2074) v306=v2074;if v305 then v312();end end});v1015:AddToggle("FlyOn",{Text="fly",Default=false,Callback=function(v2075) v314(v2075);end});v1015:AddSlider("FlySpd",{Text="speed",Default=50,Min=10,Max=300,Rounding=0,Callback=function(v2076) v310=v2076;end});v1015:AddToggle("JumpOn",{Text="jump",Default=false,Callback=function(v2077) v307=v2077;v313();end});v1015:AddSlider("JumpPwr",{Text="power",Default=50,Min=50,Max=500,Rounding=0,Callback=function(v2078) v308=v2078;if v307 then v313();end end});v1015:AddToggle("SpinBotOn",{Text="spin",Default=false,Callback=function(v2079) v264=v2079;end});v1015:AddSlider("SpinSpeed",{Text="speed",Default=10,Min=1,Max=100,Rounding=0,Callback=function(v2080) v265=v2080;end});v1015:AddDropdown("SpinMode",{Text="mode",Default=1,Values={"Linear","Jitter"},Callback=function(v2081) v266=v2081;end});print("[teddyhub] OK    tab crosshair built");v400.chL=v986.Crosshair:AddLeftTabbox();v400.chR=v986.Crosshair:AddRightTabbox();local v1018=v400.chL:AddTab("main");local v1019=v400.chR:AddTab("circle");v1018:AddToggle("CHVis",{Text="crosshair",Default=false,Callback=function(v2082) v293.Visible=v2082;end});v1018:AddSlider("CHSpin",{Text="speed",Default=5,Min=0,Max=1000,Rounding=0,Callback=function(v2084) v293.SpinSpeed=v2084/250 ;end});v1018:AddSlider("CHGap",{Text="gap",Default=8,Min=0,Max=50,Rounding=0,Callback=function(v2086) v293.CentralGap=v2086;end});v1018:AddSlider("CHLen",{Text="length",Default=112,Min=10,Max=300,Rounding=0,Callback=function(v2088) v293.TotalLength=v2088;v299();end});v1018:AddSlider("CHThick",{Text="thickness",Default=2,Min=1,Max=10,Rounding=0,Callback=function(v2090) v293.LineThickness=v2090;end});v1018:AddSlider("CHOut",{Text="outline size",Default=4,Min=0,Max=15,Rounding=0,Callback=function(v2092) v293.OutlineThickness=v2092;end});v1018:AddToggle("CHTrack",{Text="tracking",Default=false,Callback=function(v2094) v293.TrackingEnabled=v2094;end});v1018:AddSlider("CHTRad",{Text="radius",Default=150,Min=10,Max=800,Rounding=0,Callback=function(v2096) v293.TrackingRadius=v2096;end});v1018:AddSlider("CHTSmooth",{Text="smoothness",Default=20,Min=1,Max=100,Rounding=0,Callback=function(v2098) v293.TrackingSmoothness=v2098/100 ;end});v1018:AddDropdown("CHTgt",{Text="part",Default=1,Values={"Head","HumanoidRootPart"},Callback=function(v2100) v293.TrackPart=v2100;end});v1018:AddToggle("CHTChk",{Text="team",Default=true,Callback=function(v2102) v293.TeamCheck=v2102;end});v1019:AddToggle("CHCirVis",{Text="visible",Default=true,Callback=function(v2104) v293.CircleVisible=v2104;end});v1019:AddSlider("CHCirR",{Text="radius",Default=119,Min=10,Max=300,Rounding=0,Callback=function(v2106) v293.CircleRadius=v2106;end});v1019:AddSlider("CHCirT",{Text="transparency",Default=30,Min=0,Max=100,Rounding=0,Callback=function(v2108) v293.CircleTransparency=v2108/100 ;end});v1019:AddLabel("start"):AddColorPicker("CHColS",{Default=Color3.fromRGB(180,180,180),Callback=function(v2110) v293.ColorStart=v2110;end});v1019:AddLabel("end"):AddColorPicker("CHColE",{Default=Color3.fromRGB(20,20,20),Callback=function(v2112) v293.ColorEnd=v2112;end});v1019:AddLabel("color"):AddColorPicker("CHCirC",{Default=Color3.fromRGB(15,15,25),Callback=function(v2114) v293.CircleColor=v2114;end});local v1020=v400.chL:AddTab("icon");v1020:AddToggle("EnableShiftIcon",{Text="custom icon",Default=false,Callback=function(v2116) v358.Enabled=v2116;end});v1020:AddDropdown("PresetShiftDropdown",{Values=v360,Default=1,Multi=false,Text="preset",Callback=function(v2118) local v2119=v359[v2118];if v2119 then v358.CurrentID=v2119;end end});v1020:AddInput("CustomShiftID_Input",{Default="",Numeric=true,Finished=true,Text="asset id",Placeholder="Custom ID eingeben...",Callback=function(v2120) if (v2120 and (v2120~="")) then v358.CurrentID=v2120;end end});v1020:AddSlider("ShiftIconSizeSlider",{Text="size",Default=32,Min=10,Max=100,Rounding=0,Callback=function(v2121) v358.IconSize=v2121;end});print("[teddyhub] OK    tab misc built");v400.miscL=v986.Misc:AddLeftTabbox();v400.miscR=v986.Misc:AddRightTabbox();local v1023=v400.miscL:AddTab("watermark");v1023:AddToggle("WM_Enabled",{Text="watermark",Default=true,Callback=function(v2123) v168.Enabled=v2123;v152:SetWatermarkVisibility(v2123);end});v1023:AddInput("WM_Text",{Default="teddyhub v.3",Numeric=false,Finished=true,Text="title",Placeholder="Text eingeben...",Callback=function(v2125) v168.Text=v2125;end});v1023:AddToggle("WM_ShowFPS",{Text="fps",Default=true,Callback=function(v2127) v168.ShowFPS=v2127;end});v1023:AddToggle("WM_ShowPing",{Text="ping",Default=true,Callback=function(v2129) v168.ShowPing=v2129;end});v1023:AddToggle("WM_ShowTime",{Text="time",Default=true,Callback=function(v2131) v168.ShowTime=v2131;end});local v1024=v400.miscR:AddTab("local");v1024:AddToggle("Enable_ShiftLock",{Text="shift lock",Default=false,Tooltip="Allows mouse-lock camera control",Callback=function(v2133) pcall(function() v161.DevEnableMouseLock=v2133;end);end});print("[teddyhub] OK    tab settings built");local v1025=v986.Settings:AddLeftGroupbox("menu");v400.setR=v986.Settings:AddRightTabbox();return v986,v1025,v996;end local v402,v403,v404=v401();v403:AddButton({Text="unload",Func=function() v152:Unload();end});local function v405() local v1027={saved=setmetatable({},{__mode="k"}),touched=setmetatable({},{__mode="k"})};local function v1028(v2134) local v2135={};local v2136=Options.HB_Mode.Value;if (v2136=="All parts") then for v3387,v3388 in ipairs(v2134:GetChildren()) do if v3388:IsA("BasePart") then v2135[ #v2135 + 1 ]=v3388;end end elseif (v2136=="Head only") then local v3525=v2134:FindFirstChild("Head");if v3525 then v2135[1]=v3525;end elseif (v2136=="Torso") then for v3675,v3676 in ipairs({"UpperTorso","LowerTorso","Torso","HumanoidRootPart"}) do local v3677=v2134:FindFirstChild(v3676);if v3677 then v2135[ #v2135 + 1 ]=v3677;end end elseif (v2136=="Body") then for v3725,v3726 in ipairs(v2134:GetChildren()) do if (v3726:IsA("BasePart") and (v3726.Name~="Head") and (v3726.Name~="HumanoidRootPart")) then v2135[ #v2135 + 1 ]=v3726;end end end return v2135;end local function v1029(v2137) if ( not v2137 or  not v2137.Parent) then return 0;end local v2138=v1027.saved[v2137];if  not v2138 then v2138={};v1027.saved[v2137]=v2138;end local v2139=Options.HB_Scale.Value;local v2140=Options.HB_ScaleX.Value * v2139 ;local v2141=Options.HB_ScaleY.Value * v2139 ;local v2142=Options.HB_ScaleZ.Value * v2139 ;local v2143=v165("HB_Massless",true);local v2144=v165("HB_NoCollide",true);local v2145=v165("HB_Showbox");local v2146=0;for v2865,v2866 in ipairs(v1028(v2137)) do if v2866.Parent then local v3389=v2138[v2866];if  not v3389 then v3389={size=v2866.Size,massless=v2866.Massless,collide=v2866.CanCollide,trans=v2866.Transparency};v2138[v2866]=v3389;end v2866.Size=Vector3.new(v3389.size.X * v2140 ,v3389.size.Y * v2141 ,v3389.size.Z * v2142 );v2866.Massless=v2143 or v3389.massless ;if (v2866.Name~="HumanoidRootPart") then v2866.CanCollide=( not v2144 and v3389.collide) or false ;end v2866.Transparency=(v2145 and 0.35) or v3389.trans ;v2146=v2146 + 1 ;end end v1027.touched[v2137]=true;return v2146;end local function v1030(v2148) local v2149=v1027.saved[v2148];if v2149 then for v3393,v3394 in pairs(v2149) do if (v3393 and v3393.Parent) then v3393.Size=v3394.size;v3393.Massless=v3394.massless;v3393.CanCollide=v3394.collide;v3393.Transparency=v3394.trans;end end end v1027.saved[v2148]=nil;v1027.touched[v2148]=nil;end local function v1031() for v2867 in pairs(v1027.touched) do pcall(v1030,v2867);end v1027.touched=setmetatable({},{__mode="k"});end local function v1032(v2153) if ((v2153==v161) and  not v165("HB_Self")) then return false;end local v2154=v2153.Character;local v2155=v2154 and v2154:FindFirstChildOfClass("Humanoid") ;if ( not v2154 or  not v2155) then return false;end if ((v2155.Health<=0) and  not v165("HB_Dead")) then return false;end if (v165("HB_Team",true) and (v2153.Team~=nil) and (v2153.Team==v161.Team)) then return false;end return true;end local function v1033(v2156) if (v2156==v161.Character) then return v165("HB_Self");end local v2157=v2156:FindFirstChildOfClass("Humanoid");if ( not v2157 or  not v2157.RootPart) then return false;end if ((v2157.Health<=0) and  not v165("HB_Dead")) then return false;end return true;end local v1034=v400.combatL:AddTab("hitbox");v1034:AddToggle("HB_On",{Text="hitbox expander",Default=false});v1034:AddDropdown("HB_Mode",{Text="parts",Default="All parts",Values={"All parts","Head only","Torso","Body"}});v1034:AddDivider();v1034:AddSlider("HB_Scale",{Text="uniform scale",Default=3,Min=1,Max=10,Rounding=1});v1034:AddSlider("HB_ScaleX",{Text="scale x",Default=1,Min=0.5,Max=5,Rounding=1});v1034:AddSlider("HB_ScaleY",{Text="scale y",Default=1,Min=0.5,Max=5,Rounding=1});v1034:AddSlider("HB_ScaleZ",{Text="scale z",Default=1,Min=0.5,Max=5,Rounding=1});v1034:AddDivider();v1034:AddToggle("HB_Team",{Text="team check",Default=true});v1034:AddToggle("HB_Dead",{Text="include dead",Default=false});v1034:AddToggle("HB_Self",{Text="affect self",Default=false});v1034:AddToggle("HB_Massless",{Text="massless",Default=true});v1034:AddToggle("HB_NoCollide",{Text="no collide",Default=true});v1034:AddToggle("HB_Showbox",{Text="show hitbox",Default=false});v1034:AddSlider("HB_Rate",{Text="update hz",Default=30,Min=1,Max=60,Rounding=0});local v1035,v1036={},0;local function v1037() if ((tick() -v1036)<1) then return v1035;end v1036=tick();v1035={};local v2158=workspace:GetChildren();for v2868,v2869 in ipairs(v2158) do if v2869:IsA("Model") then local v3395=v2869:FindFirstChildOfClass("Humanoid");if (v3395 and v3395.RootPart) then v1035[ #v1035 + 1 ]=v2869;end elseif v2869:IsA("Folder") then for v3647,v3648 in ipairs(v2869:GetChildren()) do if v3648:IsA("Model") then local v3708=v3648:FindFirstChildOfClass("Humanoid");if (v3708 and v3708.RootPart) then v1035[ #v1035 + 1 ]=v3648;end end end end end return v1035;end local function v1038() local v2159,v2160={},{};for v2870,v2871 in ipairs(v7:GetPlayers()) do local v2872=v2871.Character;if v2872 then v2159[v2872]=true;v2160[ #v2160 + 1 ]=v2872;end end for v2873,v2874 in ipairs(v1037()) do if ( not v2159[v2874] and v2874.Parent) then v2159[v2874]=true;v2160[ #v2160 + 1 ]=v2874;end end return v2160;end local function v1039() local v2161=0;for v2875,v2876 in ipairs(v1038()) do local v2877=v7:GetPlayerFromCharacter(v2876);if v2877 then if v1032(v2877) then v2161=v2161 + v1029(v2876) ;elseif v1027.touched[v2876] then v1030(v2876);end elseif v1033(v2876) then v2161=v2161 + v1029(v2876) ;elseif v1027.touched[v2876] then v1030(v2876);end end return v2161;end v143.Hitbox={cleanup=function() v1031();end};local v1041=0;v155.Heartbeat:Connect(function(v2162) if v152.Unloaded then return;end if  not v165("HB_On") then if next(v1027.touched) then v1031();end return;end v1041=v1041 + v2162 ;if (v1041<(1/math.max(1,Options.HB_Rate.Value))) then return;end v1041=0;v1039();end);local function v1042() if v165("HB_On") then v1039();end end if Toggles.HB_On then Toggles.HB_On.Callback=function(v3115) if v3115 then local v3526=v1039();print(("[teddyhub] hitbox on - %d parts scaled"):format(v3526));pcall(function() v152:Notify(("hitbox: %d parts scaled"):format(v3526),5);end);else v1031();end end;end for v2163,v2164 in ipairs({"HB_Mode","HB_Scale","HB_ScaleX","HB_ScaleY","HB_ScaleZ"}) do Options[v2164]:OnChanged(v1042);end end v15("hitbox",v405);v152.ToggleKeybind=nil;local function v407() local v1043=game:GetService("UserInputService");local v1044;local v1045=0;local v1046="teddyhub v.3";local function v1047() if (v1044 and v1044.Parent) then return v1044;end if ((tick() -v1045)<1) then return nil;end v1045=tick();local v2165,v2166=pcall(function() for v3116,v3117 in ipairs({game:GetService("CoreGui"),v163}) do for v3400,v3401 in ipairs(v3117:GetDescendants()) do if (v3401:IsA("TextLabel") and string.find(string.lower(v3401.Text),v1046,1,true)) then local v3619=v3401;while v3619.Parent and  not v3619.Parent:IsA("ScreenGui")  do v3619=v3619.Parent;end if (v3619:IsA("GuiObject") and v3619.Parent and v3619.Parent:IsA("ScreenGui")) then return v3619;end end end end return nil;end);if (v2165 and v2166) then v1044=v2166;return v2166;end return nil;end local v1048=true;local v1049=false;local function v1050() local v2167,v2168=pcall(function() local v2879=v1047();if  not v2879 then warn("[Menu] could not find the menu window (title '"   .. v1046   .. "')" );return;end v2879.Visible= not v2879.Visible;v1048=v2879.Visible;if  not v1049 then v1049=true;print("[Menu] window '"   .. v2879.Name   .. "' is now "   .. ((v1048 and "shown") or "hidden") );end end);if  not v2167 then warn("[Menu] toggle error: "   .. tostring(v2168) );end end local v1043=game:GetService("UserInputService");local v1051=v1043.InputBegan:Connect(function(v2169,v2170) if v152.Unloaded then return;end local v2171=Options.MenuKeybind;local v2172=v2171 and v2171.Value ;local v2173=(v2169.KeyCode==Enum.KeyCode.RightShift) or ((type(v2172)=="string") and (v2169.KeyCode.Name==v2172)) ;if (v2169.UserInputType==Enum.UserInputType.Keyboard) then print("[Menu] any key: "   .. v2169.KeyCode.Name );end if (v2173 or v2169.KeyCode.Name:find("Shift")) then print("[Menu] key "   .. v2169.KeyCode.Name   .. " pressed (gameProcessed="   .. tostring(v2170)   .. ", textbox focused="   .. tostring(v1043:GetFocusedTextBox()~=nil )   .. ")" );end if  not v2173 then return;end if (v1043:GetFocusedTextBox() and (v2169.KeyCode~=Enum.KeyCode.RightShift)) then return;end v1050();end);v152:OnUnload(function() v1051:Disconnect();end);print("[teddyhub] OK    menu key listener (RightShift + "   .. tostring(Options.MenuKeybind and Options.MenuKeybind.Value )   .. ")" );v403:AddLabel("menu"):AddKeyPicker("MenuKeybind",{Default="K",NoUI=false,Text="menu"});end v15("menu key",v407);local function v408() local v1052={};for v2174,v2175 in ipairs(Enum.Font:GetEnumItems()) do table.insert(v1052,v2175.Name);end table.sort(v1052);local v1053=v400.setR:AddTab("font");v1053:AddDropdown("UI_Font",{Text="font",Values=v1052,Default="Code",Callback=function() end});local function v1054(v2176) local v2177=Enum.Font[v2176];if  not v2177 then return false;end for v2881,v2882 in ipairs({game:GetService("CoreGui"),v163}) do for v3118,v3119 in ipairs(v2882:GetDescendants()) do if (v3119:IsA("TextLabel") and string.find(string.lower(v3119.Text),"teddyhub v.3",1,true)) then local v3527=v3119:FindFirstAncestorWhichIsA("ScreenGui");if v3527 then for v3678,v3679 in ipairs(v3527:GetDescendants()) do if (v3679:IsA("TextLabel") or v3679:IsA("TextButton") or v3679:IsA("TextBox")) then v3679.Font=v2177;end end end return true;end end end return false;end Options.UI_Font:OnChanged(function(v2178) v1054(v2178);end);local v1055=0;local v1056=v155.Heartbeat:Connect(function(v2179) if v152.Unloaded then return;end v1055=v1055 + v2179 ;if (v1055<3) then return;end v1055=0;v1054(Options.UI_Font.Value);end);v152:OnUnload(function() v1056:Disconnect();end);end v15("font",v408);local v409=v158.Ambient;local v410=v158.OutdoorAmbient;local function v411(v1057) if (v1057==v161) then return;end local function v1058(v2180) if  not v2180 then return;end local v2181="CustomHighlight"   .. v1057.UserId ;local v2182=v228:FindFirstChild(v2181) or Instance.new("Highlight") ;v2182.Name=v2181;v2182.Adornee=v2180;v2182.Enabled=Toggles.Visuals_Enabled.Value;v2182.FillColor=Options.Visuals_FillColor.Value;v2182.OutlineColor=Options.Visuals_OutlineColor.Value;v2182.FillTransparency=(Toggles.Visuals_Fill.Value and Options.Visuals_FillTransparency.Value) or 1 ;v2182.OutlineTransparency=(Toggles.Visuals_Outline.Value and Options.Visuals_OutlineTransparency.Value) or 1 ;v2182.Parent=v228;end if v1057.Character then v1058(v1057.Character);end v1057.CharacterAdded:Connect(v1058);end for v1059,v1060 in ipairs(v7:GetPlayers()) do v411(v1060);end v7.PlayerAdded:Connect(v411);v7.PlayerRemoving:Connect(function(v1061) local v1062=v228:FindFirstChild("CustomHighlight"   .. v1061.UserId );if v1062 then v1062:Destroy();end end);local v412=0;local v413;local v414=setmetatable({},{__mode="k"});v413=v155.RenderStepped:Connect(function(v1063) if v152.Unloaded then if v413 then v413:Disconnect();end return;end local v1064=Toggles.Visuals_Gradient.Value;if v1064 then v412=(v412 + (v1063 * Options.Visuals_GradientSpeed.Value * 0.2))%1 ;end local v1065=Color3.fromHSV(v412,1,1);local v1066=Toggles.Visuals_Enabled.Value;local v1067=(Toggles.Visuals_Fill.Value and Options.Visuals_FillTransparency.Value) or 1 ;local v1068=(Toggles.Visuals_Outline.Value and Options.Visuals_OutlineTransparency.Value) or 1 ;local v1069,v1070;if v1064 then v1069,v1070=v1065,v1065;else v1069,v1070=Options.Visuals_FillColor.Value,Options.Visuals_OutlineColor.Value;end for v2194,v2195 in ipairs(v7:GetPlayers()) do local v2196=v2195.Character;local v2197=v2196 and v228:FindFirstChild("CustomHighlight"   .. v2195.UserId ) ;if v2197 then local v3120=v414[v2197];if  not v3120 then v3120={};v414[v2197]=v3120;end if (v3120.en~=v1066) then v3120.en=v1066;v2197.Enabled=v1066;end if (v3120.fc~=v1069) then v3120.fc=v1069;v2197.FillColor=v1069;end if (v3120.oc~=v1070) then v3120.oc=v1070;v2197.OutlineColor=v1070;end if (v3120.ft~=v1067) then v3120.ft=v1067;v2197.FillTransparency=v1067;end if (v3120.ot~=v1068) then v3120.ot=v1068;v2197.OutlineTransparency=v1068;end end end local v1071=Toggles.Ambient_Enabled.Value;if v1071 then v158.Ambient=Options.Ambient_Color.Value;v158.OutdoorAmbient=Options.OutdoorAmbient_Color.Value;else v158.Ambient=v409;v158.OutdoorAmbient=v410;end end);local v415={};local function v416() for v2198,v2199 in ipairs(v415) do if (v2199 and v2199.Parent) then v2199.Name=v2199:GetAttribute("teddyhubOrigName") or "Sky" ;v2199.Parent=v158;end end table.clear(v415);end local function v417() local v1072=v158:FindFirstChild("teddyhubCustomSky");if  not Toggles.Skybox_Enabled.Value then if v1072 then v1072:Destroy();end v416();return;end if ( #v415==0) then for v3123,v3124 in ipairs(v158:GetChildren()) do if (v3124:IsA("Sky") and (v3124.Name~="teddyhubCustomSky")) then v3124:SetAttribute("teddyhubOrigName",v3124.Name);v3124.Name="teddyhubHiddenSky";table.insert(v415,v3124);v3124.Parent=nil;end end end if  not v1072 then v1072=Instance.new("Sky");v1072.Name="teddyhubCustomSky";v1072.Parent=v158;end local v1073=Options.Skybox_CustomID.Value;if (v1073 and (v1073~="")) then local v2893="rbxassetid://"   .. v1073 ;v1072.SkyboxUp=v2893;v1072.SkyboxDn=v2893;v1072.SkyboxFt=v2893;v1072.SkyboxBk=v2893;v1072.SkyboxLf=v2893;v1072.SkyboxRt=v2893;return;end local v1074=v404[Options.Skybox_Preset.Value];if  not v1074 then v1072:Destroy();v416();return;end v1072.SkyboxUp=v1074.SkyboxUp;v1072.SkyboxDn=v1074.SkyboxDn;v1072.SkyboxFt=v1074.SkyboxFt;v1072.SkyboxBk=v1074.SkyboxBk;v1072.SkyboxLf=v1074.SkyboxLf;v1072.SkyboxRt=v1074.SkyboxRt;v1072.StarCount=v1074.StarCount or 0 ;v1072.SunAngularSize=v1074.SunAngularSize or 21 ;v1072.MoonAngularSize=v1074.MoonAngularSize or 11 ;v1072.SunTextureId=(v1074.SunTextureId and (v1074.SunTextureId~="rbxassetid://0") and v1074.SunTextureId) or "" ;v1072.MoonTextureId=(v1074.MoonTextureId and (v1074.MoonTextureId~="rbxassetid://0") and v1074.MoonTextureId) or "" ;end Toggles.Skybox_Enabled:OnChanged(v417);Options.Skybox_Preset:OnChanged(v417);Options.Skybox_CustomID:OnChanged(v417);local v418=0;local v419=tick();local v420=60;v155.RenderStepped:Connect(function() if v152.Unloaded then return;end v418=v418 + 1 ;if ((tick() -v419)>=1) then v420=v418;v418=0;v419=tick();end if v168.Enabled then local v2900={};if (v168.Text~="") then table.insert(v2900,v168.Text);end if v168.ShowFPS then table.insert(v2900,string.format("%d fps",v420));end if v168.ShowPing then local v3402,v3403=pcall(function() return math.floor(v160.Network.ServerStatsItem["Data Ping"]:GetValue());end);if v3402 then table.insert(v2900,v3403   .. "ms" );end end if v168.ShowTime then table.insert(v2900,os.date("%X"));end v152:SetWatermark(table.concat(v2900," | "));end end);v152:SetWatermarkVisibility(v168.Enabled);v153:SetLibrary(v152);v154:SetLibrary(v152);v154:IgnoreThemeSettings();v154:SetIgnoreIndexes({"MenuKeybind"});v153:SetFolder("TeddyHub");v154:SetFolder("TeddyHub/Config");v154:BuildConfigSection(v402.Settings);v153:ApplyToTab(v402.Settings);v154:LoadAutoloadConfig();print("[teddyhub] OK    LinoriaLib + managers loaded");local v421={};local function v422() v421.FOLDER="teddyhub_V1/Songs";v421.EXTS={mp3=true,ogg=true,flac=true,wav=true};v421.songs={};v421.queue={};v421.queueIndex=0;v421.favourites={};v421.playing=false;v421.paused=false;v421.volume=0.8;v421.pitch=1;v421.bassBoost=0;v421.repeatMode="off";v421.shuffle=false;v421.showViz=true;v421.sound=nil;v421.eqEnabled=false;v421.eqBass=0;v421.eqMid=0;v421.eqTreble=0;v421.searchFilter="";v421.vizConn=nil;v421.autoConn=nil;pcall(function() if  not isfolder("teddyhub_V1") then makefolder("teddyhub_V1");end if  not isfolder(v421.FOLDER) then makefolder(v421.FOLDER);end end);local function v1114() v421.songs={};if  not listfiles then warn("[Music] executor has no listfiles()");return;end local v2201,v2202=pcall(listfiles,v421.FOLDER);if  not v2201 then warn("[Music] listfiles failed for "   .. v421.FOLDER   .. ": "   .. tostring(v2202) );return;end print("[Music] listfiles returned "   ..  #v2202   .. " entr"   .. ((( #v2202==1) and "y") or "ies") );for v2901,v2902 in ipairs(v2202) do print("[Music]   raw: "   .. tostring(v2902) );local v2903=tostring(v2902):match("([^/\\]+)$") or tostring(v2902) ;local v2904=v2903:match("%.(%w+)$");if (v2904 and v421.EXTS[v2904:lower()]) then table.insert(v421.songs,{name=v2903,path=tostring(v2902)});end end table.sort(v421.songs,function(v2905,v2906) return v2905.name<v2906.name ;end);end local function v1115() v421.queue={};local v2204=v421.searchFilter:lower();for v2907,v2908 in ipairs(v421.songs) do if ((v2204=="") or v2908.name:lower():find(v2204,1,true)) then table.insert(v421.queue,v2907);end end if v421.shuffle then for v3404= #v421.queue,2, -1 do local v3405=math.random(1,v3404);v421.queue[v3404],v421.queue[v3405]=v421.queue[v3405],v421.queue[v3404];end end end local function v1116() if (v421.sound and v421.sound.Parent) then return v421.sound;end local v2205=Instance.new("Sound");v2205.Name="teddyhubMusicPlayer";v2205.Parent=game:GetService("SoundService");v2205.Volume=v421.volume;v2205.PlaybackSpeed=v421.pitch;local v2212=Instance.new("EqualizerSoundEffect");v2212.Name="MP_EQ";v2212.Parent=v2205;v421.sound=v2205;return v2205;end local function v1117() if  not v421.sound then return;end v421.sound.Volume=v421.volume;v421.sound.PlaybackSpeed=v421.pitch;local v2220=v421.sound:FindFirstChild("MP_EQ");if v2220 then v2220.Enabled=v421.eqEnabled or (v421.bassBoost~=0) ;v2220.LowGain=(v421.eqEnabled and v421.eqBass) or 0 ;v2220.MidGain=(v421.eqEnabled and v421.eqMid) or 0 ;v2220.HighGain=(v421.eqEnabled and v421.eqTreble) or 0 ;if (v421.bassBoost~=0) then v2220.Enabled=true;v2220.LowGain=math.clamp((v2220.LowGain or 0) + v421.bassBoost , -80,10);end end end local function v1118() if v421.sound then pcall(function() v421.sound:Stop();end);end v421.playing=false;v421.paused=false;end local v1119={};local v1120;local function v1121() end local function v1122() end local v1123;local function v1124() v1114();v1115();print("[Music] found "   ..  #v421.songs   .. " song(s) in "   .. v421.FOLDER );if v1123 then local v3129={};for v3408,v3409 in ipairs(v421.queue) do table.insert(v3129,v421.songs[v3409].name);end if ( #v3129==0) then v3129={"(no songs found)"};end local v3130,v3131=pcall(function() v1123:SetValues(v3129);end);if  not v3130 then warn("[Music] could not update song list: "   .. tostring(v3131) );end end end local function v1125() if ((v421.queueIndex<1) or (v421.queueIndex> #v421.queue)) then return nil;end return v421.queue[v421.queueIndex];end local function v1126(v2223) if  not v421.songs[v2223] then return;end local v2224=v421.songs[v2223];v1118();local v2225=v1116();if  not getcustomasset then warn("[Music] getcustomasset is not supported by this executor");if v421._nowPlayingLabel then v421._nowPlayingLabel.Text="executor lacks getcustomasset";end return;end local v2226,v2227=pcall(getcustomasset,v2224.path);if ( not v2226 or  not v2227) then warn("[Music] getcustomasset failed for "   .. v2224.path   .. ": "   .. tostring(v2227) );if v421._nowPlayingLabel then v421._nowPlayingLabel.Text="load error: "   .. v2224.name ;end return;end v2225.SoundId=v2227;v1117();local v2229,v2230=pcall(function() v2225:Play();end);if  not v2229 then warn("[Music] Play failed: "   .. tostring(v2230) );end v421.playing=true;v421.paused=false;v421.currentSongName=v2224.name;if v421._nowPlayingLabel then local v3132=v2224.name:match("(.+)%..+$") or v2224.name ;v421._nowPlayingLabel.Text=((v421.favourites[v2224.name] and "* ") or "")   .. v3132 ;end end local function v1127(v2235) if ( #v421.queue==0) then return;end v2235=((v2235-1)% #v421.queue) + 1 ;v421.queueIndex=v2235;local v2237=v1125();if v2237 then v1126(v2237);end if v1123 then pcall(function() v1123:SetValue(v421.songs[v2237].name);end);end end local function v1128() if ( #v421.queue==0) then return;end if (v421.repeatMode=="one") then v1127(v421.queueIndex);return;end local v2238=v421.queueIndex + 1 ;if (v2238> #v421.queue) then if (v421.repeatMode=="all") then v2238=1;else v1118();return;end end v1127(v2238);end local function v1129() if ( #v421.queue==0) then return;end if (v421.sound and (v421.sound.TimePosition>3)) then v1126(v1125());return;end v1127(v421.queueIndex-1 );end local v1130=0;v421.autoConn=v155.Heartbeat:Connect(function(v2239) if  not (v421.sound and v421.playing and  not v421.paused) then return;end v1130=v1130 + v2239 ;if (v1130<0.1) then return;end v1130=0;pcall(function() if ((v421.sound.TimeLength>0) and (v421.sound.TimePosition>=(v421.sound.TimeLength-0.1)) and  not v421.sound.IsPlaying) then v1128();end end);v1121();v1122();end);local v1131;local v1132=v402.Misc;v400.musicL=v1132:AddLeftTabbox();v400.musicR=v1132:AddRightTabbox();local v1135=v400.musicL:AddTab("playing");local v1136=v400.musicR:AddTab("controls");local v1137=v400.musicL:AddTab("songs");local v1138=v400.musicR:AddTab("effects");local v1139=v400.musicL:AddTab("visualizer");local v1140=v400.musicR:AddTab("favourites");v1135:AddLabel("no song");v1131=v1135:AddLabel("0:00 / 0:00");local v1141=v1135:AddSlider("MP_Seek",{Text="position",Default=0,Min=0,Max=100,Rounding=0,Callback=function(v2240) if (v421.sound and (v421.sound.TimeLength>0)) then pcall(function() v421.sound.TimePosition=(v2240/100) * v421.sound.TimeLength ;end);end end});v155.Heartbeat:Connect(function() if v152.Unloaded then return;end pcall(function() if (v421.sound and (v421.sound.TimeLength>0)) then local v3411=math.clamp((v421.sound.TimePosition/v421.sound.TimeLength) * 100 ,0,100);if (math.abs((Options.MP_Seek.Value or 0) -v3411 )>1) then Options.MP_Seek:SetValue(math.floor(v3411));end end end);end);v1136:AddButton({Text="previous",Func=function() v1129();end});v1136:AddButton({Text="play/pause",Func=function() if  not v421.sound then v1124();if ( #v421.queue>0) then v421.queueIndex=1;v1127(1);end return;end if (v421.playing and  not v421.paused) then v421.sound:Pause();v421.paused=true;elseif v421.paused then v421.sound:Resume();v421.paused=false;elseif ( #v421.queue>0) then v1127(((v421.queueIndex>0) and v421.queueIndex) or 1 );end end});v1136:AddButton({Text="next",Func=function() v1128();end});v1136:AddButton({Text="stop",Func=function() v1118();end});v1136:AddDivider();v1136:AddSlider("MP_Volume",{Text="volume",Default=80,Min=0,Max=100,Rounding=0,Callback=function(v2241) v421.volume=v2241/100 ;if v421.sound then v421.sound.Volume=v421.volume;end end});v1136:AddSlider("MP_Pitch",{Text="pitch",Default=100,Min=25,Max=200,Rounding=0,Callback=function(v2243) v421.pitch=v2243/100 ;if v421.sound then v421.sound.PlaybackSpeed=v421.pitch;end end});v1136:AddDivider();v1136:AddToggle("MP_Shuffle",{Text="shuffle",Default=false,Callback=function(v2245) v421.shuffle=v2245;v1115();end});v1136:AddDropdown("MP_Repeat",{Text="repeat",Default=1,Values={"off","one","all"},Callback=function(v2247) v421.repeatMode=v2247;end});v1136:AddDivider();v1136:AddSlider("MP_Sleep",{Text="sleep (min)",Default=0,Min=0,Max=120,Rounding=0,Callback=function(v2249) v421.sleepEnd=((v2249>0) and (tick() + (v2249 * 60))) or nil ;end});v1136:AddButton({Text="reload",Func=function() v1124();end});v1137:AddInput("MP_Search",{Text="search",Default="",Placeholder="Filter songs...",Callback=function(v2251) v421.searchFilter=v2251;v1115();if v1123 then local v3139={};for v3412,v3413 in ipairs(v421.queue) do table.insert(v3139,v421.songs[v3413].name);end if ( #v3139==0) then v3139={"(no results)"};end pcall(function() v1123:SetValues(v3139);end);end end});do v1114();v1115();local v2253={};for v2909,v2910 in ipairs(v421.queue) do table.insert(v2253,v421.songs[v2910].name);end if ( #v2253==0) then v2253={"(no songs)"};end v1123=v1137:AddDropdown("MP_SongList",{Text="songs",Default=1,Values=v2253,Callback=function(v2911) for v3140,v3141 in ipairs(v421.queue) do if (v421.songs[v3141] and (v421.songs[v3141].name==v2911)) then v421.queueIndex=v3140;v1126(v3141);return;end end end});end v1137:AddButton({Text="play",Func=function() local v2254=tostring(Options.MP_SongList.Value or "" );v1124();for v2912,v2913 in ipairs(v421.queue) do if (v421.songs[v2913] and (v421.songs[v2913].name==v2254)) then v421.queueIndex=v2912;v1126(v2913);return;end end if ( #v421.queue>0) then warn("[Music] Selection '"   .. v2254   .. "' not found, playing first song instead" );v1127(1);else warn("[Music] No songs found in teddyhub_V1/Songs/");if v421._nowPlayingLabel then v421._nowPlayingLabel.Text="no songs in teddyhub_v1/songs";end end end});v1137:AddButton({Text="favourite",Func=function() local v2255=Options.MP_SongList.Value;if v421.favourites[v2255] then v421.favourites[v2255]=nil;else v421.favourites[v2255]=true;end end});v1138:AddSlider("MP_Bass",{Text="bass boost",Default=0,Min= -10,Max=10,Rounding=1,Callback=function(v2256) v421.bassBoost=v2256;v1117();end});v1138:AddDivider();v1138:AddToggle("MP_EQOn",{Text="eq",Default=false,Callback=function(v2258) v421.eqEnabled=v2258;v1117();end});v1138:AddSlider("MP_EQBass",{Text="eq bass",Default=0,Min= -10,Max=10,Rounding=1,Callback=function(v2260) v421.eqBass=v2260;v1117();end});v1138:AddSlider("MP_EQMid",{Text="eq mid",Default=0,Min= -10,Max=10,Rounding=1,Callback=function(v2262) v421.eqMid=v2262;v1117();end});v1138:AddSlider("MP_EQTreble",{Text="eq treble",Default=0,Min= -10,Max=10,Rounding=1,Callback=function(v2264) v421.eqTreble=v2264;v1117();end});v1138:AddDivider();v1138:AddToggle("MP_Reverb",{Text="reverb",Default=false,Callback=function(v2266) if  not v421.sound then return;end local v2267=v421.sound:FindFirstChild("MP_Reverb") or Instance.new("ReverbSoundEffect") ;v2267.Name="MP_Reverb";v2267.Parent=v421.sound;v2267.Enabled=v2266;end});v1138:AddSlider("MP_ReverbLevel",{Text="level",Default=20,Min=0,Max=100,Rounding=0,Callback=function(v2272) if  not v421.sound then return;end local v2273=v421.sound:FindFirstChild("MP_Reverb");if v2273 then v2273.DecayTime=v2272/20 ;end end});v1138:AddToggle("MP_Distortion",{Text="distortion",Default=false,Callback=function(v2274) if  not v421.sound then return;end local v2275=v421.sound:FindFirstChild("MP_Dist") or Instance.new("DistortionSoundEffect") ;v2275.Name="MP_Dist";v2275.Parent=v421.sound;v2275.Enabled=v2274;end});v1138:AddSlider("MP_DistLevel",{Text="level",Default=0,Min=0,Max=100,Rounding=0,Callback=function(v2280) if  not v421.sound then return;end local v2281=v421.sound:FindFirstChild("MP_Dist");if v2281 then v2281.Level=v2280/100 ;end end});v1138:AddToggle("MP_Chorus",{Text="chorus",Default=false,Callback=function(v2282) if  not v421.sound then return;end local v2283=v421.sound:FindFirstChild("MP_Chorus") or Instance.new("ChorusSoundEffect") ;v2283.Name="MP_Chorus";v2283.Parent=v421.sound;v2283.Enabled=v2282;end});v1138:AddSlider("MP_ChorusDepth",{Text="depth",Default=50,Min=0,Max=100,Rounding=0,Callback=function(v2288) if  not v421.sound then return;end local v2289=v421.sound:FindFirstChild("MP_Chorus");if v2289 then v2289.Depth=v2288/100 ;end end});v1138:AddToggle("MP_Normalize",{Text="normalize",Default=false,Callback=function(v2290) if  not v421.sound then return;end local v2291=v421.sound:FindFirstChild("MP_Norm") or Instance.new("CompressorSoundEffect") ;v2291.Name="MP_Norm";v2291.Parent=v421.sound;v2291.Enabled=v2290;end});v1139:AddToggle("MP_VizOn",{Text="visualizer",Default=true,Callback=function(v2296) v421.showViz=v2296;end});local v1142=Instance.new("ScreenGui");v1142.Name="teddyhubMusicViz";v1142.ResetOnSpawn=false;v1142.DisplayOrder=150;v1142.IgnoreGuiInset=true;pcall(function() v1142.Parent=v159;end);if  not v1142.Parent then v1142.Parent=v163;end getgenv().__themeRoots=getgenv().__themeRoots or {} ;table.insert(getgenv().__themeRoots,v1142);local v1148=Instance.new("Frame");v1148.Name="VizHolder";v1148.Size=UDim2.new(0,260,0,64);v1148.Position=UDim2.new(0.5, -130,0.9,0);v1148.BackgroundColor3=v152.BackgroundColor;v1148.BorderSizePixel=0;v1148.BackgroundTransparency=0.05;v1148.Parent=v1142;local v1157=Instance.new("UIStroke");v1157.Color=v152.OutlineColor;v1157.Thickness=1;v1157.Parent=v1148;local v1162=Instance.new("Frame");v1162.Name="Strip";v1162.Size=UDim2.new(1,0,0,2);v1162.BorderSizePixel=0;v1162.BackgroundColor3=v152.AccentColor;v1162.ZIndex=5;v1162.Parent=v1148;local v1170=Instance.new("TextLabel");v1170.Name="Title";v1170.Size=UDim2.new(1, -12,0,16);v1170.Position=UDim2.new(0,6,0,5);v1170.BackgroundTransparency=1;v1170.TextSize=12;if v152.font then v1170.FontFace=v152.font;else v1170.Font=Enum.Font.Code;end v1170.TextXAlignment=Enum.TextXAlignment.Left;v1170.TextColor3=v152.FontColor;v1170.TextTruncate=Enum.TextTruncate.AtEnd;v1170.Text="no song";v1170.Parent=v1148;local v1184=Instance.new("UIStroke");v1184.Color=Color3.new(0,0,0);v1184.Thickness=1;v1184.LineJoinMode=Enum.LineJoinMode.Miter;v1184.Transparency=1;v1184.Parent=v1170;v421._nowPlayingLabel=v1170;v1170.Size=UDim2.new(0.6,0,0,16);local v1192=Instance.new("TextLabel");v1192.Name="Time";v1192.Size=UDim2.new(0.4, -6,0,16);v1192.Position=UDim2.new(0.6,0,0,5);v1192.BackgroundTransparency=1;v1192.TextSize=12;if v152.font then v1192.FontFace=v152.font;else v1192.Font=Enum.Font.Code;end v1192.TextXAlignment=Enum.TextXAlignment.Right;v1192.TextColor3=v152.FontColor;v1192.Text="0:00 / 0:00";v1192.Parent=v1148;local function v1203(v2299) v2299=math.max(0,math.floor(v2299 + 0.5 ));return string.format("%d:%02d",math.floor(v2299/60 ),v2299%60 );end local v1204=Instance.new("Frame");v1204.Name="Bars";v1204.Position=UDim2.new(0,6,0,24);v1204.Size=UDim2.new(1, -12,1, -30);v1204.BackgroundTransparency=1;v1204.Parent=v1148;local v1210=32;local v1211={};for v2300=1,v1210 do local v2301=Instance.new("Frame");v2301.Name="VizBar"   .. v2300 ;v2301.Size=UDim2.new(1/v1210 , -2,0,0);v2301.AnchorPoint=Vector2.new(0,1);v2301.Position=UDim2.new((v2300-1)/v1210 ,1,1,0);v2301.BackgroundColor3=v152.AccentColor;v2301.BorderSizePixel=0;v2301.Parent=v1204;v1119[v2300]=v2301;v1211[v2300]=0;end v1148.Active=true;do local v2312=false;local v2313=Vector2.zero;local v2314=UDim2.new();v1148.InputBegan:Connect(function(v2923) if (v2923.UserInputType==Enum.UserInputType.MouseButton1) then v2312=true;v2313=v2923.Position;v2314=v1148.Position;end end);v1148.InputChanged:Connect(function(v2924) if (v2312 and (v2924.UserInputType==Enum.UserInputType.MouseMovement)) then local v3417=v2924.Position-v2313 ;v1148.Position=UDim2.new(v2314.X.Scale,v2314.X.Offset + v3417.X ,v2314.Y.Scale,v2314.Y.Offset + v3417.Y );end end);v1148.InputEnded:Connect(function(v2925) if (v2925.UserInputType==Enum.UserInputType.MouseButton1) then v2312=false;end end);end v155.RenderStepped:Connect(function() if v152.Unloaded then return;end v1148.Visible=v421.showViz;if (v421.sleepEnd and (tick()>=v421.sleepEnd)) then v421.sleepEnd=nil;v1118();print("[Music] sleep timer stopped playback");end local v2317,v2318=0,0;if v421.sound then pcall(function() v2317=v421.sound.TimePosition;v2318=v421.sound.TimeLength;end);end local v2319=v1203(v2317)   .. " / "   .. v1203(v2318) ;v1192.Text=v2319;if v1131 then pcall(function() v1131:SetText(v2319);end);end if  not v421.showViz then return;end local v2321=v421.sound and v421.playing and  not v421.paused ;local v2322=0;if v2321 then pcall(function() v2322=v421.sound.PlaybackLoudness or 0 ;end);end local v2323=math.clamp(v2322/150 ,0,1);local v2324=tick();local v2325=math.max(v1204.AbsoluteSize.Y,20);local v2326=Toggles.MP_VizRainbow and Toggles.MP_VizRainbow.Value ;for v2926,v2927 in ipairs(v1119) do local v2928=0.5 + (0.5 * math.sin((v2324 * (2.2 + (v2926 * 0.09))) + (v2926 * 0.6) )) ;local v2929;if v2321 then v2929=0.08 + (v2323 * (0.3 + (0.7 * v2928))) + (math.random() * v2323 * 0.12) ;else v2929=0.05 + (0.04 * v2928) ;end v2929=math.clamp(v2929,0,1);v1211[v2926]=v1211[v2926] + ((v2929-v1211[v2926]) * 0.3) ;v2927.Size=UDim2.new(1/v1210 , -2,0,math.max(2,v1211[v2926] * v2325 ));if v2326 then v2927.BackgroundColor3=Color3.fromHSV(((v2926/v1210) + (v2324 * 0.08))%1 ,0.8,1);else v2927.BackgroundColor3=v152.AccentColor:Lerp(v152.FontColor,v1211[v2926] * 0.6 );end end v1162.BackgroundColor3=v152.AccentColor;end);v1139:AddSlider("MP_VizX",{Text="viz x",Default=50,Min=0,Max=100,Rounding=0,Callback=function(v2329) v1148.Position=UDim2.new(v2329/100 , -100,v1148.Position.Y.Scale,v1148.Position.Y.Offset);end});v1139:AddSlider("MP_VizY",{Text="viz y",Default=92,Min=0,Max=100,Rounding=0,Callback=function(v2331) v1148.Position=UDim2.new(v1148.Position.X.Scale,v1148.Position.X.Offset,v2331/100 ,0);end});v1139:AddSlider("MP_VizW",{Text="width",Default=200,Min=80,Max=600,Rounding=0,Callback=function(v2333) v1148.Size=UDim2.new(0,v2333,0,v1148.AbsoluteSize.Y);end});v1139:AddSlider("MP_VizH",{Text="height",Default=40,Min=20,Max=120,Rounding=0,Callback=function(v2335) v1148.Size=UDim2.new(0,v1148.AbsoluteSize.X,0,v2335);end});v1139:AddToggle("MP_VizRainbow",{Text="rainbow",Default=false});v1139:AddLabel("drag to move.");v1140:AddLabel("use favourite on a song.");v1140:AddButton({Text="play favs",Func=function() v421.queue={};for v2932,v2933 in ipairs(v421.songs) do if v421.favourites[v2933.name] then table.insert(v421.queue,v2932);end end if ( #v421.queue==0) then return;end v421.queueIndex=1;v1127(1);end});v1140:AddButton({Text="clear favs",Func=function() v421.favourites={};end});v1140:AddDivider();v1140:AddLabel("folder: songs");v1140:AddLabel("mp3 ogg flac wav");v1140:AddButton({Text="song info",Func=function() print("[Music] Songs folder: "   .. v421.FOLDER );print("[Music] "   ..  #v421.songs   .. " songs loaded" );for v2934,v2935 in ipairs(v421.songs) do print("  - "   .. v2935.name );end end});v421._vizGui=v1142;end v15("music player",v422);local function v423() local v1214=game:GetService("UserInputService");local v1215=game:GetService("RunService");local v1216=game:GetService("Lighting");local v1217=game:GetService("TeleportService");local v1218=game:GetService("VirtualUser");local v1219=game:GetService("Players").LocalPlayer;local v1220={};local function v1221(v2340) table.insert(v1220,v2340);return v2340;end local v1222,v1223,v1224,v1225,v1226=false,false,false,false,false;local v1227={Brightness=v1216.Brightness,Ambient=v1216.Ambient,OutdoorAmbient=v1216.OutdoorAmbient,GlobalShadows=v1216.GlobalShadows,FogEnd=v1216.FogEnd,ClockTime=v1216.ClockTime};local function v1228() local v2341=v1219.Character;if  not v2341 then return;end for v2936,v2937 in ipairs(v2341:GetDescendants()) do if v2937:IsA("BasePart") then v2937.CanCollide=true;end end end v1221(v1215.Stepped:Connect(function() if  not v1222 then return;end local v2342=v1219.Character;if  not v2342 then return;end for v2938,v2939 in ipairs(v2342:GetDescendants()) do if (v2939:IsA("BasePart") and v2939.CanCollide and (v2939.Name~="HumanoidRootPart")) then v2939.CanCollide=false;end end end));v1221(v1214.JumpRequest:Connect(function() if  not v1223 then return;end local v2343=v1219.Character and v1219.Character:FindFirstChildOfClass("Humanoid") ;if v2343 then v2343:ChangeState(Enum.HumanoidStateType.Jumping);end end));v1221(v1214.InputBegan:Connect(function(v2344,v2345) if (v2345 or  not v1224) then return;end if (v2344.UserInputType~=Enum.UserInputType.MouseButton1) then return;end if  not v1214:IsKeyDown(Enum.KeyCode.LeftControl) then return;end local v2346=v1219.Character and v1219.Character:FindFirstChild("HumanoidRootPart") ;local v2347=v1219:GetMouse().Hit;if (v2346 and v2347) then v2346.CFrame=CFrame.new(v2347.Position + Vector3.new(0,3,0) );end end));v1221(v1219.Idled:Connect(function() if  not v1225 then return;end pcall(function() v1218:CaptureController();v1218:ClickButton2(Vector2.new());end);end));local function v1229(v2348) if v2348 then v1216.Brightness=2;v1216.ClockTime=14;v1216.GlobalShadows=false;v1216.Ambient=Color3.new(1,1,1);v1216.OutdoorAmbient=Color3.new(1,1,1);v1216.FogEnd=100000;else for v3425,v3426 in pairs(v1227) do pcall(function() v1216[v3425]=v3426;end);end end end local function v1230(v2349) if  not setfpscap then warn("[Misc] setfpscap is not supported by this executor");return;end local v2350=tonumber(v2349) or 0 ;pcall(setfpscap,v2350);end local function v1231() local v2351=v1219.Character and v1219.Character:FindFirstChildOfClass("Humanoid") ;if v2351 then v2351.Health=0;end end local function v1232() if setclipboard then setclipboard(game.JobId);print("[Misc] JobId copied to clipboard");else print("[Misc] JobId: "   .. game.JobId );end end local function v1233() pcall(function() v1217:TeleportToPlaceInstance(game.PlaceId,game.JobId,v1219);end);end local function v1234() local v2352= #game:GetService("Players"):GetPlayers();print("[Misc] PlaceId: "   .. game.PlaceId );print("[Misc] JobId:   "   .. game.JobId );print("[Misc] Players: "   .. v2352   .. "/"   .. game:GetService("Players").MaxPlayers );end if  not v400.miscL2 then v400.miscL2=v402.Misc:AddLeftTabbox();end local v1235=v400.miscL2:AddTab("player");local v1236=v400.miscR:AddTab("server");v1235:AddToggle("MX_Noclip",{Text="noclip",Default=false,Callback=function(v2353) v1222=v2353;if  not v2353 then v1228();end end});v1235:AddToggle("MX_InfJump",{Text="infinite jump",Default=false,Callback=function(v2354) v1223=v2354;end});v1235:AddToggle("MX_ClickTP",{Text="ctrl + click teleport",Default=false,Callback=function(v2355) v1224=v2355;end});v1235:AddToggle("MX_AntiAfk",{Text="anti-afk",Default=false,Callback=function(v2356) v1225=v2356;end});v1235:AddDivider();v1235:AddButton({Text="reset character",Func=v1231});v1236:AddToggle("MX_Fullbright",{Text="fullbright",Default=false,Callback=function(v2357) v1226=v2357;v1229(v2357);end});v1236:AddDropdown("MX_FPS",{Text="fps cap",Values={"60","120","144","240","Unlimited"},Default="Unlimited",Callback=v1230});v1236:AddDivider();v1236:AddButton({Text="copy jobid",Func=v1232});v1236:AddButton({Text="rejoin server",Func=v1233});v1236:AddButton({Text="print server info",Func=v1234});local v1237;local function v1238() return v1219.Character and v1219.Character:FindFirstChild("HumanoidRootPart") ;end v1235:AddButton({Text="set mark",Func=function() local v2358=v1238();if v2358 then v1237=v2358.CFrame;print("[Misc] bookmark set");end end});v1235:AddButton({Text="go mark",Func=function() local v2359=v1238();if (v2359 and v1237) then v2359.CFrame=v1237;else warn("[Misc] no bookmark set");end end});v1235:AddButton({Text="go spawn",Func=function() local v2360=workspace:FindFirstChildOfClass("SpawnLocation");local v2361=v1238();if (v2360 and v2361) then v2361.CFrame=v2360.CFrame + Vector3.new(0,5,0) ;else warn("[Misc] no SpawnLocation found");end end});v1236:AddButton({Text="copy pos",Func=function() local v2362=v1238();if  not v2362 then return;end local v2363=v2362.Position;local v2364=string.format("%.1f, %.1f, %.1f",v2363.X,v2363.Y,v2363.Z);if setclipboard then setclipboard(v2364);print("[Misc] copied "   .. v2364 );else print("[Misc] "   .. v2364 );end end});v143.MiscExtras.cleanup=function() for v2941,v2942 in ipairs(v1220) do pcall(function() v2942:Disconnect();end);end v1220={};v1222,v1223,v1224,v1225=false,false,false,false;if v1226 then v1229(false);end v1226=false;v1228();end;end v15("misc tools",v423);local function v424() local v1240=game:GetService("RunService");local v1241=game:GetService("Stats");local v1242=game:GetService("Players");local v1243=game:GetService("UserInputService");local v1244=v1242.LocalPlayer;local v1245=v1244:WaitForChild("PlayerGui");local v1246=Instance.new("ScreenGui");v1246.Name="teddyhubCustomHUD";v1246.ResetOnSpawn=false;v1246.DisplayOrder=300;v1246.IgnoreGuiInset=true;pcall(function() v1246.Parent=game:GetService("CoreGui");end);if  not v1246.Parent then v1246.Parent=v1245;end local v1251=Instance.new("Frame");v1251.Name="Panel";v1251.Size=UDim2.fromOffset(190,0);v1251.AutomaticSize=Enum.AutomaticSize.Y;v1251.BackgroundColor3=v152.MainColor;v1251.BorderSizePixel=0;v1251.Position=UDim2.fromScale(0.01,0.01);v1251.Parent=v1246;local v1261=Instance.new("UIScale");v1261.Parent=v1251;local v1263=Instance.new("UIStroke");v1263.Color=v152.OutlineColor;v1263.Thickness=1;v1263.Parent=v1251;local v1268=Instance.new("UIListLayout");v1268.SortOrder=Enum.SortOrder.LayoutOrder;v1268.Padding=UDim.new(0,2);v1268.Parent=v1251;local v1273=Instance.new("UIPadding");v1273.PaddingTop=UDim.new(0,6);v1273.PaddingBottom=UDim.new(0,6);v1273.PaddingLeft=UDim.new(0,8);v1273.PaddingRight=UDim.new(0,8);v1273.Parent=v1251;local v1279=Instance.new("Frame");v1279.Name="AccentStrip";v1279.Size=UDim2.new(1,0,0,2);v1279.Position=UDim2.new(0,0,0,0);v1279.BorderSizePixel=0;v1279.BackgroundColor3=v152.AccentColor;v1279.ZIndex=5;v1279.Parent=v1251;local function v1288(v2366) local v2367=Instance.new("TextLabel");v2367.LayoutOrder=v2366;v2367.BackgroundTransparency=1;v2367.Size=UDim2.new(1,0,0,16);v2367.Font=Enum.Font.Code;v2367.TextSize=14;v2367.TextXAlignment=Enum.TextXAlignment.Left;v2367.TextColor3=v152.FontColor;v2367.Text="";v2367.Parent=v1251;local v2380=Instance.new("UIStroke");v2380.Color=Color3.new(0,0,0);v2380.Thickness=1;v2380.LineJoinMode=Enum.LineJoinMode.Miter;v2380.Parent=v2367;return v2367;end local v1289=v1288(0);local v1290={{key="HUD_ShowFPS",order=1},{key="HUD_ShowPing",order=2},{key="HUD_ShowTime",order=3},{key="HUD_ShowPlayers",order=4},{key="HUD_ShowGameTime",order=5},{key="HUD_ShowHealth",order=6},{key="HUD_ShowPos",order=7}};local v1291={};for v2386,v2387 in ipairs(v1290) do v1291[v2387.key]=v1288(v2387.order);end v1251.Active=true;do local v2389,v2390,v2391=false,Vector2.zero,v1251.Position;v1251.InputBegan:Connect(function(v2944) if (v2944.UserInputType==Enum.UserInputType.MouseButton1) then v2389=true;v2390=v2944.Position;v2391=v1251.Position;end end);v1243.InputChanged:Connect(function(v2945) if (v2389 and (v2945.UserInputType==Enum.UserInputType.MouseMovement)) then local v3429=v2945.Position-v2390 ;v1251.Position=UDim2.new(v2391.X.Scale,v2391.X.Offset + v3429.X ,v2391.Y.Scale,v2391.Y.Offset + v3429.Y );end end);v1243.InputEnded:Connect(function(v2946) if (v2946.UserInputType==Enum.UserInputType.MouseButton1) then v2389=false;end end);end local v1293,v1294,v1295=0,tick(),60;local v1296=false;local v1297=setmetatable({},{__mode="k"});local v1298=setmetatable({},{__mode="k"});local function v1299() local v2392,v2393=pcall(function() return math.floor(v1241.Network.ServerStatsItem["Data Ping"]:GetValue());end);return (v2392 and v2393) or 0 ;end local function v1300() local v2394=v1244.Character and v1244.Character:FindFirstChildOfClass("Humanoid") ;if  not v2394 then return "--";end return string.format("%d / %d",math.floor(v2394.Health),math.floor(v2394.MaxHealth));end local function v1301() local v2395=v1244.Character and v1244.Character:FindFirstChild("HumanoidRootPart") ;if  not v2395 then return "--";end local v2396=v2395.Position;return string.format("%d, %d, %d",math.floor(v2396.X),math.floor(v2396.Y),math.floor(v2396.Z));end local v1302=0;local v1303;v1303=v1240.RenderStepped:Connect(function(v2397) if v152.Unloaded then return;end v1293=v1293 + 1 ;if ((tick() -v1294)>=1) then v1295=v1293;v1293=0;v1294=tick();end local v2398=Options.HUD_Accent.Value;local v2399=Options.HUD_TextColor.Value;local v2400=Options.HUD_TextSize.Value;local v2401=table.concat({tostring(v2398),tostring(v2399),tostring(v2400),tostring(Options.HUD_Scale.Value),tostring(Options.HUD_X.Value),tostring(Options.HUD_Y.Value),tostring(Options.HUD_BgTrans.Value),tostring(Toggles.HUD_Enabled.Value),tostring(Toggles.HUD_ShowTitle.Value),tostring(Options.HUD_Title.Value)},"|");if (v2401~=v1296) then v1296=v2401;v1261.Scale=Options.HUD_Scale.Value/100 ;v1251.Position=UDim2.fromScale(Options.HUD_X.Value/100 ,Options.HUD_Y.Value/100 );v1251.BackgroundTransparency=Options.HUD_BgTrans.Value/100 ;v1251.Visible=Toggles.HUD_Enabled.Value;v1279.BackgroundColor3=v2398;v1279.Visible=Toggles.HUD_ShowTitle.Value;v1289.Visible=Toggles.HUD_ShowTitle.Value;v1289.Text=Options.HUD_Title.Value;v1289.TextColor3=v2398;v1289.TextSize=v2400;end v1302=v1302 + v2397 ;if (v1302<0.2) then return;end v1302=0;local v2402={HUD_ShowFPS="FPS: "   .. v1295 ,HUD_ShowPing="Ping: "   .. v1299()   .. " ms" ,HUD_ShowTime="Time: "   .. os.date("%H:%M:%S") ,HUD_ShowPlayers="Players: "   ..  #v1242:GetPlayers()   .. " / "   .. v1242.MaxPlayers ,HUD_ShowGameTime=string.format("Game time: %02d:%02d",math.floor(game:GetService("Lighting").ClockTime),math.floor((game:GetService("Lighting").ClockTime%1) * 60 )),HUD_ShowHealth="HP: "   .. v1300() ,HUD_ShowPos="Pos: "   .. v1301() };for v2947,v2948 in ipairs(v1290) do local v2949=v1291[v2948.key];local v2950=v2402[v2948.key];if (v1297[v2948.key]~=v2950) then v1297[v2948.key]=v2950;v2949.Text=v2950;end if (v1298["c"   .. v2948.key ]~=v2399) then v1298["c"   .. v2948.key ]=v2399;v2949.TextColor3=v2399;end if (v1298["s"   .. v2948.key ]~=v2400) then v1298["s"   .. v2948.key ]=v2400;v2949.TextSize=v2400;end local v2951=Toggles[v2948.key].Value;if (v1297["v"   .. v2948.key ]~=v2951) then v1297["v"   .. v2948.key ]=v2951;v2949.Visible=v2951;end end end);v143.CustomHUD.cleanup=function() if v1303 then v1303:Disconnect();end pcall(function() v1246:Destroy();end);end;end local function v425() local v1305=v400.visR2:AddTab("hud");v1305:AddToggle("HUD_Enabled",{Text="enable custom hud",Default=false});v1305:AddToggle("HUD_ShowTitle",{Text="show title",Default=true});v1305:AddInput("HUD_Title",{Default="teddyhub v.3",Text="title",Finished=true});v1305:AddDivider();v1305:AddToggle("HUD_ShowFPS",{Text="fps",Default=true});v1305:AddToggle("HUD_ShowPing",{Text="ping",Default=true});v1305:AddToggle("HUD_ShowTime",{Text="real time",Default=true});v1305:AddToggle("HUD_ShowPlayers",{Text="player count",Default=true});v1305:AddToggle("HUD_ShowGameTime",{Text="game time",Default=false});v1305:AddToggle("HUD_ShowHealth",{Text="my health",Default=false});v1305:AddToggle("HUD_ShowPos",{Text="my position",Default=false});v1305:AddDivider();v1305:AddSlider("HUD_Scale",{Text="scale %",Default=100,Min=50,Max=200,Rounding=0});v1305:AddSlider("HUD_TextSize",{Text="text size",Default=14,Min=10,Max=24,Rounding=0});v1305:AddSlider("HUD_BgTrans",{Text="background transparency %",Default=15,Min=0,Max=100,Rounding=0});v1305:AddSlider("HUD_X",{Text="position x %",Default=1,Min=0,Max=100,Rounding=0});v1305:AddSlider("HUD_Y",{Text="position y %",Default=1,Min=0,Max=100,Rounding=0});v1305:AddLabel("accent"):AddColorPicker("HUD_Accent",{Default=v152.AccentColor});v1305:AddLabel("text"):AddColorPicker("HUD_TextColor",{Default=v152.FontColor});v1305:AddDivider();v1305:AddButton({Text="reset position",Func=function() Options.HUD_X:SetValue(1);Options.HUD_Y:SetValue(1);end});end v15("hud gui",v425);v15("custom HUD",v424);local function v426() local v1306={"AimbotOn","WallChk","StickyOn","TrigOn","SAOn","AA_Enable","RG_On","HB_On","ESPOn","Visuals_Enabled","Weather_Enabled","SelfChams_Enabled","FOV_Enabled","CC_Enabled","Bloom_Enabled","CHVis","SpeedOn","JumpOn","FlyOn","SpinBotOn","MX_Noclip","MX_InfJump","MX_ClickTP","MX_AntiAfk","MX_Fullbright","HUD_Enabled","MP_EQOn"};local v1307,v1308=0,0;for v2403,v2404 in ipairs(v1306) do local v2405,v2406=pcall(function() local v2952=Toggles[v2404];if  not v2952 then error("toggle not found");end v2952:AddKeyPicker(v2404   .. "_Key" ,{Default="None",Mode="Toggle",SyncToggleState=true,Text=v2404,NoUI=false});end);if v2405 then v1307=v1307 + 1 ;else v1308=v1308 + 1 ;warn("[Keybind] "   .. v2404   .. ": "   .. tostring(v2406) );end end print("[Keybind] "   .. v1307   .. " feature keybind(s) added, "   .. v1308   .. " failed" );end v15("keybinds",v426);local function v427() local v1309=v400.visL:AddTab("effects");v143.EffectsGroup=v1309;v1309:AddToggle("GL_On",{Text="glow",Default=false});v1309:AddSlider("GL_Pulse",{Text="pulse",Default=2,Min=0,Max=10,Rounding=1});v1309:AddSlider("GL_Fill",{Text="fill",Default=60,Min=0,Max=100,Rounding=0});v1309:AddSlider("GL_Outline",{Text="outline",Default=80,Min=0,Max=100,Rounding=0});v1309:AddDivider();v1309:AddToggle("FX_On",{Text="particles",Default=false});v1309:AddDropdown("FX_Preset",{Text="preset",Default="Fire",Values={"Fire","Ember","Smoke","Dark Smoke","Sparks","Stars","Snow","Rain","Halo","Orbit","Aura","Mist","Electric","Pixel","Blaze","Glow Dots","Lava","Trail Up","Vortex","Storm","Pillar","Ring","Tornado","Ground Fire","Glow Ring"}});v1309:AddSlider("FX_Rate",{Text="amount %",Default=100,Min=10,Max=300,Rounding=0});v1309:AddSlider("FX_Size",{Text="size %",Default=100,Min=25,Max=300,Rounding=0});v1309:AddToggle("FX_Rainbow",{Text="rainbow",Default=false});v1309:AddLabel("color"):AddColorPicker("FX_Color",{Default=Color3.fromRGB(0,255,140)});v1309:AddDivider();local v1311="rbxasset://textures/particles/fire_main.dds";local v1312="rbxasset://textures/particles/smoke_main.dds";local v1313="rbxasset://textures/particles/sparkles_main.dds";local v1314=Enum.ParticleEmitterShape;local v1315={Fire={tex=v1311,rate=60,life={0.6,1.2},speed={2,5},spread=25,size=3,light=1,accel=Vector3.new(0,4,0),rot={0,0},shape=v1314.Disc,fade=true},Ember={tex=v1311,rate=25,life={1,2},speed={1,2},spread=40,size=1.2,light=1,accel=Vector3.new(0,2,0),rot={0,0},shape=v1314.Sphere,fade=true},Smoke={tex=v1312,rate=20,life={2,3},speed={1,2},spread=30,size=4,light=0,accel=Vector3.new(0,1,0),rot={ -20,20},shape=v1314.Disc,fade=true},["Dark Smoke"]={tex=v1312,rate=12,life={3,4},speed={0.5,1},spread=20,size=6,light=0,accel=Vector3.new(0,0.5,0),rot={ -10,10},shape=v1314.Sphere,fade=true},Sparks={tex=v1313,rate=40,life={0.5,1},speed={3,6},spread=180,size=0.8,light=1,accel=Vector3.new(0, -4,0),rot={0,0},shape=v1314.Sphere,fade=true},Stars={tex=v1313,rate=8,life={1.5,2.5},speed={0.5,1},spread=180,size=0.6,light=1,accel=Vector3.new(0,0,0),rot={0,0},shape=v1314.Sphere,fade=true},Snow={tex=v1313,rate=25,life={3,5},speed={0.5,1},spread=15,size=0.5,light=0,accel=Vector3.new(0, -2,0),rot={0,0},shape=v1314.Box,fade=false},Rain={tex=v1313,rate=60,life={0.5,0.8},speed={0.5,0.5},spread=0,size=0.3,light=0,accel=Vector3.new(0, -30,0),rot={0,0},shape=v1314.Box,fade=false},Halo={tex=v1313,rate=40,life={1,1.5},speed={0.1,0.2},spread=180,size=0.7,light=1,accel=Vector3.new(0,0,0),rot={0,0},shape=v1314.Disc,fade=true},Orbit={tex=v1313,rate=50,life={1,1.5},speed={6,8},spread=5,size=0.5,light=1,accel=Vector3.new(0,0,0),rot={90,180},shape=v1314.Disc,fade=true},Aura={tex=v1312,rate=10,life={2,2.5},speed={0.5,1},spread=180,size=5,light=1,accel=Vector3.new(0,0,0),rot={0,0},shape=v1314.Sphere,fade=true},Mist={tex=v1312,rate=8,life={4,5},speed={0.2,0.4},spread=60,size=8,light=0,accel=Vector3.new(0,0,0),rot={ -5,5},shape=v1314.Box,fade=true},Electric={tex=v1313,rate=90,life={0.1,0.2},speed={8,12},spread=180,size=0.4,light=1,accel=Vector3.new(0,0,0),rot={0,0},shape=v1314.Sphere,fade=false},Pixel={tex=v1313,rate=30,life={2,2},speed={0.5,0.5},spread=180,size=0.3,light=0,accel=Vector3.new(0,0,0),rot={ -180,180},shape=v1314.Box,fade=false},Blaze={tex=v1311,rate=120,life={0.2,0.4},speed={10,15},spread=20,size=2,light=1,accel=Vector3.new(0,6,0),rot={0,0},shape=v1314.Disc,fade=true},["Glow Dots"]={tex=v1313,rate=15,life={0.8,1.2},speed={0.2,0.2},spread=180,size=0.9,light=1,accel=Vector3.new(0,0,0),rot={0,0},shape=v1314.Sphere,fade=true},Lava={tex=v1311,rate=35,life={1,2},speed={1,2},spread=5,size=2,light=1,accel=Vector3.new(0,6,0),rot={ -30,30},shape=v1314.Disc,fade=true},["Trail Up"]={tex=v1313,rate=60,life={0.6,0.6},speed={0,0},spread=0,size=0.6,light=1,accel=Vector3.new(0,8,0),rot={0,0},shape=v1314.Box,fade=true},Vortex={tex=v1313,rate=70,life={1,1},speed={4,4},spread=0,size=0.5,light=1,accel=Vector3.new(0,0,0),rot={180,360},shape=v1314.Cylinder,fade=true},Pillar={tex=v1311,rate=80,life={1.5,2},speed={10,12},spread=5,size=2,light=1,accel=Vector3.new(0,2,0),rot={0,0},shape=Enum.ParticleEmitterShape.Disc,fade=true},Ring={tex=v1313,rate=60,life={1,1.2},speed={0.1,0.2},spread=180,size=0.6,light=1,accel=Vector3.new(0,0,0),rot={180,360},shape=Enum.ParticleEmitterShape.Disc,fade=true},Tornado={tex=v1311,rate=120,life={0.8,1},speed={6,8},spread=60,size=2,light=1,accel=Vector3.new(0,0,0),rot={360,720},shape=Enum.ParticleEmitterShape.Cylinder,fade=true},["Ground Fire"]={tex=v1311,rate=50,life={0.5,1},speed={0,1},spread=90,size=2.5,light=1,accel=Vector3.new(0,3,0),rot={0,0},shape=Enum.ParticleEmitterShape.Disc,fade=true},["Glow Ring"]={tex=v1313,rate=100,life={0.6,0.6},speed={0.5,0.5},spread=90,size=0.4,light=1,accel=Vector3.new(0,0,0),rot={90,90},shape=Enum.ParticleEmitterShape.Disc,fade=true},Storm={tex=v1313,rate=100,life={0.4,0.7},speed={12,18},spread=60,size=0.4,light=0,accel=Vector3.new(0, -20,0),rot={0,0},shape=v1314.Box,fade=false}};local v1316;local v1317;local function v1318(v2407) if (v1317 and (v1317.Parent==v2407)) then return v1317;end if v1317 then pcall(function() v1317:Destroy();end);end v1317=Instance.new("ParticleEmitter");v1317.Name="teddyhubFX";v1317.Parent=v2407;return v1317;end local v1319=v155.Heartbeat:Connect(function() if v152.Unloaded then return;end local v2410=v161.Character;local v2411=v2410 and v2410:FindFirstChild("HumanoidRootPart") ;if ( not Toggles.GL_On.Value or  not v2410) then if v1316 then v1316.Enabled=false;end else if ( not v1316 or (v1316.Parent~=v2410)) then v1316=v2410:FindFirstChild("teddyhubGlow") or Instance.new("Highlight") ;v1316.Name="teddyhubGlow";v1316.DepthMode=Enum.HighlightDepthMode.AlwaysOnTop;v1316.Adornee=v2410;v1316.Parent=v2410;end local v3172=Options.GL_Pulse.Value;local v3173=((v3172>0) and (0.5 + (0.5 * math.sin(tick() * v3172 )))) or 1 ;local v3174=(Toggles.FX_Rainbow.Value and Color3.fromHSV((tick() * 0.2)%1 ,1,1)) or Options.FX_Color.Value ;v1316.Enabled=true;v1316.FillColor=v3174;v1316.OutlineColor=v3174;v1316.FillTransparency=1 -((Options.GL_Fill.Value/100) * v3173) ;v1316.OutlineTransparency=1 -(Options.GL_Outline.Value/100) ;end if ( not Toggles.FX_On.Value or  not v2411) then if v1317 then v1317.Enabled=false;end return;end local v2412=v1315[Options.FX_Preset.Value] or v1315['Fire'] ;local v2413=v1318(v2411);local v2414=Options.FX_Rate.Value/100 ;local v2415=Options.FX_Size.Value/100 ;local v2416=(Toggles.FX_Rainbow.Value and Color3.fromHSV((tick() * 0.25)%1 ,1,1)) or Options.FX_Color.Value ;v2413.Enabled=true;v2413.Texture=v2412.tex;v2413.Rate=v2412.rate * v2414 ;v2413.Lifetime=NumberRange.new(v2412.life[1],v2412.life[2]);v2413.Speed=NumberRange.new(v2412.speed[1],v2412.speed[2]);v2413.SpreadAngle=Vector2.new(v2412.spread,v2412.spread);v2413.Size=NumberSequence.new(v2412.size * v2415 );v2413.LightEmission=v2412.light;v2413.Acceleration=v2412.accel;v2413.RotSpeed=NumberRange.new(v2412.rot[1],v2412.rot[2]);v2413.Shape=v2412.shape;v2413.Color=ColorSequence.new(v2416);if v2412.fade then v2413.Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0,0),NumberSequenceKeypoint.new(1,1)});else v2413.Transparency=NumberSequence.new(0);end end);v143.SelfFX.cleanup=function() if v1319 then v1319:Disconnect();end if v1316 then pcall(function() v1316:Destroy();end);end if v1317 then pcall(function() v1317:Destroy();end);end end;end v15("effects",v427);local function v428() local v1321=v400.setR:AddTab("search");v1321:AddInput("SR_Query",{Text="find",Default="",Finished=false,Placeholder="name..."});v1321:AddLabel("shows matching options and their value.");local v1322=Instance.new("ScreenGui");v1322.Name="teddyhubSearch";v1322.ResetOnSpawn=false;v1322.DisplayOrder=260;v1322.IgnoreGuiInset=true;pcall(function() v1322.Parent=game:GetService("CoreGui");end);if  not v1322.Parent then v1322.Parent=v163;end local v1327=Instance.new("Frame");v1327.Name="Panel";v1327.Size=UDim2.fromOffset(220,0);v1327.AutomaticSize=Enum.AutomaticSize.Y;v1327.Position=UDim2.new(1, -230,0,60);v1327.BackgroundColor3=v152.MainColor;v1327.BorderSizePixel=0;v1327.Visible=false;v1327.Parent=v1322;local v1338=Instance.new("UIStroke");v1338.Color=v152.OutlineColor;v1338.Thickness=1;v1338.Parent=v1327;local v1343=Instance.new("Frame");v1343.Size=UDim2.new(1,0,0,2);v1343.BorderSizePixel=0;v1343.BackgroundColor3=v152.AccentColor;v1343.ZIndex=5;v1343.Parent=v1327;local v1350=Instance.new("UIListLayout");v1350.SortOrder=Enum.SortOrder.LayoutOrder;v1350.Padding=UDim.new(0,2);v1350.Parent=v1327;local v1355=Instance.new("UIPadding");v1355.PaddingTop=UDim.new(0,7);v1355.PaddingBottom=UDim.new(0,6);v1355.PaddingLeft=UDim.new(0,8);v1355.PaddingRight=UDim.new(0,8);v1355.Parent=v1327;local v1361={};local function v1362(v2434) if  not v1361[v2434] then local v3182=Instance.new("TextLabel");v3182.BackgroundTransparency=1;v3182.Font=Enum.Font.Code;v3182.TextSize=13;v3182.TextXAlignment=Enum.TextXAlignment.Left;v3182.Size=UDim2.new(1,0,0,15);v3182.LayoutOrder=v2434;v3182.TextColor3=v152.FontColor;v3182.Visible=false;v3182.Parent=v1327;local v3195=Instance.new("UIStroke");v3195.Color=Color3.new(0,0,0);v3195.Thickness=1;v3195.LineJoinMode=Enum.LineJoinMode.Miter;v3195.Parent=v3182;v1361[v2434]=v3182;end return v1361[v2434];end local function v1363(v2435) local v2436=string.lower(v2435 or "" );if (v2436=="") then v1327.Visible=false;return;end local v2437={};for v2954,v2955 in pairs(Toggles) do if string.find(string.lower(v2954),v2436,1,true) then table.insert(v2437,{name=v2954,value=tostring(v2955.Value)});end end for v2956,v2957 in pairs(Options) do if (string.find(string.lower(v2956),v2436,1,true) and  not Toggles[v2956]) then local v3439=v2957.Value;if (typeof(v3439)=="Color3") then v3439="#"   .. string.format("%02X%02X%02X",v3439.R * 255 ,v3439.G * 255 ,v3439.B * 255 ) ;end table.insert(v2437,{name=v2956,value=tostring(v3439)});end end table.sort(v2437,function(v2958,v2959) return v2958.name<v2959.name ;end);v1327.Visible=true;local v2439=math.min( #v2437,14);for v2960=1,v2439 do local v2961=v1362(v2960 + 1 );v2961.Visible=true;v2961.Text=v2437[v2960].name   .. " = "   .. v2437[v2960].value ;end for v2964=v2439 + 2 , #v1361 do v1361[v2964].Visible=false;end if ( #v2437==0) then local v3203=v1362(2);v3203.Visible=true;v3203.Text="no match";for v3440=3, #v1361 do v1361[v3440].Visible=false;end end end local v1364=Instance.new("TextLabel");v1364.LayoutOrder=0;v1364.BackgroundTransparency=1;v1364.Font=Enum.Font.Code;v1364.TextSize=13;v1364.TextXAlignment=Enum.TextXAlignment.Left;v1364.Size=UDim2.new(1,0,0,16);v1364.Text="search";v1364.TextColor3=v152.AccentColor;v1364.Parent=v1327;Options.SR_Query:OnChanged(function(v2440) v1363(v2440);end);v143.SearchUI.cleanup=function() pcall(function() v1322:Destroy();end);end;end v15("search ui",v428);local function v429() local v1377=game:GetService("Lighting");local v1378=v400.visR2:AddTab("extra");v1378:AddToggle("XF_Tint",{Text="tint",Default=false});v1378:AddLabel("tint color"):AddColorPicker("XF_TintColor",{Default=Color3.fromRGB(120,180,255)});v1378:AddToggle("XF_Blur",{Text="blur",Default=false});v1378:AddSlider("XF_BlurSize",{Text="blur size",Default=8,Min=0,Max=30,Rounding=0});v1378:AddSlider("XF_Sat",{Text="saturation",Default=0,Min= -100,Max=100,Rounding=0});local v1379=v400.movR:AddTab("extra");v1379:AddToggle("XM_GravOn",{Text="gravity",Default=false});v1379:AddSlider("XM_Gravity",{Text="gravity",Default=196,Min=0,Max=400,Rounding=0});v1379:AddToggle("XM_Sprint",{Text="sprint (shift)",Default=false});v1379:AddSlider("XM_SprintMul",{Text="sprint x",Default=2,Min=1,Max=5,Rounding=1});local v1380=v400.chR:AddTab("extra");v1380:AddToggle("XC_Dot",{Text="center dot",Default=false});v1380:AddSlider("XC_DotSize",{Text="dot size",Default=2,Min=1,Max=10,Rounding=0});v1380:AddLabel("dot color"):AddColorPicker("XC_DotColor",{Default=Color3.new(1,1,1)});local v1381=v400.miscR:AddTab("extra");v1381:AddToggle("XT_Timer",{Text="session timer",Default=false});v1381:AddInput("XN_Notes",{Text="notes",Default="",Finished=true,Placeholder="type..."});v1381:AddButton({Text="save notes",Func=function() pcall(function() if  not isfolder("teddyhub_V1") then makefolder("teddyhub_V1");end writefile("teddyhub_V1/notes.txt",Options.XN_Notes.Value);end);print("[extra] notes saved");end});v1381:AddButton({Text="load notes",Func=function() pcall(function() if isfile("teddyhub_V1/notes.txt") then Options.XN_Notes:SetValue(readfile("teddyhub_V1/notes.txt"));end end);print("[extra] notes loaded");end});local v1382=Instance.new("ColorCorrectionEffect");v1382.Name="teddyhubTint";v1382.Enabled=false;v1382.Parent=v1377;local v1386=Instance.new("BlurEffect");v1386.Name="teddyhubBlur";v1386.Enabled=false;v1386.Parent=workspace.CurrentCamera;local v1391=v230.new("Circle");v1391.Filled=true;v1391.Visible=false;v1391.NumSides=24;local v1395=Instance.new("ScreenGui");v1395.Name="teddyhubTimer";v1395.ResetOnSpawn=false;v1395.DisplayOrder=240;pcall(function() v1395.Parent=game:GetService("CoreGui");end);if  not v1395.Parent then v1395.Parent=v163;end local v1399=Instance.new("TextLabel");v1399.Size=UDim2.fromOffset(120,20);v1399.Position=UDim2.new(0.5, -60,0,4);v1399.BackgroundTransparency=0.3;v1399.BackgroundColor3=v152.MainColor;v1399.TextColor3=v152.FontColor;v1399.Font=Enum.Font.Code;v1399.TextSize=14;v1399.Visible=false;v1399.Parent=v1395;local v1412=tick();local v1413=workspace.Gravity;local v1414={};local v1415=v155.RenderStepped:Connect(function() if v152.Unloaded then return;end local v2442=Toggles.XF_Tint.Value;if (v1414.tintOn~=v2442) then v1414.tintOn=v2442;v1382.Enabled=v2442;end local v2443=(v2442 and Options.XF_TintColor.Value) or Color3.new(1,1,1) ;if (v1414.tintCol~=v2443) then v1414.tintCol=v2443;v1382.TintColor=v2443;end local v2444=Options.XF_Sat.Value/100 ;if (v1414.sat~=v2444) then v1414.sat=v2444;v1382.Saturation=v2444;end local v2445=Toggles.XF_Blur.Value;if (v1414.blurOn~=v2445) then v1414.blurOn=v2445;v1386.Enabled=v2445;end local v2446=Options.XF_BlurSize.Value;if (v1414.blurSize~=v2446) then v1414.blurSize=v2446;v1386.Size=v2446;end if Toggles.XM_GravOn.Value then workspace.Gravity=Options.XM_Gravity.Value;elseif (workspace.Gravity~=v1413) then workspace.Gravity=v1413;end local v2447=v161.Character;local v2448=v2447 and v2447:FindFirstChildOfClass("Humanoid") ;if (v2448 and Toggles.XM_Sprint.Value and v156:IsKeyDown(Enum.KeyCode.LeftShift)) then v2448.WalkSpeed=16 * Options.XM_SprintMul.Value ;end local v2449=workspace.CurrentCamera.ViewportSize;local v2450=Toggles.XC_Dot.Value;if (v1414.dotOn~=v2450) then v1414.dotOn=v2450;v1391.Visible=v2450;end if v2450 then local v3221=Vector2.new(v2449.X/2 ,v2449.Y/2 );if (v1414.dotPos~=v3221) then v1414.dotPos=v3221;v1391.Position=v3221;end local v3222=Options.XC_DotSize.Value;if (v1414.dotR~=v3222) then v1414.dotR=v3222;v1391.Radius=v3222;end local v3223=Options.XC_DotColor.Value;if (v1414.dotC~=v3223) then v1414.dotC=v3223;v1391.Color=v3223;end end local v2451=Toggles.XT_Timer.Value;if (v1414.timerOn~=v2451) then v1414.timerOn=v2451;v1399.Visible=v2451;end if v2451 then local v3226=math.floor(tick() -v1412 );local v3227=string.format("%02d:%02d:%02d",math.floor(v3226/3600 ),math.floor(v3226/60 )%60 ,v3226%60 );if (v1414.timerTxt~=v3227) then v1414.timerTxt=v3227;v1399.Text=v3227;end end end);v143.Extra.cleanup=function() if v1415 then v1415:Disconnect();end workspace.Gravity=v1413;pcall(function() v1382:Destroy();v1386:Destroy();v1395:Destroy();end);pcall(function() v1391:Remove();end);end;end v15("extra",v429);local function v430() local v1417={conns={},originals={},watches={},ignore={},ignoreText={},raw={},restoring=false};local v1418=v161:WaitForChild("PlayerGui");local v1419=nil;pcall(function() v1419=v152.ScreenGui;end);local function v1420(v2454) return (v2454:gsub("[%^%$%(%)%%%.%[%]%*%+%-%?]","%%%1"));end local function v1421() local v2455=Options.NC_Spoof.Value;if ((type(v2455)~="string") or (v2455=="")) then return "spoofed";end return v2455;end local function v1422() v1417.ignore,v1417.ignoreText={},{};local v2458=Options.NC_Ignore.Value or "" ;for v2967 in v2458:gmatch("[^,]+") do local v2968=v2967:match("^%s*(.-)%s*$");if (v2968~="") then local v3442=v2968:lower();v1417.ignore[v3442]=true;v1417.ignoreText[v3442]=true;end end end local function v1423(v2459) if (type(v2459)~="string") then return;end local v2460=v2459:match("^%s*(.-)%s*$");if ( #v2460<2) then return;end local v2461=v2460:lower();if v1417.raw[v2461] then return;end v1417.raw[v2461]=v2460;end local v1424={};local function v1425() v1424={};local v2463,v2464=pcall(function() return v7:GetFriendsAsync(v161.UserId);end);if ( not v2463 or  not v2464) then return;end for v2969=1,25 do local v2970=v2464:GetCurrentPage();for v3228,v3229 in ipairs(v2970) do table.insert(v1424,v3229);end if v2464.IsFinished then break;end local v2971=pcall(function() v2464:AdvanceToNextPageAsync();end);if  not v2971 then break;end end end local function v1426() v1417.raw={};if Toggles.NC_Self.Value then v1423(v161.Name);end local v2466=Options.NC_Match.Value;if (v2466~="friends") then for v3445,v3446 in ipairs(v7:GetPlayers()) do if ((v3446~=v161) or Toggles.NC_Self.Value) then v1423(v3446.Name);if Toggles.NC_Display.Value then v1423(v3446.DisplayName);end end end end if (v2466~="players") then for v3447,v3448 in ipairs(v1424) do v1423(v3448.Username);if (Toggles.NC_Display.Value and v3448.DisplayName) then v1423(v3448.DisplayName);end end if ( #v1424==0) then task.spawn(function() v1425();v1426();applyAll();end);end end end local v1427=function(v2467,v2468) local v2469=v1420(v2468);return v2467:find("%f[%w]"   .. v2469   .. "%f[^%w]" )~=nil ;end;local v1428=function(v2470) local v2471=Options.NC_Mode.Value;local v2472=(Toggles.NC_Case and Toggles.NC_Case.Value and v2470) or v2470:lower() ;for v2972,v2973 in pairs(v1417.raw) do local v2974=(Toggles.NC_Case and Toggles.NC_Case.Value and v2973) or v2972 ;if (v2471=="exact") then if (v2472==v2974) then return true;end elseif (v2471=="wholeword") then if v1427(v2472,v2974) then return true;end else if v1427(v2472,v2974) then return true;end if (( #v2974>=3) and v2472:find(v2974,1,true)) then return true;end end end return false;end;local v1429=0;local function v1430(v2473) if (v1417.restoring or  not Toggles.NC_On.Value) then return;end local v2474=v1421();local v2475=v2473.Text;if ((type(v2475)~="string") or (v2475=="") or (v2475==v2474)) then return;end local v2476=v2475:lower();if v1417.ignoreText[v2476] then return;end if v1417.ignore[v2473.Name and v2473.Name:lower() ] then return;end local v2477,v2478=pcall(v1428,v2475);if ( not v2477 or  not v2478) then return;end if  not v1417.originals[v2473] then v1417.originals[v2473]={text=v2475,color=v2473.TextColor3};v1429=v1429 + 1 ;end pcall(function() v2473.Text=v2474;if (Toggles.NC_Colors and Toggles.NC_Colors.Value and Options.NC_Color) then v2473.TextColor3=Options.NC_Color.Value;end end);end local function v1431(v2479) if  not v2479.Parent then return true;end if (v1419 and v2479:IsDescendantOf(v1419)) then return true;end local v2480=v2479:FindFirstAncestor("teddyhubBoot");if v2480 then return true;end v2480=v2479:FindFirstAncestor("KeySystemUI");if v2480 then return true;end return false;end local function v1432(v2481) if ( not v2481:IsA("TextLabel") and  not v2481:IsA("TextButton")) then return;end if v1417.conns[v2481] then return;end if v1431(v2481) then return;end local v2482=v2481;v1417.conns[v2482]=v2482:GetPropertyChangedSignal("Text"):Connect(function() v1430(v2482);end);task.spawn(v1430,v2482);end local function v1433(v2484) local v2485=v1417.conns[v2484];if v2485 then v2485:Disconnect();v1417.conns[v2484]=nil;end end local function v1434() v1417.restoring=true;for v2976,v2977 in pairs(v1417.originals) do pcall(function() if v2976.Parent then v2976.Text=v2977.text;v2976.TextColor3=v2977.color;end end);end v1417.originals={};v1429=0;v1417.restoring=false;end local function v1435(v2488) if v1417.watches[v2488] then return;end v1417.watches[v2488]={added=v2488.DescendantAdded:Connect(v1432),removed=v2488.DescendantRemoving:Connect(v1433)};end local function v1436() for v2978,v2979 in pairs(v1417.watches) do pcall(function() v2979.added:Disconnect();end);pcall(function() v2979.removed:Disconnect();end);end v1417.watches={};end local function v1437(v2491) local v2492,v2493=pcall(function() return v2491:GetDescendants();end);if  not v2492 then return;end for v2980,v2981 in ipairs(v2493) do v1432(v2981);end end local function v1438() local v2494={workspace};if Toggles.NC_ScopeGui.Value then pcall(function() if gethui then local v3620=gethui();if v3620 then table.insert(v2494,v3620);end end end);pcall(function() local v3451=game:GetService("CoreGui");if v3451 then table.insert(v2494,v3451);end end);if v1418 then table.insert(v2494,v1418);end end return v2494;end local function v1439() if  not Toggles.NC_On.Value then return;end for v2982 in pairs(v1417.conns) do task.spawn(v1430,v2982);end end local v1440=(v400.miscL2 and v400.miscL2:AddTab("name changer")) or v402.Misc:AddLeftGroupbox("name changer") ;local v1441;local function v1442() if ( not v1441 or  not v1441.SetText) then return;end if  not Toggles.NC_On.Value then v1441:SetText("off");return;end v1441:SetText("on - "   .. v1429   .. " replaced" );end v1440:AddToggle("NC_On",{Text="enable",Default=false,Tooltip="Rewrite player names in game UI",Callback=function(v2495) v1422();v1426();v1425();v1426();if v2495 then v1436();for v3452,v3453 in ipairs(v1438()) do v1435(v3453);v1437(v3453);end v1439();else v1434();v1436();end v1442();end});v1440:AddInput("NC_Spoof",{Text="replacement",Default="teddyhub",Finished=false,Placeholder="spoof text",Callback=function() if Toggles.NC_On.Value then v1434();v1426();for v3454,v3455 in ipairs(v1438()) do v1437(v3455);end v1439();end v1442();end});v1440:AddDropdown("NC_Match",{Text="targets",Default="both",Values={"players","friends","both"},Callback=function() v1426();v1439();end});v1440:AddDropdown("NC_Mode",{Text="match",Default="contains",Values={"contains","wholeword","exact"},Callback=function() if Toggles.NC_On.Value then v1439();end end});v1440:AddToggle("NC_Self",{Text="include self",Default=false,Callback=function() v1426();v1439();end});v1440:AddToggle("NC_Display",{Text="include displaynames",Default=true,Callback=function() v1426();v1439();end});v1440:AddToggle("NC_Case",{Text="case sensitive",Default=false,Callback=function() if Toggles.NC_On.Value then v1439();end end});v1440:AddToggle("NC_ScopeGui",{Text="scan CoreGui/PlayerGui",Default=true,Callback=function() v1436();if Toggles.NC_On.Value then for v3456,v3457 in ipairs(v1438()) do v1435(v3457);v1437(v3457);end v1439();end end});v1440:AddToggle("NC_Colors",{Text="recolor",Default=false,Callback=function() if Toggles.NC_On.Value then v1439();end end});v1440:AddLabel("color"):AddColorPicker("NC_Color",{Default=Color3.fromRGB(120,170,255),Callback=function() if Toggles.NC_On.Value then v1439();end end});v1440:AddInput("NC_Ignore",{Text="ignore names/labels",Default="",Finished=true,Placeholder="name1,name2",Callback=function() v1422();if Toggles.NC_On.Value then v1439();end end});v1440:AddSlider("NC_Refresh",{Text="friend refresh (s)",Default=30,Min=5,Max=300,Rounding=0});v1440:AddButton({Text="rescan now",Func=function() v1422();v1426();v1425();v1426();if Toggles.NC_On.Value then v1436();for v3458,v3459 in ipairs(v1438()) do v1435(v3459);v1437(v3459);end v1439();end v1442();end});v1441=v1440:AddLabel("off");local v1443=0;local v1444= #v7:GetPlayers();local v1445=v7.PlayerAdded:Connect(function(v2496) v1423(v2496.Name);if Toggles.NC_Display.Value then v1423(v2496.DisplayName);end if Toggles.NC_On.Value then v1439();end end);local v1446=v155.Heartbeat:Connect(function() if v152.Unloaded then return;end local v2497=tick();if ((v2497-v1443)>2) then v1443=v2497;v1442();end if  not Toggles.NC_On.Value then return;end local v2498= #v7:GetPlayers();if (v2498~=v1444) then v1444=v2498;v1426();v1439();end local v2499=tonumber(Options.NC_Refresh and Options.NC_Refresh.Value ) or 30 ;if ((v2497-(v1417._lastFriends or 0))>v2499) then v1417._lastFriends=v2497;task.spawn(function() v1425();v1426();v1439();end);end end);v143.NameChanger={cleanup=function() pcall(function() v1445:Disconnect();end);pcall(function() v1446:Disconnect();end);v1434();v1436();v1417.raw={};end};end v15("name changer",v430);local function v431() local v1448={conn=nil,hum=nil,dir=1,lastFlip=0};local function v1449() return v161.Character;end local function v1450() local v2501=v1449();return v2501 and v2501:FindFirstChildOfClass("Humanoid") ;end local function v1451() local v2502=v1449();return v2502 and v2502:FindFirstChild("HumanoidRootPart") ;end local function v1452(v2503) if  not v2503 then return;end local v2504=v2503.AssemblyLinearVelocity;if ((v2504.X~=0) or (v2504.Z~=0)) then v2503.AssemblyLinearVelocity=Vector3.new(0,v2504.Y,0);end end local function v1453() if v1448.conn then v1448.conn:Disconnect();v1448.conn=nil;end v1448.hum=nil;v1452(v1451());end local function v1454() v1453();v1448.hum=v1450();v1448.conn=v155.RenderStepped:Connect(function() if (v152.Unloaded or  not v165("AS_On")) then return;end local v2983=v1450();local v2984=v1451();if ( not v2983 or  not v2984 or (v2983.Health<=0)) then return;end if v2983.SeatPart then return;end local v2985=v2983.MoveDirection;if (v2985.Magnitude<0.05) then if v165("AS_InstantStop",true) then v1452(v2984);end return;end local v2986=Vector3.new(v2984.AssemblyLinearVelocity.X,0,v2984.AssemblyLinearVelocity.Z);local v2987=v2986.Magnitude;if (v2987<0.5) then v2983:Move(v2985,false);return;end local v2988=v2986.Unit;local v2989=v2988:Cross(v2985).Y;local v2990=math.clamp(v2988:Dot(v2985), -1,1);local v2991=math.atan2(v2989,v2990);local v2992=math.rad(Options.AS_Angle.Value);local v2993=Options.AS_Smooth.Value/100 ;local v2994=v2991-(v2992 * v1448.dir) ;if (v165("AS_Straighten",true) and (math.abs(v2991)<math.rad(6))) then v2994=v2991;end local v2995=(v2988 * math.cos(v2994)) + (v2988:Cross(Vector3.new(0,1,0)) * math.sin(v2994)) ;local v2996=v2985:Lerp(v2995.Unit,math.clamp(1 -v2993 ,0.05,1));v2983:Move(v2996,false);if (v165("AS_AutoFlip") and (v2987>Options.AS_MinSpeed.Value)) then local v3460=tick();if ((v3460-v1448.lastFlip)>Options.AS_FlipRate.Value) then v1448.lastFlip=v3460;v1448.dir= -v1448.dir;end end if (v165("AS_SpeedBoost") and (v2987<Options.AS_MaxSpeed.Value)) then local v3461=Options.AS_Boost.Value;local v3462=v2988 * math.min(v2987 + v3461 ,Options.AS_MaxSpeed.Value) ;v2984.AssemblyLinearVelocity=Vector3.new(v3462.X,v2984.AssemblyLinearVelocity.Y,v3462.Z);end end);end local v1455=v400.movR:AddTab("auto strafer");v1455:AddToggle("AS_On",{Text="enable",Default=false,Callback=function(v2508) if v2508 then v1454();else v1453();end end});v1455:AddToggle("AS_InstantStop",{Text="instant stop",Default=true});v1455:AddSlider("AS_Angle",{Text="strafe angle",Default=30,Min=1,Max=90,Rounding=0});v1455:AddSlider("AS_Smooth",{Text="smoothness",Default=40,Min=0,Max=95,Rounding=0});v1455:AddToggle("AS_Straighten",{Text="straighten on aim",Default=true});v1455:AddToggle("AS_AutoFlip",{Text="auto flip",Default=false});v1455:AddSlider("AS_FlipRate",{Text="flip rate (s)",Default=1.2,Min=0.2,Max=5,Rounding=1});v1455:AddSlider("AS_MinSpeed",{Text="flip above speed",Default=8,Min=0,Max=100,Rounding=0});v1455:AddToggle("AS_SpeedBoost",{Text="speed boost",Default=false});v1455:AddSlider("AS_Boost",{Text="boost / frame",Default=0.4,Min=0.05,Max=5,Rounding=2});v1455:AddSlider("AS_MaxSpeed",{Text="max speed",Default=40,Min=16,Max=500,Rounding=0});v161.CharacterAdded:Connect(function() task.wait(0.4);if v165("AS_On") then v1454();end end);v143.Strafer={cleanup=function() v1453();end};end v15("auto strafer",v431);local function v432() local v1457={red=Color3.fromRGB(255,45,45),orange=Color3.fromRGB(255,130,25),yellow=Color3.fromRGB(255,230,40),green=Color3.fromRGB(45,255,90),cyan=Color3.fromRGB(25,240,255),blue=Color3.fromRGB(45,100,255),purple=Color3.fromRGB(170,45,255),pink=Color3.fromRGB(255,65,190),white=Color3.fromRGB(255,255,255)};local v1458={"red","orange","yellow","green","cyan","blue","purple","pink","white"};local v1459=v143.EffectsGroup;v1459:AddDivider();v1459:AddToggle("FX_Wings",{Text="wings",Default=false});v1459:AddDropdown("FX_WingStyle",{Text="wing style",Default="angel",Values={"angel","demon","crystal","energy"}});v1459:AddDropdown("FX_WingColor",{Text="wing color",Default="white",Values=v1458});v1459:AddToggle("FX_WingAnim",{Text="flap",Default=true});v1459:AddSlider("FX_WingSize",{Text="wing size",Default=1,Min=0.5,Max=3,Rounding=1});v1459:AddSlider("FX_WingSpeed",{Text="flap speed",Default=3,Min=1,Max=10,Rounding=1});v1459:AddDivider();v1459:AddDropdown("FX_TrailStyle",{Text="trail style",Default="medium",Values={"short","medium","long","ghost"}});v1459:AddDropdown("FX_TrailColor",{Text="trail color",Default="cyan",Values=v1458});local v1460=game:GetService("Lighting");local v1461={Ambient=v1460.Ambient,OutdoorAmbient=v1460.OutdoorAmbient,Brightness=v1460.Brightness,ClockTime=v1460.ClockTime,FogColor=v1460.FogColor,FogStart=v1460.FogStart,FogEnd=v1460.FogEnd};local function v1462() for v2997,v2998 in pairs(v1461) do pcall(function() v1460[v2997]=v2998;end);end end local v1463={};local function v1464(v2509) local v2510=v1463[v2509];if (v2510 and v2510.obj) then pcall(function() v2510.obj:Destroy();end);end if (v2510 and v2510.parts) then for v3464,v3465 in ipairs(v2510.parts) do pcall(function() v3465:Destroy();end);end end v1463[v2509]=nil;end local function v1465() return v161.Character;end local function v1466() local v2512=v1465();return v2512 and (v2512:FindFirstChild("UpperTorso") or v2512:FindFirstChild("Torso")) ;end local function v1467() local v2513=v1465();return v2513 and v2513:FindFirstChild("HumanoidRootPart") ;end local function v1468() local v2514=v1466();local v2515=v1465();if ( not v2514 or  not v2515) then return;end local v2516=v1457[Options.FX_WingColor.Value] or v1457.white ;local v2517=Options.FX_WingStyle.Value;local v2518=Options.FX_WingSize.Value;local v2519=Instance.new("Folder");v2519.Name="teddyhubWings";v2519.Parent=v2515;local v2522={};for v2999= -1,1,2 do for v3236=1,8 do local v3237=Instance.new("Part");v3237.Material=Enum.Material.Neon;v3237.Color=v2516;v3237.Transparency=0.08;v3237.CanCollide=false;v3237.CanTouch=false;v3237.CanQuery=false;v3237.Massless=true;v3237.CastShadow=false;local v3247=(1.6 + (v3236 * 0.28)) * v2518 ;if (v2517=="angel") then v3237.Size=Vector3.new(0.3,v3247,0.18);elseif (v2517=="demon") then v3237.Size=Vector3.new(0.25,v3247 * 1.2 ,0.2);elseif (v2517=="crystal") then v3237.Size=Vector3.new(0.4,v3247,0.35);else v3237.Size=Vector3.new(0.18,v3247,0.15);end v3237.Parent=v2519;local v3249=Instance.new("SpecialMesh");v3249.MeshType=((v2517=="crystal") and Enum.MeshType.Brick) or Enum.MeshType.Sphere ;v3249.Parent=v3237;local v3252=Instance.new("Weld");v3252.Part0=v2514;v3252.Part1=v3237;local v3255=CFrame.new(v2999 * (0.45 + (v3236 * 0.35)) * v2518 ,0.3 -(v3236 * 0.1) ,(0.65 + (v3236 * 0.035)) * v2518 ) * CFrame.Angles(0,math.rad(v2999 * 10 ),math.rad(v2999 * (20 + (v3236 * 6)) )) ;v3252.C0=v3255;v3252.Parent=v3237;table.insert(v2522,{w=v3252,b=v3255,s=v2999});end end v1463.wings={obj=v2519,feathers=v2522,char=v2515};end local function v1469() local v2524=v1467();if  not v2524 then return;end local v2525=v1457[Options.FX_AuraColor.Value] or v1457.orange ;local v2526=Options.FX_AuraStyle.Value;local v2527=Instance.new("Attachment");v2527.Name="teddyhubAura";v2527.Parent=v2524;local v2530=Instance.new("ParticleEmitter");v2530.Color=ColorSequence.new(v2525);v2530.LightEmission=1;v2530.Rate=Options.FX_AuraRate.Value;v2530.Lifetime=NumberRange.new(0.5,1.5);v2530.Speed=NumberRange.new(1,4);v2530.SpreadAngle=Vector2.new(360,360);v2530.Size=NumberSequence.new({NumberSequenceKeypoint.new(0,0.25),NumberSequenceKeypoint.new(0.5,0.6),NumberSequenceKeypoint.new(1,0)});if (v2526=="fire") then v2530.Acceleration=Vector3.new(0,8,0);v2530.Rate=math.max(v2530.Rate,55);elseif (v2526=="smoke") then v2530.Acceleration=Vector3.new(0,2,0);v2530.Speed=NumberRange.new(0.5,1.5);elseif (v2526=="energy") then v2530.Speed=NumberRange.new(4,8);elseif (v2526=="magic") then v2530.Rotation=NumberRange.new(0,360);v2530.RotSpeed=NumberRange.new( -180,180);elseif (v2526=="spark") then v2530.Lifetime=NumberRange.new(0.1,0.4);v2530.Speed=NumberRange.new(5,12);v2530.Size=NumberSequence.new(0.15);elseif (v2526=="floating") then v2530.Acceleration=Vector3.new(0,5,0);v2530.Speed=NumberRange.new(0,1);end v2530.Parent=v2527;v1463.aura={obj=v2527,em=v2530,char=v1465()};end local function v1470() local v2541=v1467();if  not v2541 then return;end local v2542={short={0.2,1},medium={0.5,2},long={1,3},ghost={1.5,1.5}};local v2543=v2542[Options.FX_TrailStyle.Value] or v2542.medium ;local v2544=v1457[Options.FX_TrailColor.Value] or v1457.cyan ;local v2545=Instance.new("Folder");v2545.Name="teddyhubTrail";v2545.Parent=v1465();local v2548=Instance.new("Attachment");v2548.Position=Vector3.new(0,v2543[2],0);v2548.Parent=v2541;local v2551=Instance.new("Attachment");v2551.Position=Vector3.new(0, -v2543[2],0);v2551.Parent=v2541;local v2554=Instance.new("Trail");v2554.Attachment0=v2548;v2554.Attachment1=v2551;v2554.Color=ColorSequence.new(v2544);v2554.Lifetime=v2543[1];v2554.LightEmission=1;v2554.FaceCamera=true;v2554.Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0,0),NumberSequenceKeypoint.new(1,1)});v2554.Parent=v2541;v1463.trail={obj=v2545,parts={v2548,v2551,v2554},char=v1465()};v2545.Parent=v1465();end local function v1471() v1462();local v2565=v1457[Options.FX_WorldColor.Value] or v1457.blue ;local v2566=Options.FX_WorldStyle.Value;v1460.Ambient=v2565;v1460.OutdoorAmbient=v2565;if (v2566=="bright") then v1460.Brightness=3;v1460.ClockTime=14;v1460.FogEnd=100000;elseif (v2566=="dark") then v1460.Brightness=0.5;v1460.ClockTime=0;v1460.FogEnd=500;elseif (v2566=="foggy") then v1460.Brightness=1;v1460.FogColor=v2565;v1460.FogStart=10;v1460.FogEnd=100;elseif (v2566=="neon") then v1460.Brightness=2;v1460.ClockTime=0;elseif (v2566=="sunset") then v1460.Brightness=2;v1460.ClockTime=18;elseif (v2566=="dream") then v1460.Brightness=2.5;v1460.ClockTime=12;v1460.FogColor=v2565;v1460.FogEnd=300;end end for v2569,v2570 in ipairs({"FX_WingStyle","FX_WingColor","FX_WingSize"}) do Options[v2570]:OnChanged(function() v1464("wings");if Toggles.FX_Wings.Value then v1468();end end);end for v2571,v2572 in ipairs({"FX_AuraStyle","FX_AuraColor","FX_AuraRate"}) do Options[v2572]:OnChanged(function() v1464("aura");end);end for v2573,v2574 in ipairs({"FX_TrailStyle","FX_TrailColor"}) do Options[v2574]:OnChanged(function() v1464("trail");end);end local v1472;local v1473=0;local v1474=v155.Heartbeat:Connect(function(v2575) if v152.Unloaded then return;end local v2576=v1465();if Toggles.FX_Wings.Value then if ( not v1463.wings or (v1463.wings.char~=v2576)) then v1464("wings");v1468();end if v1463.wings then if Toggles.FX_WingAnim.Value then local v3656=tick() * Options.FX_WingSpeed.Value * 1.5 ;local v3657=math.rad(22);for v3680,v3681 in ipairs(v1463.wings.feathers) do if v3681.w.Parent then local v3728=math.sin(v3656) * v3657 ;v3681.w.C0=v3681.b * CFrame.Angles(0,v3728 * v3681.s ,0) ;end end else for v3682,v3683 in ipairs(v1463.wings.feathers) do if v3683.w.Parent then v3683.w.C0=v3683.b;end end end end elseif v1463.wings then v1464("wings");end if Toggles.FX_Aura.Value then if ( not v1463.aura or (v1463.aura.char~=v2576)) then v1464("aura");v1469();end elseif v1463.aura then v1464("aura");end if Toggles.FX_Trail.Value then if ( not v1463.trail or (v1463.trail.char~=v2576)) then v1464("trail");v1470();end elseif v1463.trail then v1464("trail");end local v2577=(Toggles.FX_World.Value and (Options.FX_WorldStyle.Value   .. Options.FX_WorldColor.Value)) or nil ;if (v2577~=v1472) then v1472=v2577;if v2577 then v1471();else v1462();end end end);v143.VFX={cleanup=function() if v1474 then v1474:Disconnect();end v1464("wings");v1464("aura");v1464("trail");v1462();end};end v15("visual fx",v432);local function v433() local v1476=v400.miscL2:AddTab("smooth cam");v1476:AddToggle("SC_On",{Text="enable",Default=false});v1476:AddSlider("SC_Pos",{Text="position",Default=40,Min=0,Max=95,Rounding=0});v1476:AddSlider("SC_Rot",{Text="rotation",Default=50,Min=0,Max=95,Rounding=0});v1476:AddSlider("SC_Fov",{Text="fov",Default=60,Min=0,Max=95,Rounding=0});v1476:AddSlider("SC_Damp",{Text="damping",Default=0,Min=0,Max=100,Rounding=0});v1476:AddToggle("SC_Lock",{Text="freeze y",Default=false});v1476:AddSlider("SC_Dist",{Text="distance (0 = first person)",Default=8,Min=0,Max=30,Rounding=1});v1476:AddButton({Text="reset",Func=function() Options.SC_Pos:SetValue(40);Options.SC_Rot:SetValue(50);Options.SC_Fov:SetValue(60);Options.SC_Damp:SetValue(0);Toggles.SC_Lock:SetValue(false);end});local v1477="teddyhubSmoothCam";local v1478=game:GetService("UserInputService");local v1479,v1480,v1481,v1482,v1483,v1484;local v1485=false;local v1486=nil;local function v1487() if v152.Unloaded then return;end local v2578=workspace.CurrentCamera;local v2579=v161.Character;local v2580=v2579 and v2579:FindFirstChild("Head") ;if ( not Toggles.SC_On.Value or  not v2580) then MouseAcc.x=0;MouseAcc.y=0;if v1485 then v1485=false;v2578.CameraType=Enum.CameraType.Custom;game:GetService("UserInputService").MouseBehavior=Enum.MouseBehavior.Default;if v2579 then for v3684,v3685 in ipairs(v2579:GetDescendants()) do if v3685:IsA("BasePart") then v3685.LocalTransparencyModifier=0;end end end end return;end if  not v1485 then v1485=true;pcall(function() Toggles.TP_On:SetValue(false);end);local v3265=v2578.CFrame.LookVector;v1479=math.atan2( -v3265.X, -v3265.Z);v1480=math.asin(math.clamp(v3265.Y, -1,1));v1481,v1482,v1483,v1484=v1479,v1480,v2580.Position,v2578.FieldOfView;end local v2581=v14();game:GetService("UserInputService").MouseBehavior=Enum.MouseBehavior.LockCenter;v1479=v1479-(v2581.X * 0.005) ;v1480=math.clamp(v1480-(v2581.Y * 0.005) , -1.4,1.4);local v2584=1 -(Options.SC_Damp.Value/100) ;local v2585=math.clamp((1 -(Options.SC_Rot.Value/100)) * v2584 ,0.02,1);local v2586=math.clamp((1 -(Options.SC_Pos.Value/100)) * v2584 ,0.02,1);local v2587=math.clamp((1 -(Options.SC_Fov.Value/100)) * v2584 ,0.02,1);v1481=v1481 + ((v1479-v1481) * v2585) ;v1482=v1482 + ((v1480-v1482) * v2585) ;v1483=v1483:Lerp(v2580.Position,v2586);if Toggles.SC_Lock.Value then v1483=Vector3.new(v1483.X,v2580.Position.Y,v1483.Z);end v1484=v1484 + ((v2578.FieldOfView-v1484) * v2587) ;v2578.CameraType=Enum.CameraType.Scriptable;local v2590=Vector3.new( -math.sin(v1481) * math.cos(v1482) ,math.sin(v1482), -math.cos(v1481) * math.cos(v1482) );local v2591=Options.SC_Dist.Value;local v2592=v1483-(v2590 * v2591) ;local v2593=v2591<0.5 ;if (v2579 and (v2593~=v1486)) then v1486=v2593;for v3466,v3467 in ipairs(v2579:GetDescendants()) do if v3467:IsA("BasePart") then v3467.LocalTransparencyModifier=(v2593 and 1) or 0 ;end end end v2578.CFrame=CFrame.lookAt(v2592,v1483);v2578.FieldOfView=v1484;v2578:SetAttribute("teddyhubSmoothYaw",v1481);if (v267.enabled and v267.apply) then v267.apply();end end v155:BindToRenderStep(v1477,Enum.RenderPriority.Camera.Value + 1 ,v1487);v143.SmoothCam={cleanup=function() pcall(function() v155:UnbindFromRenderStep(v1477);end);pcall(function() workspace.CurrentCamera.CameraType=Enum.CameraType.Custom;end);end};end v15("smooth cam",v433);local function v434() local v1489=v400.miscR:AddTab("3rd person");v1489:AddToggle("TP_On",{Text="enable",Default=false});v1489:AddSlider("TP_Dist",{Text="distance",Default=10,Min=2,Max=40,Rounding=1});v1489:AddSlider("TP_Height",{Text="height",Default=2,Min= -5,Max=12,Rounding=1});v1489:AddSlider("TP_Shoulder",{Text="shoulder",Default=1.5,Min= -6,Max=6,Rounding=1});v1489:AddSlider("TP_Fov",{Text="fov",Default=70,Min=30,Max=120,Rounding=0});v1489:AddSlider("TP_Smooth",{Text="smooth",Default=30,Min=0,Max=95,Rounding=0});v1489:AddToggle("TP_Collide",{Text="wall check",Default=true});v1489:AddToggle("TP_Hide",{Text="hide head",Default=false});v1489:AddButton({Text="reset",Func=function() Options.TP_Dist:SetValue(10);Options.TP_Height:SetValue(2);Options.TP_Shoulder:SetValue(1.5);Options.TP_Fov:SetValue(70);Options.TP_Smooth:SetValue(30);end});Toggles.TP_On:AddKeyPicker("TP_Key",{Default="None",Mode="Toggle",SyncToggleState=true,Text="thirdperson"});local v1490="teddyhubThirdPerson";local v1491;local v1492,v1493=0,0.25;local v1494=false;local v1495=game:GetService("UserInputService");local v1496=nil;local v1497=RaycastParams.new();v1497.FilterType=Enum.RaycastFilterType.Exclude;local function v1500() if v152.Unloaded then return;end local v2596=workspace.CurrentCamera;local v2597=v161.Character;local v2598=v2597 and v2597:FindFirstChild("HumanoidRootPart") ;local v2599=v2597 and v2597:FindFirstChild("Head") ;if ( not Toggles.TP_On.Value or  not v2598 or  not v2599) then if v1494 then game:GetService("UserInputService").MouseBehavior=Enum.MouseBehavior.Default;end v1491=nil;v1494=false;v1496=nil;MouseAcc.x=0;MouseAcc.y=0;return;end if  not v1494 then v1494=true;local v3270=v2596.CFrame.LookVector;v1492=math.atan2( -v3270.X, -v3270.Z);v1493=math.asin(math.clamp(v3270.Y, -1,1)) *  -1 ;end local v2600=v14();game:GetService("UserInputService").MouseBehavior=Enum.MouseBehavior.LockCenter;v1492=v1492-(v2600.X * 0.005) ;v1493=math.clamp(v1493 + (v2600.Y * 0.005) , -1.2,1.2);v2596.CameraType=Enum.CameraType.Scriptable;local v2605=v2599.Position + Vector3.new(0,Options.TP_Height.Value * 0.5 ,0) ;local v2606=Vector3.new(math.sin(v1492) * math.cos(v1493) ,math.sin(v1493),math.cos(v1492) * math.cos(v1493) );local v2607=Vector3.new(math.cos(v1492),0, -math.sin(v1492));local v2608=v2605 + (v2606 * Options.TP_Dist.Value) + (v2607 * Options.TP_Shoulder.Value) + Vector3.new(0,Options.TP_Height.Value,0) ;if Toggles.TP_Collide.Value then v1497.FilterDescendantsInstances={v2597};local v3272=workspace:Raycast(v2605,v2608-v2605 ,v1497);if v3272 then v2608=v3272.Position + ((v2605-v2608).Unit * 0.5) ;end end if  not v1491 then v1491=v2608;end local v2609=math.clamp(1 -(Options.TP_Smooth.Value/100) ,0.02,1);v1491=v1491:Lerp(v2608,v2609);local v2610,v2611=pcall(function() return v2596:GetAttribute("teddyhubAimAt");end);if ( not v2610 or (typeof(v2611)~="Vector3")) then v2611=nil;end if v2611 then local v3273=pcall(function() local v3468=v2611-v2605 ;if (v3468.Magnitude>0.01) then local v3624=v3468.Unit;v1492=math.atan2( -v3624.X, -v3624.Z);v1493=math.asin(math.clamp( -v3624.Y, -1,1));local v3625=Vector3.new(math.sin(v1492) * math.cos(v1493) ,math.sin(v1493),math.cos(v1492) * math.cos(v1493) );local v3626=Vector3.new(math.cos(v1492),0, -math.sin(v1492));local v3627=v2605 + (v3625 * Options.TP_Dist.Value) + (v3626 * Options.TP_Shoulder.Value) + Vector3.new(0,Options.TP_Height.Value,0) ;v1491=v3627;end v2596.CFrame=CFrame.lookAt(v1491,v2611);end);if  not v3273 then v2596.CFrame=CFrame.lookAt(v1491,v2605);end else v2596.CFrame=CFrame.lookAt(v1491,v2605);end v2596.FieldOfView=Options.TP_Fov.Value;v2596:SetAttribute("teddyhubThirdYaw",v1492);if (v267.enabled and v267.apply) then v267.apply();end local v2614=Toggles.TP_Hide.Value;if (v2614~=v1496) then v1496=v2614;if v2599 then v2599.LocalTransparencyModifier=(v2614 and 1) or 0 ;end end end v155:BindToRenderStep(v1490,Enum.RenderPriority.Camera.Value + 2 ,v1500);v143.ThirdPerson={cleanup=function() pcall(function() v155:UnbindFromRenderStep(v1490);end);local v2615=workspace.CurrentCamera;if v2615 then v2615.CameraType=Enum.CameraType.Custom;end end};end v15("third person",v434);local function v435() local v1502=Instance.new("ScreenGui");v1502.Name="teddyhubKeybinds";v1502.ResetOnSpawn=false;v1502.DisplayOrder=250;v1502.IgnoreGuiInset=true;pcall(function() v1502.Parent=game:GetService("CoreGui");end);if  not v1502.Parent then v1502.Parent=v163;end local v1507=Instance.new("Frame");v1507.Name="Panel";v1507.Size=UDim2.fromOffset(170,0);v1507.AutomaticSize=Enum.AutomaticSize.Y;v1507.Position=UDim2.new(0,8,0.4,0);v1507.BackgroundColor3=v152.MainColor;v1507.BorderSizePixel=0;v1507.Parent=v1502;local v1517=Instance.new("UIScale");v1517.Parent=v1507;local v1519=Instance.new("UIStroke");v1519.Color=v152.OutlineColor;v1519.Thickness=1;v1519.Parent=v1507;local v1524=Instance.new("Frame");v1524.Name="Strip";v1524.Size=UDim2.new(1,0,0,2);v1524.BorderSizePixel=0;v1524.BackgroundColor3=v152.AccentColor;v1524.ZIndex=5;v1524.Parent=v1507;local v1532=Instance.new("UIListLayout");v1532.SortOrder=Enum.SortOrder.LayoutOrder;v1532.Padding=UDim.new(0,2);v1532.Parent=v1507;local v1537=Instance.new("UIPadding");v1537.PaddingTop=UDim.new(0,7);v1537.PaddingBottom=UDim.new(0,6);v1537.PaddingLeft=UDim.new(0,8);v1537.PaddingRight=UDim.new(0,8);v1537.Parent=v1507;local function v1543(v2617) v2617.BackgroundTransparency=1;v2617.Font=Enum.Font.Code;v2617.TextXAlignment=Enum.TextXAlignment.Left;local v2623=Instance.new("UIStroke");v2623.Color=Color3.new(0,0,0);v2623.Thickness=1;v2623.LineJoinMode=Enum.LineJoinMode.Miter;v2623.Parent=v2617;return v2617;end local v1544=v1543(Instance.new("TextLabel"));v1544.Name="Header";v1544.LayoutOrder=0;v1544.Size=UDim2.new(1,0,0,16);v1544.Text="keybinds";v1544.Parent=v1507;local v1550={};local function v1551(v2629) if  not v1550[v2629] then local v3277=v1543(Instance.new("TextLabel"));v3277.LayoutOrder=v2629;v3277.Size=UDim2.new(1,0,0,16);v3277.Visible=false;v3277.Parent=v1507;v1550[v2629]=v3277;end return v1550[v2629];end local function v1552() local v2630={};for v3003,v3004 in pairs(Options) do if ((type(v3003)=="string") and ((v3003=="MenuKeybind") or (v3003:sub( -4)=="_Key"))) then local v3470=v3004.Value;if ((type(v3470)=="string") and (v3470~="") and (v3470~="None")) then local v3628,v3629;if (v3003=="MenuKeybind") then v3628,v3629="Menu",true;else v3628=v3003:sub(1, -5);local v3686=Toggles[v3628];v3629=v3686 and (v3686.Value==true) ;end table.insert(v2630,{name=v3628,key=v3470,on=v3629});end end end table.sort(v2630,function(v3005,v3006) return v3005.name<v3006.name ;end);return v2630;end local v1553=0;local v1554=v155.Heartbeat:Connect(function(v2631) if v152.Unloaded then return;end v1553=v1553 + v2631 ;if (v1553<0.15) then return;end v1553=0;local v2632=Toggles.KL_Enable.Value;v1507.Visible=v2632;if  not v2632 then return;end v1507.Position=UDim2.fromScale(Options.KL_X.Value/100 ,Options.KL_Y.Value/100 );v1517.Scale=Options.KL_Scale.Value/100 ;v1507.BackgroundTransparency=Options.KL_Trans.Value/100 ;v1524.BackgroundColor3=v152.AccentColor;v1544.Visible=Toggles.KL_Title.Value;v1544.TextSize=Options.KL_Size.Value;v1544.TextColor3=v152.AccentColor;local v2644=v1552();local v2645=0;for v3007,v3008 in ipairs(v2644) do if (Toggles.KL_ShowOff.Value or v3008.on) then v2645=v2645 + 1 ;local v3471=v1551(v2645 + 1 );v3471.Visible=true;v3471.TextSize=Options.KL_Size.Value;v3471.Text=v3008.name   .. "  ["   .. v3008.key   .. "]" ;v3471.TextColor3=(v3008.on and v152.AccentColor) or v152.FontColor ;end end for v3009=v2645 + 2 , #v1550 do v1550[v3009].Visible=false;end v1507.Visible=v2645>0 ;end);v143.KeyList.cleanup=function() if v1554 then v1554:Disconnect();end pcall(function() v1502:Destroy();end);end;end v15("keybind list",v435);local function v436() local v1556=v400.setR:AddTab("keybinds");v1556:AddToggle("KL_Enable",{Text="enable",Default=true});v1556:AddToggle("KL_ShowOff",{Text="show off",Default=true});v1556:AddToggle("KL_Title",{Text="title",Default=true});v1556:AddDivider();v1556:AddSlider("KL_X",{Text="x",Default=0,Min=0,Max=100,Rounding=0});v1556:AddSlider("KL_Y",{Text="y",Default=40,Min=0,Max=100,Rounding=0});v1556:AddSlider("KL_Scale",{Text="scale",Default=100,Min=50,Max=200,Rounding=0});v1556:AddSlider("KL_Trans",{Text="transparency",Default=10,Min=0,Max=100,Rounding=0});v1556:AddSlider("KL_Size",{Text="text size",Default=13,Min=10,Max=20,Rounding=0});end v152:OnUnload(function() v152.Unloaded=true;if v143.KeyList.cleanup then pcall(v143.KeyList.cleanup);end if (v143.Hitbox and v143.Hitbox.cleanup) then pcall(v143.Hitbox.cleanup);end if v143.SelfFX.cleanup then pcall(v143.SelfFX.cleanup);end if v143.SearchUI.cleanup then pcall(v143.SearchUI.cleanup);end if v143.Extra.cleanup then pcall(v143.Extra.cleanup);end if v143.CustomHUD.cleanup then pcall(v143.CustomHUD.cleanup);end if v143.MiscExtras.cleanup then pcall(v143.MiscExtras.cleanup);end if v143.NameChanger.cleanup then pcall(v143.NameChanger.cleanup);end if v143.Strafer.cleanup then pcall(v143.Strafer.cleanup);end if (v143.SmoothCam and v143.SmoothCam.cleanup) then pcall(v143.SmoothCam.cleanup);end if (v143.VFX and v143.VFX.cleanup) then pcall(v143.VFX.cleanup);end if (v143.ThirdPerson and v143.ThirdPerson.cleanup) then pcall(v143.ThirdPerson.cleanup);end if v413 then v413:Disconnect();v413=nil;end if v311 then v311:Disconnect();v311=nil;end pcall(function() if v421.autoConn then v421.autoConn:Disconnect();end if v421.sound then v421.sound:Stop();v421.sound:Destroy();end if v421._vizGui then v421._vizGui:Destroy();end end);v238=false;pcall(function() v250:Remove();end);v261.enabled=false;v275.master=false;for v2646,v2647 in pairs(v292.players) do for v3011,v3012 in ipairs(v2647.connections) do pcall(v3012.Disconnect,v3012);end for v3013,v3014 in ipairs(v2647.drawings) do pcall(v3014.Remove,v3014);end end v292.players={};v293.Visible=false;pcall(v298);v264=false;v267.enabled=false;v270.enabled=false;v270.rotOwned=false;v305=false;v312();v307=false;v313();if v309 then v314(false);end v358.Enabled=false;v364.Visible=false;pcall(v371,false);pcall(function() v361:Destroy();end);v315=false;v158.Brightness=v319;for v2648,v2649 in ipairs(v325) do if v2649.Active then v2649.Active=false;v2649.Part.CFrame=CFrame.new(0, -1000,0);end end pcall(function() v322:Destroy();end);v225=false;pcall(function() v169.gui:Destroy();end);v327=false;if (v340 and v161.Character) then v345(v161.Character);end v335=false;v372.FreezeTime=false;v354=false;v355=false;if v348 then v348.Enabled=false;end if v351 then v351.Enabled=false;end v158.Ambient=v409;v158.OutdoorAmbient=v410;local v1571=v158:FindFirstChild("teddyhubCustomSky");if v1571 then v1571:Destroy();end v416();local v1572=v161.Character and v161.Character:FindFirstChildOfClass("Humanoid") ;if v1572 then v1572.AutoRotate=true;end v378:Destroy();v379:Destroy();v380:Destroy();v158.ExposureCompensation=v375.Exposure;v158.FogStart=v375.FogStart;v158.FogEnd=v375.FogEnd;v158.FogColor=v375.FogColor;local v1581=workspace.CurrentCamera;if v1581 then v1581.FieldOfView=v375.Fov;end end);if v12 then pcall(v12.finish);else pcall(function() v152.RevealMenu();end);end end;local v17=v7.LocalPlayer or v7:GetPropertyChangedSignal("LocalPlayer"):Wait() ;local v18=v17:WaitForChild("PlayerGui");local v19=Color3.fromRGB(255,255,255);local v20=Color3.fromRGB(28,28,28);local v21=Color3.fromRGB(20,20,20);local v22=Color3.fromRGB(0,85,255);local v23=Color3.fromRGB(50,50,50);local v24=Color3.fromRGB(255,50,50);local v25=Color3.new(0,0,0);local v26=Enum.Font.Code;local v27=16;local v28="[KeySystem] ";local v29="none";local function v30(v437) v29=v437;print(v28   .. "built: "   .. v437 );end local function v31() local v438,v439=pcall(function() return game:HttpGet(v10);end);if ( not v438 or (type(v439)~="string")) then return nil,"Could not reach the key server.";end local v440={};for v1582 in v439:gmatch("[^\r\n]+") do local v1583=v1582:match("^%s*(.-)%s*$");if (v1583 and ( #v1583>0) and (v1583:sub(1,1)~="#")) then table.insert(v440,v1583);end end if ( #v440==0) then return nil,"The key list came back empty.";end return v440;end local function v32(v441,v442) for v1584,v1585 in ipairs(v442) do if (v441==v1585) then return true;end end return false;end local v33="^[%a][%w]*%-[%w]+%-[%w]+$";local function v34(v443) v443.TextStrokeTransparency=1;local v445=Instance.new("UIStroke");v445.Color=v25;v445.Thickness=1;v445.LineJoinMode=Enum.LineJoinMode.Miter;v445.Transparency=0;v445.Parent=v443;return v445;end local function v35(v452) local v453=Instance.new("TextLabel");v453.BackgroundTransparency=1;v453.Font=v26;v453.TextColor3=v19;v453.TextSize=v27;v34(v453);for v1586,v1587 in pairs(v452) do v453[v1586]=v1587;end return v453;end local function v36(v458,v459) local v460=Instance.new(v458);v460.BorderSizePixel=1;v460.BorderColor3=v23;for v1589,v1590 in pairs(v459) do v460[v1589]=v1590;end return v460;end local function v37(v463,v464) v463.Active=true;local v466=false;local v467=Vector2.zero;local v468=UDim2.new();local v469=nil;local function v470() v466=false;if v469 then v469:Disconnect();v469=nil;end end v463.InputBegan:Connect(function(v1592) local v1593=v1592.UserInputType;if ((v1593~=Enum.UserInputType.MouseButton1) and (v1593~=Enum.UserInputType.Touch)) then return;end v466=true;v467=v1592.Position;v468=v463.Position;v469=v1592.Changed:Connect(function() if (v1592.State==Enum.UserInputState.End) then v470();end end);end);v463.InputChanged:Connect(function(v1596) if  not v466 then return;end local v1597=v1596.UserInputType;if ((v1597~=Enum.UserInputType.MouseMovement) and (v1597~=Enum.UserInputType.Touch)) then return;end local v1598=v1596.Position-v467 ;local v1599=workspace.CurrentCamera.ViewportSize;v463.Position=UDim2.new(v468.X.Scale,math.clamp(v468.X.Offset + v1598.X , -v464,v1599.X-v464 ),v468.Y.Scale,math.clamp(v468.Y.Offset + v1598.Y , -v464,v1599.Y-v464 ));end);v463.InputEnded:Connect(v470);end task.spawn(function() if (readfile and isfile and isfile(v11)) then local v2650=readfile(v11):match("^%s*(.-)%s*$");if (v2650 and ( #v2650>0)) then print(v28   .. "Checking Saved Key" );local v3285,v3286=v31();if  not v3285 then print(v28   .. "Saved Key check failed: "   .. tostring(v3286) );elseif v32(v2650,v3285) then print(v28   .. "Saved Key has passed" );v15("main script",v16);return;else print(v28   .. "Saved Key has failed" );if delfile then delfile(v11);end end end end local function v471() local v1601=Instance.new("ScreenGui");v1601.Name="KeySystemUI";v1601.Parent=v18;v1601.ResetOnSpawn=false;v1601.IgnoreGuiInset=true;v1601.DisplayOrder=500;v1601.ZIndexBehavior=Enum.ZIndexBehavior.Global;v30("ScreenGui");local v1609,v1610=420,300;local v1611=v36("Frame",{Name="Outer",BackgroundColor3=v25,Position=UDim2.fromScale(0.5,0.5),AnchorPoint=Vector2.new(0.5,0.5),Size=UDim2.fromOffset(v1609,v1610),ZIndex=1,Parent=v1601});v37(v1611,60);v30("Outer");local v1612=v36("Frame",{Name="Inner",BackgroundColor3=v20,BorderColor3=v22,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(1,1),Size=UDim2.new(1, -2,1, -2),ZIndex=2,Parent=v1611});v30("Inner");local v1613=v35({Name="Title",Position=UDim2.fromOffset(7,0),Size=UDim2.new(1, -40,0,25),Text="key system",TextXAlignment=Enum.TextXAlignment.Left,ZIndex=3,Parent=v1612});v30("Title");local v1614=v36("TextButton",{Name="Close",Font=v26,TextColor3=v19,TextSize=v27,AutoButtonColor=false,Active=true,AnchorPoint=Vector2.new(1,0),Position=UDim2.new(1, -6,0,4),Size=UDim2.fromOffset(16,16),Text="x",ZIndex=4,Parent=v1612});v34(v1614);v30("CloseButton");local v1615=v36("Frame",{Name="MainSectionOuter",BackgroundColor3=v21,BorderColor3=v23,Position=UDim2.fromOffset(8,25),Size=UDim2.new(1, -16,1, -33),ZIndex=3,Parent=v1612});local v1616=v36("Frame",{Name="MainSectionInner",BackgroundColor3=v21,BorderColor3=v25,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(0,0),Size=UDim2.new(1,0,1,0),ZIndex=4,Parent=v1615});v30("MainSection");local v1617=v36("Frame",{Name="GroupboxOuter",BackgroundColor3=v20,BorderColor3=v23,Position=UDim2.fromOffset(6,6),Size=UDim2.new(1, -12,1, -12),ZIndex=5,Parent=v1616});local v1618=v36("Frame",{Name="GroupboxInner",BackgroundColor3=v20,BorderColor3=v25,BorderMode=Enum.BorderMode.Inset,Position=UDim2.fromOffset(0,0),Size=UDim2.new(1,0,1,0),ZIndex=6,Parent=v1617});v30("Groupbox");v35({Name="GroupboxLabel",Position=UDim2.fromOffset(8,4),Size=UDim2.new(1, -16,0,18),Text="authentication",TextXAlignment=Enum.TextXAlignment.Left,ZIndex=7,Parent=v1618});v30("GroupboxLabel");local v1619=20;v35({Name="KeyLabel",Position=UDim2.fromOffset(v1619,30),Size=UDim2.new(1, -v1619 * 2 ,0,16),Text="key",TextXAlignment=Enum.TextXAlignment.Left,ZIndex=7,Parent=v1618});v30("KeyLabel");local v1620=v36("Frame",{Name="KeyInputShell",BackgroundColor3=v21,BorderColor3=v23,Position=UDim2.fromOffset(v1619,50),Size=UDim2.new(1, -v1619 * 2 ,0,26),ZIndex=7,Parent=v1618});local v1621=v36("TextBox",{Name="KeyInput",BackgroundColor3=v21,BackgroundTransparency=1,BorderSizePixel=0,Font=v26,TextColor3=v19,TextSize=v27,Text="",PlaceholderText="teddyhub-xxxx-xxxx",PlaceholderColor3=v23,TextXAlignment=Enum.TextXAlignment.Left,ClearTextOnFocus=false,Size=UDim2.new(1, -10,1,0),Position=UDim2.fromOffset(4,0),ZIndex=8,Parent=v1620});v30("KeyInput");local v1622=v35({Name="Status",Position=UDim2.fromOffset(v1619,84),Size=UDim2.new(1, -v1619 * 2 ,0,16),Text="",TextXAlignment=Enum.TextXAlignment.Left,ZIndex=7,Parent=v1618});v30("Status");local v1623=v36("TextButton",{Name="SubmitButton",BackgroundColor3=v21,BorderColor3=v23,Position=UDim2.fromOffset(v1619,108),Size=UDim2.new(1, -v1619 * 2 ,0,28),Text="check key",TextColor3=v19,TextSize=v27,Font=v26,AutoButtonColor=false,ZIndex=7,Parent=v1618});v34(v1623);v30("SubmitButton");local v1624=false;local function v1625(v2651,v2652) v1622.Text=v2651;v1622.TextColor3=v2652 or v19 ;end local function v1626(v2655) v8:Create(v1620,TweenInfo.new(0.15),{BorderColor3=v2655}):Play();end local function v1627(v2656,v2657) v1623.Text=v2657;v8:Create(v1623,TweenInfo.new(0.15),{BackgroundColor3=v2656}):Play();end local function v1628(v2659) v1624=true;v1625("Key passed.",v22);v1626(v22);v1627(v22,"Welcome");if writefile then writefile(v11,v2659);end print(v28   .. "Key has passed" );task.wait(1);v1601:Destroy();v15("main script",v16);end local function v1629(v2660) v1624=true;v1625(v2660,v24);v1626(v24);v1627(v24,"Wrong Key");task.wait(1.5);v1626(v23);v1627(v21,"Check Key");v1624=false;end local function v1630() if v1624 then return;end local v2661=v1621.Text:match("^%s*(.-)%s*$");if ( not v2661 or ( #v2661==0)) then v1629("Enter a key first.");return;end if  not v2661:match(v33) then v1629("That is not a valid key format.");return;end v1624=true;v1623.Text="checking key...";v1625("Verifying...",v22);v1626(v22);local v2663,v2664=v31();if  not v2663 then v1629(v2664 or "Key check failed." );return;end if v32(v2661,v2663) then v1628(v2661);else v1629("Wrong key.");end end v1623.MouseButton1Click:Connect(function() v1630();end);v1621.Focused:Connect(function() v1626(v22);end);v1621.FocusLost:Connect(function(v2665) v1626(v23);if ( not v1624 and v2665) then v1630();end end);v1623.MouseEnter:Connect(function() if v1624 then return;end v1627(v22,v1623.Text);end);v1623.MouseLeave:Connect(function() if v1624 then return;end v1627(v21,v1623.Text);end);v1614.InputBegan:Connect(function(v2666) if ((v2666.UserInputType==Enum.UserInputType.MouseButton1) or (v2666.UserInputType==Enum.UserInputType.Touch)) then v1601:Destroy();end end);local function v1631(v2667,v2668) local v2669={v2667};for v3020,v3021 in ipairs(v2667:GetDescendants()) do if v3021:IsA("GuiObject") then table.insert(v2669,v3021);end end for v3022,v3023 in ipairs(v2669) do local v3024={"BackgroundTransparency"};if (v3023:IsA("TextLabel") or v3023:IsA("TextButton") or v3023:IsA("TextBox")) then table.insert(v3024,"TextTransparency");end for v3287,v3288 in ipairs(v3024) do local v3289=v3023[v3288];v3023[v3288]=math.clamp(v3289 + 0.6 ,0,1);v8:Create(v3023,TweenInfo.new(v2668),{[v3288]=v3289}):Play();end end end task.spawn(function() task.wait(0.1);v1631(v1611,0.25);end);end local v472,v473=pcall(v471);if v472 then print(v28   .. "UI build finished, last element: "   .. v29 );else print(v28   .. "UI BUILD FAILED after: "   .. v29 );print(v28   .. "error = "   .. tostring(v473) );end end);
