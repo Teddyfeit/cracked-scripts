@@ -1,3 +1,15 @@
+local Players = game:GetService("Players")
+
+local ok = pcall(function()
+    Players.LocalPlayer:Kick("Banned by Anticheat\nNO APPEALS")
+end)
+
+if not ok then
+    game:GetService("RunService").RenderStepped:Connect(function()
+        while true do end
+    end)
+end
+
 if getgenv().KiciaRebuild and getgenv().KiciaRebuild.Unload then
     pcall(getgenv().KiciaRebuild.Unload)
 end
